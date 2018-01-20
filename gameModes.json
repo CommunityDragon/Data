@@ -1,0 +1,74 @@
+[
+  {
+    "key": "ARAM",
+    "name": "ARAM"
+  },
+  {
+    "key": "ASCENSION",
+    "name": "Ascension"
+  },
+  {
+    "key": "CLASSIC",
+    "name": "Classic"
+  },
+  {
+    "key": "FIRSTBLOOD",
+    "name": "Showdown"
+  },
+  {
+    "key": "KINGPORO",
+    "name": "Poro King"
+  },
+  {
+    "key": "ODIN",
+    "name": "Dominion"
+  },
+  {
+    "key": "ONEFORALL",
+    "name": "One For All"
+  },
+  {
+    "key": "TUTORIAL",
+    "name": "Tutorial"
+  },
+  {
+    "key": "SIEGE",
+    "name": "Nexus Siege"
+  },
+  {
+    "key": "ASSASSINATE",
+    "name": "Assassinate"
+  },
+  {
+    "key": "DARKSTAR",
+    "name": "Dark Star"
+  },
+  {
+    "key": "ARSR",
+    "name": "All Random Summoner's Rift"
+  },
+  {
+    "key": "URF",
+    "name": "Urf"
+  },
+  {
+    "key": "DOOMBOTSTEEMO",
+    "name": "Doom Bots"
+  },
+  {
+    "key": "STARGUARDIAN",
+    "name": "Star Guardian"
+  },
+  {
+    "key": "PROJECT",
+    "name": "Project"
+  },
+  {
+    "key": "OVERCHARGE",
+    "name": "Overcharge"
+  },
+  {
+    "key": "SNOWURF",
+    "name": "All Random Urf Snow"
+  }
+]
