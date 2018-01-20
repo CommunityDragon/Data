@@ -1,8 +1,6 @@
-{
-  "0": {
+[
+  {
     "name": "Custom",
-    "description": "Custom",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       8,
@@ -13,1005 +11,1119 @@
       16,
       18,
       19
-    ]
+    ],
+    "id": 0,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "1": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
+  {
+    "name": "Normal (Blind Pick)",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 1,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "2": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
+  {
+    "name": "Normal (Blind Pick)",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 2,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "4": {
-    "description": "Classic",
-    "detailedDescription": "",
+  {
     "name": "Classic",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 4,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "6": {
-    "description": "Ranked Premade 5v5",
-    "detailedDescription": "",
+  {
     "name": "Ranked Premade 5v5",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 6,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "7": {
-    "description": "Co-op vs AI 5v5",
-    "detailedDescription": "",
+  {
     "name": "Co-op vs AI 5v5",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 7,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "8": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
+  {
+    "name": "Normal (Blind Pick)",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 8,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "9": {
+  {
     "name": "Ranked Flex",
-    "description": "Ranked Flex",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 9,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "14": {
-    "name": "Normal",
-    "description": "Draft Pick",
-    "detailedDescription": "Normal (Draft Pick)",
+  {
+    "name": "Normal (Draft Pick)",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 14,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "16": {
-    "description": "Dominion Blind Pick 5v5",
-    "detailedDescription": "",
+  {
     "name": "Dominion Blind Pick 5v5",
     "depreciated": true,
     "maps": [
       8
-    ]
+    ],
+    "id": 16,
+    "ranked": false,
+    "gameMode": "ODIN"
   },
-  "17": {
-    "description": "Dominion Draft Pick 5v5",
-    "detailedDescription": "",
+  {
     "name": "Dominion Draft Pick 5v5",
     "depreciated": true,
     "maps": [
       8
-    ]
+    ],
+    "id": 17,
+    "ranked": false,
+    "gameMode": "ODIN"
   },
-  "25": {
-    "description": "Dominion Co-op vs AI",
-    "detailedDescription": "",
+  {
     "name": "Dominion Co-op vs AI",
     "depreciated": true,
     "maps": [
       8
-    ]
+    ],
+    "id": 25,
+    "ranked": false,
+    "gameMode": "ODIN"
   },
-  "31": {
+  {
     "name": "Intro",
-    "description": "Intro",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 31,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "32": {
+  {
     "name": "Beginner",
-    "description": "Beginner",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 32,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "33": {
+  {
     "name": "Intermediate",
-    "description": "Intermediate",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 33,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "34": {
+  {
     "name": "Intro",
-    "description": "Intro",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 34,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "35": {
+  {
     "name": "Beginner",
-    "description": "Beginner",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 35,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "36": {
+  {
     "name": "Intermediate",
-    "description": "Intermediate",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 36,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "41": {
-    "name": "Team",
-    "description": "Team",
-    "detailedDescription": "",
+  {
+    "name": "3v3 Ranked Team",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 41,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "42": {
-    "name": "Team",
-    "description": "Team",
-    "detailedDescription": "",
+  {
+    "name": "5v5 Ranked Team",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 42,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "52": {
+  {
     "name": "Beginner",
-    "description": "Beginner",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 52,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "61": {
-    "description": "Team Builder 5v5",
-    "detailedDescription": "",
+  {
     "name": "Team Builder 5v5",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 61,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "62": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       12
-    ]
+    ],
+    "id": 62,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "63": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       12
-    ]
+    ],
+    "id": 63,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "64": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       12
-    ]
+    ],
+    "id": 64,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "65": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       12
-    ]
+    ],
+    "id": 65,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "70": {
-    "description": "One for All",
-    "detailedDescription": "",
+  {
     "name": "One for All",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 70,
+    "ranked": false,
+    "gameMode": "ONEFORALL"
   },
-  "72": {
-    "description": "Snowdown Showdown 1v1",
-    "detailedDescription": "",
+  {
     "name": "Snowdown Showdown 1v1",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 72,
+    "ranked": false,
+    "gameMode": "FIRSTBLOOD"
   },
-  "73": {
-    "description": "Snowdown Showdown 2v2",
-    "detailedDescription": "",
+  {
     "name": "Snowdown Showdown 2v2",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 73,
+    "ranked": false,
+    "gameMode": "FIRSTBLOOD"
   },
-  "75": {
-    "description": "Hexakill 6v6",
-    "detailedDescription": "",
+  {
     "name": "Hexakill 6v6",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 75,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "76": {
-    "description": "Ultra Rapid Fire",
-    "detailedDescription": "",
+  {
     "name": "Ultra Rapid Fire",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 76,
+    "ranked": false,
+    "gameMode": "URF"
   },
-  "78": {
-    "description": "Mirrored One for All",
-    "detailedDescription": "",
+  {
     "name": "Mirrored One for All",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 78,
+    "ranked": false,
+    "gameMode": "ONEFORALL"
   },
-  "83": {
-    "description": "Co-op vs AI Ultra Rapid Fire",
-    "detailedDescription": "",
+  {
     "name": "Co-op vs AI Ultra Rapid Fire",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 83,
+    "ranked": false,
+    "gameMode": "URF"
   },
-  "90": {
+  {
     "name": "The Teemoing",
-    "description": "The Teemoing",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 90,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "91": {
+  {
     "name": "The Teemoing",
-    "description": "The Teemoing",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 91,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "92": {
+  {
     "name": "Level 100 Gauntlet",
-    "description": "Level 100 Gauntlet",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 92,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "93": {
-    "description": "Doom Bots Rank 5",
-    "detailedDescription": "",
+  {
     "name": "Doom Bots Rank 5",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 93,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "96": {
+  {
     "name": "Ascension",
-    "description": "Ascension",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       8
-    ]
+    ],
+    "id": 96,
+    "ranked": false,
+    "gameMode": "ODIN"  # TODO
   },
-  "97": {
+  {
     "name": "Ascension",
-    "description": "Ascension",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       8
-    ]
+    ],
+    "id": 97,
+    "ranked": false,
+    "gameMode": "ODIN"  # TODO
   },
-  "98": {
-    "description": "Hexakill 6v6",
-    "detailedDescription": "",
+  {
     "name": "Hexakill 6v6",
     "depreciated": false,
     "maps": [
       10
-    ]
+    ],
+    "id": 98,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "100": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
+  {
+    "name": "Normal (Blind Pick)",
     "depreciated": false,
     "maps": [
       14
-    ]
+    ],
+    "id": 100,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "300": {
+  {
     "name": "Legend of the Poro King",
-    "description": "Poro King",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       12
-    ]
+    ],
+    "id": 300,
+    "ranked": false,
+    "gameMode": "KINGPORO"
   },
-  "301": {
+  {
     "name": "Legend of the Poro King",
-    "description": "Poro King",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       12
-    ]
+    ],
+    "id": 301,
+    "ranked": false,
+    "gameMode": "KINGPORO"
   },
-  "310": {
-    "description": "Nemesis",
-    "detailedDescription": "",
+  {
     "name": "Nemesis",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 310,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "313": {
-    "description": "Black Market Brawlers",
-    "detailedDescription": "",
+  {
     "name": "Black Market Brawlers",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 313,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "314": {
+  {
     "name": "Nexus Siege",
-    "description": "Nexus Siege",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 314,
+    "ranked": false,
+    "gameMode": "SIEGE"
   },
-  "315": {
+  {
     "name": "Nexus Siege",
-    "description": "Nexus Siege",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 315,
+    "ranked": false,
+    "gameMode": "SIEGE"
   },
-  "316": {
+  {
     "name": "Definitely Not Dominion",
-    "description": "Definitely Not Dominion",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       8
-    ]
+    ],
+    "id": 316,
+    "ranked": false,
+    "gameMode": "ODIN"  # TODO
   },
-  "317": {
+  {
     "name": "Definitely Not Dominion",
-    "description": "Definitely Not Dominion",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       8
-    ]
+    ],
+    "id": 317,
+    "ranked": false,
+    "gameMode": "ODIN"  # TODO
   },
-  "318": {
+  {
     "name": "AR Ultra Rapid Fire",
-    "description": "AR Ultra Rapid Fire",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 318,
+    "ranked": false,
+    "gameMode": "ARSR"
   },
-  "319": {
+  {
     "name": "AR Ultra Rapid Fire",
-    "description": "AR Ultra Rapid Fire",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 319,
+    "ranked": false,
+    "gameMode": "ARSR"
   },
-  "320": {
+  {
     "name": "Blood Moon",
-    "description": "Blood Moon",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 320,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "321": {
+  {
     "name": "Blood Moon",
-    "description": "Blood Moon",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 321,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "324": {
+  {
     "name": "ARSR",
-    "description": "ARSR",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 324,
+    "ranked": false,
+    "gameMode": "ARSR"
   },
-  "325": {
+  {
     "name": "ARSR",
-    "description": "ARSR",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 325,
+    "ranked": false,
+    "gameMode": "ARSR"
   },
-  "400": {
-    "name": "Normal",
-    "description": "Draft Pick",
-    "detailedDescription": "Normal (Draft Pick)",
+  {
+    "name": "Normal (Draft Pick)",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 400,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "401": {
-    "name": "Normal",
-    "description": "Draft Pick",
-    "detailedDescription": "Normal (Draft Pick)",
+  {
+    "name": "Normal (Draft Pick)",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 401,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "402": {
-    "name": "Normal",
-    "description": "Draft Pick",
-    "detailedDescription": "Normal (Draft Pick)",
+  {
+    "name": "Normal (Draft Pick)",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 402,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "403": {
-    "name": "Normal",
-    "description": "Draft Pick",
-    "detailedDescription": "Normal (Draft Pick)",
+  {
+    "name": "Normal (Draft Pick)",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 403,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "410": {
+  {
     "name": "Ranked",
-    "description": "Ranked Draft",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 410,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "411": {
+  {
     "name": "Ranked",
-    "description": "Ranked Draft",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 411,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "412": {
+  {
     "name": "Ranked",
-    "description": "Ranked Draft",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 412,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "413": {
+  {
     "name": "Ranked",
-    "description": "Ranked Draft",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 413,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "420": {
+  {
     "name": "Ranked Solo/Duo",
-    "description": "Ranked Solo/Duo",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       11
-    ]
+    ],
+    "id": 420,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "421": {
+  {
     "name": "Ranked Solo/Duo",
-    "description": "Ranked Solo/Duo",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 421,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "422": {
+  {
     "name": "Ranked Solo/Duo",
-    "description": "Ranked Solo/Duo",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 422,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "430": {
+  {
+    "name": "Normal (Blind Pick)",
+    "depreciated": false,
+    "maps": [
+      11
+    ],
+    "id": 430,
+    "ranked": false,
+    "gameMode": "CLASSIC"
+  },
+  {
     "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 431,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "431": {
+  {
     "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 432,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "432": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "",
+  {
+    "name": "Normal (Blind Pick)",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 433,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "433": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
-    "depreciated": false,
-    "maps": [
-      11
-    ]
-  },
-  "440": {
+  {
     "name": "Ranked Flex",
-    "description": "Ranked Flex",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 440,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "441": {
+  {
     "name": "Ranked Flex",
-    "description": "Ranked Flex",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 441,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "442": {
+  {
     "name": "Ranked Flex",
-    "description": "Ranked Flex",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 442,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "450": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 450,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "451": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 451,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "452": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 452,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "460": {
-    "name": "Normal",
-    "description": "Blind Pick",
-    "detailedDescription": "Normal (Blind Pick)",
+  {
+    "name": "Normal (Blind Pick)",
     "depreciated": false,
     "maps": [
       10
-    ]
+    ],
+    "id": 460,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "470": {
+  {
     "name": "Ranked Flex",
-    "description": "Ranked Flex",
-    "detailedDescription": "",
     "depreciated": true,
     "maps": [
       10
-    ]
+    ],
+    "id": 470,
+    "ranked": true,
+    "gameMode": "CLASSIC"
   },
-  "600": {
+  {
     "name": "Blood Moon",
-    "description": "Blood Moon",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 600,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "601": {
+  {
     "name": "Blood Moon",
-    "description": "Blood Moon",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 601,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "610": {
+  {
     "name": "Dark Star: Singularity",
-    "description": "Dark Star: Singularity",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       16
-    ]
+    ],
+    "id": 610,
+    "ranked": false,
+    "gameMode": "DARKSTAR"
   },
-  "611": {
+  {
     "name": "Dark Star: Singularity",
-    "description": "Dark Star: Singularity",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       16
-    ]
+    ],
+    "id": 611,
+    "ranked": false,
+    "gameMode": "DARKSTAR"
   },
-  "800": {
+  {
     "name": "Intermediate",
-    "description": "Intermediate",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       10
-    ]
+    ],
+    "id": 800,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "801": {
+  {
     "name": "Co-op vs. AI",
-    "description": "Co-op vs. AI",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       10
-    ]
+    ],
+    "id": 801,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "810": {
+  {
     "name": "Intro",
-    "description": "Intro",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       10
-    ]
+    ],
+    "id": 810,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "820": {
+  {
     "name": "Beginner",
-    "description": "Beginner",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       10
-    ]
+    ],
+    "id": 820,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "830": {
+  {
     "name": "Intro",
-    "description": "Intro",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 830,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "840": {
+  {
     "name": "Beginner",
-    "description": "Beginner",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 840,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "850": {
+  {
     "name": "Intermediate",
-    "description": "Intermediate",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 850,
+    "ranked": false,
+    "gameMode": "CLASSIC"
   },
-  "900": {
+  {
     "name": "AR Ultra Rapid Fire",
-    "description": "AR Ultra Rapid Fire",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 900,
+    "ranked": false,
+    "gameMode": "ARSR"
   },
-  "901": {
+  {
     "name": "AR Ultra Rapid Fire",
-    "description": "AR Ultra Rapid Fire",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 901,
+    "ranked": false,
+    "gameMode": "ARSR"
   },
-  "910": {
+  {
     "name": "Ascension",
-    "description": "Ascension",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       8
-    ]
+    ],
+    "id": 910,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "911": {
+  {
     "name": "Ascension",
-    "description": "Ascension",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       8
-    ]
+    ],
+    "id": 911,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "920": {
+  {
     "name": "Legend of the Poro King",
-    "description": "Poro King",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 920,
+    "ranked": false,
+    "gameMode": "KINGPORO"
   },
-  "921": {
+  {
     "name": "Legend of the Poro King",
-    "description": "Poro King",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 921,
+    "ranked": false,
+    "gameMode": "KINGPORO"
   },
-  "930": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 930,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "931": {
+  {
     "name": "ARAM",
-    "description": "ARAM",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       12
-    ]
+    ],
+    "id": 931,
+    "ranked": false,
+    "gameMode": "ARAM"
   },
-  "940": {
+  {
     "name": "Nexus Siege",
-    "description": "Nexus Siege",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 940,
+    "ranked": false,
+    "gameMode": "SIEGE"
   },
-  "941": {
+  {
     "name": "Nexus Siege",
-    "description": "Nexus Siege",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 941,
+    "ranked": false,
+    "gameMode": "SIEGE"
   },
-  "950": {
+  {
     "name": "Level 100 Gauntlet",
-    "description": "Level 100 Gauntlet",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 950,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "951": {
+  {
     "name": "Level 100 Gauntlet",
-    "description": "Level 100 Gauntlet",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 951,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "960": {
+  {
     "name": "The Teemoing",
-    "description": "The Teemoing",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 960,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "961": {
+  {
     "name": "The Teemoing",
-    "description": "The Teemoing",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 961,
+    "ranked": false,
+    "gameMode": "DOOMBOTSTEEMO"
   },
-  "970": {
+  {
     "name": "Hexakill",
-    "description": "Hexakill",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 970,
+    "ranked": false,
+    "gameMode": "CLASSIC"  # TODO
   },
-  "980": {
+  {
     "name": "Invasion (Normal)",
-    "description": "Normal",
-    "detailedDescription": "Invasion (Normal)",
     "depreciated": false,
     "maps": [
       18
-    ]
+    ],
+    "id": 980,
+    "ranked": false,
+    "gameMode": "STARGUARDIAN"
   },
-  "981": {
+  {
     "name": "Invasion (Normal)",
-    "description": "Normal",
-    "detailedDescription": "Invasion (Normal)",
     "depreciated": false,
     "maps": [
       18
-    ]
+    ],
+    "id": 981,
+    "ranked": false,
+    "gameMode": "STARGUARDIAN"
   },
-  "982": {
+  {
     "name": "Invasion (Normal)",
-    "description": "Normal",
-    "detailedDescription": "Invasion (Normal)",
     "depreciated": false,
     "maps": [
       18
-    ]
+    ],
+    "id": 982,
+    "ranked": false,
+    "gameMode": "STARGUARDIAN"
   },
-  "990": {
+  {
     "name": "Invasion (Onslaught)",
-    "description": "Onslaught",
-    "detailedDescription": "Invasion (Onslaught)",
     "depreciated": false,
     "maps": [
       18
-    ]
+    ],
+    "id": 990,
+    "ranked": false,
+    "gameMode": "STARGUARDIAN"
   },
-  "1000": {
+  {
     "name": "Overcharge",
-    "description": "Overcharge",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       19
-    ]
+    ],
+    "id": 1000,
+    "ranked": false,
+    "gameMode": "OVERCHARGE"
   },
-  "1001": {
+  {
     "name": "Overcharge",
-    "description": "Overcharge",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       19
-    ]
+    ],
+    "id": 1001,
+    "ranked": false,
+    "gameMode": "OVERCHARGE"
   },
-  "1010": {
+  {
     "name": "Snow Battle ARURF",
-    "description": "Snow Battle ARURF",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 1010,
+    "ranked": false,
+    "gameMode": "SNOWURF"
   },
-  "1011": {
+  {
     "name": "Snow Battle ARURF",
-    "description": "Snow Battle ARURF",
-    "detailedDescription": "",
     "depreciated": false,
     "maps": [
       11
-    ]
+    ],
+    "id": 1011,
+    "ranked": false,
+    "gameMode": "SNOWURF"
   }
-}
+]
