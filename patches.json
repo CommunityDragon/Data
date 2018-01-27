@@ -1,577 +1,1157 @@
 {
   "patches": [
     {
-      "start": 1354579200,
-      "name": "1.0.0.152",
-      "season": 0
+      "name": "0.9.22.4",
+      "start": 1248940800,
+      "season": "Closed Beta",
+      "end": 1249632000
     },
     {
-      "start": 1355443200,
-      "name": "1.0.0.153",
-      "season": 0
+      "name": "0.9.22.7",
+      "start": 1249632000,
+      "season": "Closed Beta",
+      "end": 1250064000
     },
     {
-      "start": 1358294400,
-      "name": "1.0.0.154",
-      "season": 0
+      "name": "0.9.22.9",
+      "start": 1250064000,
+      "season": "Closed Beta",
+      "end": 1250668800
     },
     {
-      "start": 1359694800,
+      "name": "0.9.22.15",
+      "start": 1250668800,
+      "season": "Closed Beta",
+      "end": 1251878400
+    },
+    {
+      "name": "0.9.22.16",
+      "start": 1251878400,
+      "season": "Closed Beta",
+      "end": 1252569600
+    },
+    {
+      "name": "0.9.22.18",
+      "start": 1252569600,
+      "season": "Closed Beta",
+      "end": 1253347200
+    },
+    {
+      "name": "0.9.25.21",
+      "start": 1253347200,
+      "season": "Closed Beta",
+      "end": 1254384000
+    },
+    {
+      "name": "0.9.25.24",
+      "start": 1254384000,
+      "season": "Closed Beta",
+      "end": 1255161600
+    },
+    {
+      "name": "0.9.25.34",
+      "start": 1255161600,
+      "season": "Closed Beta",
+      "end": 1256112000
+    },
+    {
+      "name": "1.0.0.32",
+      "start": 1256112000,
+      "season": "Season 1",
+      "end": 1257930000
+    },
+    {
+      "name": "1.0.0.52",
+      "start": 1257930000,
+      "season": "Season 1",
+      "end": 1258707600
+    },
+    {
+      "name": "1.0.0.58",
+      "start": 1258707600,
+      "season": "Season 1",
+      "end": 1259744400
+    },
+    {
+      "name": "1.0.0.61",
+      "start": 1259744400,
+      "season": "Season 1",
+      "end": 1261040400
+    },
+    {
+      "name": "1.0.0.63",
+      "start": 1261040400,
+      "season": "Season 1",
+      "end": 1263373200
+    },
+    {
+      "name": "1.0.0.70",
+      "start": 1263373200,
+      "season": "Season 1",
+      "end": 1265101200
+    },
+    {
+      "name": "1.0.0.72",
+      "start": 1265101200,
+      "season": "Season 1",
+      "end": 1265706000
+    },
+    {
+      "name": "1.0.0.74",
+      "start": 1265706000,
+      "season": "Season 1",
+      "end": 1267002000
+    },
+    {
+      "name": "1.0.0.75",
+      "start": 1267002000,
+      "season": "Season 1",
+      "end": 1268726400
+    },
+    {
+      "name": "1.0.0.79",
+      "start": 1268726400,
+      "season": "Season 1",
+      "end": 1269417600
+    },
+    {
+      "name": "1.0.0.81",
+      "start": 1269417600,
+      "season": "Season 1",
+      "end": 1270713600
+    },
+    {
+      "name": "1.0.0.82",
+      "start": 1270713600,
+      "season": "Season 1",
+      "end": 1272355200
+    },
+    {
+      "name": "1.0.0.83",
+      "start": 1272355200,
+      "season": "Season 1",
+      "end": 1273564800
+    },
+    {
+      "name": "1.0.0.85",
+      "start": 1273564800,
+      "season": "Season 1",
+      "end": 1275379200
+    },
+    {
+      "name": "1.0.0.86",
+      "start": 1275379200,
+      "season": "Season 1",
+      "end": 1275984000
+    },
+    {
+      "name": "1.0.0.87",
+      "start": 1275984000,
+      "season": "Season 1",
+      "end": 1277366400
+    },
+    {
+      "name": "1.0.0.94",
+      "start": 1277366400,
+      "season": "Season 1",
+      "end": 1277798400
+    },
+    {
+      "name": "1.0.0.94(b)",
+      "start": 1277798400,
+      "season": "Season 1",
+      "end": 1279008000
+    },
+    {
+      "name": "1.0.0.96",
+      "start": 1279008000,
+      "season": "Season 1",
+      "end": 1280217600
+    },
+    {
+      "name": "1.0.0.97",
+      "start": 1280217600,
+      "season": "Season 1",
+      "end": 1281427200
+    },
+    {
+      "name": "1.0.0.98",
+      "start": 1281427200,
+      "season": "Season 1",
+      "end": 1282636800
+    },
+    {
+      "name": "1.0.0.99",
+      "start": 1282636800,
+      "season": "Season 1",
+      "end": 1283932800
+    },
+    {
+      "name": "1.0.0.100",
+      "start": 1283932800,
+      "season": "Season 1",
+      "end": 1285056000
+    },
+    {
+      "name": "1.0.0.101",
+      "start": 1285056000,
+      "season": "Season 1",
+      "end": 1286265600
+    },
+    {
+      "name": "1.0.0.102",
+      "start": 1286265600,
+      "season": "Season 1",
+      "end": 1287475200
+    },
+    {
+      "name": "1.0.0.103",
+      "start": 1287475200,
+      "season": "Season 1",
+      "end": 1288684800
+    },
+    {
+      "name": "1.0.0.104",
+      "start": 1288684800,
+      "season": "Season 1",
+      "end": 1289898000
+    },
+    {
+      "name": "1.0.0.105",
+      "start": 1289898000,
+      "season": "Season 1",
+      "end": 1291194000
+    },
+    {
+      "name": "1.0.0.106",
+      "start": 1291194000,
+      "season": "Season 1",
+      "end": 1292317200
+    },
+    {
+      "name": "1.0.0.107",
+      "start": 1292317200,
+      "season": "Season 1",
+      "end": 1294131600
+    },
+    {
+      "name": "1.0.0.108",
+      "start": 1294131600,
+      "season": "Season 1",
+      "end": 1295341200
+    },
+    {
+      "name": "1.0.0.109",
+      "start": 1295341200,
+      "season": "Season 1",
+      "end": 1296550800
+    },
+    {
+      "name": "1.0.0.110",
+      "start": 1296550800,
+      "season": "Season 1",
+      "end": 1297846800
+    },
+    {
+      "name": "1.0.0.111",
+      "start": 1297846800,
+      "season": "Season 1",
+      "end": 1298970000
+    },
+    {
+      "name": "1.0.0.112",
+      "start": 1298970000,
+      "season": "Season 1",
+      "end": 1300176000
+    },
+    {
+      "name": "1.0.0.113",
+      "start": 1300176000,
+      "season": "Season 1",
+      "end": 1301385600
+    },
+    {
+      "name": "1.0.0.114",
+      "start": 1301385600,
+      "season": "Season 1",
+      "end": 1302595200
+    },
+    {
+      "name": "1.0.0.115",
+      "start": 1302595200,
+      "season": "Season 1",
+      "end": 1303804800
+    },
+    {
+      "name": "1.0.0.116",
+      "start": 1303804800,
+      "season": "Season 1",
+      "end": 1305014400
+    },
+    {
+      "name": "1.0.0.118",
+      "start": 1305014400,
+      "season": "Season 1",
+      "end": 1306224000
+    },
+    {
+      "name": "1.0.0.118b",
+      "start": 1306224000,
+      "season": "Season 1",
+      "end": 1306915200
+    },
+    {
+      "name": "1.0.0.119",
+      "start": 1306915200,
+      "season": "Season 1",
+      "end": 1308729600
+    },
+    {
+      "name": "1.0.0.120",
+      "start": 1308729600,
+      "season": "Season 1",
+      "end": 1310112000
+    },
+    {
+      "name": "1.0.0.121",
+      "start": 1310112000,
+      "season": "Season 1",
+      "end": 1311667200
+    },
+    {
+      "name": "1.0.0.122",
+      "start": 1311667200,
+      "season": "Season 1",
+      "end": 1312876800
+    },
+    {
+      "name": "1.0.0.123",
+      "start": 1312876800,
+      "season": "Season 1",
+      "end": 1314172800
+    },
+    {
+      "name": "1.0.0.124",
+      "start": 1314172800,
+      "season": "Season 1",
+      "end": 1315987200
+    },
+    {
+      "name": "1.0.0.125",
+      "start": 1315987200,
+      "season": "Season 1",
+      "end": 1317801600
+    },
+    {
+      "name": "1.0.0.126",
+      "start": 1317801600,
+      "season": "Season 2",
+      "end": 1319011200
+    },
+    {
+      "name": "1.0.0.127",
+      "start": 1319011200,
+      "season": "Season 2",
+      "end": 1320134400
+    },
+    {
+      "name": "1.0.0.128",
+      "start": 1320134400,
+      "season": "Season 2",
+      "end": 1321347600
+    },
+    {
+      "name": "1.0.0.129",
+      "start": 1321347600,
+      "season": "Season 2",
+      "end": 1322557200
+    },
+    {
+      "name": "1.0.0.130",
+      "start": 1322557200,
+      "season": "Season 2",
+      "end": 1323766800
+    },
+    {
+      "name": "1.0.0.131",
+      "start": 1323766800,
+      "season": "Season 2",
+      "end": 1326790800
+    },
+    {
+      "name": "1.0.0.132",
+      "start": 1326790800,
+      "season": "Season 2",
+      "end": 1328086800
+    },
+    {
+      "name": "1.0.0.133",
+      "start": 1328086800,
+      "season": "Season 2",
+      "end": 1329210000
+    },
+    {
+      "name": "1.0.0.134",
+      "start": 1329210000,
+      "season": "Season 2",
+      "end": 1330506000
+    },
+    {
+      "name": "1.0.0.135",
+      "start": 1330506000,
+      "season": "Season 2",
+      "end": 1332230400
+    },
+    {
+      "name": "1.0.0.136",
+      "start": 1332230400,
+      "season": "Season 2",
+      "end": 1334736000
+    },
+    {
+      "name": "1.0.0.138",
+      "start": 1334736000,
+      "season": "Season 2",
+      "end": 1335859200
+    },
+    {
+      "name": "1.0.0.139",
+      "start": 1335859200,
+      "season": "Season 2",
+      "end": 1337760000
+    },
+    {
+      "name": "1.0.0.140",
+      "start": 1337760000,
+      "season": "Season 2",
+      "end": 1338883200
+    },
+    {
+      "name": "1.0.0.140b",
+      "start": 1338883200,
+      "season": "Season 2",
+      "end": 1339920000
+    },
+    {
+      "name": "1.0.0.141",
+      "start": 1339920000,
+      "season": "Season 2",
+      "end": 1341648000
+    },
+    {
+      "name": "1.0.0.142",
+      "start": 1341648000,
+      "season": "Season 2",
+      "end": 1342684800
+    },
+    {
+      "name": "1.0.0.143",
+      "start": 1342684800,
+      "season": "Season 2",
+      "end": 1343808000
+    },
+    {
+      "name": "1.0.0.144",
+      "start": 1343808000,
+      "season": "Season 2",
+      "end": 1344931200
+    },
+    {
+      "name": "1.0.0.145",
+      "start": 1344931200,
+      "season": "Season 2",
+      "end": 1346313600
+    },
+    {
+      "name": "1.0.0.146",
+      "start": 1346313600,
+      "season": "Season 2",
+      "end": 1347436800
+    },
+    {
+      "name": "1.0.0.147",
+      "start": 1347436800,
+      "season": "Season 2",
+      "end": 1348732800
+    },
+    {
+      "name": "1.0.0.148",
+      "start": 1348732800,
+      "season": "Season 2",
+      "end": 1350460800
+    },
+    {
+      "name": "1.0.0.149",
+      "start": 1350460800,
+      "season": "Season 2",
+      "end": 1351152000
+    },
+    {
+      "name": "1.0.0.150",
+      "start": 1351152000,
+      "season": "Season 2",
+      "end": 1352797200
+    },
+    {
+      "name": "1.0.0.151",
+      "start": 1352797200,
+      "season": "Season 2",
+      "end": 1359709200
+    },
+    {
       "name": "3.01",
-      "season": 1
+      "start": 1359709200,
+      "season": "Season 3",
+      "end": 1360746000
     },
     {
-      "start": 1360731600,
       "name": "3.02",
-      "season": 1
+      "start": 1360746000,
+      "season": "Season 3",
+      "end": 1362128400
     },
     {
-      "start": 1362114000,
       "name": "3.03",
-      "season": 1
+      "start": 1362128400,
+      "season": "Season 3",
+      "end": 1363680000
     },
     {
-      "start": 1363665600,
       "name": "3.04",
-      "season": 1
+      "start": 1363680000,
+      "season": "Season 3",
+      "end": 1364457600
     },
     {
-      "start": 1364443200,
       "name": "3.5",
-      "season": 1
+      "start": 1364457600,
+      "season": "Season 3",
+      "end": 1367308800
     },
     {
-      "start": 1367294400,
       "name": "3.6",
-      "season": 1
+      "start": 1367308800,
+      "season": "Season 3",
+      "end": 1368604800
     },
     {
-      "start": 1368590400,
       "name": "3.7",
-      "season": 1
+      "start": 1368604800,
+      "season": "Season 3",
+      "end": 1371110400
     },
     {
-      "start": 1371096000,
       "name": "3.8",
-      "season": 1
+      "start": 1371110400,
+      "season": "Season 3",
+      "end": 1373356800
     },
     {
-      "start": 1373342400,
       "name": "3.9",
-      "season": 1
+      "start": 1373356800,
+      "season": "Season 3",
+      "end": 1375171200
     },
     {
-      "start": 1375156800,
       "name": "3.10",
-      "season": 1
+      "start": 1375171200,
+      "season": "Season 3",
+      "end": 1377158400
     },
     {
-      "start": 1377144000,
       "name": "3.10a",
-      "season": 1
+      "start": 1377158400,
+      "season": "Season 3",
+      "end": 1378281600
     },
     {
-      "start": 1378267200,
       "name": "3.11",
-      "season": 1
+      "start": 1378281600,
+      "season": "Season 3",
+      "end": 1380614400
     },
     {
-      "start": 1380600000,
       "name": "3.12",
-      "season": 1
+      "start": 1380614400,
+      "season": "Season 3",
+      "end": 1383033600
     },
     {
-      "start": 1383019200,
       "name": "3.13",
-      "season": 1
+      "start": 1383033600,
+      "season": "Season 3",
+      "end": 1389776400
     },
     {
-      "start": 1384905600,
-      "name": "3.14",
-      "season": 2
-    },
-    {
-      "start": 1386892800,
-      "name": "3.15",
-      "season": 2
-    },
-    {
-      "start": 1389762000,
       "name": "4.1",
-      "season": 3
+      "start": 1389776400,
+      "season": "Season 4",
+      "end": 1392022800
     },
     {
-      "start": 1392008400,
       "name": "4.2",
-      "season": 3
+      "start": 1392022800,
+      "season": "Season 4",
+      "end": 1393491600
     },
     {
-      "start": 1393477200,
       "name": "4.3",
-      "season": 3
+      "start": 1393491600,
+      "season": "Season 4",
+      "end": 1395129600
     },
     {
-      "start": 1395115200,
       "name": "4.4",
-      "season": 3
+      "start": 1395129600,
+      "season": "Season 4",
+      "end": 1396512000
     },
     {
-      "start": 1396497600,
       "name": "4.5",
-      "season": 3
+      "start": 1396512000,
+      "season": "Season 4",
+      "end": 1398067200
     },
     {
-      "start": 1398052800,
       "name": "4.6",
-      "season": 3
+      "start": 1398067200,
+      "season": "Season 4",
+      "end": 1399536000
     },
     {
-      "start": 1399521600,
       "name": "4.7",
-      "season": 3
+      "start": 1399536000,
+      "season": "Season 4",
+      "end": 1400745600
     },
     {
-      "start": 1400731200,
       "name": "4.8",
-      "season": 3
+      "start": 1400745600,
+      "season": "Season 4",
+      "end": 1401868800
     },
     {
-      "start": 1401854400,
       "name": "4.9",
-      "season": 3
+      "start": 1401868800,
+      "season": "Season 4",
+      "end": 1403078400
     },
     {
-      "start": 1403064000,
       "name": "4.10",
-      "season": 3
+      "start": 1403078400,
+      "season": "Season 4",
+      "end": 1404288000
     },
     {
-      "start": 1404273600,
       "name": "4.11",
-      "season": 3
+      "start": 1404288000,
+      "season": "Season 4",
+      "end": 1405497600
     },
     {
-      "start": 1405483200,
       "name": "4.12",
-      "season": 3
+      "start": 1405497600,
+      "season": "Season 4",
+      "end": 1406707200
     },
     {
-      "start": 1406692800,
       "name": "4.13",
-      "season": 3
+      "start": 1406707200,
+      "season": "Season 4",
+      "end": 1407916800
     },
     {
-      "start": 1407902400,
       "name": "4.14",
-      "season": 3
+      "start": 1407916800,
+      "season": "Season 4",
+      "end": 1409126400
     },
     {
-      "start": 1409112000,
       "name": "4.15",
-      "season": 3
+      "start": 1409126400,
+      "season": "Season 4",
+      "end": 1410336000
     },
     {
-      "start": 1410321600,
       "name": "4.16",
-      "season": 3
+      "start": 1410336000,
+      "season": "Season 4",
+      "end": 1411632000
     },
     {
-      "start": 1411617600,
       "name": "4.17",
-      "season": 3
+      "start": 1411632000,
+      "season": "Season 4",
+      "end": 1412841600
     },
     {
-      "start": 1412827200,
       "name": "4.18",
-      "season": 3
+      "start": 1412841600,
+      "season": "Season 4",
+      "end": 1415178000
     },
     {
-      "start": 1415163600,
       "name": "4.19",
-      "season": 3
+      "start": 1415178000,
+      "season": "Season 4",
+      "end": 1421312400
     },
     {
-      "start": 1416441600,
-      "name": "4.20",
-      "season": 4
-    },
-    {
-      "start": 1418169600,
-      "name": "4.21",
-      "season": 4
-    },
-    {
-      "start": 1421298000,
       "name": "5.1",
-      "season": 5
+      "start": 1421312400,
+      "season": "Season 5",
+      "end": 1422435600
     },
     {
-      "start": 1422421200,
       "name": "5.2",
-      "season": 5
+      "start": 1422435600,
+      "season": "Season 5",
+      "end": 1423645200
     },
     {
-      "start": 1423630800,
       "name": "5.3",
-      "season": 5
+      "start": 1423645200,
+      "season": "Season 5",
+      "end": 1424854800
     },
     {
-      "start": 1424840400,
       "name": "5.4",
-      "season": 5
+      "start": 1424854800,
+      "season": "Season 5",
+      "end": 1426147200
     },
     {
-      "start": 1426132800,
       "name": "5.5",
-      "season": 5
+      "start": 1426147200,
+      "season": "Season 5",
+      "end": 1427270400
     },
     {
-      "start": 1427256000,
       "name": "5.6",
-      "season": 5
+      "start": 1427270400,
+      "season": "Season 5",
+      "end": 1428480000
     },
     {
-      "start": 1428465600,
       "name": "5.7",
-      "season": 5
+      "start": 1428480000,
+      "season": "Season 5",
+      "end": 1430208000
     },
     {
-      "start": 1430193600,
       "name": "5.8",
-      "season": 5
+      "start": 1430208000,
+      "season": "Season 5",
+      "end": 1431590400
     },
     {
-      "start": 1431576000,
       "name": "5.9",
-      "season": 5
+      "start": 1431590400,
+      "season": "Season 5",
+      "end": 1432800000
     },
     {
-      "start": 1432785600,
       "name": "5.10",
-      "season": 5
+      "start": 1432800000,
+      "season": "Season 5",
+      "end": 1433923200
     },
     {
-      "start": 1433908800,
       "name": "5.11",
-      "season": 5
+      "start": 1433923200,
+      "season": "Season 5",
+      "end": 1435132800
     },
     {
-      "start": 1435118400,
       "name": "5.12",
-      "season": 5
+      "start": 1435132800,
+      "season": "Season 5",
+      "end": 1436342400
     },
     {
-      "start": 1436328000,
       "name": "5.13",
-      "season": 5
+      "start": 1436342400,
+      "season": "Season 5",
+      "end": 1437552000
     },
     {
-      "start": 1437537600,
       "name": "5.14",
-      "season": 5
+      "start": 1437552000,
+      "season": "Season 5",
+      "end": 1438761600
     },
     {
-      "start": 1438747200,
       "name": "5.15",
-      "season": 5
+      "start": 1438761600,
+      "season": "Season 5",
+      "end": 1440057600
     },
     {
-      "start": 1440043200,
       "name": "5.16",
-      "season": 5
+      "start": 1440057600,
+      "season": "Season 5",
+      "end": 1441180800
     },
     {
-      "start": 1441166400,
       "name": "5.17",
-      "season": 5
+      "start": 1441180800,
+      "season": "Season 5",
+      "end": 1442390400
     },
     {
-      "start": 1442376000,
       "name": "5.18",
-      "season": 5
+      "start": 1442390400,
+      "season": "Season 5",
+      "end": 1443600000
     },
     {
-      "start": 1443585600,
       "name": "5.19",
-      "season": 5
+      "start": 1443600000,
+      "season": "Season 5",
+      "end": 1444809600
     },
     {
-      "start": 1444795200,
       "name": "5.20",
-      "season": 5
+      "start": 1444809600,
+      "season": "Season 5",
+      "end": 1446105600
     },
     {
-      "start": 1446091200,
       "name": "5.21",
-      "season": 5
+      "start": 1446105600,
+      "season": "Season 5",
+      "end": 1447232400
     },
     {
-      "start": 1447200000,
       "name": "5.22",
-      "season": 6
+      "start": 1447232400,
+      "season": "Season 5",
+      "end": 1448355600
     },
     {
-      "start": 1448323200,
       "name": "5.23",
-      "season": 6
+      "start": 1448355600,
+      "season": "Season 5",
+      "end": 1449651600
     },
     {
-      "start": 1449619200,
       "name": "5.24",
-      "season": 6
+      "start": 1449651600,
+      "season": "Season 5",
+      "end": 1452762000
     },
     {
-      "start": 1452747600,
       "name": "6.1",
-      "season": 7
+      "start": 1452762000,
+      "season": "Season 6",
+      "end": 1453971600
     },
     {
-      "start": 1453957200,
       "name": "6.2",
-      "season": 7
+      "start": 1453971600,
+      "season": "Season 6",
+      "end": 1455094800
     },
     {
-      "start": 1455080400,
       "name": "6.3",
-      "season": 7
+      "start": 1455094800,
+      "season": "Season 6",
+      "end": 1456304400
     },
     {
-      "start": 1456290000,
       "name": "6.4",
-      "season": 7
+      "start": 1456304400,
+      "season": "Season 6",
+      "end": 1457514000
     },
     {
-      "start": 1457499600,
       "name": "6.5",
-      "season": 7
+      "start": 1457514000,
+      "season": "Season 6",
+      "end": 1458720000
     },
     {
-      "start": 1458705600,
       "name": "6.6",
-      "season": 7
+      "start": 1458720000,
+      "season": "Season 6",
+      "end": 1459929600
     },
     {
-      "start": 1459915200,
       "name": "6.7",
-      "season": 7
+      "start": 1459929600,
+      "season": "Season 6",
+      "end": 1461139200
     },
     {
-      "start": 1461124800,
       "name": "6.8",
-      "season": 7
+      "start": 1461139200,
+      "season": "Season 6",
+      "end": 1462348800
     },
     {
-      "start": 1462334400,
       "name": "6.9",
-      "season": 7
+      "start": 1462348800,
+      "season": "Season 6",
+      "end": 1463558400
     },
     {
-      "start": 1463544000,
       "name": "6.10",
-      "season": 7
+      "start": 1463558400,
+      "season": "Season 6",
+      "end": 1464768000
     },
     {
-      "start": 1464753600,
       "name": "6.11",
-      "season": 7
+      "start": 1464768000,
+      "season": "Season 6",
+      "end": 1465977600
     },
     {
-      "start": 1465963200,
       "name": "6.12",
-      "season": 7
+      "start": 1465977600,
+      "season": "Season 6",
+      "end": 1467187200
     },
     {
-      "start": 1467172800,
       "name": "6.13",
-      "season": 7
+      "start": 1467187200,
+      "season": "Season 6",
+      "end": 1468396800
     },
     {
-      "start": 1468382400,
       "name": "6.14",
-      "season": 7
+      "start": 1468396800,
+      "season": "Season 6",
+      "end": 1469520000
     },
     {
-      "start": 1469505600,
       "name": "6.15",
-      "season": 7
+      "start": 1469520000,
+      "season": "Season 6",
+      "end": 1470816000
     },
     {
-      "start": 1470801600,
       "name": "6.16",
-      "season": 7
+      "start": 1470816000,
+      "season": "Season 6",
+      "end": 1472025600
     },
     {
-      "start": 1472011200,
       "name": "6.17",
-      "season": 7
+      "start": 1472025600,
+      "season": "Season 6",
+      "end": 1473321600
     },
     {
-      "start": 1473307200,
       "name": "6.18",
-      "season": 7
+      "start": 1473321600,
+      "season": "Season 6",
+      "end": 1474444800
     },
     {
-      "start": 1474430400,
       "name": "6.19",
-      "season": 7
+      "start": 1474444800,
+      "season": "Season 6",
+      "end": 1475654400
     },
     {
-      "start": 1475640000,
       "name": "6.20",
-      "season": 7
+      "start": 1475654400,
+      "season": "Season 6",
+      "end": 1476864000
     },
     {
-      "start": 1476849600,
       "name": "6.21",
-      "season": 7
+      "start": 1476864000,
+      "season": "Season 6",
+      "end": 1478768400
     },
     {
-      "start": 1478754000,
       "name": "6.22",
-      "season": 8
+      "start": 1478768400,
+      "season": "Season 6",
+      "end": 1479805200
     },
     {
-      "start": 1479790800,
       "name": "6.23",
-      "season": 8
+      "start": 1479805200,
+      "season": "Season 6",
+      "end": 1481101200
     },
     {
-      "start": 1481086800,
       "name": "6.24",
-      "season": 8
+      "start": 1481101200,
+      "season": "Season 6",
+      "end": 1484125200
     },
     {
-      "start": 1484131500,
       "name": "7.1",
-      "season": 9
+      "start": 1484125200,
+      "season": "Season 7",
+      "end": 1485334800
     },
     {
-      "start": 1485342000,
       "name": "7.2",
-      "season": 9
+      "start": 1485334800,
+      "season": "Season 7",
+      "end": 1486544400
     },
     {
-      "start": 1486552500,
       "name": "7.3",
-      "season": 9
+      "start": 1486544400,
+      "season": "Season 7",
+      "end": 1487840400
     },
     {
-      "start": 1487847600,
       "name": "7.4",
-      "season": 9
+      "start": 1487840400,
+      "season": "Season 7",
+      "end": 1488963600
     },
     {
-      "start": 1488970800,
       "name": "7.5",
-      "season": 9
+      "start": 1488963600,
+      "season": "Season 7",
+      "end": 1490169600
     },
     {
-      "start": 1490177700,
       "name": "7.6",
-      "season": 9
+      "start": 1490169600,
+      "season": "Season 7",
+      "end": 1491379200
     },
     {
-      "start": 1491388200,
       "name": "7.7",
-      "season": 9
+      "start": 1491379200,
+      "season": "Season 7",
+      "end": 1492588800
     },
     {
-      "start": 1492596900,
       "name": "7.8",
-      "season": 9
+      "start": 1492588800,
+      "season": "Season 7",
+      "end": 1493798400
     },
     {
-      "start": 1493806500,
       "name": "7.9",
-      "season": 9
+      "start": 1493798400,
+      "season": "Season 7",
+      "end": 1495008000
     },
     {
-      "start": 1494993600,
       "name": "7.10",
-      "season": 9
+      "start": 1495008000,
+      "season": "Season 7",
+      "end": 1496304000
     },
     {
-      "start": 1496312100,
       "name": "7.11",
-      "season": 9
+      "start": 1496304000,
+      "season": "Season 7",
+      "end": 1497427200
     },
     {
-      "start": 1497435300,
       "name": "7.12",
-      "season": 9
+      "start": 1497427200,
+      "season": "Season 7",
+      "end": 1498636800
     },
     {
-      "start": 1498644000,
       "name": "7.13",
-      "season": 9
+      "start": 1498636800,
+      "season": "Season 7",
+      "end": 1499846400
     },
     {
-      "start": 1499854500,
       "name": "7.14",
-      "season": 9
+      "start": 1499846400,
+      "season": "Season 7",
+      "end": 1501056000
     },
     {
-      "start": 1501063200,
       "name": "7.15",
-      "season": 9
+      "start": 1501056000,
+      "season": "Season 7",
+      "end": 1502265600
     },
     {
-      "start": 1502272800,
       "name": "7.16",
-      "season": 9
+      "start": 1502265600,
+      "season": "Season 7",
+      "end": 1503475200
     },
     {
-      "start": 1503482400,
       "name": "7.17",
-      "season": 9
+      "start": 1503475200,
+      "season": "Season 7",
+      "end": 1505289600
     },
     {
-      "start": 1505296800,
       "name": "7.18",
-      "season": 9
+      "start": 1505289600,
+      "season": "Season 7",
+      "end": 1506499200
     },
     {
-      "start": 1506506400,
       "name": "7.19",
-      "season": 9
+      "start": 1506499200,
+      "season": "Season 7",
+      "end": 1507708800
     },
     {
-      "start": 1507716000,
       "name": "7.20",
-      "season": 9
+      "start": 1507708800,
+      "season": "Season 7",
+      "end": 1508918400
     },
     {
-      "start": 1508924700,
       "name": "7.21",
-      "season": 9
+      "start": 1508918400,
+      "season": "Season 7",
+      "end": 1510131600
     },
     {
-      "start": 1510137900,
       "name": "7.22",
-      "season": 10
+      "start": 1510131600,
+      "season": "Season 7",
+      "end": 1511254800
     },
     {
-      "start": 1511264700,
       "name": "7.23",
-      "season": 10
+      "start": 1511254800,
+      "season": "Season 7",
+      "end": 1512550800
     },
     {
-      "start": 1512554400,
       "name": "7.24",
-      "season": 10
+      "start": 1512550800,
+      "season": "Season 7",
+      "end": 1515574800
+    },
+    {
+      "name": "8.1",
+      "start": 1515574800,
+      "season": "Season 8",
+      "end": 1516784400
+    },
+    {
+      "name": "8.2",
+      "start": 1516784400,
+      "season": "Season 8",
+      "end": null
     }
   ],
   "shifts": {
-    "NA": 0,
-    "TR": 28800,
-    "RU": 39600,
-    "OCE": 54000,
-    "LAS": 10800,
-    "LAN": 0,
-    "KR": 46800,
-    "JP": 39600,
-    "EUW": 21600,
-    "EUNE": 32400,
-    "BR": 7200
+    "OC1": -46800,
+    "JP1": -43200,
+    "KR": -39600,
+    "RU": -28800,
+    "EUN1": -21600,
+    "TR1": -18000,
+    "EUW1": -10800,
+    "BR1": -3600,
+    "LA2": 0,
+    "LA1": 7200,
+    "NA1": 10800
   }
 }

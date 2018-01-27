@@ -1,0 +1,878 @@
+[
+  {
+    "id": 2,
+    "name": "PvP Classic Summoner's Rift 5v5 Blind Pick",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.96"
+  },
+  {
+    "id": 4,
+    "name": "PvP Classic Summoner's Rift 5v5 Ranked Solo",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.96"
+  },
+  {
+    "id": 6,
+    "name": "PvP Classic Summoner's Rift 5v5 Ranked Premade",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.129"
+  },
+  {
+    "id": 7,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.111"
+  },
+  {
+    "id": 8,
+    "name": "PvP Classic The Twisted Treeline 3v3 Normal",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "1.0.0.32"
+  },
+  {
+    "id": 9,
+    "name": "PvP Classic The Twisted Treeline 3v3 Ranked Flex",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "6.22"
+  },
+  {
+    "id": 14,
+    "name": "PvP Classic Summoner's Rift 5v5 Draft Pick",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.125"
+  },
+  {
+    "id": 16,
+    "name": "PvP Dominion 5v5 Blind Pick",
+    "gameMode": "ODIN",
+    "mapType": "CRYSTAL_SCAR",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.125"
+  },
+  {
+    "id": 17,
+    "name": "PvP Dominion 5v5 Draft Pick",
+    "gameMode": "ODIN",
+    "mapType": "CRYSTAL_SCAR",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.125"
+  },
+  {
+    "id": 25,
+    "name": "Co-op vs AI Dominion 5v5",
+    "gameMode": "ODIN",
+    "mapType": "CRYSTAL_SCAR",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.133"
+  },
+  {
+    "id": 31,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5 Intro",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.12"
+  },
+  {
+    "id": 32,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5 Beginner",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.12"
+  },
+  {
+    "id": 33,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5 Intermediate",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.12"
+  },
+  {
+    "id": 41,
+    "name": "PvP Classic The Twisted Treeline 3v3 Ranked Team",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "1.0.0.129"
+  },
+  {
+    "id": 42,
+    "name": "PvP Classic Summoner's Rift 5v5 Ranked Team",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "1.0.0.129"
+  },
+  {
+    "id": 52,
+    "name": "Co-op vs AI Classic The Twisted Treeline 3v3",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "1.0.0.150"
+  },
+  {
+    "id": 61,
+    "name": "PvP Classic Summoner's Rift 5v5 Team Builder",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.3"
+  },
+  {
+    "id": 65,
+    "name": "PvP ARAM Howling Abyss 5v5",
+    "gameMode": "ARAM",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "ALL_RANDOM",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "3.6"
+  },
+  {
+    "id": 70,
+    "name": "PvP One for All",
+    "gameMode": "ONEFORALL",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "LOTTERY_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "3.14"
+  },
+  {
+    "id": 72,
+    "name": "PvP Showdown 1v1",
+    "gameMode": "FIRSTBLOOD",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 1},
+      {"id": 200, "name": "Red", "size": 1}
+    ],
+    "released": "3.15"
+  },
+  {
+    "id": 73,
+    "name": "PvP Showdown 2v2",
+    "gameMode": "FIRSTBLOOD",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 2},
+      {"id": 200, "name": "Red", "size": 2}
+    ],
+    "released": "3.15"
+  },
+  {
+    "id": 75,
+    "name": "PvP Hexakill Summoner's Rift 6v6",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 6},
+      {"id": 200, "name": "Red", "size": 6}
+    ],
+    "released": "4.2"
+  },
+  {
+    "id": 76,
+    "name": "PvP Ultra Rapid Fire 5v5",
+    "gameMode": "URF",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.5"
+  },
+  {
+    "id": 78,
+    "name": "PvP One for All: Mirror Mode",
+    "gameMode": "ONEFORALL",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "LOTTERY_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.8"
+  },
+  {
+    "id": 83,
+    "name": "Co-op vs AI Ultra Rapid Fire 5v5",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.5"
+  },
+  {
+    "id": 91,
+    "name": "Co-op vs AI Doom Bots of Doom Rank 1",
+    "gameMode": "DOOMBOTSTEEMO",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.12"
+  },
+  {
+    "id": 92,
+    "name": "Co-op vs AI Doom Bots of Doom Rank 2",
+    "gameMode": "DOOMBOTSTEEMO",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.12"
+  },
+  {
+    "id": 93,
+    "name": "Co-op vs AI Doom Bots of Doom Rank 5",
+    "gameMode": "DOOMBOTSTEEMO",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.12"
+  },
+  {
+    "id": 96,
+    "name": "PvP Ascension 5v5",
+    "gameMode": "ASCENSION",
+    "mapType": "CRYSTAL_SCAR",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.16"
+  },
+  {
+    "id": 98,
+    "name": "PvP Hexakill The Twisted Treeline 6v6",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 6},
+      {"id": 200, "name": "Red", "size": 6}
+    ],
+    "released": "4.18"
+  },
+  {
+    "id": 100,
+    "name": "PvP ARAM Butcher's Bridge 5v5",
+    "gameMode": "ARAM",
+    "mapType": "BUTCHERS_BRIDGE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "ALL_RANDOM",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "5.14"
+  },
+  {
+    "id": 300,
+    "name": "PvP Legend of the Poro King 5v5",
+    "gameMode": "KINGPORO",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "4.21"
+  },
+  {
+    "id": 310,
+    "name": "PvP Classic Summoner's Rift 5v5 Nemesis Draft",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "NEMESIS_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "5.3"
+  },
+  {
+    "id": 313,
+    "name": "PvP Black Market Brawlers 5v5",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "5.14"
+  },
+  {
+    "id": 315,
+    "name": "PvP Nexus Siege 5v5",
+    "gameMode": "SIEGE",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.14"
+  },
+  {
+    "id": 317,
+    "name": "PvP Definitely Not Dominion 5v5",
+    "gameMode": "ODIN",
+    "mapType": "CRYSTAL_SCAR",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.10"
+  },
+  {
+    "id": 318,
+    "name": "PvP ARURF 5v5",
+    "gameMode": "URF",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "ALL_RANDOM",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.19"
+  },
+  {
+    "id": 400,
+    "name": "PvP Classic Summoner's Rift 5v5 Draft Pick",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.1"
+  },
+  {
+    "id": 410,
+    "name": "PvP Classic Summoner's Rift 5v5 Ranked Dynamic",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.1"
+  },
+  {
+    "id": 420,
+    "name": "PvP Classic Summoner's Rift 5v5 Ranked Solo/Duo",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.22"
+  },
+  {
+    "id": 430,
+    "name": "PvP Classic Summoner's Rift 5v5 Blind Pick",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 440,
+    "name": "PvP Classic Summoner's Rift 5v5 Ranked Flex",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "6.22"
+  },
+  {
+    "id": 450,
+    "name": "PvP ARAM Howling Abyss 5v5",
+    "gameMode": "ARAM",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "ALL_RANDOM",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 460,
+    "name": "PvP Classic The Twisted Treeline 3v3 Blind Pick",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 470,
+    "name": "PvP Classic The Twisted Treeline 3v3 Ranked Flex",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": true,
+    "pickType": "DRAFT_MODE",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 600,
+    "name": "PvP Blood Moon 5v5",
+    "gameMode": "ASSASSINATE",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.3"
+  },
+  {
+    "id": 610,
+    "name": "PvP Dark Star: Singularity 3v3",
+    "gameMode": "DARKSTAR",
+    "mapType": "COSMIC_RUINS",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.9"
+  },
+  {
+    "id": 800,
+    "name": "Co-op vs AI Classic The Twisted Treeline 3v3 Intermediate",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 810,
+    "name": "Co-op vs AI Classic The Twisted Treeline 3v3 Intro",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 820,
+    "name": "Co-op vs AI Classic The Twisted Treeline 3v3 Beginner",
+    "gameMode": "CLASSIC",
+    "mapType": "TWISTED_TREELINE",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 830,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5 Intro",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 840,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5 Beginner",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 850,
+    "name": "Co-op vs AI Classic Summoner's Rift 5v5 Intermediate",
+    "gameMode": "CLASSIC",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": false,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 900,
+    "name": "PvP ARURF 5v5",
+    "gameMode": "URF",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "ALL_RANDOM",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 910,
+    "name": "PvP Ascension 5v5",
+    "gameMode": "ASCENSION",
+    "mapType": "CRYSTAL_SCAR",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 920,
+    "name": "PvP Legend of the Poro King 5v5",
+    "gameMode": "KINGPORO",
+    "mapType": "HOWLING_ABYSS",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_DRAFT",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 940,
+    "name": "PvP Nexus Siege 5v5",
+    "gameMode": "SIEGE",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 950,
+    "name": "Co-op vs AI Doom Bots of Doom The Gauntlet (Voting)",
+    "gameMode": "DOOMBOTSTEEMO",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 960,
+    "name": "Co-op vs AI Doom Bots of Doom The Teemoing (Standard)",
+    "gameMode": "DOOMBOTSTEEMO",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.19"
+  },
+  {
+    "id": 980,
+    "name": "Co-op vs AI Invasion Normal",
+    "gameMode": "STARGUARDIAN",
+    "mapType": "VALORAN_CITY_PARK",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [{"id": 100, "name": "Star Guardians", "size": 5}],
+    "released": "7.17"
+  },
+  {
+    "id": 990,
+    "name": "Co-op vs AI Invasion Onslaught",
+    "gameMode": "STARGUARDIAN",
+    "mapType": "VALORAN_CITY_PARK",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [{"id": 100, "name": "Star Guardians", "size": 5}],
+    "released": "7.17"
+  },
+  {
+    "id": 1000,
+    "name": "PvP Overcharge 3v3",
+    "gameMode": "PROJECT",
+    "mapType": "SUBSTRUCTURE_43",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "BLIND_PICK",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 3},
+      {"id": 200, "name": "Red", "size": 3}
+    ],
+    "released": "7.23"
+  },
+  {
+    "id": 1010,
+    "name": "PvP Snow Battle ARURF 5v5",
+    "gameMode": "SNOWURF",
+    "mapType": "SUMMONERS_RIFT",
+    "rotating": true,
+    "ranked": false,
+    "pickType": "ALL_RANDOM",
+    "teams": [
+      {"id": 100, "name": "Blue", "size": 5},
+      {"id": 200, "name": "Red", "size": 5}
+    ],
+    "released": "7.24"
+  }
+]

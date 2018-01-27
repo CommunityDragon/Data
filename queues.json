@@ -1,1129 +1,450 @@
 [
   {
     "name": "Custom",
-    "depreciated": false,
-    "maps": [
-      8,
-      10,
-      11,
-      12,
-      14,
-      16,
-      18,
-      19
-    ],
-    "id": 0,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 0
   },
   {
     "name": "Normal (Blind Pick)",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 1,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 1
   },
   {
     "name": "Normal 5v5 Blind Pick",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 2,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 2
   },
   {
     "name": "Classic 5v5 Ranked Solo",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 4,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 4
   },
   {
     "name": "Ranked Premade 5v5",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 6,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 6
   },
   {
     "name": "Co-op vs AI 5v5",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 7,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 7
   },
   {
     "name": "Normal 3v3 Blind Pick",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 8,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 8
   },
   {
     "name": "3v3 Ranked Flex",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 9,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 9
   },
   {
     "name": "Normal 5v5 Draft Pick",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 14,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 14
   },
   {
     "name": "Dominion Blind Pick 5v5",
-    "depreciated": true,
-    "maps": [
-      8
-    ],
-    "id": 16,
-    "ranked": false,
-    "gameMode": "ODIN"
+    "id": 16
   },
   {
     "name": "Dominion Draft Pick 5v5",
-    "depreciated": true,
-    "maps": [
-      8
-    ],
-    "id": 17,
-    "ranked": false,
-    "gameMode": "ODIN"
+    "id": 17
   },
   {
     "name": "Dominion Co-op vs AI",
-    "depreciated": true,
-    "maps": [
-      8
-    ],
-    "id": 25,
-    "ranked": false,
-    "gameMode": "ODIN"
+    "id": 25
   },
   {
     "name": "Co-op vs AI Intro Bot",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 31,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 31
   },
   {
     "name": "Co-op vs AI Beginner Bot",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 32,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 32
   },
   {
     "name": "Co-op vs AI Intermediate Bot",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 33,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 33
   },
   {
     "name": "Intro",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 34,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 34
   },
   {
     "name": "Beginner",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 35,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 35
   },
   {
     "name": "Intermediate",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 36,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 36
   },
   {
     "name": "3v3 Ranked Team",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 41,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 41
   },
   {
     "name": "5v5 Ranked Team",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 42,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 42
   },
   {
     "name": "Beginner Co-op vs AI",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 52,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 52
   },
   {
     "name": "Team Builder 5v5",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 61,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 61
   },
   {
     "name": "ARAM",
-    "depreciated": true,
-    "maps": [
-      12
-    ],
-    "id": 62,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 62
   },
   {
     "name": "ARAM",
-    "depreciated": true,
-    "maps": [
-      12
-    ],
-    "id": 63,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 63
   },
   {
     "name": "ARAM",
-    "depreciated": true,
-    "maps": [
-      12
-    ],
-    "id": 64,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 64
   },
   {
     "name": "ARAM",
-    "depreciated": true,
-    "maps": [
-      12
-    ],
-    "id": 65,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 65
   },
   {
     "name": "One for All",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 70,
-    "ranked": false,
-    "gameMode": "ONEFORALL"
+    "id": 70
   },
   {
     "name": "Snowdown Showdown 1v1",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 72,
-    "ranked": false,
-    "gameMode": "FIRSTBLOOD"
+    "id": 72
   },
   {
     "name": "Snowdown Showdown 2v2",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 73,
-    "ranked": false,
-    "gameMode": "FIRSTBLOOD"
+    "id": 73
   },
   {
     "name": "Hexakill 6v6",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 75,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 75
   },
   {
     "name": "Ultra Rapid Fire",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 76,
-    "ranked": false,
-    "gameMode": "URF"
+    "id": 76
   },
   {
     "name": "Mirrored One for All",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 78,
-    "ranked": false,
-    "gameMode": "ONEFORALL"
+    "id": 78
   },
   {
     "name": "Co-op vs AI Ultra Rapid Fire",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 83,
-    "ranked": false,
-    "gameMode": "URF"
+    "id": 83
   },
   {
     "name": "The Teemoing",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 90,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 90
   },
   {
     "name": "Doom Bots Rank 1",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 91,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 91
   },
   {
     "name": "Doom Bots Rank 2",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 92,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 92
   },
   {
     "name": "Doom Bots Rank 5",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 93,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 93
   },
   {
     "name": "Ascension",
-    "depreciated": false,
-    "maps": [
-      8
-    ],
-    "id": 96,
-    "ranked": false,
-    "gameMode": "ODIN"  # TODO
+    "id": 96
   },
   {
     "name": "Ascension",
-    "depreciated": true,
-    "maps": [
-      8
-    ],
-    "id": 97,
-    "ranked": false,
-    "gameMode": "ODIN"  # TODO
+    "id": 97
   },
   {
     "name": "Hexakill 6v6",
-    "depreciated": false,
-    "maps": [
-      10
-    ],
-    "id": 98,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 98
   },
   {
     "name": "5v5 ARAM Butcher's Bridge",
-    "depreciated": false,
-    "maps": [
-      14
-    ],
-    "id": 100,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 100
   },
   {
     "name": "Legend of the Poro King",
-    "depreciated": true,
-    "maps": [
-      12
-    ],
-    "id": 300,
-    "ranked": false,
-    "gameMode": "KINGPORO"
+    "id": 300
   },
   {
     "name": "Legend of the Poro King",
-    "depreciated": true,
-    "maps": [
-      12
-    ],
-    "id": 301,
-    "ranked": false,
-    "gameMode": "KINGPORO"
+    "id": 301
   },
   {
     "name": "Nemesis",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 310,
-    "ranked": false,
-    "gameMode": "CLASSIC"  # TODO
+    "id": 310
   },
   {
     "name": "Black Market Brawlers",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 313,
-    "ranked": false,
-    "gameMode": "CLASSIC"  # TODO
+    "id": 313
   },
   {
     "name": "Nexus Siege",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 314,
-    "ranked": false,
-    "gameMode": "SIEGE"
+    "id": 314
   },
   {
     "name": "Nexus Siege",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 315,
-    "ranked": false,
-    "gameMode": "SIEGE"
+    "id": 315
   },
   {
     "name": "Definitely Not Dominion",
-    "depreciated": true,
-    "maps": [
-      8
-    ],
-    "id": 316,
-    "ranked": false,
-    "gameMode": "ODIN"  # TODO
+    "id": 316
   },
   {
     "name": "Definitely Not Dominion",
-    "depreciated": false,
-    "maps": [
-      8
-    ],
-    "id": 317,
-    "ranked": false,
-    "gameMode": "ODIN"  # TODO
+    "id": 317
   },
   {
     "name": "AR Ultra Rapid Fire",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 318,
-    "ranked": false,
-    "gameMode": "ARSR"
+    "id": 318
   },
   {
     "name": "AR Ultra Rapid Fire",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 319,
-    "ranked": false,
-    "gameMode": "ARSR"
+    "id": 319
   },
   {
     "name": "Blood Hunt Assassin",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 320,
-    "ranked": false,
-    "gameMode": "ASSASSINATE"
+    "id": 320
   },
   {
     "name": "Blood Hunt Assassin",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 321,
-    "ranked": false,
-    "gameMode": "ASSASSINATE"
+    "id": 321
   },
   {
     "name": "ARSR",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 324,
-    "ranked": false,
-    "gameMode": "ARSR"
+    "id": 324
   },
   {
     "name": "ARSR",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 325,
-    "ranked": false,
-    "gameMode": "ARSR"
+    "id": 325
   },
   {
     "name": "Normal 5v5 Draft Pick",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 400,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 400
   },
   {
     "name": "Normal (Draft Pick)",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 401,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 401
   },
   {
     "name": "Normal (Draft Pick)",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 402,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 402
   },
   {
     "name": "Normal (Draft Pick)",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 403,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 403
   },
   {
     "name": "5v5 Ranked Dynamic",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 410,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 410
   },
   {
     "name": "Ranked",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 411,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 411
   },
   {
     "name": "Ranked",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 412,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 412
   },
   {
     "name": "Ranked",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 413,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 413
   },
   {
     "name": "Ranked Solo/Duo",
-    "depreciated": true,
-    "maps": [
-      11
-    ],
-    "id": 420,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 420
   },
   {
     "name": "Ranked Solo/Duo",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 421,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 421
   },
   {
     "name": "Ranked Solo/Duo",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 422,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 422
   },
   {
     "name": "Normal 5v5 Blind Pick",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 430,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 430
   },
   {
     "name": "Normal",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 431,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 431
   },
   {
     "name": "Normal",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 432,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 432
   },
   {
     "name": "Normal (Blind Pick)",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 433,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 433
   },
   {
     "name": "5v5 Ranked Flex",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 440,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 440
   },
   {
     "name": "Ranked Flex",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 441,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 441
   },
   {
     "name": "Ranked Flex",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 442,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 442
   },
   {
     "name": "ARAM",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 450,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 450
   },
   {
     "name": "ARAM",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 451,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 451
   },
   {
     "name": "ARAM",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 452,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 452
   },
   {
     "name": "Normal 3v3 Blind Pick",
-    "depreciated": false,
-    "maps": [
-      10
-    ],
-    "id": 460,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 460
   },
   {
     "name": "Ranked 3v3 Flex",
-    "depreciated": true,
-    "maps": [
-      10
-    ],
-    "id": 470,
-    "ranked": true,
-    "gameMode": "CLASSIC"
+    "id": 470
   },
   {
     "name": "Blood Hunt Assassin",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 600,
-    "ranked": false,
-    "gameMode": "ASSASSINATE"
+    "id": 600
   },
   {
     "name": "Blood Hunt Assassin",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 601,
-    "ranked": false,
-    "gameMode": "ASSASSINATE"
+    "id": 601
   },
   {
     "name": "Dark Star: Singularity",
-    "depreciated": false,
-    "maps": [
-      16
-    ],
-    "id": 610,
-    "ranked": false,
-    "gameMode": "DARKSTAR"
+    "id": 610
   },
   {
     "name": "Dark Star: Singularity",
-    "depreciated": false,
-    "maps": [
-      16
-    ],
-    "id": 611,
-    "ranked": false,
-    "gameMode": "DARKSTAR"
+    "id": 611
   },
   {
     "name": "Co-op vs. AI Intermediate Bot",
-    "depreciated": false,
-    "maps": [
-      10
-    ],
-    "id": 800,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 800
   },
   {
     "name": "Co-op vs. AI",
-    "depreciated": false,
-    "maps": [
-      10
-    ],
-    "id": 801,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 801
   },
   {
     "name": "Co-op vs. AI Intro Bot",
-    "depreciated": false,
-    "maps": [
-      10
-    ],
-    "id": 810,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 810
   },
   {
     "name": "Co-op vs. AI Beginner Bot",
-    "depreciated": false,
-    "maps": [
-      10
-    ],
-    "id": 820,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 820
   },
   {
     "name": "Co-op vs. AI Intro Bot",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 830,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 830
   },
   {
     "name": "Co-op vs. AI Beginner Bot",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 840,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 840
   },
   {
     "name": "Co-op vs. AI Intermediate Bot",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 850,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 850
   },
   {
     "name": "AR Ultra Rapid Fire",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 900,
-    "ranked": false,
-    "gameMode": "ARSR"
+    "id": 900
   },
   {
     "name": "AR Ultra Rapid Fire",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 901,
-    "ranked": false,
-    "gameMode": "ARSR"
+    "id": 901
   },
   {
     "name": "Ascension",
-    "depreciated": false,
-    "maps": [
-      8
-    ],
-    "id": 910,
-    "ranked": false,
-    "gameMode": "CLASSIC"  # TODO
+    "id": 910
   },
   {
     "name": "Ascension",
-    "depreciated": false,
-    "maps": [
-      8
-    ],
-    "id": 911,
-    "ranked": false,
-    "gameMode": "CLASSIC"  # TODO
+    "id": 911
   },
   {
     "name": "Legend of the Poro King",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 920,
-    "ranked": false,
-    "gameMode": "KINGPORO"
+    "id": 920
   },
   {
     "name": "Legend of the Poro King",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 921,
-    "ranked": false,
-    "gameMode": "KINGPORO"
+    "id": 921
   },
   {
     "name": "ARAM",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 930,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 930
   },
   {
     "name": "ARAM",
-    "depreciated": false,
-    "maps": [
-      12
-    ],
-    "id": 931,
-    "ranked": false,
-    "gameMode": "ARAM"
+    "id": 931
   },
   {
     "name": "Nexus Siege",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 940,
-    "ranked": false,
-    "gameMode": "SIEGE"
+    "id": 940
   },
   {
     "name": "Nexus Siege",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 941,
-    "ranked": false,
-    "gameMode": "SIEGE"
+    "id": 941
   },
   {
     "name": "Doom Bots Voting",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 950,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 950
   },
   {
     "name": "Level 100 Gauntlet",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 951,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 951
   },
   {
     "name": "Doom Bots Standard",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 960,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 960
   },
   {
     "name": "The Teemoing",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 961,
-    "ranked": false,
-    "gameMode": "DOOMBOTSTEEMO"
+    "id": 961
   },
   {
     "name": "Hexakill",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 970,
-    "ranked": false,
-    "gameMode": "CLASSIC"
+    "id": 970
   },
   {
     "name": "Star Guardian Invasion: Normal",
-    "depreciated": false,
-    "maps": [
-      18
-    ],
-    "id": 980,
-    "ranked": false,
-    "gameMode": "STARGUARDIAN"
+    "id": 980
   },
   {
     "name": "Star Guardian Invasion: Normal",
-    "depreciated": false,
-    "maps": [
-      18
-    ],
-    "id": 981,
-    "ranked": false,
-    "gameMode": "STARGUARDIAN"
+    "id": 981
   },
   {
     "name": "Star Guardian Invasion: Normal",
-    "depreciated": false,
-    "maps": [
-      18
-    ],
-    "id": 982,
-    "ranked": false,
-    "gameMode": "STARGUARDIAN"
+    "id": 982
   },
   {
     "name": "Star Guardian Invasion: Onslaught",
-    "depreciated": false,
-    "maps": [
-      18
-    ],
-    "id": 990,
-    "ranked": false,
-    "gameMode": "STARGUARDIAN"
+    "id": 990
   },
   {
     "name": "PROJECT: Hunters",
-    "depreciated": false,
-    "maps": [
-      19
-    ],
-    "id": 1000,
-    "ranked": false,
-    "gameMode": "OVERCHARGE"
+    "id": 1000
   },
   {
     "name": "PROJECT: Hunters",
-    "depreciated": false,
-    "maps": [
-      19
-    ],
-    "id": 1001,
-    "ranked": false,
-    "gameMode": "OVERCHARGE"
+    "id": 1001
   },
   {
     "name": "Snow Battle ARURF",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 1010,
-    "ranked": false,
-    "gameMode": "SNOWURF"
+    "id": 1010
   },
   {
     "name": "Snow Battle ARURF",
-    "depreciated": false,
-    "maps": [
-      11
-    ],
-    "id": 1011,
-    "ranked": false,
-    "gameMode": "SNOWURF"
+    "id": 1011
   }
 ]
