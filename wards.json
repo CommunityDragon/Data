@@ -1,0 +1,637 @@
+[
+  {
+    "description": "Base Ward Skin",
+    "id": 0,
+    "name": "Default Ward"
+  },
+  {
+    "description": "Harrowing 2012",
+    "id": 1,
+    "name": "Bat-o-lantern Ward"
+  },
+  {
+    "description": "Harrowing 2012",
+    "id": 2,
+    "name": "Haunting Ward"
+  },
+  {
+    "description": "Harrowing 2012",
+    "id": 3,
+    "name": "Widow Ward"
+  },
+  {
+    "description": "Harrowing 2012",
+    "id": 4,
+    "name": "Deadfall Ward"
+  },
+  {
+    "description": "Harrowing 2012",
+    "id": 5,
+    "name": "Tomb Angel Ward"
+  },
+  {
+    "description": "Snowdown Showdown 2012",
+    "id": 6,
+    "name": "Snowman Ward"
+  },
+  {
+    "description": "Snowdown Showdown 2012",
+    "id": 7,
+    "name": "Gingerbread Ward"
+  },
+  {
+    "description": "Lunar Revel 2013",
+    "id": 8,
+    "name": "Lantern of the Serpent Ward"
+  },
+  {
+    "description": "Lunar Revel 2013",
+    "id": 9,
+    "name": "Banner of the Serpent Ward"
+  },
+  {
+    "description": "",
+    "id": 10,
+    "name": "Starcall Ward"
+  },
+  {
+    "description": "",
+    "id": 11,
+    "name": "Ward of Draven"
+  },
+  {
+    "description": "",
+    "id": 12,
+    "name": "Luminosity Ward"
+  },
+  {
+    "description": "Season 3 Reward for being Silver or higher in ranked play",
+    "id": 13,
+    "name": "Season 3 Victorious Ward"
+  },
+  {
+    "description": "World Finals 2013",
+    "id": 14,
+    "name": "Season 3 Championship Ward"
+  },
+  {
+    "description": "Snowdown 2013",
+    "id": 15,
+    "name": "Candy Cane Ward"
+  },
+  {
+    "description": "Lunar Revel 2014",
+    "id": 16,
+    "name": "Banner of the Horse Ward"
+  },
+  {
+    "description": "Lunar Revel 2014",
+    "id": 17,
+    "name": "Gong Ward"
+  },
+  {
+    "description": "Valentine's Day 2014",
+    "id": 18,
+    "name": "Bouquet Ward"
+  },
+  {
+    "description": "You met a Rioter!",
+    "id": 19,
+    "name": "Fist Bump Ward"
+  },
+  {
+    "description": "Commemorate SKT T1's sweeping World Championship victory for season 3",
+    "id": 20,
+    "name": "SKT T1 Ward"
+  },
+  {
+    "description": "",
+    "id": 21,
+    "name": "Dragonslayer Ward"
+  },
+  {
+    "description": "All-Stars 2014",
+    "id": 22,
+    "name": "All-Star 2014 Ward"
+  },
+  {
+    "description": "World Cup 2014",
+    "id": 23,
+    "name": "Golden Goal Ward"
+  },
+  {
+    "description": "",
+    "id": 24,
+    "name": "Mecha Ward"
+  },
+  {
+    "description": "Shurima Event 2014",
+    "id": 25,
+    "name": "Armordillo Ward"
+  },
+  {
+    "description": "Shurima Event 2014",
+    "id": 26,
+    "name": "Sad Mummy Ward"
+  },
+  {
+    "description": "Shurima Event 2014",
+    "id": 27,
+    "name": "Sun Disc Ward"
+  },
+  {
+    "description": "World Finals 2014",
+    "id": 28,
+    "name": "2014 Championship Ward"
+  },
+  {
+    "description": "Ranked Team Rewards 2014 Season - 20 points ",
+    "id": 29,
+    "name": "2014 Conquering Ward"
+  },
+  {
+    "description": "Ranked Team Rewards 2014 Season - 45 points",
+    "id": 30,
+    "name": "2014 Triumphant Ward"
+  },
+  {
+    "description": "Ranked Team Rewards 2014 Season - 75 points",
+    "id": 31,
+    "name": "2014 Victorious Ward"
+  },
+  {
+    "description": "",
+    "id": 32,
+    "name": "Battlecast Ward"
+  },
+  {
+    "description": "Snowdown 2014",
+    "id": 33,
+    "name": "Poro Ward"
+  },
+  {
+    "description": "Snowdown 2014",
+    "id": 34,
+    "name": "Astronaut Poro Ward"
+  },
+  {
+    "description": "Snowdown 2014",
+    "id": 35,
+    "name": "Gentleman Poro Ward"
+  },
+  {
+    "description": "",
+    "id": 36,
+    "name": "Battlecast Poro Ward"
+  },
+  {
+    "description": "",
+    "id": 37,
+    "name": "Dragonslayer Poro Ward"
+  },
+  {
+    "description": "",
+    "id": 38,
+    "name": "Underworld Poro Ward"
+  },
+  {
+    "description": "Lunar Revel 2015",
+    "id": 39,
+    "name": "Firecracker Ward"
+  },
+  {
+    "description": "Valentine's Day 2015",
+    "id": 40,
+    "name": "Heartseeker Ward"
+  },
+  {
+    "description": "URF 2015",
+    "id": 41,
+    "name": "Urf Ward"
+  },
+  {
+    "description": "Bilgewater Event 2015",
+    "id": 42,
+    "name": "Mother Serpent Ward"
+  },
+  {
+    "description": "Bilgewater Event 2015",
+    "id": 43,
+    "name": "Slaughter Fleet Ward"
+  },
+  {
+    "description": "PROJECT: 2015",
+    "id": 44,
+    "name": "Optic Enhancer Ward"
+  },
+  {
+    "description": "World Finals 2015",
+    "id": 45,
+    "name": "2015 Championship Ward"
+  },
+  {
+    "description": "Ranked Team Rewards 2015 Season - 20 points",
+    "id": 46,
+    "name": "2015 Conquering Ward"
+  },
+  {
+    "description": "Ranked Team Rewards 2015 Season - 45 points",
+    "id": 47,
+    "name": "2015 Triumphant Ward"
+  },
+  {
+    "description": "Ranked Team Rewards 2015 Season - 75 points",
+    "id": 48,
+    "name": "2015 Victorious Ward"
+  },
+  {
+    "description": "Take flight!",
+    "id": 49,
+    "name": "Riggle Ward"
+  },
+  {
+    "description": "All-Star 2015 Team Fire",
+    "id": 50,
+    "name": "All-Star 2015 Team Fire Ward"
+  },
+  {
+    "description": "All-Star 2015 Team Ice",
+    "id": 51,
+    "name": "All-Star 2015 Team Ice Ward"
+  },
+  {
+    "description": "Snowdown 2015",
+    "id": 52,
+    "name": "Penguin Skier Ward"
+  },
+  {
+    "description": "Lunar Revel 2016",
+    "id": 53,
+    "name": "Rising Dawn Ward"
+  },
+  {
+    "description": "Valentine's Day 2016",
+    "id": 54,
+    "name": "Harpseeker Ward"
+  },
+  {
+    "description": "Hextech Crafting Launch",
+    "id": 55,
+    "name": "Hextech Ward"
+  },
+  {
+    "description": "Draven Day 2016",
+    "id": 56,
+    "name": "Definitely Not A Ward"
+  },
+  {
+    "description": "Mecha Zero Sion",
+    "id": 57,
+    "name": "Mecha Zero Ward"
+  },
+  {
+    "description": "El Poro",
+    "id": 58,
+    "name": "El Poro Ward"
+  },
+  {
+    "description": "Dark Star",
+    "id": 59,
+    "name": "Dark Star Ward"
+  },
+  {
+    "description": "Pool Party 2016",
+    "id": 60,
+    "name": "His Royal Crabness Ward"
+  },
+  {
+    "description": "PROJECT 2016",
+    "id": 61,
+    "name": "Recon Drone Ward"
+  },
+  {
+    "description": "Arcade 2016",
+    "id": 62,
+    "name": "Game On Ward"
+  },
+  {
+    "description": "Star Guardian 2016",
+    "id": 63,
+    "name": "Star Guardian Ward"
+  },
+  {
+    "description": "World Finals 2016",
+    "id": 64,
+    "name": "2016 Championship Ward"
+  },
+  {
+    "description": "Mechs vs. Minions",
+    "id": 65,
+    "name": "Mechs vs. Minions Ward"
+  },
+  {
+    "description": "2016 Conquering",
+    "id": 66,
+    "name": "2016 Conquering Ward"
+  },
+  {
+    "description": "2016 Triumphant",
+    "id": 67,
+    "name": "2016 Triumphant Ward"
+  },
+  {
+    "description": "2016 Victorious",
+    "id": 68,
+    "name": "2016 Victorious Ward"
+  },
+  {
+    "description": "Elementalist Lux",
+    "id": 69,
+    "name": "Elementalist Ward"
+  },
+  {
+    "description": "Tales from the Rift 2016",
+    "id": 70,
+    "name": "Vamporo Ward"
+  },
+  {
+    "description": "Snowdown 2016",
+    "id": 71,
+    "name": "Santa Penguin Ward"
+  },
+  {
+    "description": "Lunar Revel 2017",
+    "id": 72,
+    "name": "Crest of the Rooster Ward"
+  },
+  {
+    "description": "2016 All-Star",
+    "id": 73,
+    "name": "2016 All-Star Ward"
+  },
+  {
+    "description": "Blood Moon 2017",
+    "id": 74,
+    "name": "Blood Demon Ward"
+  },
+  {
+    "description": "Love Dove Ward",
+    "id": 75,
+    "name": "Love Dove Ward"
+  },
+  {
+    "description": "Eye of the Dragon Ward",
+    "id": 76,
+    "name": "Eye of the Dragon Ward"
+  },
+  {
+    "description": "",
+    "id": 77,
+    "name": "Pulsefire Ward"
+  },
+  {
+    "description": "",
+    "id": 78,
+    "name": "Dawnbringer Ward"
+  },
+  {
+    "description": "",
+    "id": 79,
+    "name": "Nightbringer Ward"
+  },
+  {
+    "description": "God Fist Ward",
+    "id": 80,
+    "name": "God Fist Ward"
+  },
+  {
+    "description": "",
+    "id": 81,
+    "name": "Pentakill Ward"
+  },
+  {
+    "description": "Corruptant Ward",
+    "id": 82,
+    "name": "Corruptant Ward"
+  },
+  {
+    "description": "",
+    "id": 83,
+    "name": "Conqueror Ward"
+  },
+  {
+    "description": "Omega Squad Ward",
+    "id": 84,
+    "name": "Omega Squad Ward"
+  },
+  {
+    "description": "",
+    "id": 85,
+    "name": "Arcade Poro Ward"
+  },
+  {
+    "description": "",
+    "id": 86,
+    "name": "Mimi Ward"
+  },
+  {
+    "description": "SKT T1 kkOma Ward",
+    "id": 87,
+    "name": "SKT T1 kkOma Ward"
+  },
+  {
+    "description": "",
+    "id": 88,
+    "name": "New Horizon Ward"
+  },
+  {
+    "description": "2017 Championship Ward",
+    "id": 89,
+    "name": "2017 Championship Ward"
+  },
+  {
+    "description": "2017 Golden Championship Ward",
+    "id": 90,
+    "name": "2017 Golden Championship Ward"
+  },
+  {
+    "description": "Divine Sword Ward",
+    "id": 91,
+    "name": "Divine Sword Ward"
+  },
+  {
+    "description": "",
+    "id": 92,
+    "name": "Glorious Legend Ward"
+  },
+  {
+    "description": "",
+    "id": 93,
+    "name": "Honor 3 Ward"
+  },
+  {
+    "description": "",
+    "id": 94,
+    "name": "Honor 4 Ward"
+  },
+  {
+    "description": "",
+    "id": 95,
+    "name": "Honor 5 Ward"
+  },
+  {
+    "description": "",
+    "id": 96,
+    "name": "Rune Enthusiast Ward"
+  },
+  {
+    "description": "",
+    "id": 97,
+    "name": "2017 Victorious Ward"
+  },
+  {
+    "description": "",
+    "id": 98,
+    "name": "Dearest Deer Ward"
+  },
+  {
+    "description": "",
+    "id": 99,
+    "name": "Lovebirds Ward"
+  },
+  {
+    "description": "Death Sworn Ward",
+    "id": 100,
+    "name": "Death Sworn Ward"
+  },
+  {
+    "description": "",
+    "id": 101,
+    "name": "Essence Collector Ward"
+  },
+  {
+    "description": "",
+    "id": 102,
+    "name": "Puppy Warwick Ward"
+  },
+  {
+    "description": "",
+    "id": 103,
+    "name": "Puppy Nasus Ward"
+  },
+  {
+    "description": "",
+    "id": 104,
+    "name": "Exo-Ward"
+  },
+  {
+    "description": "",
+    "id": 105,
+    "name": "Pizza Chicken Ward"
+  },
+  {
+    "description": "",
+    "id": 106,
+    "name": "2018 Conqueror Ward"
+  },
+  {
+    "description": "",
+    "id": 107,
+    "name": "Pulsefire 2018 Ward"
+  },
+  {
+    "description": "",
+    "id": 108,
+    "name": "The Ripper Ward"
+  },
+  {
+    "description": "",
+    "id": 109,
+    "name": "The Lion Ward"
+  },
+  {
+    "description": "",
+    "id": 110,
+    "name": "The Wolf Ward"
+  },
+  {
+    "description": "",
+    "id": 111,
+    "name": "World Rune Ward"
+  },
+  {
+    "description": "",
+    "id": 112,
+    "name": "Surfin' Pengu Ward"
+  },
+  {
+    "description": "",
+    "id": 113,
+    "name": "Wipeout Pengu Ward"
+  },
+  {
+    "description": "",
+    "id": 114,
+    "name": "Hang Loose Pengu Ward"
+  },
+  {
+    "description": "",
+    "id": 115,
+    "name": "Space Lizard Ward"
+  },
+  {
+    "description": "",
+    "id": 116,
+    "name": "Devil Vulture Ward"
+  },
+  {
+    "description": "",
+    "id": 117,
+    "name": "Gold Space Lizard Ward"
+  },
+  {
+    "description": "",
+    "id": 118,
+    "name": "2018 Championship Ward"
+  },
+  {
+    "description": "",
+    "id": 119,
+    "name": "Pumpkin Cat Ward"
+  },
+  {
+    "description": "",
+    "id": 120,
+    "name": "Pajama Guardian Ward"
+  },
+  {
+    "description": "",
+    "id": 121,
+    "name": "Golden 2018 Championship Ward"
+  },
+  {
+    "description": "",
+    "id": 122,
+    "name": "Trained Dragon Ward"
+  },
+  {
+    "description": "",
+    "id": 124,
+    "name": "Pop Music A-ward"
+  },
+  {
+    "description": "",
+    "id": 125,
+    "name": "2018 Honor 3 Ward"
+  },
+  {
+    "description": "",
+    "id": 126,
+    "name": "2018 Honor 4 Ward"
+  },
+  {
+    "description": "",
+    "id": 127,
+    "name": "2018 Honor 5 Ward"
+  }
+]
