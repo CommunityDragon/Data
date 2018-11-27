@@ -70,5 +70,25 @@
   {
     "key": "SNOWURF",
     "name": "All Random Urf Snow"
+  },
+  {
+    "key": "GAMEMODEX",
+    "name": "Nexus Blitz"
+  },
+  {
+    "key": "ODYSSEY",
+    "name": "Odyssey: Extraction"
+  },
+  {
+    "key": "TUTORIAL_MODULE_1",
+    "name": "Tutorial Part 1"
+  },
+  {
+    "key": "TUTORIAL_MODULE_2",
+    "name": "Tutorial Part 2"
+  },
+  {
+    "key": "TUTORIAL_MODULE_3",
+    "name": "Tutorial Part 3"
   }
 ]
