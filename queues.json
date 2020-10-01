@@ -448,7 +448,43 @@
     "id": 1011
   },
   {
+    "id": 1020,
+    "name": "One for All games"
+  },
+  {
+    "id": 1030,
+    "name": "Odyssey Extraction: Intro"
+  },
+  {
+    "id": 1040,
+    "name": "Odyssey Extraction: Cadet"
+  },
+  {
+    "id": 1050,
+    "name": "Odyssey Extraction: Crewmember"
+  },
+  {
+    "id": 1060,
+    "name": "Odyssey Extraction: Captain"
+  },
+  {
+    "id": 1070,
+    "name": "Odyssey Extraction: Onslaught"
+  },
+  {
     "name": "Nexus Blitz",
     "id": 1200
+  },
+  {
+    "id": 2000,
+    "name": "Tutorial Module 1"
+  },
+  {
+    "id": 2010,
+    "name": "Tutorial Module 2"
+  },
+  {
+    "id": 2020,
+    "name": "Tutorial Module 3"
   }
 ]
