@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")"/..
+files=( hashes/lol/hashes.*.txt.0 )
+
+# Make sure to update merged files atomically, in case they are used by other processes
+for f0 in "${files[@]}"; do
+  f="${f0%.0}"
+  ftmp="$f.tmp-merge"
+  trap 'rm -f "$ftmp"' EXIT
+  # Don't sort: assume split files are already sorted
+  cat "$f".[0-9] >> "$ftmp"
+  mv "$ftmp" "$f"
+  trap - EXIT
+done

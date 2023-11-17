@@ -1,0 +1,28 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")"/..
+files=( hashes/lol/hashes.*.txt )
+
+# csplit_pattern HASHSIZE PATTERN
+csplit_pattern() {
+  echo "/^.\{$1\} ${2//\//\\/}/"
+}
+
+# Make sure to update merged files atomically, in case they are used by other processes
+# Don't bother for split files as they are only used for repo maintenance
+for f in "${files[@]}"; do
+  ftmp="$f.tmp-prepare"
+  trap 'rm -f "$ftmp"' EXIT
+  # Merge everything, to avoid losing hashes
+  cat "$f" "$f".[0-9] 2>/dev/null | sort -u -k 2 -o "$ftmp"
+  mv "$ftmp" "$f"
+  trap - EXIT
+
+  # Split files that are too big
+  rm -f "$f".[0-9]
+  case "$f" in
+    hashes/lol/hashes.game.txt)
+      csplit -s -n 1 -f "$f." "$f" "$(csplit_pattern 16 assets/characters/s)" ;;
+  esac
+done
