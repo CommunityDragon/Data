@@ -7869,6 +7869,7 @@ df232c92 Items/6699
 275b36a4 Items/7001
 2a5b3b5d Items/7002
 295b39ca Items/7003
+245b31eb Items/7004
 235b3058 Items/7005
 265b3511 Items/7006
 255b337e Items/7007
@@ -17400,6 +17401,7 @@ d30f6772 SRU_Dragon_Hextech_BA_Empowered_Tar
 7f5be42f SRU_Dragon_Hextech_BA_Tar
 ff92d91d SRU_Dragon_Hextech_Soul_Beam
 b2f69099 SRU_Dragon_Hextech_Soul_Tar
+32b030ee SRU_Horde_Base_Shield
 11a1cf80 SRU_JungleBuff_Dragon_Buff_Lvl05
 072d8fd7 SRU_KrugMini_Death
 309df811 SRU_KrugMini_Spawn_Impact
@@ -17454,6 +17456,7 @@ e4f342ec SRU_Redbuff_Spawn_hand2
 91916f87 SRU_RiftHerald_Spell1_Tar_Champ
 8931ad8f SRU_RiftHerald_Spell1_mis
 3cf92386 SRU_RiftHerald_Spell1_mis_child
+bc2c4f67 SRU_RiftHerald_SpinAttack_Swipe
 75cef65e SRU_SnowDown_Gingerbread
 790e6a18 SRU_VFX_Chemtech
 9d30c9ee SRU_Winner_TeamLogo_1
@@ -23193,6 +23196,7 @@ ef6a6617 TFT_Dmg_Skin100_Cas_T1
 f06a67aa TFT_Dmg_Skin100_Cas_T2
 42dcfc1e TFT_Dmg_Skin100_Tar1_T1
 41dcfa8b TFT_Dmg_Skin100_Tar1_T2
+15e2ce23 TFT_Dmg_Skin104_Tar2_3Star
 b455fa03 TFT_Dmg_Skin15_Mis_3Star_Child
 08254626 TFT_Dmg_Skin23_Mis_1Star_Arc
 4e72c084 TFT_Dmg_Skin23_Mis_3Star_Arc
