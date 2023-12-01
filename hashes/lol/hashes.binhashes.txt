@@ -1303,6 +1303,7 @@ e420ccd7 Attack1_Idle
 eafef8b4 Attack1_InCombat_Fwd
 24b3817a Attack1_InCombat_Left
 d89a3547 Attack1_InCombat_Right
+223c6af2 Attack1_IntoWalk
 b9f5c5ea Attack1_Into_Idle
 ed51792c Attack1_Left
 294f584a Attack1_Long_P-180
@@ -1317,6 +1318,7 @@ b3dc4d1b Attack1_Out
 9d33ad03 Attack1_P
 cfeb91e8 Attack1_Passive_Into_Idle
 71752d9d Attack1_Passive_Start
+93974bbe Attack1_Ranged
 ec6c2739 Attack1_Right
 a5fa019b Attack1_Run_-90
 075e519a Attack1_Run_90
@@ -1369,11 +1371,13 @@ dfcb6303 Attack2_End
 fbee6b70 Attack2_INTO_Walk
 e91e9fb0 Attack2_Idle
 7b63d3c9 Attack2_In
+bedfd499 Attack2_IntoWalk
 1eca18f3 Attack2_Into_Idle
 6b338b83 Attack2_Left
 6f6794ca Attack2_Out
 d1ea8e81 Attack2_Passive_Into_Idle
 601ab068 Attack2_Passive_Start
+77c10b95 Attack2_Ranged
 529c938c Attack2_Right
 44f34c59 Attack2_Skirt
 35bd13e0 Attack2_Slayer
@@ -1483,6 +1487,10 @@ b1baff7c Attack_Fast
 950c6c4a Attack_INTO_Run
 dd86b529 Attack_In
 f7982b89 Attack_Lfinish
+40e4f558 Attack_Line_A
+43e4fa11 Attack_Line_B
+42e4f87e Attack_Line_C
+8645216a Attack_Line_ToIdle
 c8cbc5a2 Attack_P_1
 c7cbc40f Attack_P_2
 c6cbc27c Attack_P_3
@@ -3936,6 +3944,7 @@ ddf2b71c CritRatio
 79a4455a CritReduction
 3fef9eaa CritScaling
 7a3a34d0 CritThreshold
+4be10fd5 Crit_A
 9f056571 Crit_Arms
 581577bb Crit_Base
 5b5bf5d0 Crit_Beard
@@ -3951,12 +3960,15 @@ d9406f43 Crit_INTO_Idle
 bd8403a0 Crit_INTO_Walk
 5ae8aae0 Crit_Idle
 0e5f18b9 Crit_In
+d0fd229a Crit_IntoIdle
+00521d89 Crit_IntoWalk
 e1d47bd3 Crit_Left
 3f06e50c Crit_Low
 e144feda Crit_Out
 9b8d7b63 Crit_Passive
 f7bf66c9 Crit_Passive_Hit
 91e8f0d8 Crit_Passive_Start
+fa2cb865 Crit_Ranged
 2451db5c Crit_Right
 66b1d236 Crit_Start
 32557be1 Crit_ToIdle
@@ -4215,6 +4227,8 @@ ba19f094 DarkinFlatDamage
 e74538a9 Darkstar_Design_Base_2
 e6453716 Darkstar_Design_Base_3
 0179def5 Dash
+16d9ae8c Dash1
+19d9b345 Dash2
 749bb86d DashAttack
 bd471b30 DashDamage
 9a14d685 DashRangeBonus
@@ -4929,6 +4943,9 @@ b8b2e809 EmpoweredQdamageTT
 fce0a2b8 EmpoweredSlowAmount
 c5a53951 EmpoweredTotalAS
 b59005ae Empowered_Attack
+70b8d94d Empowered_Attack1
+6db8d494 Empowered_Attack2
+6eb8d627 Empowered_Attack3
 5194b384 Empowered_Attack_to_Run
 18a7beee Empty
 ee11ac2e EnableBountiesInBlockBuilder
@@ -5414,10 +5431,15 @@ aaad49f0 FinalPhysicalDR
 3ed37366 FinalSwipeDamage
 b0cbeb11 FinalTrueDamageOnHitTooltipOnly
 d4a0b096 Finale
+a3e166e5 Finisher
 3d1ef95a Finisher01
 3c1ef7c7 Finisher02
 3b1ef634 Finisher03
 3a1ef4a1 Finisher04
+267034f1 Finisher_01
+23703038 Finisher_02
+247031cb Finisher_03
+297039aa Finisher_04
 9f148c9a Finisher_C001
 9e148b07 Finisher_C002
 9d148974 Finisher_C003
@@ -6818,6 +6840,7 @@ a6b2cec8 Idle1_In
 af8907d4 Idle1_In_Assassin
 661758df Idle1_In_Slayer
 08f09cad Idle1_Out
+047f5d5c Idle1_Ranged
 d5a0eae6 Idle1_Skirt
 43c6dbed Idle1_Slayer
 90c55b09 Idle1_To_Idle2
@@ -7899,9 +7922,12 @@ df232c92 Items/6699
 175461af Items/7031
 18546342 Items/7032
 195464d5 Items/7033
+125459d0 Items/7034
+13545b63 Items/7035
 14545cf6 Items/7036
 15545e89 Items/7037
 1e546cb4 Items/7038
+1f546e47 Items/7039
 90514e93 Items/7040
 8f514d00 Items/7041
 925151b9 Items/7042
@@ -8597,6 +8623,7 @@ eaf633b1 Joke_Asleep
 5c9788bc Joke_Attached_Out
 69457a17 Joke_Beard
 89656f53 Joke_Cycle
+94aabfb7 Joke_Drink
 f8376370 Joke_FallingAsleep
 101d4a23 Joke_Hair
 e5575908 Joke_In
@@ -18970,6 +18997,7 @@ d8ea1acc Skin05_Taunt
 3c9ea9ca Skin0_Fist_Bump2
 3d9eab5d Skin0_Fist_Bump3
 369ea058 Skin0_Fist_Bump4
+e7a285be Skin0_Fist_Fireworks
 4bbd0e8b Skin0_Fist_Fireworks_Child
 f746e3ef Skin0_Fist_Fireworks_Explosion_Child
 fdd31e2a Skin0_Fist_Idle
@@ -19704,6 +19732,7 @@ c06c92f4 Spell2_FL_Channel
 762039e0 Spell2_Gloves
 26c7fd92 Spell2_Hair
 4e7e587b Spell2_Hit
+3ed2eb96 Spell2_Hit_Idle
 85230bf3 Spell2_Hit_ToIdle
 cdb286a1 Spell2_ICE
 9b3605e4 Spell2_INTO_ElementRun
@@ -20145,6 +20174,7 @@ f97d1779 Spell4_End_To_Run
 7845e418 Spell4_Exit
 d80247e5 Spell4_Exit_B
 dccd21ce Spell4_Exit_to_Run
+5d7efd4d Spell4_Full
 9f134e79 Spell4_Fwd
 3d36ca3d Spell4_Godmode
 2d79e9e2 Spell4_Grab
@@ -20328,6 +20358,7 @@ abea8149 Spell_Follow_Slide_ToIdle
 d502ff4b Spell_Gun_Idle
 591ff053 Spell_Hit
 dfe1707b Spell_Hit_ToIdle
+a476ff14 Spell_Idle
 0ec457ed Spell_In
 821bfd3b Spell_Knockup
 ae67e86c Spell_Leap
@@ -20341,6 +20372,7 @@ a2edf5d6 Spell_Out
 cf67be39 Spell_Pull
 88502698 Spell_Pull1
 8b502b51 Spell_Pull2
+3a7fe42d Spell_Settle
 7eb6a41e Spell_Snip
 f5f7c54a Spell_Spin
 d468b99a Spell_Stab
@@ -27132,6 +27164,9 @@ e21279e9 Vayne_Recall_Trail
 9c9a414b Vayne_Recall_WeaponFlash
 9d3e3ace Vayne_Recall_WeaponGlow
 6c1b653b Vayne_Recall_Whirlwind
+c120af6e Vayne_Skin55_Idle_Idle_Glow
+faa63db7 Vayne_Skin55_Idle_Shoulder_L
+2273258b Vayne_Skin55_Recall_Drangon_Trail
 d0920dd2 Vayne_W_Ring1
 cf920c3f Vayne_W_Ring2
 ea468f6c Vayne_W_TargetReticle
