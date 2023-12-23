@@ -19013,6 +19013,7 @@ ba9e0108 Skin05_Idle2
 bb9e029b Skin05_Idle3
 74e789d1 Skin05_Spell3_Base
 d8ea1acc Skin05_Taunt
+b6a06b8d Skin0_Fist_AvatarMask
 2242757c Skin0_Fist_Bump
 3c9ea9ca Skin0_Fist_Bump2
 3d9eab5d Skin0_Fist_Bump3
@@ -21027,6 +21028,7 @@ be085581 TFT10_MysteryBox_PopBand_Child
 477e48d1 TFT10_Nami_Skin41_Idle_Hair
 d3a72550 TFT10_Nami_Skin41_Idle_Trail01
 288dbc46 TFT10_Nami_Z_Water_pool
+610996b4 TFT10_PBJProp_HeartBreak_Bet
 aeafe0a1 TFT10_Pyrotechnic_Mis
 a1ee8705 TFT10_Pyrotechnic_Tar
 afa41208 TFT10_Qiyana_BA_Swipe1
