@@ -24059,6 +24059,7 @@ d649dcd6 TFT_Portal_Depart_Islands
 1376a048 TFT_Portal_Depart_Islands_3
 1a76ab4d TFT_Portal_Depart_Islands_4
 1976a9ba TFT_Portal_Depart_Islands_5
+575f283f TFT_Portals_CrabRave_GroundSlam
 278b8a40 TFT_Portals_Icon_Combat
 a84725c6 TFT_Portals_Icon_Gold
 f5d04f16 TFT_Portals_Icon_Headliner
