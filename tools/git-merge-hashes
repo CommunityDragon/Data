@@ -1,0 +1,7 @@
+#!/bin/bash
+# Merge hashes from $2 into $1
+# Files from both branches are concatened, sorted and duplicates removed.
+# Files are split on known patterns so even `.N` files can be concatenated.
+set -e
+cat "$2" >> "$1"
+sort -u -k 2 -o "$1" "$1"

@@ -1,0 +1,6 @@
+# Add this to .git/config
+#
+#   [merge "hashfile"]
+#   	name = "Merge hash list files"
+#   	driver = <root>/tools/git-merge-hashes %A %B
+/hashes/lol/*.txt*  merge=hashfile

@@ -3,6 +3,19 @@
 Additional data provided by CDragon.
 
 
+## Repository setup
+
+A special merge driver is used for hash files.
+Add the following to `.git/config` to enable it (replace `<root>` by local repository path).
+```
+[merge "hashfile"]
+  name = "Merge hash list files"
+  driver = <root>/tools/git-merge-hashes %A %B
+```
+
+Moreover, `tools/hashes-prepare` should be run before comitting hashes.
+
+
 ## Hashes
 
 Client and game files use various hashes.
@@ -24,6 +37,8 @@ It can be used from a Git hook to automatically merge hashes when updating the r
 
 The shell script `tools/hashes-prepare` merge, sort and splits hash files.
 It is intended to be used by maintainers to prepare files for commit.
+
+The shell script `tools/git-merge-hashes` is a Git merge driver to automatically merge hash files.
 
 
 ### WAD paths
