@@ -21292,6 +21292,8 @@ a2f640e0 TFT10_Kayn_Slayer_Q1
 a5f64599 TFT10_Kayn_Slayer_Q2
 20e51f79 TFT10_Kennen_R_Proc_Tar_Child
 66b5e12c TFT10_Kennen_R_Proc_tar
+4dfc6a29 TFT10_Lillia_I_Ground_Plants
+983a477f TFT10_Lillia_I_Staff_Glow
 972c21ce TFT10_Lucian_Idle_JacketAvatar
 e8ca9e2d TFT10_Lucian_Idle_Weapon
 cd649301 TFT10_Lucian_R_cas_trail
