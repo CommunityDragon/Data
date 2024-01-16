@@ -2020,6 +2020,7 @@ e071f48b TextureAndColorDataInstance
 ebd862b2 TftAnnouncementsViewController
 e132f2d0 TftBaseTraitSetData
 cb928b94 TftChangeDamageSkinCheat
+c19ac06c TftCharacterList
 18ee4f3b TftConditionalTraitSetData
 d6ff2a28 TftDamageSkinDescriptor
 f260c3ae TftDropRateTable
