@@ -1454,6 +1454,7 @@ f296e3f0 AttackGoldMultiplier
 96aef553 AttackHeal
 5ceaae85 AttackInfernum2
 88cc3f18 AttackInterrupt
+fdaf1e87 AttackMaxHPHeal
 cdd2b9ad AttackMinion2D
 3e50a936 AttackNeutral2D
 773fa97b AttackNum
@@ -2718,6 +2719,7 @@ e2e5893f BlockBase
 40266553 BlowKiss
 36a94cc0 BlueBase
 f4e19c86 BlueCardDamage
+12b3e5a6 BlueCritMultiplier
 b7402478 BlueDamage
 589988a8 BodyBook
 aeebff05 BodyEnergy
@@ -3998,6 +4000,7 @@ ecb9c76f CritDmg
 8aa567ba CritLifesteal
 286d993b CritMod
 02075d4c CritMoveSpeedPercent
+7cdd1c97 CritMult
 34c4353e CritMultiplier
 762f94f2 CritPercentIncrease
 ddf2b71c CritRatio
@@ -6268,6 +6271,7 @@ bd2522f6 GoldAtFullStacks
 84889ca0 GoldCardDamage
 2dd33743 GoldChance
 cc5f430a GoldCost
+d2146930 GoldCritMultiplier
 72618ec2 GoldDamage
 d6981e5a GoldGranted
 34a30b24 GoldGrowth
@@ -16604,6 +16608,7 @@ c775695e RecastShield
 56f19edd RechargeTime
 cde2220f RechargeTimeMin
 75773e89 RedBase
+1552c54f RedCritMultiplier
 f7b8ac3d RedDamage
 69ebc1b4 ReducedDamage
 ba40e56c ReducedDamageFinal
@@ -25907,6 +25912,7 @@ da93a420 TooltipPercentage
 04bf8202 TooltipQDamage
 9cd1f94c TooltipRecallAP
 b9b6501b TooltipRerollCost
+b38c5929 TooltipShield
 dcbea828 TooltipStartingCharge
 a8b74ee1 TooltipTimer
 f34bcd47 TooltipTotalDamage
@@ -26017,6 +26023,7 @@ f899a2e8 TotalExtraArmor
 c150a188 TotalHaste
 3d3d6f53 TotalHeal
 e78afe97 TotalHealAmount
+a84beeb6 TotalHealPerMissingHPPercentTooltip
 b2145a17 TotalHealPerSecondTooltipOnly
 02407d73 TotalHealPerWave
 b978a8c3 TotalHealTT
@@ -30049,6 +30056,9 @@ ba74fe76 trail1
 b974fce3 trail2
 b874fb50 trail3
 bf750655 trail4
+efa3a4c8 ttBlueDamage
+f3c8ef32 ttGoldDamage
+6a68d92d ttRedDamage
 47a0e8bb tutorial_runway_arrows
 4a4554bc tw
 691770dd ultbook_viktor_chaosstorm_damage_sound
