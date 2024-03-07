@@ -209,14 +209,17 @@ cfa29649 AHCapstone
 1b25585c ALT
 3ef0480f AMMORECHARGETIME
 f9bc7f3e AOEADPercent
+46386e5b AOEDamageADRatio
 8e6d2390 AOEDamageModifier
 22116b50 AOEPercentAD
 5b251bd4 AP
 b19c3b58 APAmount
+5dced396 APAmt
 6bac277d APBuff
 8478a4c5 APDamage
 a7cf607b APFromMana
 b3b41896 APGained
+437f32c2 APHealth
 2afd498b APMultiplier
 ebcfdef4 APPerCast
 b4a9e7a4 APPerGlory
@@ -238,6 +241,7 @@ eaef1b9e APRatioTooltip
 927ebb75 APShield
 438db135 APToCritConversion
 fa127f0d APValue
+df6154bb APtoShieldRatio
 8f061404 ARAM
 8cfa2136 ARAMHealthPickup
 52f10ff2 ARAMHealthPickup_AOE
@@ -292,6 +296,7 @@ f07287f4 AS1
 f3728cad AS2
 f2728b1a AS3
 ed72833b AS4
+39e7e1ad ASAmt
 dbe35112 ASBoostMax
 c5cfa6b8 ASBoostMin
 f64fe0b4 ASBuff
@@ -750,10 +755,12 @@ c67a1046 AllyBonusAS
 ba272485 AllyBonusMana
 7af3cce5 AllyHeal
 5ff24a69 AllyHealAmount
+8d8dca8f AllyHealingAmount
 03a560d7 AllyMS
 bd516d3a AllyProcDamageAmount
 4387d5cd AllyResist
 f82b0e8a AllyShieldAmount
+f41ab86d AllyShieldRatio
 d04c36d0 AllyTooltipLeachValue
 3d33e3de AlphaStrikeBounces
 1c9640eb Ambient
@@ -764,6 +771,8 @@ a0bde86c AmmoRechargeRateBaseTooltip
 b577e694 AmpDamage
 7923dbb9 AmpDuration
 d7411c96 AmpedHealing
+d446488c AmpedPercentAD
+d2d6a35b AmplifiedDamage
 090dfc31 Amumu_BA_Dust
 2c8beed0 Amumu_BA_tar
 37beed95 Amumu_BA_tar_crit
@@ -1140,6 +1149,7 @@ fbde43a6 ArmorIncreaseTotal
 b7bf62a1 ArmorPenetration
 7c694b41 ArmorPerEnemy
 abfc283d ArmorPercent
+3a6e31c4 ArmorPercentage
 5079c7a2 ArmorReductionPercent
 bb03c8b8 ArmorScalar
 826ded1e ArmorShred
@@ -1147,6 +1157,7 @@ b300068b ArmoryChoiceCount
 9cfb9cb2 Arms
 86a2c466 ArriveVfx
 84542686 Arrow
+a216ef8a ArrowBaseDamage
 b1925ae3 ArrowDamage
 5341868e ArrowVfx
 75652bcb Arrow_Hide
@@ -1477,6 +1488,7 @@ c16da2b4 AttackSpeedAmount
 00f8f60d AttackSpeedBase
 cbb3a34f AttackSpeedBonus
 5a2fd953 AttackSpeedBoost
+6dd7a6a9 AttackSpeedBuff
 ef0e0ffd AttackSpeedBuffDurationMax
 f8fa9803 AttackSpeedBuffDurationMin
 999ef955 AttackSpeedCalc
@@ -1620,6 +1632,7 @@ be5d7c22 Audio_idle2
 bf5d7db5 Audio_idle3
 b85d72b0 Audio_idle4
 45e02ace AugmentGold
+b66fbd77 AugmentMoveSpeedBonus
 f2aa68b0 AugmentShieldBonus
 7ffee0e4 Augment_AccelSorcery_Crown
 0bf10460 Augment_AllForYou_SelfSilent
@@ -2531,6 +2544,7 @@ a952df75 BarskinDefenceScalar
 6ebd7238 BaseADDamage
 509c4f64 BaseADPerStack
 2acb3e58 BaseAS
+0bdf8b4c BaseAmountXP
 7a155856 BaseAmp
 0787f1cf BaseArmor
 138afc6f BaseAttack1
@@ -2546,6 +2560,7 @@ ff2cfd2e BaseCritDamageMultiplier
 d67164ad BaseDPS
 21d1ebf2 BaseDR
 03da00f9 BaseDamage
+25f2bd2d BaseDamageAPScaling
 725eb199 BaseDamageAftershock
 c581d15d BaseDamageAmp
 1061b0f8 BaseDamageAmpPct
@@ -2639,8 +2654,10 @@ e81778bf BaseShielding
 6d5be13d BaseSlow
 a1c190b1 BaseSlowAmount
 04d11775 BaseSmiteDamage
+a1f1037f BaseSpellDamage
 8832edd1 BaseSpinDamage
 c171881d BaseState
+0874db29 BaseStunTime
 55959392 BaseTicks
 24af6441 BaseTrueDamage
 0c9b48de BaseWaves
@@ -2700,6 +2717,7 @@ a2622f79 Bits
 a09c4975 BlackIce_Spawn4
 b031f273 Blackice_Joke
 3876757c BladeDamage
+74ec0113 BladeHitAD
 7f322ebf BlademasterBonusAD
 6b5aee70 BlademasterExtraAttacks
 c26236e7 BlademasterProcChance
@@ -2806,7 +2824,10 @@ b4325783 Body_Show
 45338ea3 BoltDamage
 2d234db3 BoltNumber
 38e84fbc BombDamage
+70b30b55 BondIncreasePercent
 dc84340f BonePlating_Buckler2
+43e3a6ec BonkDamage
+1ec43387 BonkPercentAttackDamage
 e09cc241 BonusAD
 4275312c BonusADDamage
 e06e243e BonusADFromMana
@@ -2815,6 +2836,7 @@ c5502c89 BonusADToGive
 d49caf5d BonusAP
 e80540fe BonusAPAuto
 d19caaa4 BonusAS
+3d6bec47 BonusASPerStage
 255e11cd BonusASPercent
 940ca598 BonusAllyHealth
 d1affc92 BonusAmp
@@ -2837,7 +2859,9 @@ c94903f8 BonusCritDamageRatio
 0db90ee0 BonusCurentHealthDamage
 58022635 BonusDamage
 7d1075e8 BonusDamageBase
+84045944 BonusDamageCalc
 d28440d1 BonusDamageDealt
+6eb74f4d BonusDamageFromAS
 21dee11f BonusDamageMult
 fb280f31 BonusDamagePer3Star
 393a2e00 BonusDamagePerAttack
@@ -2859,9 +2883,12 @@ beadd5dc BonusHP
 26c36394 BonusHPPer5MissingHealth
 5da22543 BonusHPPerMissingHealth
 f25546f7 BonusHPRatio
+a52713ed BonusHaunts
 f8f29a99 BonusHealPerFury
+3de3f795 BonusHealRatio
 5260b352 BonusHealth
 b47596d2 BonusHealthAO
+b0614907 BonusHealthBuff
 31128603 BonusHealthPercent
 ffdea211 BonusHealthRatio
 e9b6366a BonusHealthShieldRatio
@@ -2889,6 +2916,8 @@ db8cb844 BonusMaxHealthPerc
 aec08161 BonusMeleeDamage
 e75e816b BonusMinionDamage
 8b3fe61d BonusMissileDamage
+7b60ce82 BonusModifiedDamage
+504c56fa BonusModifiedShield
 93a19cb7 BonusMonsterDamage
 8d2da66c BonusMoveSpeed
 36f72964 BonusMovementSpeed
@@ -2911,6 +2940,7 @@ fda1f1fc BonusPhysicalDamage
 ba6df21b BonusQDamageCalc
 0c712be9 BonusRange
 d04ae9af BonusRatio
+28d45b77 BonusRerolls
 826927f6 BonusResist
 534b75fa BonusResistDuration
 2dadc088 BonusResistMax
@@ -2918,6 +2948,7 @@ d04ae9af BonusRatio
 861cdd9e BonusResistances
 d089365f BonusResists
 b55019fa BonusResistsAtStackCap
+12646f4a BonusResistsPct
 1204415e BonusResistsTooltip
 c0c9af7f BonusSP
 d5935805 BonusShield
@@ -2937,6 +2968,7 @@ c1948a38 Book
 d7037b1c Book_Glow
 d2609cd6 Book_Page
 c79493aa Boom
+52f9b8e7 BoostedModifiedDamage
 16fa9c87 Booth
 fffa7852 Boots
 0745b96e BootsOfSpeed
@@ -2945,6 +2977,7 @@ ce27ffbc BorrowVfx
 a033e740 Boss_Channel
 adad26fd Boss_Slash1
 aaad2244 Boss_Slash2
+df367657 BottomHalf
 4dd34fff BoulderDamage
 30fca063 BounceADRatio
 9807c016 BounceAPRatioTooltip
@@ -3196,6 +3229,7 @@ e2ffdfd4 BurnPct3
 50722f91 BurnlockoutDuration
 130bfaba Burrow
 7f40a146 BurrowDamageTooltip
+d92d5393 BurrowedBaseDamage
 720a0958 BurstBonusTrueDamageToChamps
 693d018c BurstDamage
 17cfa971 BurstDuration
@@ -3591,6 +3625,7 @@ c1679f60 ChampionHealing
 4734b06c ChampionHealingScalar
 01489a25 ChampionHealthDamage
 b39cb3a5 ChampionManaRestoreTT
+4184975e ChampionTier
 e91fb3ad Champion_Dead
 9292a6c1 Chance
 48ea2af8 ChanceToProc
@@ -4022,6 +4057,7 @@ e110ad25 Corki_death_MainJet
 746d6baf Corki_death_RHover
 59f80f4f Corki_death_RightGun
 fa0009d2 Corki_idle_1
+e85c3338 Cost
 a861afa0 CostIncrease
 4d7069b1 CostIncreasePercent
 bc7fb120 Countdown
@@ -4182,9 +4218,12 @@ fe435a9c Damage4
 1373fd24 DamageAmp2
 1473feb7 DamageAmp3
 6689e9ad DamageAmpPct
+cd355b65 DamageAmpPerLevel
+9da6d9b7 DamageAmpPercent
 907723a5 DamageAmpRatio
 d8f53a85 DamageBase
 288ff49f DamageBeam
+4e01a408 DamageBlockCalc
 02f8c2f7 DamageBonus
 fe409784 DamageBonusPVE
 c9e3357d DamageCalc
@@ -4198,6 +4237,7 @@ ed325470 DamageDone
 26aa1808 DamageFinal
 d2546436 DamageFloor
 92037b9e DamageFrequency
+1e0630e9 DamageHPPercent
 bc2cb061 DamageIfThreeSpheres
 cc4e6814 DamageInc
 19ca4a22 DamageIncMax
@@ -4212,7 +4252,9 @@ ce4ed7c0 DamageMaxTotal
 71cd619c DamageMin
 c9e8f369 DamageModifier
 292d829e DamageMult
+b94166b0 DamageMultiplerPerBonusAS
 4d3274b7 DamageMultiplier
+b474078e DamageOnHit
 f4ce39ab DamageOnHitCalc
 cabbc3d1 DamageOneBase
 3c0023cb DamageOverTime
@@ -4220,6 +4262,7 @@ c4e733f5 DamagePenalty
 a6720f5f DamagePerBounce
 c8f46cbf DamagePerBullet
 bbfb0a87 DamagePerBulletWithCrit
+a9116f9e DamagePerButt
 be50e58c DamagePerHPValue
 f7da7f38 DamagePerHit
 56237ed0 DamagePerPulse
@@ -4262,8 +4305,10 @@ ba76a9bd DamageReflection
 115b1482 DamageToMaxHealthRatio
 0ce06f16 DamageToMinions_Scaling
 703c0bab DamageTooltip
+0f437b7e Damage_BladeHit
 71ba3322 Damage_Hit
 3eef6730 Damage_Hurt
+0003c576 Damage_SpellHit
 f815289c Dance
 981caad3 DanceIn
 589c6ca2 DanceLoop
@@ -4401,6 +4446,7 @@ b6786a4e Deactivate_Idle
 3320df15 Deactivated
 bd28bd4d Death
 46224eed Death2
+502499fc DeathBonus
 f138015c DeathEffect
 f4323a6b DeathFX
 4b723935 DeathHide
@@ -4475,6 +4521,7 @@ f65f6cce Default_Camouflage_Ring_Revealer_Pulse_Ally
 830398ac DefenderBonusArmor
 1848d006 DefenseBonus
 589ea6c0 DefensePercent
+4700e996 DefenseRatio
 0bca9660 Defenses
 4ed1f1d8 Delay
 0648f467 DelayBeforeBurst
@@ -4507,6 +4554,9 @@ a165f64e Design_VillainLab
 6787f476 Design_VillainMeetingRoom_Day
 9a1b4555 Design_VillainMeetingRoom_Dusk
 1bf48de2 Design_VillainMeetingRoom_Night
+c41e08a6 DesireExecuteRewardPercent
+541fac28 DesireExecuteRewardPercentHR
+688965b1 DesireExecuteThreshhold
 ccc14100 Despawn_Loop
 c45b6745 Destroy
 4ae1fb4c Destroyed
@@ -4609,6 +4659,7 @@ ab261e47 DiscoRadius
 c65a0285 DismountedMS
 c13a9c51 DismountedQDamage
 9c9da487 DisplayPercentDamage
+2eb31462 Distance
 50e0bb84 DistanceToTower
 771423f7 Dive_In
 7f6e217c Dive_Out
@@ -4816,6 +4867,7 @@ ca0b3ba5 Dust
 c51e9cf3 E2Damage
 ce18ca7a E2DamageCalc
 5ea5cfa0 EBaseDamage
+ef104a56 EBonusDamage
 50d03f4e EDMstats
 78f8ea27 EDMtimereduction
 afc47051 EDamage
@@ -5116,9 +5168,12 @@ ee11ac2e EnableBountiesInBlockBuilder
 c57123f2 EnchantedDamage
 fc3f1387 EnchantedFalloff
 62dee747 EndDamage
+a2de9d6c EndHeal
 53d2d00b EndTime
 f6dd87fb EnemyAvoidance
+01c75c6c EnemyCastDuration
 a47d00a4 EnemyFirstEncounter
+d2d73a99 EnemyGold
 fda3b9f0 EnemyHealthPercentageThreshold
 15505df2 EnemyMagicalDamage
 7158618f EnemyMagicalDamageCritical
@@ -5310,6 +5365,7 @@ a8901de9 Extra
 766c34e6 ExtraAttacks
 ab2fb52e ExtraBoltBaseDamage
 830765cf ExtraBoltDamage
+93d13af6 ExtraBounces
 77c09305 ExtraDamagePerSecondCharged
 71239a0b ExtraHealth
 d23baac2 ExtraHitBaseDamage
@@ -5532,6 +5588,8 @@ baa4187c Fastattack3
 03a6669e FeatherBurst
 b9cec909 FeatherDamage
 2852ca86 FeatherDamagePreCrit
+075f6969 FeatherRecallBaseDamage
+9e738d10 FeatherRecallDamage
 09ac6ae4 FeatherTrail
 ba8db121 FeedChance
 f7f05c97 FiddleSticks_BasicAttack_tar
@@ -5741,6 +5799,7 @@ bc8b695f FireboltDamage
 d2eced7f FirstBlood_Danger_AOE_Burning
 4607a466 FirstBlood_RelicBuff_Tar
 e00fd11f FirstBlood_RelicBuff_TarSmoke
+16c2de34 FirstDelay
 e728fb24 FirstElixirLevel
 87c8611a FirstHitDamageCalc
 6e674fa2 FirstHitDamageTooltip
@@ -5862,6 +5921,7 @@ c7ebd655 FlatDamageSweetSpot
 73406a1c FlatHeal
 2250ecf0 FlatHealAmount
 9f83f2ff FlatHealThreshold
+569969dc FlatHealing
 3c34d047 FlatHealthPerTier
 c29bcc52 FlatMS
 4b9a3b61 FlatManaRestore
@@ -6373,6 +6433,7 @@ a5b4b8f8 GoldPercentBonusRanged
 7a57ccc3 GoldPoolForAssist
 6afd081e GoldProcBonus
 808fd1e9 GoldReq
+6fa60d84 GoldReward
 c62b8040 GoldThreshhold
 b5a4f01e GoldThreshold
 39e833aa Gold_Child_BA
@@ -6577,15 +6638,18 @@ ce6d9752 HKG_MatCap_Diff_Alpha_inst
 36991ef5 HP2
 35991d62 HP3
 30991583 HP4
+c6411985 HPAmt
 9c718664 HPBonus
 32fed486 HPMultiplier
 77d2a999 HPPerLegendary
 5610b17a HPPercent
 8ddf0da4 HPRatio
+cdcc223a HPRegen
 94c6a08c HPShieldAmount
 3105518b HPThreshold1
 d05832ac HPToSet
 f85976ea HPValue
+33039b9d HRGold
 62cdbdc5 HRound
 a3ccb8f3 HStage
 d4b676b9 Hair
@@ -6656,6 +6720,7 @@ adb6678d HealPerSecondTOOLTIP
 e0882668 HealPercent
 57e364d3 HealPercentage
 3d58e553 HealProc
+c0d92fa1 HealRate
 83dbe64e HealRatio
 0cb95e9d HealReductionPercent
 98396b21 HealShieldBoost
@@ -6688,6 +6753,7 @@ a603bc10 HealthBar
 8694a37d HealthBar_Attached
 d404602b HealthBar_Detached
 3d7fc142 HealthBonus
+5521699d HealthCap
 6c043596 HealthCost
 46ae650d HealthCostTooltip
 a659231a HealthCutOff
@@ -6698,6 +6764,8 @@ d42806c8 HealthGain
 ce562b5f HealthIncrease
 0381eaeb HealthOnHit
 6266505a HealthPct
+7055c521 HealthPerCompost
+01c433db HealthPerCompostHR
 8421887c HealthPerGold
 59488262 HealthPerKill
 822dbfab HealthPerLegendary
@@ -6720,6 +6788,7 @@ e122bcb9 HealthRestoreForTooltip
 089eeb3d HealthRestoreOnHitMinion
 19a9e858 HealthScaling
 3788e887 HealthShieldPercent
+cafc61d5 HealthShieldRatio
 3dd6c461 HealthSizeThreshold
 28b26e8a HealthThreshold
 cbe45061 HealthThreshold1
@@ -6731,6 +6800,7 @@ de7c26ca HealthToADRatio
 dd333b0e HealthTooltip
 0b35c482 HealthbarOnly
 97244f72 HeartKeepPercentage
+23a9da9c HeavenlyBonus
 5a8fdab9 Hecarim_BA1
 c090c4f2 Hecarim_BA1_weapon
 578fd600 Hecarim_BA2
@@ -7401,6 +7471,8 @@ ec6115d6 ImpactDamage
 e2219cd2 ImprovedHex
 ef01af58 Inactive
 53bfe4ab Inactive_Loop
+113e42dc IncRange
+54f474ac IncreaseBy
 89094428 IncreasePct
 e3c478bc IncreasePerRound
 51102aa2 IncreasePercent
@@ -7443,6 +7515,7 @@ e2e5cd22 InitialSlow
 14ba2698 InitialTimer
 0f8bb2e3 InitialXP
 f749db6d Inside
+02634780 InstantGold
 9a67fb30 Instrument
 116b05cf Interact
 687a6d47 Interact2
@@ -7468,6 +7541,7 @@ d2dd4720 Into_Taunt
 1cdfc6fa Intro_V02
 292f1d73 Invocation
 93c993fa Invocation_Loop
+c0b7f372 InvokerMana
 69247755 InvulnDuration
 72e2ca22 Invulnerable
 a9c49e16 Irelia_BA_Close_01
@@ -9560,6 +9634,7 @@ e909e89f Kayn_Z_Joke
 fe675462 Kayn_Z_Joke_Capture
 33b3369c Kayn_Z_Joke_Pickup
 494da8e6 Kayn_Z_Joke_Victory
+c5a4e705 KennenRDefenses
 59b45963 Kennen_BA_Crit_mis
 3cc40b67 Kennen_BA_Crit_tar
 17150b4b Kennen_BA_NoShuriken_01
@@ -9704,6 +9779,7 @@ e189a0a2 KillChampion
 c60b765e KillCooldownRefund
 fc655095 KillMask
 ac975f66 KillNeutralMinion
+9e063dc0 KillStacks
 6611a3fc KillThreshold
 7794024b KillTurret
 69a95d07 KillWard
@@ -9901,6 +9977,7 @@ dede83b3 KnockedUp
 887b797b KnockedUp_In
 bd0c49e7 KnockupDamage
 8283ecb6 KnockupDuration
+52d88be2 KnockupDurationSnap
 b2230955 KnockupIn
 bf74dd32 Knockup_Base
 1f0235ab KogMaw_BA_cas
@@ -9988,6 +10065,7 @@ c573ffa1 LanternGroundGlow
 f315833d Lantern_Null
 eabd8858 Lantern_Open
 b8ae7546 LargeBonusPct
+cf2c9ea5 LargeDamage
 86fde0bf LargeMonsterKillValue
 2ece4364 LaserAPRatio
 d1feb8ad LaserDamage
@@ -10356,6 +10434,7 @@ cf219b6e LevelToTurnOn
 5b3692cf LifeStealBase
 d083178b LifeStealPerStack
 1a37e857 LifelineItems
+5ff5eea6 LifestealMod
 0bcf8703 LifestealPercent
 c3281ba9 LifestealTooltip
 925ddf3a LiftedSnow
@@ -10510,6 +10589,7 @@ b8aee41b Loop2
 9e66faeb Lose1
 9f66fc7e Lose2
 a066fe11 Lose3
+2dbbd01d LoserBoost
 229de4b1 Loss1
 3165d5b5 Loss1_IN
 1eb177b8 Loss1_LOOP
@@ -10963,6 +11043,7 @@ b409ebfa MagicDamageReduction
 5d23d997 MagicPen
 1b12c9c5 MagicReduction
 b6f318ee MagicResist
+38da265e MagicResistPercentage
 47343861 MagicResistance
 f8917eb9 MagicResistanceShred
 022e368c MagicalDamage
@@ -11364,10 +11445,12 @@ c0571dea MaxHealthAPScalar
 6964cc9a MaxHealthDamage
 1979809f MaxHealthDamageCalc
 bea956d4 MaxHealthDifference
+70588aa5 MaxHealthDmg
 89b17169 MaxHealthHeal
 d20921a5 MaxHealthHealAmount
 20cc7fa3 MaxHealthIncrease
 30b8bd01 MaxHealthOnDevour
+ff744686 MaxHealthPct
 4fbe6d86 MaxHealthPerProc
 ee2e171b MaxHealthPerSec
 8cf37cd6 MaxHealthPerSecond
@@ -11383,10 +11466,12 @@ af701916 MaxHealthThreshold
 0e1b940b MaxHexRange
 ed7a2ac0 MaxIncreaseCalc
 fd1f540f MaxInterest
+93fcf59c MaxKnockbackDuration
 431aec6e MaxKnockup
 2ad574a9 MaxLegendStacks
 b686e82e MaxLifeSteal
 a7ffb282 MaxLocalGoldPercentage
+641d153d MaxMS
 bdc81fd4 MaxMSLevelCalc
 9d94f679 MaxMagicDamage
 7fdad35e MaxMana
@@ -11401,6 +11486,7 @@ a75ebfe0 MaxMonsterOnHitTooltip
 f6e4bded MaxPhysicalDamage
 9dec0a9c MaxQEmpowerPercentHP
 b0d9996d MaxRanksPerStat
+5515e531 MaxRootDuration
 da3491bc MaxShield
 834c21c1 MaxShieldCalc
 cabca0ba MaxShieldMult
@@ -11417,6 +11503,7 @@ f98c6abd MaxStackHPRatioTooltip
 c222239f MaxStackHealing
 6810ef40 MaxStacks
 f3e2154d MaxStun
+b3c37605 MaxStunDuration
 efcc72e3 MaxTakedowns
 19e930f4 MaxTotalDamage
 1f79b377 MaxTraps
@@ -11496,8 +11583,10 @@ b3ae29ac MinFlatDamageAOCalc
 5bb5e54b MinHealing
 016801c6 MinHealthDifference
 76d533ac MinHealthTooltip
+a1b96499 MinInterest
 963a6864 MinKnockup
 2bc2dc67 MinPercentHealthBase
+7545473f MinRootDuration
 6e046e66 MinShield
 fbe2eb62 MinSpeed
 93cacc77 MinSpeedCalc
@@ -11690,6 +11779,7 @@ d086982f ModifiedASValue
 fac096d7 ModifiedAbilityScaleDamage
 01ecf44e ModifiedActiveMagicDamage
 76db8056 ModifiedAllyHealing
+fea57aaa ModifiedAllyHealingAmount
 ee9eae65 ModifiedAllyShieldAmount
 936a2285 ModifiedAmpDamage
 4651b159 ModifiedArmor
@@ -11711,6 +11801,7 @@ b88724c5 ModifiedBigDamage
 31ab4ab1 ModifiedBlastDamage
 94fbd8f9 ModifiedBlueCardDamage
 9609fde3 ModifiedBombDamage
+4f2eb533 ModifiedBonkDamage
 1870685d ModifiedBonusAS
 5b31e270 ModifiedBonusDamage
 4f553e5f ModifiedBonusHealth
@@ -11732,6 +11823,8 @@ f24078df ModifiedDamage
 096af6da ModifiedDamageAmpRatio
 29e5e77e ModifiedDamageAoE
 08a55045 ModifiedDamageFinal
+64c2187b ModifiedDamageOnHit
+d71fed93 ModifiedDamagePerButt
 446c04fa ModifiedDamagePerSecond
 9e90f75f ModifiedDamagePerTarget
 d3bdf870 ModifiedDamageReduction
@@ -11741,15 +11834,18 @@ cb074526 ModifiedDelayedMagicDamage
 f5eb252e ModifiedDuration
 33bb6710 ModifiedEDamage
 75ef7159 ModifiedEmpoweredDamage
+f8fb715d ModifiedEndHeal
 48690697 ModifiedEnhancedAttackSpeed
 270780d1 ModifiedEssenceDamage
 f8f787a4 ModifiedExecuteThreshold
 ff590726 ModifiedExplodeDamage
 51537910 ModifiedExplosionDamage
+3b9ce440 ModifiedFeatherDamage
 4629b43c ModifiedFinaleDamage
 abc2f776 ModifiedFireballDamage
 c209f33e ModifiedFlameBreathDamage
 0c668f30 ModifiedFlatDamage
+1932e601 ModifiedFlatDamageReduction
 98e21fe3 ModifiedHeadlinerDootDamage
 09bc1f54 ModifiedHeal
 605f22d8 ModifiedHealAmount
@@ -11767,21 +11863,27 @@ c31747a0 ModifiedInitialHeal
 8cb975c8 ModifiedInitialMagicDamage
 028497cb ModifiedIsolationDamage
 9db4f5c9 ModifiedKickerHeal
+30263aa8 ModifiedLargeDamage
+f69098cc ModifiedLaserDamage
 eeac92d1 ModifiedLightningDamage
 b1147ecd ModifiedMR
 822057e4 ModifiedMagicDamage
+fd0b317b ModifiedMagicResist
 a2a2e55a ModifiedMainDamage
 ea71908d ModifiedMana
 064f9ea1 ModifiedManaCostReduction
 85436018 ModifiedManaPerAttack
+a336b599 ModifiedManaRestore
 45fc298f ModifiedMarkDuration
 31fc3985 ModifiedMaxDamage
 4acd9f14 ModifiedMaxHealthHealing
 589de3be ModifiedMaxHealthPerSec
+6b456dd5 ModifiedMegaDamage
 7cd71e4c ModifiedMissingHealthPercentBonus
 588a9429 ModifiedNumStrikes
 ebad1c97 ModifiedOmnivamp
 1fbe4bec ModifiedOnHit
+50e8d20d ModifiedOnHitDamage
 78291e66 ModifiedPassiveDamage
 b391db43 ModifiedPercent
 4785a5c6 ModifiedPercentAD
@@ -11809,17 +11911,23 @@ e3d4b5e1 ModifiedResists
 dcbfcee8 ModifiedSecondMagicDamage
 67657c25 ModifiedSecondaryBonusHealth
 42de401d ModifiedSecondaryDamage
+f1a7da43 ModifiedSecondarySpellDamage
+b111b1ae ModifiedSelfHealingAmount
 0546af49 ModifiedSelfShieldAmount
+5f851b01 ModifiedShenSelfishReduction
 33dad32f ModifiedShield
 8ccbbddb ModifiedShieldAmount
 26eac852 ModifiedShieldBase
 a808e8d9 ModifiedShieldDR
+f7f8ddfe ModifiedShieldDamage
 da4aa444 ModifiedShieldValue
 1321b8c9 ModifiedShielding
 a55e5d05 ModifiedShieldingAmount
 bf109374 ModifiedShimmerDamagePerSec
+e167ffa0 ModifiedShurikenDamage
 467d636b ModifiedSingleTarDmg
 4e3a954a ModifiedSlamDamage
+2bb5c10c ModifiedSmallDamage
 e3840ec3 ModifiedSmiteDamage
 12d49778 ModifiedSoulDamage
 e42c86ed ModifiedSpellDamage
@@ -11828,10 +11936,13 @@ a0c61c84 ModifiedSplashDamage
 da3e5d67 ModifiedStabDamage
 41749d4f ModifiedStackDamage
 d4eb666b ModifiedStackingDamage
+c004dff7 ModifiedStunDamage
 5f54a6c2 ModifiedTargetDamage
 18a1e591 ModifiedTentacleDamage
+a770d2d2 ModifiedTotalShieldValue
 f2f64370 ModifiedTransformHealth
 eae00237 ModifiedTreasureChance
+edec746b ModifiedTrueDamage
 e9c627fd ModifiedWHeal
 8893044d ModifiedWoundDuration
 e4233d8d ModifiedZoneDamage
@@ -12056,6 +12167,7 @@ cc7c0d0a Mount_Off_to_Run
 0fb234b8 Mount_On_To_Run
 84d1dd6b MountedQCalc
 49c50af3 Mounton
+5d9dbc7f MoveHaste
 51af37ba MoveOrder2D
 9f49799f MoveSpeed
 bdc3d00b MoveSpeedAmount
@@ -12064,8 +12176,10 @@ bdc3d00b MoveSpeedAmount
 5486c90e MoveSpeedCalc
 384ac53b MoveSpeedDuration
 4b504bad MoveSpeedMod
+cc4aaaf4 MoveSpeedPercent
 16dc53a6 MoveSpeedSlow
 fdaf6785 MoveSpeed_Base
+77db8303 Movement Speed
 d51c30d3 MovementSpeed
 cb67b417 MovementSpeedAmount
 b76e54de MovementSpeedBase
@@ -12737,6 +12851,7 @@ d1da1e25 NumBlueOrbs
 cd7c01a9 NumChoices
 c3c62200 NumCompletedItems
 5cc08b27 NumComponents
+8c4cd3ea NumCopies
 1b64eb90 NumDice
 875db1bd NumDragons
 aec10c49 NumDummies
@@ -12747,6 +12862,7 @@ d6f612f7 NumGoldOrbs
 25083082 NumGrayOrbs
 89d140c0 NumHighScores
 31c180b5 NumHits
+28b401f9 NumInstances
 be25031b NumItemAnvils
 6c216145 NumItems
 0e9c8fc0 NumLeveledUpShops
@@ -12762,15 +12878,18 @@ f18bef8b NumOfKills
 2a0d265e NumRounds
 9ceb3ce0 NumShots
 eb702324 NumSpatulas
+7c91783e NumSpectres
 2aceef04 NumStages
 011db30e NumStrikes
 c4f37b84 NumSummonersBeforeRepeat
+06982d8a NumSupportItems
 7d89bfed NumTakedowns
 f0f10b3f NumTargets
 dfa53c7b NumTicks
 e3d58c55 NumTomes
 8a8f7468 NumTraitsPerExp
 03ddeb0e NumUnits
+c4e0422d NumUntilIncrease
 e11e310b NumberOfBolts
 9f4e602e NumberOfHexes
 ebe691d4 NumberOfPortals
@@ -13185,6 +13304,7 @@ cf9d3cb7 PVEDamage
 fec09280 PackmateDamage
 fd50a7f9 PackmateSpawnCooldown
 0890d1a8 PackmateTotalDamage
+e84b7a40 PairHPBonus
 ebfc3e7b Panda
 ccfe4c45 Panel
 88f54e9f Pantheon_BA_tar_crit_01
@@ -13246,9 +13366,11 @@ de08bd92 PassiveDamageAmpCalc
 82ec2116 PassiveDamageBase
 3010e0db PassiveDamageTotal
 2070bb46 PassiveHair
+cebdf920 PassiveHeal
 05c8555c PassiveHealAmount
 0cd64bc0 PassiveHealCalculated
 7bd67a31 PassiveHealPercent
+c491840b PassiveHealTooltip
 c08f1028 PassiveHealing
 02ae9e03 PassiveHealingTooltip
 e4a33032 PassiveHealingTotal
@@ -13321,25 +13443,32 @@ d951a704 PercentAD3
 6f755c2e PercentADDamage
 4ce8f18b PercentADEmpowered
 7c54dc59 PercentADPerFeather
+512f0b9f PercentADPrimary
+2a03bb1b PercentADSecondary
+b4e5a1a7 PercentAPSecondary
 ec3d43d6 PercentAS
 962760a9 PercentAbilityPower
 f5b4cd81 PercentAmpCalc
 8318d83b PercentAmpCalcSelf
 8d67ea71 PercentArmor
+fda7f380 PercentArmorAndMRDamage
 608d099c PercentArmorDamage
 2deb7544 PercentArmorPen
 7ac38453 PercentAttackDamage
+8cfbe6b7 PercentAttackDamageBoosted
 db1859c9 PercentAttackSpeed
 796e1b71 PercentBiteDamage
 c2026c00 PercentBonusAD
 cb6b5298 PercentBonusDamage
 0b0b3c63 PercentBonusMaxHealth
 67692fef PercentBonusResist
+1e9458af PercentBuff
 29f22d3b PercentCritAsAP
 ac0467a3 PercentDPSOnHit
 43961cf7 PercentDamage
 75994f47 PercentDamageIncrease
 bdd452e8 PercentDamageReduction
+55909764 PercentDamageToHeal
 f5278bb2 PercentHP
 45fd792f PercentHPBase
 caea9fe0 PercentHPBlast
@@ -15940,6 +16069,7 @@ eb562fc6 Pet_Idle_Master_Tier3_Glow
 8b0ab502 Pet_Turtle_Idle_Master_Tier3_Body
 1997db83 PhoenixAoEDuration
 773611af Phone
+f5abbad4 PhysDamageADRatio
 8ca4c14a PhysicalCritPerWave
 f1ed03d1 PhysicalDamage
 9343f6f4 PhysicalDamageCritical
@@ -16099,10 +16229,12 @@ c37ef60f PreSeason_Turret_Shield_Shielded
 50e137ea Preseason_Palisades_Resists_Stage_4
 15b37e0f PrimaryADRatio
 8ccbdb54 PrimaryDamage
+5051e339 PrimaryMagicDamage
 0c178539 PrimaryTargetBase
 0241644d PrimaryTargetDamage
 ed68fd7f PrimaryTargetHPRatio
 dad318b4 PrimaryTotalDamage
+702df0e0 PrismaticMultiplier
 f52941f5 ProcADPercent
 530a7d84 ProcAttackSpeed
 730c71aa ProcBaseMax
@@ -16257,6 +16389,7 @@ f46aa855 Q1_INTO_Idle
 76758100 Q1_INTO_Run
 9d25e167 Q2TotalOnHitHPDamage
 20ef4d1f Q2_INTO_Run
+0b5869ee Q3KnockupDuration
 cee81e69 Q3_INTO_Passive_Idle
 4b15730a Q3_INTO_Run
 81918a70 QADRatio
@@ -16291,6 +16424,7 @@ a2b62485 QUltDamageBeam
 1b9f2b93 Q_WeaponTrail
 67ac7f66 Q_cas_Left
 1663629b Q_cas_Right
+25da54ae Q_tier3_bonus_burn
 3185f8f0 Qiyana_BA_Swipe1
 3485fda9 Qiyana_BA_Swipe2
 3385fc16 Qiyana_BA_Swipe3
@@ -16452,6 +16586,7 @@ be91f3e7 RCCDuration
 b66bca58 RCooldown
 e5c69450 RDamage
 37b6e44d RDamageCalc
+e33cb8a1 RDamageReduction
 048abdca RDamageTotal
 2cbad27d RDuration
 9ecb7cbe RE1Base
@@ -16485,7 +16620,10 @@ c223ad7d RQTurretResists
 4fd88f22 RRange
 b109a034 RRatio
 dfcc38b0 RShadowDurationDisplayed
+c4864378 RSlowDuration
+553c9a67 RSlowPercentBasePreMath
 b67ef955 RSmallMissileDamage
+b2735c9e RStasisDuration
 1c76da01 RStunDuration
 dd5f8626 RStunReduction
 06304373 RTotalADRatio
@@ -16759,6 +16897,7 @@ f7b8ac3d RedDamage
 69ebc1b4 ReducedDamage
 ba40e56c ReducedDamageFinal
 bed1d1a3 ReducedModifiedDamage
+9324b9a4 Reforgers
 5b720329 RefreshCost
 b258b089 RefreshSeconds
 47582016 RegenAmount
@@ -17017,6 +17156,7 @@ ef274473 ResistAmount
 33a7309a ResistBuff
 5c028b9f ResistMax
 49eee791 ResistMin
+167230ac ResistPercent
 bc56a280 ResistPercentInc
 deec2708 ResistReduction
 0923f4b1 ResistencesPerHit
@@ -17052,6 +17192,7 @@ e7523090 RevealDuration
 68da9c4e Revert_Scale
 2086cdf0 Revive
 f225a43c ReviveBlobletDuration
+5c3ff381 RevivePercent
 72ccc5a0 RhaastPlayerHealthPerKill
 78e32de5 Right
 3bf12c6e RightCast
@@ -17198,7 +17339,9 @@ a1a486f2 RootsHide
 719c3fca RoundCount
 17ca944d RoundCountDU
 01f43275 RoundCount_HR
+d2f661e9 RoundGold
 7831c746 RoundRequirement
+b49d297a RoundStacks
 7b93f84a RoundsPerComponent
 b6338552 RoundsPerRefresh
 00b84517 RoundsToRegain
@@ -18304,6 +18447,7 @@ dc1a9041 ScaleBody
 82acf408 ScaleTrack
 ce4aa5c7 Scale_Base
 1ece8846 ScaledASBuff
+9e924a4b ScaledDuration
 4798c6ab ScaredInto
 9ab10a2c ScatterDamage
 8b03bcfd Scientist_Offset
@@ -18334,9 +18478,11 @@ dc93cefc SecondaryDamage
 01b53211 SecondaryMagicDamage
 9e48dd8b SecondaryModifiedDamage
 3fdfc378 SecondaryRatio
+748589c0 SecondarySpellDamage
 389cfd75 SecondaryTargetDamage
 44338913 SecondaryTargetDamageMod
 94fc9996 SecondaryTargetDamageMultiplier
+430b9694 SecondaryTargetPercentage
 afd7414c SecondaryTotalDamage
 66b6cdea Seconds
 a2aa9545 SecondsForEmpoweredAttack
@@ -18435,6 +18581,7 @@ d14d82c2 Sejuani_audio_emote_laugh
 df36deba SelfAttackSpeed
 2af5ed55 SelfBonusMana
 a6278d35 SelfCastFlatHeal
+06e3841f SelfHealingAmount
 0ecc6c1a SelfShieldAmount
 4d7f540e SelfUltPercentage
 a3b26d14 Senna_BA_Avatar
@@ -18850,6 +18997,7 @@ bcf84a8e Sheath_Run_Haste
 5fa5507c SheenMult
 6444ae20 SheenSpeedPerStack
 a25fdc1d Shen
+0f241126 ShenSelfishReduction
 df82ab40 ShenSpirit
 4b474d59 Shen_BA_blood_crit_01
 2cc0acc9 Shen_BA_cas
@@ -18946,6 +19094,7 @@ f4c0c480 ShieldAPRatio
 0f61f008 ShieldAmount4
 de43b8f9 ShieldAmountBase
 b28e2f74 ShieldAmountTT
+db2b2efa ShieldAmt
 ebc34ac5 ShieldBHPRatio
 0c2eb095 ShieldBase
 667bf153 ShieldBaseAmountFast
@@ -18986,6 +19135,7 @@ b2044582 ShieldPercentHealthTooltip
 2af13883 ShieldRatio
 6e7b43a5 ShieldReduction_Large
 33597d09 ShieldReduction_Small
+0a80c331 ShieldResistPct
 24b16f62 ShieldShred
 4641fc01 ShieldSize
 72f518d1 ShieldStrength
@@ -19036,6 +19186,7 @@ c9d581bb ShredPercent3
 14adee04 ShredSunder
 e0c16678 ShurelyaMythicPassiveBonus
 226d2f2a ShurelyasMythicPassive
+4d347543 ShurikenDamage
 06e5db9c ShurikenHit_L
 fce5cbde ShurikenHit_R
 05d836b8 ShurikenImpact_A
@@ -19708,6 +19859,7 @@ ba4c9dd1 Skybox_VillainMeetingRoom_Dusk
 dd177fa5 SlamDamage
 d1601b38 SlamDamageTotalTooltip
 e43dfc97 SlamDownStrikeDamage
+f1fe5117 SlamPercentHealth
 cb73e8ea Slash
 c3edce86 SlashBaseDamage
 4f9d2d87 SlashDamage
@@ -19720,6 +19872,7 @@ b685c4c2 SlayerHealPercent
 cf1733d7 SlayerMaxHPBaseDamage
 1bf14cf3 SlayerMaxHPDamagerPer100AD
 ca0bd63f Slayer_Tar
+edd3dd38 SleepDuration
 ca205aab Sleigh
 64600b90 SleighSnow
 41e574db Slime_RewardHealTurrets_GroundIndicator
@@ -21018,6 +21171,7 @@ b9f6436d Spell6
 ac7db0d9 Spell6_To_Run
 7884bf11 Spell6_Windup
 62f5ba78 SpellA
+107f7eb9 SpellAPDamage
 a1c5caae SpellA_Toidle
 f4b93211 SpellAttack
 65f5bf31 SpellB
@@ -21030,6 +21184,7 @@ f4b93211 SpellAttack
 66f5c0c4 SpellE
 71f19a8e SpellEnd
 b36ab16e SpellHit
+674255fb SpellHitAD
 bec0368a SpellIn
 cf586424 SpellLevelUp
 c207a39e SpellMantraRefund
@@ -21100,6 +21255,7 @@ a1f3f934 SpinCover
 ac0b3494 SpinDamage
 6abad9b9 SpinDuration
 b6ea4177 SpinLoop
+9057ebbf SpinPercentAttackDamage
 d33f1f07 Spin_Into_Flight
 c7e0ee15 Spin_Into_Spin2
 3ad00784 SpinningShuriken
@@ -21178,6 +21334,7 @@ d13b2f71 Star
 652b04df Start
 104885ae StartDamage
 698f508f StartHide
+90e613ad StartOfCombatDRPercent
 d86a4c5d StartRound
 664da10b StartStage
 9c6a27a4 StartingAD
@@ -21186,7 +21343,10 @@ a86a3a88 StartingAP
 c5aeb275 StartingBaseDamage
 0df00397 StartingBonusMana
 fa37db04 StartingCDR
+7ff3e71c StartingCost
 8da8785b StartingHealth
+d7c784e1 StartingHealthHR
+b35fbe7d StartingMS
 36c17bb0 StartingOOCMS
 6846cdc4 StartingOmnivamp
 94ad0ac7 StartingRadius
@@ -21221,6 +21381,7 @@ aa44e49a StopTurn
 9372d7eb StopwatchGroup
 37aece3a StormBaseDamage
 ac8c83f3 StormDamage
+1156129a StormDuration
 36d60ed3 Storm_Body
 445458c7 StreakVictory
 5f1c3fbf StrikeBaseDamage
@@ -21237,6 +21398,7 @@ da9068a6 StunCD
 1f566f88 StunDurationOuter
 64d5fca1 StunIncrease
 a4bab8bc StunInterrupt
+d2124a27 StunPercentAttackDamage
 e5afabee StunRange
 67a830a4 Stunned
 bed1a105 SubesquentDamage
@@ -21404,8 +21566,10 @@ fd5f36a7 SwiftshotPressTheAttack_TarEmpty
 d04ca1b1 SwingDamageBase
 008caf06 SwingDamageTotal
 960516b9 Swipe
+0476abad SwipeADPercent
 949a8c34 SwipeDamage
 b1217801 SwipeDamageBase
+f006fa23 SwipeFlatDamage
 ce15b85b SwipeVFX
 05a15979 SwipeVFX02
 54cc1660 Swipe_2
@@ -25394,6 +25558,7 @@ d4982ec8 TFT_Yasuo_Q_wind_mis
 a8cd7e6f TOOLTIPONLYDamage
 383d4aeb TOOLTIPONLYPassiveBonusPercent
 299be1e7 TOOLTIPTotalDamageAmp
+d4bf8645 TOOLTIPTotalSpellDamage
 085e56a2 TOTAL_ATTACK_SPEED
 5d0b9563 TOTAL_DAMAGE
 1c14de50 TOTAL_MANA_REFUND
@@ -25477,6 +25642,7 @@ ab1b0691 Tail-30
 4ac3faa9 Tail0
 a60be453 TailHair_In
 acdb7cc0 TailHair_Out
+9fea86d7 TakeDowns
 5ca4fcf2 TakedownBaseDamage
 208c42f6 TakedownBonusMana
 bc70ae31 TakedownCDR
@@ -25714,6 +25880,7 @@ f8a8215b Taunt_Ult
 2c98f489 TeamAD
 2098e1a5 TeamAP
 2f744e2b TeamAbilityPower
+1805b335 TeamBonusHealth
 392edb65 TeamFlatHealth
 dd3e2f2b TeamMana
 cab626a5 TeamSize
@@ -25816,7 +25983,9 @@ c413b8be Teleport
 59e4ca25 TeleportDistance
 dec48c7d Teleport_Loop_Skirt
 7b4de0f0 Teleport_Windup_Skirt
+392a301b TempDamageReduction
 d44ef505 TempoMoveSpeedSlow
+52f9d2fc TenacityAmount
 3c90c68a TenacityAndSlowResistPerLegendary
 71922f05 TenacityBase
 a5420524 TenacityPerLegendary
@@ -26032,6 +26201,7 @@ cfc9a899 Tier2_NumberOfBlowback
 56034ed0 Tier3Heal
 fd44bf8b Tier3HealDU
 fa4f482e Tier3HealHR
+2285952a Tier3_Burn
 4ce7bc61 Tier3_ExecuteThreshold
 a849aab9 Tiger_Win
 d5048c51 Tiger_WinSteak
@@ -26083,11 +26253,13 @@ da93a420 TooltipPercentage
 9cd1f94c TooltipRecallAP
 b9b6501b TooltipRerollCost
 b38c5929 TooltipShield
+1ecfa8f5 TooltipSizeScale
 dcbea828 TooltipStartingCharge
 a8b74ee1 TooltipTimer
 f34bcd47 TooltipTotalDamage
 16c885e0 TooltipTotalHealth
 17353812 TooltipTrueDamageCalculation
+95de7de1 TooltipValue
 687f4797 Tooltip_EEBaseDamage
 2029c456 Tooltip_EEDamage
 01d8c723 Tooltip_EQBaseDamage
@@ -26119,6 +26291,7 @@ d03aede1 TotalADPercent
 563bb723 TotalADRatio
 ede6cb63 TotalAPBonus
 ffa2fca5 TotalAS
+dcdeafe3 TotalASMod
 be692616 TotalActiveDamage
 ca153c3e TotalAllyDamage
 0f605d99 TotalAllyMovementSpeed
@@ -26194,6 +26367,7 @@ e33254fc TotalEmpoweredDamage
 ff4bf141 TotalExecuteDamage
 c25bda89 TotalExplosionDamage
 f899a2e8 TotalExtraArmor
+aed3fbd8 TotalFeatherRecallDamage
 c150a188 TotalHaste
 3d3d6f53 TotalHeal
 e78afe97 TotalHealAmount
@@ -26247,6 +26421,7 @@ c584552a TotalPercentHealthDamageFeared
 d81c781d TotalPhysicalCritDamage
 eaae6e99 TotalPhysicalDamage
 45da6466 TotalPounceDamage
+55b9485c TotalPrimaryDamage
 e55c8f04 TotalProcDamage
 80f05e1b TotalQAttackSpeed
 c7a0c9e4 TotalResists
@@ -26271,6 +26446,7 @@ d55ca72e TotalStaccatoDamage
 7e958cbc TotalStrikes
 1d7cccfc TotalSwipeDamage
 0ae25fbd TotalTempoMoveSpeedSlow
+d19def62 TotalTransformDamage
 d9b681ed TotalWaves
 0e041348 TotalWavesTooltip
 12692efd TotalXP
@@ -26298,6 +26474,7 @@ f538bc0e Trait_Slicer_Block
 f80a8b80 Trait_Yordle_Child
 47e13ae4 Trans_Hg2hgidle
 e1ad931b Transform
+59fbe917 TransformADPercent
 2dac49dd TransformHealth
 6abbff81 TransformVfx
 31dd6478 Transform_Air
@@ -26400,7 +26577,9 @@ b248afee Tristana_Z_Recall_GroundDust
 8a04a74d TrophyIdle
 5ebb4436 TrophySubmesh
 e241a860 TrueDamage
+dd00e059 TrueDamageAP
 d5ce2141 TrueDamageCritical
+ced35b7b TrueDamageHPRatio
 1a99ba5c Trundle_BA_swipe_1
 1d99bf15 Trundle_BA_swipe_2
 4863da0d Trundle_BA_tar_01
@@ -27814,6 +27993,7 @@ fb211688 Upchuck
 2899000b UpdateAfterMinutes
 f4e9b5ef UpfrontShieldHealthRatio
 92430e24 UpgradedCooldown
+db15f20a UpperHalf
 b837158b UrfRipples
 b481d6cf UrfSplash
 194668c3 Urf_Fizz_Fisherman_Emote_Urf_SFX_01
@@ -28588,6 +28768,7 @@ c77022aa WMarkBonus
 635eac09 WMissingHPPer100AP
 f2a31bdb WShield
 280d0392 WShieldCalc
+cc71959b WSlowDuration
 6958137c WTotalADRatio
 f2987bed WUltBaseDamage
 4c8a6b8c WUltDamage
@@ -28784,6 +28965,8 @@ c4d287f1 WindyRefresh
 7778c024 Wings_Ambient
 5447ce74 Wingturn_Lft_Small
 363a4efb Wingturn_Rgt_Small
+274fd9e8 WinningStatBoost
+17dd5c2f WinsNeeded
 858d591a Winstreak_Idle
 d87aac42 Winstreak_Pie
 e7555186 Wipe
@@ -28808,7 +28991,9 @@ ee0b9b2f Worlds_Ground_Ocean
 616467a6 Wraith
 b471ffb1 WristGlow
 516374d5 XP
+acf6f8c7 XPNow
 01725633 XPPer5
+94e81eda XPPerGold
 61e5f91d Xayah_BA_Crit_Mis
 3638787a Xayah_BA_Hit_Tar
 85ce3d8f Xayah_BA_Hit_Tar_Crit
@@ -29265,6 +29450,7 @@ db600d62 Yorick_W_Health_Lvl3_3_enemy
 643b78e3 Yorick_W_Warning2
 2d476028 Yorick_W_Warning2_Enemy
 60a3b4ca Yorick_Wraith_Head_Idle
+74a84398 YourGold
 055d67b3 Yuumi_BA_cas_crit
 ca134a18 Yuumi_BA_mis
 d6ac0144 Yuumi_BA_tar
@@ -29998,6 +30184,7 @@ f6ddaf8e chaos_blackMist
 e83c6ac9 cleave
 6129a274 cn
 56ecde12 companions
+1bf51169 components
 ceb875a9 cooldownPack
 86271efd cr_DragRepeatTime
 c1225630 cr_MouseScrollSpeed
@@ -30105,6 +30292,7 @@ fce04ce8 goldgenerated
 c866112e goldrequired
 92bc89a0 gunpowder
 808831e6 gunpowder_ground
+033f554b healamp
 243dccaa healthPack
 14e8b0ad hecarim_Q_weapon_buf
 accd03ea hook
@@ -30144,6 +30332,7 @@ cf050ef8 lambert2
 d005108b lambert3
 d505186a lambert4
 d40516d7 lambert7
+83d03615 length
 cb26bbae levelreqa
 ca26ba1b levelreqb
 c926b888 levelreqc
@@ -30171,6 +30360,7 @@ fbfdf021 mvm_PercentDamageToOtherMinionsByTowerAdvantage
 89d966bd newfrequency
 fa835d2a newtickrate
 e68b9c52 normal
+90271586 numtg
 6e344447 oc
 f247c5c2 oc1
 275181d6 order_blackMist
