@@ -1,3 +1,4 @@
+4247cbb9 AIGenericCommon
 ef04b183 AISpellData
 c0dabd40 AISpellDataInstance
 b78525db AbilitiesUiData
@@ -90,6 +91,7 @@ e6caaf8c AttackEvents
 42f9c69e AudioTagListProperties
 a3640c69 AudioTagListPropertiesInstance
 6dfab860 AugmentData
+a5e0e842 AvatarVars
 1ddbf456 AvatarVarsTable
 ff6fd571 AvatarVarsTableInstance
 f69490f9 BackdropElement
@@ -202,6 +204,7 @@ cd2f704e ChangeMissileSpeedOnDelay
 24d0f2d9 ChangeMissileSpeedOnDelayInstance
 3cd8dbcd ChangeMissileWidth
 66a45d70 ChangeTurnRadius
+b60f0432 CharScript
 8b3aa710 Character
 11b71b5e CharacterHealthBarDataRecord
 56e86b29 CharacterHealthBarDataRecordInstance
@@ -217,6 +220,7 @@ fc4f4b05 CharacterPreloadData
 b2cc5617 CharacterStealthData
 ec3d693a CharacterToolData
 d84541a5 CharacterToolDataInstance
+4723f716 CharacterVars
 44d5c86a CharacterVarsTable
 f647f655 CharacterVarsTableInstance
 13866e1b ChatThrottlerData
@@ -237,6 +241,7 @@ bba8c3c3 CherryCameoList
 274447fc CherryEliminationViewController
 fbbb1174 CherryRoundsViewController
 359b5c4f CherryScoreboardViewController
+ea5177f5 CherrySpectateMatchDialogViewController
 83b90edd CherryTeamFlyoutPanelViewController
 374bca72 ChildMissileParentRepulsion
 64a056ca ChildMissileRepulsion
@@ -799,6 +804,7 @@ f500f869 GeneralSettingsGroup
 e4efd662 GenericSplineMovementSpecInstance
 5d885176 GetKeyValueInCustomTableBlock
 e4333491 GetKeyValueInCustomTableBlockInstance
+109a4b6c GetModePreloadFlags
 387c1e21 GetSizeOfCustomTableBlock
 c7e61ffe GetSizeOfCustomTableBlockInstance
 a7ab33c6 GlobalAudioBanksProperties
@@ -861,6 +867,7 @@ fb821d03 HeroStatData
 01c51279 HeroStatsDefinition
 9e7b8301 HighlighterViewController
 8478a093 HomeViewController
+5a4abe00 HomeViewPromoBanner
 0bc20c38 HomeViewSpecialOffer
 dc0843de HomeguardSkinUpgrade
 61e623a9 HomeguardSkinUpgradeInstance
@@ -936,6 +943,7 @@ a4c4c795 HudPlayerResourceBars
 912acac1 HudPurchaseDialog
 5904728c HudRadialWheelData
 eb573c37 HudRadialWheelDataInstance
+c9566499 HudReciprocityButton
 a76e64c1 HudReplayData
 d4e3d19e HudReplayDataInstance
 e3af402a HudReplayEventTooltip
@@ -1064,10 +1072,13 @@ d4441c55 IconElementGradientExtension
 77c7801e IdleParticlesVisibilityEventData
 888416c3 IfBlock
 7242d99b IncBotCheat
+7e0d2e94 IncrementalPurchaseDialog
 8c7f4009 IndicatorTypeGlobal
 3f511d05 IndicatorTypeLocal
+6df7291a InfoNubData
 cd06946c InsertIntoCustomTableBlock
 89c36217 InsertIntoCustomTableBlockInstance
+2f0c3844 InstanceVars
 f1b26498 InstanceVarsTable
 63d98ec3 InstanceVarsTableInstance
 db7fe297 IntDefaultTableGet
@@ -1153,6 +1164,7 @@ b5c1b6ad JointSnapEventData
 f3b1f72a JointSnapEventDataInstance
 b375545f JointSnapRigPoseModifilerData
 b45ca61c JointSnapRigPoseModifilerDataInstance
+6d44cc13 JunglePath
 5ca5224c KeywordData
 0be71189 KeywordViewController
 293abb5a KillAllTurretsCheat
@@ -1166,6 +1178,7 @@ a51270e5 LayoutStyleBase
 d7d5f570 LayoutStyleGrid
 26f2a088 LayoutStyleHorizontalList
 b277fa06 LayoutStyleVerticalList
+c910a9e4 LeagueFlavor
 30eeda78 LearnedSpellDynamicMaterialBoolDriver
 553e4ba3 LearnedSpellDynamicMaterialBoolDriverInstance
 b4c4e463 LerpMaterialDriver
@@ -1175,6 +1188,11 @@ d27d6bcf LevelPropAiCommon
 5a730cb9 LevelPropGameObject
 2c04ede0 LevelPropGameObjectCommon
 4d8b713a LevelPropSpawnerPoint
+900ae818 LevelScriptOnEnd
+9738ad75 LevelScriptOnInit
+b68a82eb LevelScriptOnLoad
+ccea6e3a LevelScriptOnReset
+562f28ea LevelScriptOnUpdate
 2cdc6a27 LineTargetToCaster
 4388bb90 LinearTransformProcessorData
 db961a4b LinearTransformProcessorDataInstance
@@ -1248,6 +1266,7 @@ dfa2efb1 Map
 cbcee203 MapAction
 b3a20911 MapActionPlayAnimation
 7f3c5086 MapActionPlaySoundAtLocation
+fea4e3fe MapActionTFTCameraShake
 e54c014f MapAlternateAsset
 32a5f174 MapAlternateAssets
 c0c056f1 MapAnimatedProp
@@ -1411,6 +1430,7 @@ f290add3 MouseOverEffectData
 eda975b4 MultiKillLogic
 9082cc09 MultiLineTextElementData
 6706a6d6 MultiLineTextElementDataInstance
+869e25cd MultiPurchaseDialog
 6630947b MusicAudioDataProperties
 f3c12268 MusicAudioDataPropertiesInstance
 332eb441 NamedDataValueCalculationPart
@@ -1428,8 +1448,10 @@ b22d5652 NeutralTimerSourceIconDataInstance
 4c7bb73e NeutralTimers
 05ae7109 NeutralTimersInstance
 c3f33ef3 NewSpellCastFlowToggles
+dd681b43 NextBuffVars
 321d6e25 NextBuffVarsTable
 b36e92f2 NextBuffVarsTableInstance
+7c1c1df4 NextSpellVars
 77f1af88 NextSpellVarsTable
 c6c20233 NextSpellVarsTableInstance
 d5a6ab25 NotMaterialDriver
@@ -1577,6 +1599,8 @@ ba43011f PlayerReportViewController
 c0037ef9 PlayerStatStonesViewController
 ddcd3678 PostGameViewController
 a6e60faf PracticeToolViewController
+5c8a06f1 PreloadCharacter
+5b82a425 PreloadCharacterWithSkinID
 a66424c6 PresetAnimatorCheat
 09b5d357 PresetEnvironmentArtCheat
 ad106e67 ProductOfSubPartsCalculationPart
@@ -1716,8 +1740,10 @@ ea5c9896 SelfAoe
 3c43ef68 Sequence
 8d30a7c0 SequencerClipData
 97287bfb SequencerClipDataInstance
+6d1ee7ae SetBit
 86e7be2a SetKeyValueInCustomTableBlock
 0f670515 SetKeyValueInCustomTableBlockInstance
+35b54ed0 SetModePreloadFlags
 3e9d7b55 SetRespawnTimerCheat
 80f1cd62 SetRespawnTimerCheatInstance
 fd6c74ef SetTableValueBlock
@@ -1743,6 +1769,7 @@ a847e0a9 Shop
 f4dc8ec5 ShowServerMissilesCheat
 312aaf93 SineMaterialDriver
 1bac3390 SineMaterialDriverInstance
+32d151c6 SinglePurchaseDialog
 f009b64a SinusoidalHeightSolver
 7efe5035 SinusoidalHeightSolverInstance
 426d89a3 SkinAnimationProperties
@@ -1857,6 +1884,8 @@ f4d0f73f StopAnimationEventData
 f29721ff StoreCategoryButtonDefinition
 0833fc03 StoreDialogViewController
 44544233 StoreViewController
+fdde9956 StrawberryAugmentSelectionViewController
+9e2e49e8 StrawberryRoundsViewController
 101afdc9 StringDefaultTableGet
 dbc5c2a4 StringGet
 8c5d917f StringGetInstance
@@ -1918,6 +1947,7 @@ d6d0730b TFTBattlepassViewController
 7d056314 TFTBotLoadoutConfiguration
 304496f1 TFTCharacterRecord
 feed65c7 TFTCharacterRoleCardViewController
+15f07f54 TFTCharacterRoleData
 2558886d TFTCombatRecapViewController
 ef039d8b TFTCompanionBucket
 6a569767 TFTCompanionEvolutionViewController
@@ -1926,6 +1956,8 @@ ab3db96c TFTCustomAnnouncementViewController
 54530df7 TFTDragData
 6cae7c7b TFTEliminationViewController
 c12f716a TFTEmotePanelViewController
+6970c508 TFTEventHubLargeViewController
+aa229297 TFTEventHubViewController
 03314f38 TFTGameVariationData
 a7ae8586 TFTHintMessageViewController
 1233dbf1 TFTHudAnnouncementData
@@ -1957,10 +1989,13 @@ f737def9 TFTStageData
 7d14423b TFTStatData
 26868b0f TFTStreak
 956ad097 TFTStreakData
+64da2c7f TFTTraitAssignmentVariation
 e007e6f5 TFTTraitContributionData
+215d037d TFTTraitInfoCard
 6ab22868 TFTTraitInfoCardViewController
 c130c1e5 TFTTraitSetData
 c2662ac4 TFTTraitTrackerViewController
+de2af923 TFTTrovesCelebrationViewController
 7504f4c1 TFTUnitUpgradeData
 5e6f0af9 TableGet
 8799ac14 TableValue
@@ -2007,8 +2042,11 @@ c0b1025d TargeterDefinitionSkipTerrainInstance
 f934934d TeamScoreMeterUITunables
 73dca0f0 TechniqueDef
 ac9d3cf9 TempTable
+8386aed8 TempTable1
 6805f55c TempTable1Table
+8686b391 TempTable2
 110b09ab TempTable2Table
+8586b1fe TempTable3
 63137212 TempTable3Table
 7d6afbc5 TerrainLocation
 350f16ae TerrainType
@@ -2017,6 +2055,7 @@ ac9d3cf9 TempTable
 37b92611 TextElementDataInstance
 eef72ed0 TextureAndColorData
 e071f48b TextureAndColorDataInstance
+17c543dc TextureOverride
 ebd862b2 TftAnnouncementsViewController
 e132f2d0 TftBaseTraitSetData
 cb928b94 TftChangeDamageSkinCheat
@@ -2347,6 +2386,7 @@ fc85ab7b WardData
 fa33b8e8 WardSkinDisabler
 a2603593 WardSkinDisablerInstance
 2dcfc13a WidthPerSecond
+b1474db1 WorldVars
 54726d4b WorldVarsTable
 8f15d6b8 WorldVarsTableInstance
 95ef430a X3DSharedConstantBufferDef

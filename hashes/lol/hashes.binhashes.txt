@@ -25194,6 +25194,7 @@ ccf72f63 TFT_Gangplank_E_Mis
 bef6e6e4 TFT_Garen_E_Spin
 03d873fc TFT_Garen_E_Sword_Swipe_Front
 009dba83 TFT_Garen_E_Tar
+0cbdb073 TFT_Generic_ManaRestore
 7f75dd49 TFT_Get_Gold
 21113593 TFT_Get_Gold_Avatar
 0bd50a74 TFT_GlobalCastRing
