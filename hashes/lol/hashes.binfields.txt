@@ -3943,6 +3943,7 @@ b968bfd2 mFlatDodgeMod
 4bae460b mFlatGoldPer10Mod
 06d997bb mFlatHPPoolMod
 014811c0 mFlatHPRegenMod
+b821026a mFlatLethalityMod
 288a964d mFlatMagicDamageMod
 ec1482d9 mFlatMagicPenetrationMod
 56d33faf mFlatMagicReduction
