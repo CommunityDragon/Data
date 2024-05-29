@@ -260,6 +260,7 @@ e0613999 Audio
 3b182105 AudioBankPaths
 189600ee AudioBankUnits
 7ea3e8d8 AudioEventName
+1965c801 AudioFeature
 f1695b8d AudioFlexValueParameterName
 5cfe9324 AudioSource
 76503b91 AudioType
