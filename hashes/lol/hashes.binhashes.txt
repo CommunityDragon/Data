@@ -696,6 +696,8 @@ c58a7d21 Ahri_Skin86_Emote_Taunt_Kills_Number_5
 63f98779 Ahri_Skin86_Orb_Laugh
 3ad7182f Ahri_Skin86_Orb_idleVar
 189786e2 Ahri_Skin86_Q_Orb_Restore
+071664c6 Ahri_Skin86_R_Ahri_Skin86_R_HUD_Flash_Gem_Restore
+d039cba0 Ahri_Skin86_R_Ahri_Skin86_R_HUD_Sparkles
 0c59935b Ahri_Skin86_R_Eyes
 60542c3e Ahri_Skin86_SpecialFinisher_Enemy
 a375472f Ahri_Skin86_SpecialFinisher_Mask_child
@@ -1689,6 +1691,13 @@ e82b49b1 Art_VillainMeetingRoom_Day
 2eeaf1e1 AscRelic
 66fc71dc AscXerath
 7acb7cbd AscendedAmpTOOLTIPONLY
+de346c09 AscendedAttack1
+db346750 AscendedAttack2
+77315fe0 AscendedIdle
+99d9a21f AscendedIdleIn
+b6b15cef AscendedRun
+2e5a6946 AscendedSpell_In
+5ce30ba7 AscendedSpell_Out
 2f9d5f21 AscensionDamage
 851f35f7 AscensionModifiedMagicDamage
 98193878 AscensionStrengthBoost
@@ -1841,6 +1850,7 @@ d86b9ef5 Attack1_-90
 069c6436 Attack1_Arms
 5c9274a8 Attack1_Assassin
 8f3396f9 Attack1_B
+d7d89ccc Attack1_BASE
 1d28b539 Attack1_Beard
 0b75cd52 Attack1_Dash2Idle_-180
 4ac18446 Attack1_Dash2Idle_-90
@@ -1888,6 +1898,7 @@ e48fb41b Attack1_Min
 114ab3a7 Attack1_Min_180
 b3dc4d1b Attack1_Out
 9d33ad03 Attack1_P
+eb038ba8 Attack1_Passive_Hit
 cfeb91e8 Attack1_Passive_Into_Idle
 71752d9d Attack1_Passive_Start
 93974bbe Attack1_Ranged
@@ -1913,6 +1924,7 @@ d83b5555 Attack1_Torun
 1f721601 Attack1_Towalk
 8dedb9ad Attack1_ULT_Hair
 2f90644c Attack1_Ult
+8c82877e Attack1_Windup
 8d50a338 Attack1_to_Run_Fast_2
 bf12379f Attack1a
 4ba5bf9e Attack1b_Left
@@ -1920,6 +1932,7 @@ df894af3 Attack1b_Right
 c1123ac5 Attack1c
 59b1eddd Attack2
 1a5f0974 Attack2ALT
+8bee231d Attack2Beard
 bc2992c7 Attack2Fast
 61fb4ae8 Attack2_-180
 c87f8e98 Attack2_-90
@@ -1930,6 +1943,7 @@ dd2e9245 Attack2_A
 72402881 Attack2_Arms
 052ff86b Attack2_Assassin
 da2e8d8c Attack2_B
+6d8c812b Attack2_BASE
 fb1483a0 Attack2_Beard
 2eb8129f Attack2_Bwd
 218c0c80 Attack2_Emp_A
@@ -1969,6 +1983,7 @@ cb4270e3 Attack2_To_Run_90
 0e01157c Attack2_Torun
 0e36cd06 Attack2_Towalk
 b36f22f1 Attack2_Ult
+7fa08961 Attack2_Windup
 758a93f0 Attack2_to_Run_2
 8d199a88 Attack2_to_Run_Fast
 ef193ef4 Attack2a
@@ -1990,12 +2005,17 @@ bc16329c Attack3_End
 e9e919b4 Attack3_In
 8207cb61 Attack3_Out
 aae840c1 Attack3_Slayer
+9f12b1a5 Attack3_Start
+c40a803c Attack3_ToIdle
 d6f3879d Attack3_To_Idle
 56035e25 Attack3_To_PassiveRun
+bce7211c Attack3_Windup
 53b1e46b Attack4
 31369855 Attack4Fast
 4e04e413 Attack4_In
 59d54e80 Attack4_Out
+d0311683 Attack4_ToIdle
+79fb53ff Attack4_Windup
 d264f1e8 Attack4_to_idle
 f3c415b7 Attack4_to_run
 52b1e2d8 Attack5
@@ -2058,6 +2078,8 @@ c1a080a6 AttackSpeedReductionPercent
 01e39430 AttackSpeedToGive
 41f1424d AttackStop
 dccfc576 AttackToIdle
+e2138ec5 AttackToIdle1
+df138a0c AttackToIdle2
 01caf267 AttackTotalDMG
 da5822ab AttackTotalDamageTooltip
 3196a473 Attack_AfterUlt
@@ -2070,9 +2092,17 @@ da5822ab AttackTotalDamageTooltip
 1368f517 Attack_E4
 4d6cd4dc Attack_Extra
 b1baff7c Attack_Fast
+febad4fd Attack_Fast1_Hit
+cac4f544 Attack_Fast1_Start
 8df797cf Attack_Fast1b
+1aa698f0 Attack_Fast2_Hit
+7574d125 Attack_Fast2_Start
 76f9b231 Attack_Fast2a
 73f9ad78 Attack_Fast2b
+42b9d917 Attack_Fast3_Hit
+edb5ad26 Attack_Fast3_Start
+c4ed48ea Attack_Fast4_Hit
+84867e1f Attack_Fast4_Start
 730fbce4 Attack_First
 950c6c4a Attack_INTO_Run
 dd86b529 Attack_In
@@ -5811,6 +5841,7 @@ f9e3fb48 Celebrate_to_Run
 233957d5 CelebrationLoop
 5e3de03f Celebration_In
 9184e67e Celebration_Loop
+2e495fc4 Celebration_Out
 96c619b3 Celebration_Windup
 058c4484 Center
 b7873cbb CenterBonusMagicDamage
@@ -6414,6 +6445,7 @@ f16518ed Coin_17
 dfae4fc7 Collar_VFX
 9ce7b15e CollisionDamage
 97f11664 CollisionPercent
+d03cf2d9 CombatDash
 864d46f1 CombatDuration
 e6871972 CombatMSTooltipOnly
 78389a8f CombatNum
@@ -6612,7 +6644,11 @@ d8aa9010 Crest
 268f634e CritAmpPercent
 af712bb7 CritArmorPen
 0983bb5b CritArmorPenScalar
+147bf28c CritAttack1
+177bf745 CritAttack2
+e89dc880 CritBase
 70fa45de CritBaseMult
+ca77018d CritBeard
 bac7073c CritBonus
 f7adf19d CritBonusDamage
 7d85e49d CritBuffPercent
@@ -6771,6 +6807,8 @@ b6322d58 CyberneticAD
 ad1ebfef Cylinder
 55a2293f Cystal_Skin02
 ecaca35c DAMAGE_RATIO
+f7b25ef0 DAttack_Start
+fde962c3 DAttack_ToIdle
 2b86d1db DBody
 862c8ab0 DIsc_Spring
 5f1cd35b DJ
@@ -6800,6 +6838,7 @@ db8fcdf0 D_Idle_In
 6ded2914 D_Root
 9e9b1680 D_Run_Fast
 aaf5ac4e D_Run_Homeguard
+af968afe D_Spell
 38fc83dd D_Spell1
 718360f4 D_Spell1A
 fdf9418b D_Spell1A_to_Idle
@@ -6933,9 +6972,11 @@ ba76a9bd DamageReflection
 0003c576 Damage_SpellHit
 d3fcf735 DamageperSecondAPRatio
 f815289c Dance
+364f0857 Dance1
 981caad3 DanceIn
 589c6ca2 DanceLoop
 6bacadf0 DanceVfx
+b8f440bf DanceWindup
 dcd55dde Dance_Arms
 5c7d1c24 Dance_Base
 daa09061 Dance_Beard
@@ -7105,6 +7146,7 @@ b6786a4e Deactivate_Idle
 3320df15 Deactivated
 b5df2b27 Dead
 87137f28 DeadRoots
+8bd7cde0 DeadRun
 bd28bd4d Death
 43224a34 Death1
 46224eed Death2
@@ -7203,6 +7245,7 @@ fde046bb Default_Creature_MAT
 589ea6c0 DefensePercent
 4700e996 DefenseRatio
 0bca9660 Defenses
+7034f7fe DefensiveStance
 4ed1f1d8 Delay
 0648f467 DelayBeforeBurst
 188c0b1e DelayBetweenBuffs
@@ -9834,6 +9877,8 @@ d29aa95e Flute_Root
 bff162e2 Fly
 57a11f65 Fly_Idle2
 56a11dd2 Fly_Idle3
+e48f7d8c Fly_In
+1d4af22d Fly_Loop
 a754a1fe Flying
 f23a4918 FlyingV
 a1f3723f Fog
@@ -11795,6 +11840,7 @@ edc77e37 Hook_snap
 363d62cb Hookshot_Mat
 bfc295e1 HoopPole
 a36393d2 Hoop_MAT
+fac3a188 Hop
 e4426176 Horn2
 699f62a9 Horn_V2
 689f6116 Horn_V3
@@ -15419,6 +15465,7 @@ f8230ef6 Khazix_W_Tar
 8b268fc6 Khazix_idle1_sound
 fb507a27 Khazix_idle2_sound
 820c8e48 Khazix_idle3_sound
+c61c131f Kick
 53c0ce34 Kicker
 df2816be KickerHeal
 e189a0a2 KillChampion
@@ -15530,6 +15577,7 @@ fd3981aa KingPoro_Jump01
 8a780c5b KingPoro_NightbringerSnax_wind_mis
 ba7fffbf King_Death
 ddf39677 Kiss
+ab758e9f Kiss2
 6da587b2 KitCooldown
 e4bf5f84 Kitchen_Goldmine_MAT
 1e9cea03 Kled
@@ -16462,6 +16510,7 @@ dfbd7c6c Lance_Base
 61cad5b1 Lance_Part3
 62cad744 Lance_Part4
 f80af3e1 Lance_Snap
+6dea369c Land
 3b55d35c Landing
 cb7b6abd LandingDamage
 e04357df LandingSnow
@@ -19602,6 +19651,7 @@ e4f97233 Mouth_Smile
 9108ec1a Mouth_Wacky
 0a56a61a Mouth_Wink
 4f72f86b Mouth_grimace02
+0770939b MoveAlongNow
 5d9dbc7f MoveHaste
 51af37ba MoveOrder2D
 9f49799f MoveSpeed
@@ -20626,6 +20676,7 @@ f5a3ced9 Nose_L
 baebcd67 NoteAPRatio
 f6288550 NoteMain
 e116304c Note_MAT
+bbd352b4 NothingToSeeHere
 b2b75e9d NoxianMightBonusAD
 77074ba4 Null
 744c45d2 NullifyingADRatio
@@ -25369,6 +25420,8 @@ bf902d98 Pet_Turtle_Base_Emote_Taunt_Dust
 8b0ab502 Pet_Turtle_Idle_Master_Tier3_Body
 b20c2773 Petal
 f7d3926f Petal9_root
+b4b4fe08 Phase2Idle
+40f25a57 Phase2Run
 74cd3cec Phoenix
 1997db83 PhoenixAoEDuration
 1998741f PhoenixArms
@@ -25692,6 +25745,8 @@ bdfad7ea Potion
 4d016f96 PowerBallDamage
 dc494029 PowerBeam
 4787a681 PowerChordDamage
+1ca1a4bb PowerUp
+46393e33 PowerUp_ToIdle
 9386b547 PracticeToolDPS
 db586aaf PracticeToolLastHit
 49f84484 PracticeToolTotal
@@ -26080,6 +26135,7 @@ be9fa9aa Q2ADRatio
 ac1126c6 Q2BaseDamage
 5047a7a8 Q2MaxHPADRatio
 9d25e167 Q2TotalOnHitHPDamage
+a92c10f0 Q2_INTO_Idle
 20ef4d1f Q2_INTO_Run
 0b5869ee Q3KnockupDuration
 f1a7407e Q3MaxDistance
@@ -27336,6 +27392,8 @@ abc7a00e RangedAHBase
 898cd7e4 RangedAHbADRatio_CC
 e3b0645e RangedAPRatio
 b8dc87fd RangedASBoost
+b705c8ed RangedAttack1
+b405c434 RangedAttack2
 9741482e RangedBaseDamage
 d5c755fe RangedBaseShield
 8a8a30db RangedBonusADRatio
@@ -27659,6 +27717,7 @@ b70e1015 RecallStone
 734c7a8c RecallTarot
 cef70995 RecallTentacleArm_MAT
 c05d319f RecallThrower
+440f026f RecallToIdle
 6a0fae2b RecallTorso
 712a1837 RecallTrack
 5ab883b4 RecallTree_Leaf_06
@@ -29306,6 +29365,7 @@ a8ae13bd RubbleVfx
 3f093056 RubiksCube
 9d772a46 RubiksCube4
 1c14db4d Ruby
+f921b800 Ruby_Spinning
 4e21f5f6 Rug7
 9dcfbd73 Ruler
 b729a8b4 Rumble
@@ -32120,6 +32180,10 @@ b3d196d3 SightWard_Skin245_Death01
 f6a73ef6 SightWard_Skin245_Idle_01
 3817fcb5 SightWard_Skin245_Spawn_01
 49be8755 SightWard_Skin248_BA_Idle
+babc3df7 SightWard_Skin249_Hit
+87254c90 SightWard_Skin249_Idle
+4f3b9525 SightWard_Skin249_Spawn
+7f109603 SightWard_Skin249_idle01
 a6d16a38 SightWard_SnowPuffChimney
 3a064512 SightWard_SnowmanCreate
 67b500e4 SightWard_SnowmanDeath
@@ -32851,6 +32915,8 @@ dd177fa5 SlamDamage
 d1601b38 SlamDamageTotalTooltip
 e43dfc97 SlamDownStrikeDamage
 f1fe5117 SlamPercentHealth
+fe39b522 Slam_ToIdle
+65a9552e Slam_Windup
 cb73e8ea Slash
 c3edce86 SlashBaseDamage
 4f9d2d87 SlashDamage
@@ -33697,6 +33763,7 @@ d3f2c55d SpawnHit
 3d184a77 SpawnIn
 bf9208db SpawnNoRender
 b7f6bcfc SpawnOut
+1136b29e SpawnReverse
 f0b2d8d4 SpawnVfx
 88e534c4 Spawn_Crawlout
 93c0e42a Spawn_Hit
@@ -33719,6 +33786,7 @@ e621c8ab Spear_Flash
 fe384ef6 Spear_Slam
 d940d530 Special
 9845a5b8 SpecialPrizeReq
+02129c9a SpecialSpell
 a5b0eebd Special_Root
 382b0c3a Speechless
 b2ebf837 SpeedBonus
@@ -33746,6 +33814,7 @@ c7c4b1ad Spell1C_ToWalk_0
 19c8b8b6 Spell1Long
 0bd7c2ba Spell1Right
 9408c68a Spell1Short
+7d76ae19 Spell1Windup_Base
 5aad2477 Spell1_-135
 56b7ab87 Spell1_-179
 d7a11d4b Spell1_-180
@@ -33778,6 +33847,7 @@ a7821546 Spell1_Attack2_To_Idle
 55a3829a Spell1_Attack3
 629360d8 Spell1_Attack3_To_Run
 cbde4830 Spell1_Attack_Stationary
+04192e78 Spell1_Attack_To_Auto_Attack
 c027d579 Spell1_Attack_To_Run
 ba35ded5 Spell1_B
 06cde0ec Spell1_B1
@@ -33785,6 +33855,7 @@ ba35ded5 Spell1_B
 08cde412 Spell1_B3
 c44357bb Spell1_B_Into_Idle
 4382ac12 Spell1_B_Into_Run
+d2c7f748 Spell1_Base
 723fa765 Spell1_Beard
 50b55a69 Spell1_Big
 af9c669b Spell1_Burrowed
@@ -34114,6 +34185,7 @@ ef020d00 Spell2_To_RunHaste
 f7afa4c5 Spell2_To_Run_179
 c3157b4f Spell2_To_Run_90
 f442b07a Spell2_To_Spell2_Hit
+e046e09b Spell2_Toidle_Base
 79e9e6f9 Spell2_Torso
 10725006 Spell2_Unburrow
 63585ed3 Spell2_Walk
@@ -34253,6 +34325,7 @@ eed2d660 Spell3_Idle_Lft
 e7d4d8cf Spell3_IntoIdle
 a3ca71a6 Spell3_IntoRun
 46b7f004 Spell3_Into_IDLE
+5ee812cf Spell3_Intro
 ac4db9bf Spell3_Jump
 be5f567c Spell3_Jump_Attack
 a453ced2 Spell3_Jump_to_Dash
@@ -34334,6 +34407,7 @@ f760e2a4 Spell3_Run
 c034da86 Spell3_Run-179
 46a04e12 Spell3_Run-90
 0184aefc Spell3_Run0
+30df2cb7 Spell3_Run01
 df140743 Spell3_Run179
 a5f5ab35 Spell3_Run90
 39c70893 Spell3_Run_-135
@@ -34355,6 +34429,7 @@ d856cdd5 Spell3_Run_Lft
 76a813db Spell3_Run_Self
 967cf5b3 Spell3_Short
 c4728942 Spell3_Slow
+f1cf8e26 Spell3_Spirit
 b9ff7145 Spell3_SpiritIn_ToIdle
 d96f28a8 Spell3_Standup
 f91ad271 Spell3_Start
@@ -34387,6 +34462,7 @@ aff587b5 Spell3_to_Run_-90
 ec1f5228 Spell3_to_Run_90
 c99e0537 Spell3_to_Spell2
 c05205ee Spell3_to_walk
+16126c99 Spell3b_Attack
 476cf46e Spell3b_run
 6e11dbb6 Spell3melee
 f49cdb87 Spell3run
@@ -34628,6 +34704,7 @@ f4b93211 SpellAttack
 65f5bf31 SpellB
 84dbb1b9 SpellB2
 83dbb026 SpellB3
+acc9d871 SpellBeard
 b0472513 SpellBladeManaRefundRatio
 362e4fca SpellCast
 8b48bcb4 SpellCdr
@@ -34643,12 +34720,16 @@ c207a39e SpellMantraRefund
 dbebafb1 SpellMaxAmp
 303319ae SpellMaxAmpRanged
 0932f196 SpellNormal
+c25e30c3 SpellOut
 6c389324 SpellOutro
 92fc1b6e SpellQ2
 c9f34916 SpellRange
 c498838d SpellRangeTooltip
 c8f68156 SpellRun
 a2b76524 SpellShieldDuration
+b0bde625 SpellSpin
+7ca7cc01 SpellTest
+d664b00a SpellToIdle
 78f5dd1a SpellW
 c2e7ba8f SpellWinddown
 6cfb72f4 Spell_Ascend
@@ -34688,6 +34769,7 @@ eb92cbfa Spell_Leap2
 ec92cd8d Spell_Leap3
 e592c288 Spell_Leap4
 667e3c00 Spell_Loop
+8ab8c2b6 Spell_Loop2
 22ca0679 Spell_N2a
 91c881ad Spell_North
 a2edf5d6 Spell_Out
@@ -34730,6 +34812,8 @@ b6d79231 Spellbig_ToIdle
 c7110b66 SpellbladeMultiplier
 41c94883 Spellfast
 74f5d6ce Spells
+840c9409 Spellshot
+b5d3954a SpellshotToIdle
 7845f61e SpellswordAPPerAttack
 67741d01 Spellvamp
 50d17486 SphereFX
@@ -40272,6 +40356,11 @@ e0cb003e TableTop
 53415700 Tablecloth1
 c4beb97e TackleDamage
 0e4a127f Tactician
+7612c75c TagInSpell_ToIdle
+16372b3c TagInSpell_Windup
+1413de44 TagIn_Land
+a5b59a81 TagIn_Windown
+82db98da TagIn_Windup
 bc49225a Tag_vfx_01
 bb4920c7 Tag_vfx_02
 ba491f34 Tag_vfx_03
@@ -40726,6 +40815,8 @@ ec1f78e4 Taunt_Buffbone_VFX
 7d76b4c0 Taunt_Hair
 84a55491 Taunt_Hookup_Idle
 3f614d6b Taunt_In
+205cedef Taunt_In_01
+215cef82 Taunt_In_02
 6725b466 Taunt_Intro
 23cbed5d Taunt_LeadIn
 0628abb8 Taunt_Out
@@ -41716,6 +41807,13 @@ a669f469 Transform_Mystic
 72877905 Transform_Storm
 113b8beb Transform_Water
 d380a0bf Transform_ground
+4adc6000 Transformation0
+4bdc6193 Transformation1
+4b2b8508 Transformation1ToIdle
+4cdc6326 Transformation2
+25ddc911 Transformation2ToIdle
+4ddc64b9 Transformation3
+b2300e9a Transformation3ToIdle
 b81ed785 Transition_To_Idle
 afe34731 Transparent
 37fb913e TrapDuration
@@ -43374,6 +43472,7 @@ e2230f3f UltCrystalSword
 d9eb6fe6 UltForm
 8edf6853 UltGear
 c85f4503 UltGun_Root
+fb9a7dff UltIn
 19ab38b5 UltMetalWings
 08cb47a5 UltOff
 1ba827e9 UltOn
