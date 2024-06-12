@@ -5889,6 +5889,8 @@ fd7e279f ChampHealingPercent
 f3a98b94 ChampLevelReached
 e783c9be ChampProcDPSMultiplier
 56b3f555 ChampRange
+d46baaf3 ChampionAD
+e86bca6f ChampionAP
 e96bcc02 ChampionAS
 b30a8edb ChampionCombatCooldown
 568ad503 ChampionDamage
@@ -18831,6 +18833,8 @@ afef3a22 MinimumRatio
 026449c6 Minion1
 01644833 Minion2
 006446a0 Minion3
+85695b16 MinionAD
+79694832 MinionAP
 7869469f MinionAS
 b047722a MinionCritDamage
 6b30d302 MinionDamage
@@ -34991,6 +34995,10 @@ c2a09a14 Stage1
 c5a09ecd Stage2
 85778578 Stage2Damage
 c4a09d3a Stage3
+ba1a01d7 Stage3Damage
+bfa0955b Stage4
+999c56da Stage4Damage
+d5e0f4a9 Stage5Damage
 ef09e86c Stage6Damage
 70b05064 StageSubmesh
 3b602159 StageSwitch
@@ -41448,10 +41456,12 @@ bd707e51 TooltipHealthThreshold
 77a9aee1 TooltipImmolatingBurnDamage
 9b9373dd TooltipMaxArmor
 5d820782 TooltipMaxDamageCalc
+f7664300 TooltipMaxHeal
 66daf857 TooltipMaxStackAP
 933b946c TooltipMaxStackHealth
 6d4798c9 TooltipMaxStackMana
 01b20ba9 TooltipMaxTargetsHit
+51327936 TooltipMinHeal
 e8743c47 TooltipModifiedFractionMaxHealth
 a759a4ce TooltipMult
 85bfaca4 TooltipNumComponents
@@ -44950,6 +44960,7 @@ c77022aa WMarkBonus
 47382c9f WMissingHPBase
 8cebf5c4 WMissingHPHeal
 635eac09 WMissingHPPer100AP
+7c34025e WQHealthDamage
 f2a31bdb WShield
 280d0392 WShieldCalc
 cc71959b WSlowDuration
