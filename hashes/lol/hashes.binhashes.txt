@@ -1554,6 +1554,7 @@ b00037c9 Arch
 6daee708 Archway
 b2e9c08c AreaPerPassiveStack
 a4fad16d AreaPerPassiveStacks
+65bba5e8 Arena
 2c796ca6 ArenaA_Audio
 3f30cc7a ArenaA_Cliff
 85c1c670 ArenaA_VFX
@@ -1635,8 +1636,11 @@ a3176239 Arms1
 423c56db Arms1vfx
 a0175d80 Arms2
 a61766f2 Arms4
+d07104ad ArmsV3
+ca70fb3b ArmsV5
 f95493d2 ArmsVFX
 23c1e8e3 Arms_Akana
+aeb395aa Arms_BladeV1
 ca137aec Arms_Kanmei
 86a2c466 ArriveVfx
 84542686 Arrow
@@ -3087,6 +3091,7 @@ c9648178 BREAK
 943fda6f BUBBLE
 e5d0f932 BUFFBONE
 c40f59e0 BUFFBONE_CSTM_BACK
+0017c345 BUFFBONE_CSTM_CRYSTAL_3
 e946a3f2 BUFFBONE_CSTM_C_CHEST
 5cab36ab BUFFBONE_CSTM_EXHAUST_1
 5dab383e BUFFBONE_CSTM_EXHAUST_2
@@ -3954,7 +3959,9 @@ a220f114 BlueMetal
 52588c26 Blush1_Noodle
 f931c9cd Blush2_Noodle
 2c84f64f Blush_Base
+a9a1c227 Blush_Explode
 1af3d7f0 Blush_MAT
+060c7ea5 Blush_Sing
 e2b7506d Boar
 0213de6a BoarArms
 502afada BoarBodyTattooFX
@@ -3979,6 +3986,7 @@ a47ba2cc BodyMetal
 f9aba7e2 BodyNormal
 e427cb15 BodyOwl
 8b2ba019 BodyPatten
+37913321 BodyProps
 9e04af08 BodyReflectionVFX
 7982041c BodySubmesh
 7c983173 BodyT2
@@ -4020,6 +4028,7 @@ f6b06a37 Bodydiamond
 45338ea3 BoltDamage
 2d234db3 BoltNumber
 ca991591 Bomb
+ed5a4be6 Bomb01
 8efd0ae0 Bomb1
 91fd0f99 Bomb2
 90fd0e06 Bomb3
@@ -5365,6 +5374,7 @@ b949d043 Cable7
 c649e4ba Cable8
 c749e64d Cable9
 ebdbf408 Cable_End
+d8701ee6 Cactus
 7ceee790 Cage_Bone
 3dc3d3c1 Caitlyn_AceintheHolePH
 98e2c465 Caitlyn_BA
@@ -8336,6 +8346,7 @@ c21f4d26 EnergyReader
 9a310527 EnergySnake_Tail3
 91e1c850 EnergySnake_Tail_end
 0efcd282 EnergySpikes
+098dd58f EnergyTube
 297a4d8f Energy_Ball
 ee05d83b Engine
 bebc13d7 EngineSpin
@@ -8678,6 +8689,7 @@ b57c49f3 Eye_Dismayed
 3ce6c28e Eye_E
 f8ec4b54 Eye_Embarrassed
 28a2ec66 Eye_Euphoria
+7fdbd7d0 Eye_Explode
 7934cc2a Eye_Eyebrow
 271db01b Eye_Eyebrows
 bcbc508b Eye_Eyebrows2
@@ -8714,6 +8726,7 @@ ba94cafa Eye_Recall
 c3556216 Eye_Sadness
 132e0712 Eye_Scallion
 841fb538 Eye_Shyness
+f95ea714 Eye_Sing
 621c7d62 Eye_Sleep
 0cefb561 Eye_Smile
 070943d5 Eye_Smirk
@@ -8724,6 +8737,7 @@ a6e0a448 Eye_Surprised
 226577bb Eye_Tongue
 d875cc23 Eye_death
 fe7d7310 Eye_eye
+ea0c36ef Eye_finisher
 8894889c Eye_grimace01
 6ff2bb85 Eyebrows_Anger
 a7df6d5b Eyebrows_Default
@@ -9009,6 +9023,7 @@ c0841cea F1_Follower_MAT
 22694963 F1_Head
 ca4521f9 F1_Jaw
 606067a3 F1_L_Hand_End
+ed6a798d F1_L_Hip
 a379aadc F1_L_Shoulder
 36a9c294 F1_L_Thigh
 73db13ef F1_L_Wing
@@ -9018,11 +9033,13 @@ c64d4a6a F1_Offset
 8aa3af2f F1_R_Arm_Pivot
 63977af5 F1_R_Elbow
 06ed0e49 F1_R_Hand_End
+d3e87e13 F1_R_Hip
 d7d1439a F1_R_Shoulder
 10fb78e5 F1_Root
 b47739c3 F1_Speakers
 bedd44ff F1_SpeakersRoot
 dc058b54 F1_Spine
+c2ba7192 F1_Spine2
 52c02164 F1_StoneA_FX
 01b27c03 F1_Tail
 dcf98123 F1_Tail2
@@ -9049,6 +9066,7 @@ cea675bc F2_HairFX
 8337f428 F2_L_Clavicle
 ce1e4752 F2_L_Elbow
 94333350 F2_L_Hand_end
+1ea25974 F2_L_Hip
 9f51133c F2_L_Scapula
 ebf412a8 F2_L_Wing
 a6fab888 F2_Neck1
@@ -9064,6 +9082,7 @@ b0a6843e F2_Root
 9bbebc80 F2_Speakers
 8991fff8 F2_SpeakersRoot
 a1321f2c F2_Spine1
+a43223e5 F2_Spine2
 8fff96d1 F2_StoneA_FX
 8459f1db F2_Stone_A
 8559f36e F2_Stone_B
@@ -9130,6 +9149,7 @@ dfb802ca Face04_Normal
 5a2dcbaa Face2
 5b2dcd3d Face3
 a963712b FaceCamera
+6e577b88 FaceFinisher
 dc7f0926 FaceMad
 d8d33bbf FaceNormal
 faa33309 FaceShapes01
@@ -9169,6 +9189,7 @@ d2241dee Face_Stretch
 265007e4 Face_anger
 217f5e3a Face_angry
 83adcafd Face_shadow
+dc69027b FacecardV5
 692b026c Facemask
 9facf959 Facemask_Snap
 db1c1a99 Faceshape2
@@ -9924,10 +9945,18 @@ a4078abc Form2_Diamond
 5213321c Form2_Gun_Barrel_Down
 4d318d2b Form2_Gun_Barrel_Top
 bbfed780 FormSwap
+027b65fb Form_1
+07873d4c Form_1_and_2
+037b678e Form_2
+1c1bd706 Form_2_and_3
+047b6921 Form_3
+057b6ab4 Form_4
 798fbc5d Formula
 27589fec Fort
 3eea1e9d FourthShotExecutePercent
 b6f3934e Fox
+e86b67bd Fox_Head_Large
+3097bdfe Fox_Heads
 3e718bbf Fox_MAT
 223398bf Fox_Neck01
 0da12eff Fox_Root
@@ -9950,7 +9979,12 @@ ee712def FrenzyDamageTooltipOnly
 f5eec1ca Fresh_Fish
 0fa2be94 Fresh_Fish_01
 9137d3b8 Fresnel
+ff9238c3 FrogBlue
 271499b9 FrogGlasses
+98c7f63e FrogGreen
+5be7620c FrogRecall_01
+5ee766c5 FrogRecall_02
+5de76532 FrogRecall_03
 ceade176 Frog_Jaw
 5608c165 Frog_Main
 e179dbd8 Front
@@ -9977,9 +10011,11 @@ c4b766d1 FullAnim
 ebd5173c FullHide
 e28cfe42 FullLoop
 9b7030f9 Funnel
+42abb7cb Funny
 b4db8b42 Fur
 af1ba6fa Furance_Close
 9dcd772e FurnaceAttach
+709fbc28 FurnaceLid
 cf5928ba FurnaceTop
 9433fcb2 FuryMultiplier
 5b3374c0 FutureChampionCount
@@ -10407,6 +10443,7 @@ f203a92b Glass
 574ab315 Glass01_Inside
 884d88c9 Glass02
 14c3325b Glass2
+be580692 GlassCoverVFX
 2fa3e23a GlassHorn
 1bd7dc42 GlassShield
 5deeb4af Glass_01
@@ -11303,6 +11340,7 @@ f2bf17c2 Hat
 13d2b063 Hat3
 18d2b842 Hat4
 501ddc25 HatTop
+7af26602 HatVFX
 59f76322 Hat_Attach
 15d9a22a Hat_Base
 af1b2b3b Hat_MAT
@@ -11828,6 +11866,8 @@ e63da150 Homeguard_Idle_Into_Idle
 df682027 HoneyPot
 c6ea82a2 HoneyPot1
 9fccef73 Hood
+dd007df1 HoodV4
+dc007c5e HoodV5
 4e2a8e19 Hood_Default
 b0aa5290 Hood_Down
 93464130 Hood_Hair
@@ -15857,6 +15897,7 @@ bc608a9c L_Arm2
 bd608c2f L_Arm3
 dab08f70 L_ArmBlade
 4cb6a00e L_ArmBotHand
+d447094f L_ArmCloak3
 09db6a65 L_ArmMidHand
 0578a38f L_ArmNoodle1_Skn
 72dc379d L_ArmNoodle3_Skn
@@ -16105,6 +16146,8 @@ e1971354 L_Hair4
 e397167a L_Hair6
 e497180d L_Hair7
 d5970070 L_Hair8
+a7bdd6d7 L_HairA_1
+a8bdd86a L_HairA_2
 41d781f1 L_Hair_2_grnd
 47af40ae L_Hair_5_grnd
 cc768ded L_Hair_Bot1
@@ -16289,6 +16332,7 @@ f3c1ad6f L_Shoulder_Speaker_Shell2
 ed761a09 L_Shoulder_helper
 1d6eba27 L_Shuriken
 474420dc L_Shuriken_World
+fc04c8bf L_SideStrap2
 7f4ece18 L_Singed_Wing
 802f385a L_SkateRamp
 36f893e8 L_Skin02_Booster
@@ -16338,7 +16382,9 @@ a3e5ba91 L_Spikes_base
 0f56784a L_Spotlight6
 6c053237 L_SqueakyBone
 500423ca L_Staff
+0cf51655 L_Stalk_Tip
 05be8759 L_StatueEye
+8fcc7e41 L_StrapA
 086bfb39 L_SwivelRoll_End
 aeb2c62a L_Sword_Snap
 0921ca96 L_Sword_WorldSnap
@@ -17455,6 +17501,7 @@ d52792d1 Love
 72afd711 LoveLetter
 4d9abf81 LoveTapBaseRefund
 843392ec LoveTapRefund
+4f516a81 Low
 c2e3ae35 LowCDMSBoost
 14a42a6c LowDamage
 0a20eaf1 LowHealthMod
@@ -19612,8 +19659,11 @@ a62a7aea Mouth02_Base
 cab9b156 MouthFix_LL_05
 4313744e MouthFix_U_02
 0a1790fc MouthOpen
+d77c966b MouthSmaiV1
 c6b1f190 MouthSmile
 51ff40ff MouthSurprise
+0a84a448 MouthSurpriseV3
+8b7c03a4 MouthUnhappV2
 7eefc4b4 Mouth_Abdominalblackness
 fee9c1e4 Mouth_Anger
 fa19183a Mouth_Angry
@@ -19621,12 +19671,14 @@ fa19183a Mouth_Angry
 3c324e4c Mouth_Bad
 ec55db64 Mouth_Base
 552391d7 Mouth_Bigsmile
+b5958c17 Mouth_Close
 ec5d0102 Mouth_Confuse
 ed0fb4d7 Mouth_Cry
 1c20c567 Mouth_D
 a635d1ca Mouth_Default
 8a2676e6 Mouth_Embarrassed
 1e18dc31 Mouth_Excited
+a5c616ca Mouth_Explode
 98f4a658 Mouth_Force
 b0a3cba9 Mouth_Glod
 9da3adc0 Mouth_Glow
@@ -19648,12 +19700,14 @@ c54ed5c2 Mouth_Playful
 1d7eaff1 Mouth_Poor
 1594903d Mouth_Proud
 705dacf0 Mouth_Regret
+bb6e09d2 Mouth_Sing
 730757d0 Mouth_Small
 e4f97233 Mouth_Smile
 13073227 Mouth_Smirk
 77e76dee Mouth_Surprise
 9108ec1a Mouth_Wacky
 0a56a61a Mouth_Wink
+c5ab7ed1 Mouth_finisher
 4f72f86b Mouth_grimace02
 0770939b MoveAlongNow
 5d9dbc7f MoveHaste
@@ -21339,7 +21393,12 @@ b7e3dcc9 Pantheon_R_cas
 1720092b Pantheon_Recall_Bread
 a9e45f01 Pantheon_Recall_Chainsaw
 49df3281 Pantheon_Recall_Oven
+fcb2e050 Pantheon_Skin01_Mat
 ca74541e Pantheon_Skin03_Mat
+dec0ef4b Pantheon_Skin04_Mat
+30cb8e14 Pantheon_Skin05_Mat
+9f748cb9 Pantheon_Skin06_Mat
+8f4ebf22 Pantheon_Skin07_Mat
 a615c34f Pantheon_Skin08_Mat
 d42dc0cc Pantheon_Skin16_Recall_04
 d52dc25f Pantheon_Skin16_Recall_05
@@ -21517,6 +21576,7 @@ a7b00638 Penal_RT
 fa87d134 Pendant1
 f687cae8 Pendant5
 71651432 Penetration
+46839040 Pengu
 b8b3913a Pengu_Neck
 dd037c8d Pengu_Root
 682ed13c Penguin_Spine01
@@ -25916,6 +25976,9 @@ ddc0a0d4 Props_Joke_Mat
 10b7b37c Props_Star02
 6278e2b7 Props_end
 69b12239 Puddle
+febe5995 Puddle_01
+fbbe54dc Puddle_02
+fcbe566f Puddle_03
 7ba7344b PullDamage
 4175b4e5 PullDistance
 5656a196 PullbackDamagePerFeather
@@ -25940,6 +26003,7 @@ f2acafb4 PumpkinBat3_Root
 260c7a2c Pumpkin_Body
 7101f424 PunchFist_Mat
 4034a2b7 PunkGenius_Geo_Base_Mat
+179fbcc5 PupilV123
 e63013af Puppet
 49fa4705 Puppy
 95d58f62 Purchase
@@ -26491,6 +26555,7 @@ f16550e2 R_Arm15
 268c0276 R_Arm2
 278c0409 R_Arm3
 8bdac6a8 R_ArmBotHand
+fb042521 R_ArmCloak3
 03a1d67f R_ArmMidHand
 396052c9 R_ArmNoodle1_Skn
 24a83f7b R_ArmNoodle3_Skn
@@ -26930,6 +26995,7 @@ ec51d084 R_Shoulder_Speaker_Shell1
 ef51d53d R_Shoulder_Speaker_Shell2
 31f1f509 R_Shuriken
 c1525fde R_Shuriken_World
+2962f929 R_SideStrap2
 50b5d0b2 R_SigalSide_VFX
 f3ba905a R_Singed_Wing
 4e04721c R_SkateRamp
@@ -26977,7 +27043,9 @@ fb9676de R_SpikeB
 8203f75c R_Spotlight6
 f9dbf631 R_SqueakyBone
 08552da4 R_Staff
+931678ef R_Stalk_Tip
 6097bda3 R_StatueEye
+6bbcf313 R_StrapA
 c91d0b0c R_Sub
 d529b677 R_SwivelRoll_End
 0117df3b R_Sword
@@ -30699,6 +30767,7 @@ dc03688e S_Broken
 c0a49a5d S_WIND_STRONG
 1dacfad8 S_Wing
 e61cac07 Sad
+1ed28175 SadV4
 ad27ee58 Safe
 f4e6fed7 Saliva
 5e125876 Saloon_GoldMine_MAT
@@ -35148,6 +35217,7 @@ e32f7e6a Stone_03
 de2f768b Stone_04
 dd2f74f8 Stone_05
 74ee2e7a Stone_A
+73ee2ce7 Stone_B
 9b16d38c Stool
 cb532ae5 Stop
 aa44e49a StopTurn
@@ -38790,7 +38860,9 @@ fd2d50f8 TFT_Dmg_Skin107_Tar2_3Star
 ce46ec59 TFT_Dmg_Skin115_Mis2_3Star
 b2072ed5 TFT_Dmg_Skin115_Tar2_3Star
 f43b1929 TFT_Dmg_Skin123_Tar_3Star_Child
+9ec2289c TFT_Dmg_Skin124_Tar_3Star_Child
 46b2819d TFT_Dmg_Skin127_Tar_3Star_Child
+d31ebd13 TFT_Dmg_Skin129_Tar_3Star_Child
 b455fa03 TFT_Dmg_Skin15_Mis_3Star_Child
 08254626 TFT_Dmg_Skin23_Mis_1Star_Arc
 4e72c084 TFT_Dmg_Skin23_Mis_3Star_Arc
@@ -38826,6 +38898,7 @@ b12cdcfa TFT_Dmg_Skin29_child_bluefirework
 67be87c4 TFT_Dmg_Skin30_child_pinkfirework
 e17d8543 TFT_Dmg_Skin30_child_trailsparkle
 01f6d537 TFT_Dmg_Skin30_child_whitefirework
+cf4efadd TFT_Dmg_Skin32_child_trail
 c24c80ad TFT_Dmg_Skin36_Tar_3Star_SoulTear
 acc0f3d4 TFT_Dmg_Skin43_Glove_Child
 5a43a4ee TFT_Dmg_Skin43_Mis_Child
@@ -40514,6 +40587,8 @@ cf0d19df Tail_M_01
 ca0d1200 Tail_M_04
 cb0d1393 Tail_M_05
 87374d4e Tail_Mat
+3203bbc5 Tail_Tip_Large
+87229cd6 Tail_Tips
 74539ce9 Tail_V5
 924a030f Tail_a
 934a04a2 Tail_b
@@ -40856,6 +40931,7 @@ ee7d30a6 TeamwideAttackSpeed
 1571bd38 Teapot
 3b1bbcdd Teapot_MAT
 0af0d1a5 Teapot_Root
+b9fda141 Tear
 a122c50b TearItems
 1ad74c18 Tear_MAT
 fc44c1b6 Tears
@@ -41956,6 +42032,9 @@ d9ec0a4a Trophy1
 5299d738 TrophyBack
 8a04a74d TrophyIdle
 5ebb4436 TrophySubmesh
+8bf65e7e Trophy_New
+f8fae8cd Trophy_Old_1
+f5fae414 Trophy_Old_2
 3f6e7325 Trophy_Sphere
 83ecd391 Trowels
 e241a860 TrueDamage
@@ -43529,7 +43608,9 @@ f32624d1 UltimateRefundBase
 f590e1e5 Umbrella
 d0b35df7 Umbrella11
 6a138575 Umbrella2
+7b4569f3 UmbrellaHandle
 204e9b14 Umbrella_MAT
+757c55f0 Umbrellar_FX
 c7b771e3 Umi_R_Ear01
 c975c133 Umi_Root
 f82777df Umi_SprintRoot
@@ -43584,6 +43665,7 @@ f4e9b5ef UpfrontShieldHealthRatio
 0ed8f209 UpperFins
 db15f20a UpperHalf
 8a4bbac1 Upper_Inject
+2b5c2f3d Upper_Lip
 b837158b UrfRipples
 b481d6cf UrfSplash
 194668c3 Urf_Fizz_Fisherman_Emote_Urf_SFX_01
@@ -45191,6 +45273,7 @@ b36983d9 WeaponHide
 6616d16b WeaponHullC
 b1a6edc4 WeaponMarking
 8ed56d15 WeaponPatten
+9c6a49f4 WeaponPenGu
 5f11adee WeaponPlan
 0f9e2be2 WeaponPower
 99ecc2e4 WeaponRecall
@@ -47199,6 +47282,7 @@ ee93f91e bADPerTick
 7d8cc411 bag_a
 eeaa30b6 bag_a_World
 d03786b6 ball_01
+6dd435bd balloons
 76b77d1a bar
 7b406f16 bar_Armor
 7414e7c7 bar_MaxHP
@@ -47512,6 +47596,7 @@ f129c0b7 gear_B_01
 f229c24a gear_B_02
 f329c3dd gear_B_03
 ec29b8d8 gear_B_04
+690f9999 gemstone
 4d8f4b5e gemstones
 8793bfbd gemstones1
 8493bb04 gemstones2
@@ -47919,6 +48004,7 @@ a0c495f6 th_TH
 0f109a01 thirdBreakpoint
 60529c30 thruster
 02812a48 tier1champs
+febc72be tmp__Pantheon_Skin02_Mat
 26fc8758 tobacco
 149dc1f0 tongue_02
 ee47a9b9 tongue_e
