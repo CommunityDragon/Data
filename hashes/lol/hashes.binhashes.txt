@@ -360,6 +360,10 @@ f6e337bc ASSASSINATE
 c2d61920 ASSlow
 1c2f749d ASTotalDuration
 0db4a671 ASky
+7288b382 AStoADChampion
+9ddc7207 AStoADMinion
+21a92b76 AStoAPChampion
+7b757b03 AStoAPMinion
 b9284eb5 ATTACK_SPEED_BONUS
 c1e2c320 A_Attack1
 e2a8e9cf A_Attack1_to_Idle
@@ -3394,6 +3398,7 @@ baaa4057 Bard_W_team_ring_red
 123c95d1 Barrel
 304a6e01 BarrelBlue
 018ab51f BarrelGold
+8b5f9fbc BarrelSlow
 b3d5de11 Barrel_all
 53e567dc BarrierAmount
 a952df75 BarskinDefenceScalar
@@ -11438,6 +11443,7 @@ a1fd83df HealDuration
 5da364e1 HealHR
 48fea373 HealMax
 5f124dcd HealMin
+92afd477 HealMinAPRatio
 5f83f2e0 HealMultiplier
 d56201a3 HealOrDamageAmount
 d5e7e08e HealPerFury
@@ -27478,6 +27484,7 @@ e0e4b958 RangedHealMod
 b5555429 RangedItemCalcValueB
 b4555296 RangedItemCalcValueC
 b755574f RangedItemCalcValueD
+07088f7f RangedLethalityMultiplier
 0068aa5c RangedMSMax
 ec38df1b RangedMaxHealthDamagePerTick
 b92f3c49 RangedMinionReduction
