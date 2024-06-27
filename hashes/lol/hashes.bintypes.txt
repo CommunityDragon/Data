@@ -3578,3 +3578,4 @@ b1474db1 WorldVars
 344a9a75 X3DSharedData
 3745189b X3DSharedTextureDef
 a2d2015e mapgeo
+3730b3d2 selectionStrategyConfig

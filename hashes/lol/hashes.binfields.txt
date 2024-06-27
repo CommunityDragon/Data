@@ -5959,6 +5959,7 @@ c01d7d11 castStaticShadows
 242ed7dc catalogEntry
 cf2f4271 category
 a7d57206 categoryTitleText
+14d7d5a7 celebrationType
 08b52819 censorModulateValue
 232d7bad censorPolicy
 d41d4fce centerLocator
@@ -8603,6 +8604,7 @@ bbd95186 maxOffset
 43bcebe6 maxRange
 b43f812d maxScale
 fb47bef6 maxSegmentLength
+dc402f3a maxSelectionsAllowed
 8ccddbb3 maxStack
 6810ef40 maxStacks
 22b6ef5b maxTotalRolls
@@ -8615,6 +8617,7 @@ d4c45abf maximumChatScale
 e7ded34d maximumHoldTime
 2c430c12 maximumMinimapScale
 3f1a9424 maximumPracticeToolScale
+fc9adf03 media
 35afd776 medium
 37e24810 members
 ac61e7aa meshDisableBackfaceCull
@@ -8642,6 +8645,7 @@ b835cf50 minDistance
 435c641d minIndex
 bd76926a minPercentDamageToResetHold
 c472bf07 minSegmentCount
+b21ccbf0 minSelectionsAllowed
 8912eb52 minUnits
 782f286a minXVelocity
 33f22b71 minYVelocity
@@ -8889,6 +8893,7 @@ d2f58721 resourceMap
 450192dc resurrectingAlpha
 9aa1ff1e reverbPreset
 2a4b4fcd rewardGroup
+b7c96973 rewardStrategy
 a1d9de0b rewards
 e9c98281 rigPoseModifierData
 99fce18f rightTextureName
@@ -8942,6 +8947,7 @@ eb5e3232 selectionHeight
 54642500 selectionIcon
 77b9f839 selectionPriority
 50713aa3 selectionRadius
+3730b3d2 selectionStrategyConfig
 c36777a6 selfCBChampSpecificHealthSuffix
 37ac4321 selfChampSpecificHealthSuffix
 252f6884 selfIllumination
