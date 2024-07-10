@@ -17399,6 +17399,7 @@ d58a8ea4 Dummy_D4
 9cb6af5c Dummy_Root
 59322494 Dumplings
 93837c15 Duo_Recall
+02390400 Duo_Recall_Into
 546b6bfd Duo_Recall_Ready
 963ad89c Duo_Recall_Unto
 2fa0fd0d Duration
@@ -41992,6 +41993,11 @@ babc3df7 SightWard_Skin249_Hit
 87254c90 SightWard_Skin249_Idle
 4f3b9525 SightWard_Skin249_Spawn
 7f109603 SightWard_Skin249_idle01
+afa5d1ae SightWard_Skin250_Death
+fd34fb71 SightWard_Skin250_Hit
+b25a0a36 SightWard_Skin250_Idle
+a019a6a3 SightWard_Skin250_Spawn
+f20d4588 SightWard_Skin250_Spawn01
 a6d16a38 SightWard_SnowPuffChimney
 3a064512 SightWard_SnowmanCreate
 67b500e4 SightWard_SnowmanDeath
@@ -44003,6 +44009,7 @@ e046e09b Spell2_Toidle_Base
 c2983355 Spell2_WithBomb_Loop
 57f758a2 Spell2_open
 fef43d5c Spell2_to_Run_-179
+b5a27079 Spell2b
 b4f63b8e Spell3
 cea0593d Spell3A
 835e050a Spell3Attack
@@ -44980,6 +44987,9 @@ afebc067 Strawberry_Augment_Calamity_Explosion
 bcc5feb1 Strawberry_Boss_Belveth_Z_Spike
 0607a80d Strawberry_Boss_Briar_Z_MissileGrid_Mis
 ea68cf73 Strawberry_Boss_RekSai_Tunnel
+34211a25 Strawberry_Buff_MaxedAnimaPower
+0b881754 Strawberry_Buff_MaxedRifts
+553b19f1 Strawberry_CheaterFound
 a7a98148 Strawberry_CinematicBars
 6edbb531 Strawberry_CircleShot_Mis
 1d1b0051 Strawberry_Confetti
@@ -45021,6 +45031,7 @@ a5fd2222 Strawberry_FakeVictoryScreen
 f9c136f0 Strawberry_FruitEasterEgg
 db64b8ec Strawberry_Illaoi_Base_Q_Tentacle_Spawn
 cd865535 Strawberry_Illaoi_Base_Q_Tentacle_Spawn_Upgraded
+b1b30777 Strawberry_InstaKillShockwave
 6717a082 Strawberry_ItemToBuy_GroundIndicator
 d3396ab0 Strawberry_ItemToBuy_Stat_AP
 9ac1e3e8 Strawberry_ItemToBuy_Stat_Armor
@@ -45042,6 +45053,7 @@ ec4e9732 Strawberry_MapA_SeaFoam_04
 a5ee83f0 Strawberry_MapA_ShoreLine_03
 b46fc9d5 Strawberry_MapA_ShoreLines
 9230de28 Strawberry_MapA_ShoreLines_02
+9ee8c77b Strawberry_MapA_Tunnel_Break
 5f857566 Strawberry_MapA_Vent_Fan_Smoke
 1dd12d3a Strawberry_MapA_Vent_Smoke_01
 1cd12ba7 Strawberry_MapA_Vent_Smoke_02
@@ -45205,6 +45217,9 @@ a79f3fc5 Strawberry_Reward_Gold_01
 a49f3b0c Strawberry_Reward_Gold_02
 a59f3c9f Strawberry_Reward_Gold_03
 df5dcf57 Strawberry_Reward_Gold_ScreenEffect_01
+d8329853 Strawberry_Rift_Button_1
+d93299e6 Strawberry_Rift_Button_2
+da329b79 Strawberry_Rift_Button_3
 d45befdb Strawberry_RingOfGas
 926bc2e6 Strawberry_Shop_ItemBought
 3e3359d3 Strawberry_Shop_ItemPedestal
@@ -48750,6 +48765,7 @@ fed4ad57 TFTTraitDemonBurn
 319a6c5a TFTTraitEnchanterShield
 f5715635 TFTTraitFrozenStun
 2b624b12 TFTTraitSpellShield
+874c3460 TFTTutorialAugment_BandleCity_I
 0c5bd153 TFTTutorial_ChaosMinionRanged_E_Buf
 7d0b4bc4 TFTTutorial_Dragon_BA_Impact
 1572004f TFTTutorial_Fiora_Base_R_Heal_Tar
@@ -49038,8 +49054,11 @@ ce46ec59 TFT_Dmg_Skin115_Mis2_3Star
 b2072ed5 TFT_Dmg_Skin115_Tar2_3Star
 f43b1929 TFT_Dmg_Skin123_Tar_3Star_Child
 9ec2289c TFT_Dmg_Skin124_Tar_3Star_Child
+f19d031f TFT_Dmg_Skin125_Tar_3Star_Child
 46b2819d TFT_Dmg_Skin127_Tar_3Star_Child
 d31ebd13 TFT_Dmg_Skin129_Tar_3Star_Child
+fdebc092 TFT_Dmg_Skin131_Tar_3Star_Child
+59568070 TFT_Dmg_Skin137_Tar_3Star_Child
 b455fa03 TFT_Dmg_Skin15_Mis_3Star_Child
 08254626 TFT_Dmg_Skin23_Mis_1Star_Arc
 4e72c084 TFT_Dmg_Skin23_Mis_3Star_Arc
