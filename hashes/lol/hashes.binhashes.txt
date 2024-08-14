@@ -10,6 +10,7 @@
 19eb271e 16
 1aeb28b1 17
 13eb1dac 18
+a7eac9e1 1Cost
 a2ff8b24 1Star
 1ee760be 1StarAoEDamage
 440f813d 1StarBounces
@@ -20,6 +21,7 @@ a2ff8b24 1Star
 ad33f9f3 2013_Dance
 932ad59d 2013_Run_Haste
 a5ab3ea6 2013_Spell4
+8e8c6ec8 2Cost
 aea98661 2Star
 a3b999e9 2StarAoEDamage
 0d46330d 2StarShieldValue
@@ -155,6 +157,7 @@ d5f87a91 3504
 d1f87445 3508
 65d27dc9 3742
 98fe8e5b 3814
+60c87203 3Cost
 3710b88a 3Star
 156febb8 3StarAoEDamage
 829e6cec 3StarShieldValue
@@ -296,6 +299,7 @@ f328829b APRatioPerTick
 e78fad4a APRatioToPercentDamage
 eaef1b9e APRatioTooltip
 78ff5927 APRatioTwo
+22c13cca APRequiredTooltipOnly
 9e13239b APScaleDamage
 927ebb75 APShield
 1cef8117 APStackRatio
@@ -1720,6 +1724,7 @@ b7bf62a1 ArmorPenetration
 7c694b41 ArmorPerEnemy
 abfc283d ArmorPercent
 3a6e31c4 ArmorPercentage
+2de7749f ArmorRatio
 5079c7a2 ArmorReductionPercent
 bb03c8b8 ArmorScalar
 826ded1e ArmorShred
@@ -3800,6 +3805,7 @@ a8f0b7bd Base_mat
 01a64492 Basegun
 36097507 BaselineOmnivamp
 0535023d Basic
+7242ff67 BasicAPRatio
 b6b3a930 BasicAttackCDR
 1b4326a0 BasicAttackDamage
 99e5c290 BasicAttackTOOLTIP
@@ -4346,6 +4352,7 @@ beadd5dc BonusHP
 26c36394 BonusHPPer5MissingHealth
 5da22543 BonusHPPerMissingHealth
 f25546f7 BonusHPRatio
+027a9892 BonusHPRequiredTooltipOnly
 a52713ed BonusHaunts
 f8f29a99 BonusHealPerFury
 3de3f795 BonusHealRatio
@@ -4408,6 +4415,7 @@ dd270afd BonusPercentHP
 a92bb347 BonusPercentHealth
 f49783e7 BonusPercentPerAugment
 fda1f1fc BonusPhysicalDamage
+07169600 BonusPoisonedDamage
 ba6df21b BonusQDamageCalc
 0c712be9 BonusRange
 d04ae9af BonusRatio
@@ -4429,6 +4437,7 @@ f6564b98 BonusShieldAD
 20dcdbe5 BonusSnowHeal
 4eebf7ef BonusSpeed
 a3dca3cb BonusSpellRange
+0041fe13 BonusStages
 5145c0d5 BonusStatWhenShieldActive
 83e12d6f BonusStats
 08ca6c1c BonusStunDuration
@@ -17363,6 +17372,7 @@ bab7710b DragonEgg_RootAll
 27c73cbb DragonEgg_RootAll2
 ace01ae2 DragonElder
 4ba7ed59 DragonElderMinimap
+25a9e8f7 DragonExplosionADRatio
 94378fe8 DragonExplosionCalc
 bc0a85e2 DragonFire
 efb2d659 DragonFireMinimap
@@ -20400,6 +20410,7 @@ a5b4b8f8 GoldPercentBonusRanged
 6fa60d84 GoldReward
 c62b8040 GoldThreshhold
 b5a4f01e GoldThreshold
+100ee4ab GoldToFeedPvE
 92a50dd1 GoldToGain
 39e833aa Gold_Child_BA
 91671d32 Gold_Max
@@ -21178,6 +21189,7 @@ e1486235 Heads_MAT
 2fdfcd41 Headset
 b451ead4 Headwear
 3a69585b Heal
+881e3b45 HealADRatio
 7078d029 HealAPRatio
 bee6054f HealAmount
 3a7700e7 HealAmountMax
@@ -28504,6 +28516,7 @@ e5ee49a1 MaxHealMult
 71014378 MaxHealingPercentAmp
 19971f1b MaxHealth
 c0571dea MaxHealthAPScalar
+7e1048d2 MaxHealthCalc
 6964cc9a MaxHealthDamage
 1979809f MaxHealthDamageCalc
 bea956d4 MaxHealthDifference
@@ -30403,6 +30416,7 @@ bdb0cc0a Neeko_W_P_cas
 75ebde63 Neeko_W_P_cas_handglow
 3034f114 Neeko_W_P_mis
 fe29be00 Neeko_W_clone_death
+49b62537 NegativeDamageAmp
 5ed0d48b Nest
 25999158 Net
 98cb1979 NetDamage
@@ -46432,6 +46446,7 @@ ca89c26e SubsequentHitMultiplier
 dcb1f44a SuddenDeath_MinionZap
 c4780ea6 SugarMultiplier
 6be82228 SugarMultiplierHR
+b20e12db SugarMultiplierPVE
 5eb3c116 Suit_Hip
 4587ac65 Suit_Mat
 c401679f Suit_R_Leg03
@@ -51841,6 +51856,7 @@ c516f15b TOOLTIPADPerCast
 9dfab192 TOOLTIPDamageAmpPerHealth
 218e2895 TOOLTIPDamageAmpPerHealthDU
 3298d0b4 TOOLTIPDamageAmpPerHealthHR
+63362bfa TOOLTIPDamageAmpPvE
 82114ed8 TOOLTIPEmpoweredHeal
 62432ee3 TOOLTIPHealthInterval
 662a25b9 TOOLTIPHealthPerKill
