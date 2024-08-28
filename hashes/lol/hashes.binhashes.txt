@@ -3703,6 +3703,7 @@ fd13dd46 BaseFeatherCount
 b7be526e BaseFinaleDamage
 f05fc128 BaseFireDamagePerSecond
 1157a256 BaseFlatDamage
+50fd286e BaseFoxfires
 411dc52e BaseGold
 9368ced2 BaseGoldAmount
 17b55a20 BaseHP
@@ -3769,6 +3770,7 @@ c966c4cb BasePercentHealth
 b3340305 BaseRunHide2
 19a89153 BaseSP
 e5060fae BaseSecondMagicDamage
+ca97b124 BaseSelfHeal
 a8c1dce1 BaseShield
 2f89af4d BaseShieldAmount
 a0b085e8 BaseShieldRatio
@@ -4307,6 +4309,7 @@ ed5a4be6 Bomb01
 91fd0f99 Bomb2
 90fd0e06 Bomb3
 93fd12bf Bomb4
+152d7dfd BombBaseDamage
 3ac8de8f BombCandle1
 38e84fbc BombDamage
 aac9e7f8 Bomb_b
@@ -4386,6 +4389,7 @@ beadd5dc BonusHP
 57bc9c23 BonusHPFromMana
 26c36394 BonusHPPer5MissingHealth
 5da22543 BonusHPPerMissingHealth
+590904f3 BonusHPPerTier
 f25546f7 BonusHPRatio
 027a9892 BonusHPRequiredTooltipOnly
 a52713ed BonusHaunts
@@ -16964,6 +16968,7 @@ a4802b6b DeathsDaughterDamage
 6ad59cd8 DecayPerSecond
 14416b1f DecayRate
 4d7969b7 DecayTakes
+1c098b3c DecayTime
 aada9ca8 Deck
 c82dd8f2 Decor
 b4330f66 Decorate
@@ -17641,6 +17646,7 @@ d58a8ea4 Dummy_D4
 02390400 Duo_Recall_Into
 546b6bfd Duo_Recall_Ready
 963ad89c Duo_Recall_Unto
+bafa44a6 Durability
 2fa0fd0d Duration
 75fd67f5 DurationIncrease
 45035bf1 DurationOfEffect
@@ -18076,6 +18082,7 @@ a2de9d6c EndHeal
 53d2d00b EndTime
 f6dd87fb EnemyAvoidance
 01c75c6c EnemyCastDuration
+dfd0691a EnemyCount
 a47d00a4 EnemyFirstEncounter
 d2d73a99 EnemyGold
 fda3b9f0 EnemyHealthPercentageThreshold
@@ -18144,6 +18151,7 @@ dfaaafbf EoG_Defeat_VFX
 76b351b4 EoG_Victory_VFX
 807efd68 Epic
 cae75227 EpicDamageCap
+94bafcb1 EpicMonsterDPSCap
 13886493 Equip
 ce7228f7 Equipment
 4fab42bd Erhu
@@ -20937,11 +20945,15 @@ ee916422 HA_Spawn
 cf1ec675 HEROBaseDamage
 27175199 HEROBonusDamage
 70daee9f HEROBonusSpellDamage
+1fd3320d HEROBurnDamage
 59d86ca8 HERODamagePerc
 a60e019f HERODamageRatio
+94fdd64d HEROFlameDamage
 2c5b1cda HEROHealHPRatio
 b97d4e76 HEROModifiedADRatio
+0a44fcae HEROModifiedBurnDamage
 7da9d0c3 HEROModifiedDamage
+87ba7944 HEROModifiedFlameDamage
 a3480b28 HEROModifiedHeal
 1213d487 HEROPassiveDamage
 b7054103 HEROSpellADRatio
@@ -21342,6 +21354,7 @@ eaf4fe8a HealthRatio
 f0bf6ea0 HealthReduction
 5df3efa9 HealthRefundOnHitChampionMonsterPercent
 2ef85c90 HealthRefundOnHitMinionPercent
+623eb004 HealthRegainPct
 6f7c45e4 HealthRegen
 52358605 HealthRegenInterval
 a576b894 HealthRegenPerMascot
@@ -24269,6 +24282,8 @@ c92f3d5a Jump_Out
 c3d5d985 Jumprope
 dafb2722 JungleEnchantments
 5af82298 JungleItems
+1348e375 JungleMonsterDPSCap
+baaf6562 JungleMonsterExplosionFlatCap
 17e12ee5 KDA_Kitpieces_B_MAT
 da13e3d6 KING
 9e03f6c0 KINGPORO
@@ -29203,6 +29218,7 @@ b763c35c ModifiedBonusResists
 0d5e5649 ModifiedBurstDamage
 8ef1b705 ModifiedCD
 30211187 ModifiedCardCount
+dd2d742e ModifiedCastRange
 fa95628c ModifiedCenterBonusMagicDamage
 71cd7e73 ModifiedChakramHealing
 76e83eef ModifiedChargeDamage
@@ -29234,10 +29250,12 @@ ff590726 ModifiedExplodeDamage
 3b9ce440 ModifiedFeatherDamage
 4629b43c ModifiedFinaleDamage
 abc2f776 ModifiedFireballDamage
+3f4cb14c ModifiedFirstTargetDamage
 c209f33e ModifiedFlameBreathDamage
 2239efe8 ModifiedFlameDamage
 0c668f30 ModifiedFlatDamage
 1932e601 ModifiedFlatDamageReduction
+0d75e014 ModifiedFoxfires
 7bfaf787 ModifiedFrenzyAttackSpeed
 b668dfaf ModifiedHERODamage
 98e21fe3 ModifiedHeadlinerDootDamage
@@ -29317,6 +29335,7 @@ dcbfcee8 ModifiedSecondMagicDamage
 b29c86fa ModifiedSecondaryHealth
 a41da76d ModifiedSecondaryShield
 f1a7da43 ModifiedSecondarySpellDamage
+bb87518e ModifiedSelfHeal
 b111b1ae ModifiedSelfHealingAmount
 0546af49 ModifiedSelfShieldAmount
 5f851b01 ModifiedShenSelfishReduction
@@ -31719,6 +31738,7 @@ e764a496 PercentDamageIncreasePerStack
 bdd452e8 PercentDamageReduction
 55909764 PercentDamageToHeal
 2040f60e PercentExtraHealth
+21e88054 PercentGoldChance
 f5278bb2 PercentHP
 45fd792f PercentHPBase
 caea9fe0 PercentHPBlast
@@ -36368,6 +36388,7 @@ a8597f6b Platform_Mat
 74408181 PlayerCombatDamageIncrease
 b7229f70 PlayerCombatNum
 f2757e01 PlayerCombatRounds
+6f4cfa55 PlayerDmgReduction
 6c25cb29 Pleep
 1b408029 Plinths_Chaos_Horizontal
 7511bafb Plinths_Chaos_Vertical
@@ -40153,6 +40174,7 @@ e67c0055 Rocket
 3c34a225 Rocket2
 3b34a092 Rocket3
 363498b3 Rocket4
+ece5c5a4 RocketADScalar
 37d9a590 RocketDamage
 a95a0f9b RocketLauncherPercentAD
 cb208236 RocketTAD
@@ -52223,6 +52245,7 @@ d80ec815 Tails_MAT
 5ca4fcf2 TakedownBaseDamage
 208c42f6 TakedownBonusMana
 bc70ae31 TakedownCDR
+db5e7a89 TakedownThreshold
 2a5b6a9f TakedownTimer
 127cbd13 Takeoff
 2bb00e79 Tali6
@@ -57404,6 +57427,7 @@ afaf89d2 Xayah_Z_StarTrail
 390490a4 XerathDamageAmp
 2600289d XerathNumCharms
 877fd6e7 XerathNumCharmsHR
+d0e225c9 XerathPVEDamage
 8dec8a8d XerathScalingDamage
 834729bd Xerath_BA_mis
 760f0ed1 Xerath_BA_tar
