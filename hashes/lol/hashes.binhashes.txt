@@ -47847,6 +47847,7 @@ a520e980 TFT11_Azir_Recall_Hand
 3cfda93c TFT11_Azir_Swirling
 9334f0bf TFT11_Azir_Turret_Beam
 1c6dad85 TFT11_Azir_Turret_Beam_End
+026ab14f TFT11_Azir_Turret_Tar
 1edabdaf TFT11_Azir_Turret__BeamCas
 0f2a77eb TFT11_Azir_Turret_mis
 43d4a89f TFT11_Azir_Weapon_Glow
@@ -47930,6 +47931,7 @@ fd218ddc TFT11_Kayle_E_Mis
 21a5cd49 TFT11_Kayle_Evolve_2
 5adcb852 TFT11_Kayle_Home_Trail01
 59dcb6bf TFT11_Kayle_Home_Trail02
+864158b0 TFT11_Kayle_Idle_SwordGlow
 b1749e56 TFT11_Kayle_P_Swipe_1
 308e31a7 TFT11_Kayle_R_Sword
 36d0c967 TFT11_Kayle_R_Sword_Tar
@@ -48219,6 +48221,8 @@ f6cd6f3b TFT12_EldritchDaisy_Base_Eye_R
 4e24cced TFT12_EldritchVolibear_Base_Eye_L
 30249db3 TFT12_EldritchVolibear_Base_Eye_R
 58860e37 TFT12_EldritchVolibear_Base_Idle
+b1f4f245 TFT12_EldritchVolibear_P_ChainLightning
+1645af2d TFT12_EldritchVolibear_P_hitFlash
 a755320c TFT12_Faerie_ManaGain
 d81e230b TFT12_Faerie_QueenBase
 6f32428c TFT12_Faerie_QueenEmpowered
@@ -49213,6 +49217,7 @@ d110e864 TFT5_DraconicEgg_4turn_regular
 c1ce4e02 TFT5_DraconicEgg_Hatch
 c4f90725 TFT5_DraconicEgg_Hatch_Gold
 839a7a8a TFT5_DraconicEgg_Spawn_Gold
+99db55e0 TFT5_HeimerTurret_Idle
 e1aa89c5 TFT5_Heimerdinger_I_Hair
 1b15dd4d TFT5_Item_Blessed_Zzrot
 d03534db TFT5_Item_CombinationCeremony_Shadow
@@ -49243,6 +49248,10 @@ bfe6600f TFT5_Kitchen_DishSplash
 d7c230b5 TFT5_Kitchen_Pix
 47fc049a TFT5_Kitchen_Pix_Winstreak
 30f2f995 TFT5_Kitchen_PlateLand
+25837b2d TFT5_Morgana_R_Beam_Break
+92bf5917 TFT5_Morgana_R_Tar_Explode
+087cb415 TFT5_Morgana_R_beam_break_tar
+520d67df TFT5_Morgana_R_buff
 3e866ec3 TFT5_MysteryBox_Blessed_Child
 c0f053db TFT5_Sejuani_Carry_P_hit
 5e76496a TFT5_ShadowItem_Explosion
@@ -49335,6 +49344,7 @@ b1d71b90 TFT5_Trait_Sentinel_Shield
 53ba4a05 TFT5_Trait_VictoriousHeal_mis
 44ca2287 TFT5_Trait_VictoriousHexIndicate
 8e79f598 TFT5_Trait_Victorious_Celebation
+781a2c49 TFT5_Udyr_R_cas_Right
 832acda3 TFT6_Augment_ArcanistRunicShield_Shield
 4a5367f7 TFT6_Augment_ArmorPlating_Invuln_Buff
 cfdc18a8 TFT6_Augment_Ascension_Active
@@ -53098,6 +53108,7 @@ aa7d11e5 Teemo
 2375c08c TeemoMushroom_R_Buf
 c4011d70 TeemoMushroom_R_cas
 69712b5b TeemoMushroom_Skin47_R_Glow
+fde3ced4 TeemoMushroom_Skin47_R_tar_child
 95247db8 TeemoMushroom_Skin47_Shell_MAT
 dc1e67b5 Teemo_Astro
 2f62c7e1 Teemo_BA_cas
@@ -53110,6 +53121,7 @@ dc1e67b5 Teemo_Astro
 322e5737 Teemo_E_cas
 49133215 Teemo_E_mis
 adebd61c Teemo_E_mis_Child
+587ab727 Teemo_Emote_Dust
 ef54019c Teemo_I_FlameCrown
 0afd6249 Teemo_Joke
 9bfec370 Teemo_P_Buf
@@ -53135,13 +53147,24 @@ ad171bb1 Teemo_R_Mis_Short
 0466db93 Teemo_Recall
 04cf8866 Teemo_Recall_AmbientPollen
 ddeed2d2 Teemo_Recall_Child
+859a2a2c Teemo_Recall_Emote
+c97ecefb Teemo_Recall_Footsteps
+106f2b40 Teemo_Recall_GroundDecal
 7744582b Teemo_Recall_JoySong
 1a47bcdc Teemo_Recall_PollenBurst
+e38138e3 Teemo_Recall_PortalActivate
 6dc7abc3 Teemo_Recall_Rope1
+4dc2b936 Teemo_Recall_Sand
+4c15d5f8 Teemo_Recall_Trail
+04efd32a Teemo_Recall_Wind_Trails
 0e90dd62 Teemo_Recall_Winddown
 1175f6b7 Teemo_Recall_Winddown_Child
 5f99c1ff Teemo_Skin04_R_Meteor
 57b97ade Teemo_Skin04_Recall_Background
+2d40e998 Teemo_Skin04_Recall_Flag
+331f7fb5 Teemo_Skin04_Recall_Footsteps
+ed4c0463 Teemo_Skin04_Recall_Moon
+483bed97 Teemo_Skin04_Recall_MoonDust
 49db8d7f Teemo_Skin18_W_Buf_Weapon
 48b1dee6 Teemo_Skin25_Idle_Hide_glow
 1f64b7e2 Teemo_Skin25_Idle_Leaf
@@ -55373,6 +55396,7 @@ e19d421c UltBook_Nasus_Base_R_Clone_Transform
 1cf5cdc3 UltBook_Nasus_R_Avatar
 3810d1c2 UltBook_Nasus_R_HandGlow
 217c0ffa UltBook_Nasus_R_Transform
+83d4267d UltBook_Nautilus_Base_R_Clone_Transform
 806d3615 UltBook_Nautilus_R_Nautilus_R_GL_cas_01
 f70dc89b UltBook_Nautilus_R_Nautilus_R_GL_tar_01
 ec73b900 UltBook_Nautilus_R_Nautilus_R_sequence_impact
