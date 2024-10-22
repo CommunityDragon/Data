@@ -4390,6 +4390,7 @@ c90e6130 BonusADAP
 4275312c BonusADDamage
 e06e243e BonusADFromMana
 a73f2620 BonusADPerStatueSplit
+693a77ae BonusADPercent
 09a91dc8 BonusADRatio
 d53b93b2 BonusADSP
 c5502c89 BonusADToGive
@@ -4948,6 +4949,8 @@ ea04e765 BreakEgg
 235d9fc7 Breath
 2ac38026 BriarAoEBooster
 4e3cf7da BriarHealthGain
+7e62b4dd BriarHealthGainCTR2
+7d62b34a BriarHealthGainCTR3
 9d8eaebd BriarHealthGainDU
 8e70820c BriarHealthGainHR
 b570d880 Briar_BA_Frenzy_Tar
@@ -5346,6 +5349,11 @@ d9fbdcf5 Buffbone_Water_Small_8
 784e1f82 Buffbones_Cstm_Sword5
 774e1def Buffbones_Cstm_Sword6
 7fd0bcce Buffbones_Idle
+6888e17a Buffer_Dash_Distance
+62ba9253 Buffer_Dash_Forgiveness_Window
+495d8d4b Buffer_Dash_Min_Distance
+35286cbc Buffer_Dash_Time
+1741699d Buffer_Dash_W_Forgiveness_Window
 73d58d75 Bug
 38df0375 Building
 8d11c272 Buildings
@@ -5898,7 +5906,24 @@ ced2240d CalcValue
 03cf5abd CalcValueB
 02cf592a CalcValueC
 fdcf514b CalcValueD
+1e9b7315 Calc_Attack_Speed
+12cfcbfc Calc_Damage
+b5a41939 Calc_Damage_1_Max
+75c5ee3b Calc_Damage_1_Min_Ratio
+296323d7 Calc_Damage_1_Percent_Max
+4ed5303c Calc_Damage_2_Max
+1753b716 Calc_Damage_2_Min_Ratio
+2a2f76ca Calc_Damage_2_Percent_Max
+6e4f85a6 Calc_Damage_Flat
+6a5c1e89 Calc_Damage_High
+6b002495 Calc_Damage_Low
+ba70caf5 Calc_Damage_Monster_Flat_Bonus
+67c80d30 Calc_Damage_Monster_Percent_Cap
 79f4f43b Calc_MoveSpeed
+8ad77f0c Calc_Omnivamp
+b41b2357 Calc_OnHit_Damage_Flat
+5a47459d Calc_OnHit_Energy_Refund
+cd528964 Calc_Shield
 2a00b43c CalculatedDamage
 e368d8d0 CalculatedSlowAmount
 2d601dbc Calibrum
@@ -16803,9 +16828,17 @@ ba76a9bd DamageReflection
 115b1482 DamageToMaxHealthRatio
 0ce06f16 DamageToMinions_Scaling
 703c0bab DamageTooltip
+c340bdfc Damage_1_Base
+e91f1757 Damage_1_Min_Ratio
+3a6bf49e Damage_1_Percent
+5cbedfdb Damage_2_Base
+b1b401d2 Damage_2_Min_Ratio
+76e00e0f Damage_2_Percent
 0f437b7e Damage_BladeHit
+00d979ba Damage_Flat_Base
 71ba3322 Damage_Hit
 3eef6730 Damage_Hurt
+58a9bc6f Damage_Low_Base
 0003c576 Damage_SpellHit
 d3fcf735 DamageperSecondAPRatio
 f815289c Dance
@@ -17102,6 +17135,7 @@ f3846c24 DemonTrigger
 c09a0c5a Demon_Form_MAT
 c73a3c8e Demon_Soul
 f4b977c0 DemonflareDamageBase
+d74b775c DemonflareDamageRatio
 050b1575 DemonflareDamageTotal
 bec86c6b DemonflareTotalDamage
 fee32e4d Demonsword_Channel
@@ -17777,6 +17811,7 @@ ca0b3ba5 Dust
 c51e9cf3 E2Damage
 ce18ca7a E2DamageCalc
 50dbd17f E2PercentageOfTotal
+485c344d E2Ratio
 e51b1174 EADRatio
 4c973d70 EAPRatio
 5ea5cfa0 EBaseDamage
@@ -18472,6 +18507,7 @@ a8901de9 Extra
 6eca8b5e ExtraBoltAPRatio
 ab2fb52e ExtraBoltBaseDamage
 830765cf ExtraBoltDamage
+fafdb7a1 ExtraBoltRatio
 93d13af6 ExtraBounces
 77c09305 ExtraDamagePerSecondCharged
 71239a0b ExtraHealth
@@ -21359,6 +21395,7 @@ e5a5bac1 HealCritMod
 5ec17b88 HealDU
 a1fd83df HealDuration
 5ffbbd48 HealHPPercent
+49beb72e HealHPRatio
 5da364e1 HealHR
 c34520e3 HealIncrease
 48fea373 HealMax
@@ -21429,6 +21466,7 @@ b7232dee HealthFromASTooltip
 d42806c8 HealthGain
 04f06742 HealthHealPercent
 ce562b5f HealthIncrease
+e0d7c414 HealthIncrement
 293eb6b0 HealthLoss
 a603b641 HealthLossPercent
 0381eaeb HealthOnHit
@@ -21752,6 +21790,7 @@ de2646e6 Hide_Weapon
 3de0baa6 Hiding
 3d6f43c1 HighCDMSBoost
 3f4ad668 HighDamage
+7c1297ef HighDamageMultiplier
 3fcc7402 Hilt
 f916998c Hinge
 fed2b25e Hip
@@ -28775,6 +28814,7 @@ fb3fa589 MaxDamageCalc
 34e55017 MaxDamageEvolved
 2d590e35 MaxDamageEvolvedNL
 116bd992 MaxDamageMult
+3aeeb7ac MaxDamageMultiTOOLTIP
 4330cdc6 MaxDamageNL
 d555321b MaxDamagePerBullet
 6e43d37c MaxDamagePerStrikeTooltip
@@ -28816,6 +28856,7 @@ c0571dea MaxHealthAPScalar
 bbfaebb3 MaxHealthDamageResistRatio
 bea956d4 MaxHealthDifference
 70588aa5 MaxHealthDmg
+453b7ee5 MaxHealthGained
 89b17169 MaxHealthHeal
 d20921a5 MaxHealthHealAmount
 20cc7fa3 MaxHealthIncrease
@@ -29176,6 +29217,7 @@ b047722a MinionCritDamage
 84471711 MinionMod
 71c8d2dd MinionMonsterDurationMod
 2ed2bcd9 MinionMonsterHeal
+64e7a64e MinionMonsterHealReduction
 c9519aa8 MinionMultiplier
 8416fe64 MinionPenalty
 81b16d51 MinionPenaltyBase
@@ -29721,6 +29763,7 @@ b4a5986a MonsterDamagePerTickCap
 0b9b4c55 MonsterDamageTotalTOOLTIP
 82ea0597 MonsterHealTT
 92cb29a1 MonsterHealing
+e2ae6a22 MonsterHealthDamageCap
 2913ef15 MonsterJaw
 855c08d0 MonsterMaxDamage
 546aad6b MonsterNukeMinRCalc
@@ -31366,6 +31409,7 @@ bfa06bf1 OmnivampPerStack
 6c155e99 OmnivampPercent
 635778ef OmnivampPercentPer5MissingHealth
 2f805979 OmnivampValue
+b43a57f3 Omnivamp_LifeStealScaling
 0e879ee7 OnChampionKill
 9aa4a455 OnChampionPentaKill
 7d228ee1 OnChampionQuadraKill
@@ -32003,6 +32047,8 @@ cb6b5298 PercentBonusDamage
 1e9458af PercentBuff
 06c5cfb3 PercentBurn
 dc9bb1d4 PercentChanceToAbduct
+8126d833 PercentChanceToAbductCTR2
+8026d6a0 PercentChanceToAbductCTR3
 29f22d3b PercentCritAsAP
 ac0467a3 PercentDPSOnHit
 fb45aa38 PercentDR
@@ -43286,6 +43332,7 @@ ebc34ac5 ShieldBHPRatio
 667bf153 ShieldBaseAmountFast
 af89b1d0 ShieldBaseDamage
 c837c112 ShieldBaseTooltipOnly
+0e49b93a ShieldBaseValue
 da502e71 ShieldBlockTotal
 e5a3d6a1 ShieldBonusADRatio
 e49e1d06 ShieldBonusAP
@@ -52823,6 +52870,8 @@ e0cb003e TableTop
 c4beb97e TackleDamage
 0e4a127f Tactician
 703068e4 TacticianHealthToFeed
+0eace063 TacticianHealthToFeedCTR2
+0dacded0 TacticianHealthToFeedCTR3
 5ba894af TacticianHealthToFeedDU
 60c51ea2 TacticianHealthToFeedHR
 7612c75c TagInSpell_ToIdle
