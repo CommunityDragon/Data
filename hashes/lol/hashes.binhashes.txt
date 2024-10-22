@@ -47551,6 +47551,9 @@ a17e38fd Sylas_Skin24_Recall_Jelly_Trail
 2aa5685c Sylas_Skin24_Recall_Sylas_Shot01
 2da56d15 Sylas_Skin24_Recall_Sylas_Shot02
 7a7c72d3 Sylas_Skin24_Recall_Sylas_Shot02_Cas
+2a1c7fe7 Sylas_Skin46_Emote_Homeguard
+647f45f1 Sylas_Skin46_Emote_Joke_Loop_Tar
+93017dc2 Sylas_Skin46_Emote_Joke_Tar
 9114bf33 Sylas_Skin46_Idle_Beam01
 9214c0c6 Sylas_Skin46_Idle_Beam02
 c25f7616 Sylas_Skin46_Idle_Gauntlet_L
@@ -47558,6 +47561,12 @@ bc5f6ca4 Sylas_Skin46_Idle_Gauntlet_R
 2c53c955 Sylas_Skin46_Idle_Sphere01
 2953c49c Sylas_Skin46_Idle_Sphere02
 2a53c62f Sylas_Skin46_Idle_Sphere03
+5d9076d5 Sylas_Skin46_P_Nova02
+b3e43e26 Sylas_Skin46_P_Srar_motion
+29343228 Sylas_Skin46_P_Star_Child
+f3650dd4 Sylas_Skin46_R_Hand_Buff02
+62124dc6 Sylas_Skin46_R_Head_DarkStar
+c4b9b75d Sylas_Skin46_R_Ult_chain_sparks02
 4216a50c Sylas_W_Dash_In
 a310169d Sylas_W_Hand_Hit
 3abd517c Sylas_W_Nova
