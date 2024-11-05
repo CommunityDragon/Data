@@ -24272,6 +24272,9 @@ b71d17a8 Jhin_Z_Idle_03
 2a50526a JinxASDuration
 5263ba40 JinxEmpoweredAS
 ba88d61b Jinx_BA_Exhaust_01
+00f2ca2a Jinx_Base_BA_Crepe_JinxVsCaitlynRewardEnemy
+23eb4df9 Jinx_Base_BA_Crepe_JinxVsCaitlynRewardExplosion
+17e187fe Jinx_Base_Crepe_JinxVsCaitlynReward
 51d7e425 Jinx_Dance_DarkTrail
 29dadefd Jinx_Dance_Kick
 4b2b7bbf Jinx_Dance_LightTrail
@@ -57447,6 +57450,7 @@ deda3b91 Vi_Skin12_Recall_Crater
 305ab3b1 Vi_Skin12_Recall_Godrays
 67e752be Vi_Skin12_Recall_JumpTrail
 f4667854 Vi_Skin12_Z_Streamer
+88c168a5 Vi_Skin48_R_CameraBoundVFX
 f8fa13fa Vi_Spell2_Swipe_01
 52d15ae7 Vi_Spell3_Swipe_01
 44908f01 Vi_Teamwork_Sound
