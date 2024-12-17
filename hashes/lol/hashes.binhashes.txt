@@ -9177,6 +9177,7 @@ d60d8f66 Cherry_Team_Banner_Right
 77530825 ChestArmor
 dff53813 ChestBelt
 352abfaf ChestBlackHole
+4c9e4f14 ChestEyeTwitch
 0cdfa186 Chest_Belt1_helper
 b1d086f5 Chest_Belt2_helper
 d6efb1dc Chest_Belt3_helper
