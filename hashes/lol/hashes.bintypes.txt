@@ -1989,6 +1989,7 @@ b36e92f2 NextBuffVarsTableInstance
 7c1c1df4 NextSpellVars
 77f1af88 NextSpellVarsTable
 c6c20233 NextSpellVarsTableInstance
+2fcaa83c NexusFinisher
 8e85b8c7 NotInputSourceBool
 d5a6ab25 NotMaterialDriver
 d2c26ff2 NotMaterialDriverInstance
@@ -3577,5 +3578,6 @@ b1474db1 WorldVars
 0125d45c X3DSharedConstantDef
 344a9a75 X3DSharedData
 3745189b X3DSharedTextureDef
+46d43861 iconUrl
 a2d2015e mapgeo
 3730b3d2 selectionStrategyConfig

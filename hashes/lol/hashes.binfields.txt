@@ -682,6 +682,7 @@ a1e16032 CanSellDuringArmory
 f0d0b6e3 CancelButtonIcons
 0c8d5290 CancelHitRegion
 9c1a0f62 CannonMinionLaneRotation
+83172271 Canvas
 32dd4bd4 CapBurstEmitters
 e092a753 CardBackground
 839b7f88 CardDefault
@@ -1491,6 +1492,7 @@ a5ebea7d Eliminated
 201dd890 EliminatedColor
 1c20405e EliminatedState
 53fe176e EliminationHighlightVfx
+6848af5b Emblem
 0a46a43a EmblemElements
 e5daa737 EmitterBone
 563d4a22 EmitterPosition
@@ -1770,6 +1772,7 @@ c6abb2cb FirstRewardIcon
 532faad1 FirstTimeUxOffscreenButtonGroup
 bfa71bae FixAccidentalAttackWhileSnared
 40574f29 FixAttackMoveWhileSnared
+bdeaa8d7 Flag
 4e08731b FlagDefinitions
 81a7a5ec FlagRange
 7521711d FlairIcons
@@ -2682,6 +2685,7 @@ b08d628f LockIcon
 8d8aade3 LockRightOffset
 875144e9 LockText
 fab77944 LockUpOffset
+ce164093 Locked
 e62ef3c5 LockedDefaultIcon
 1789de82 LockedHoverIcon
 d0fc26f2 LockedIcon
@@ -3203,6 +3207,7 @@ ef8fe151 NewStatUiData
 57c9eba0 NewStats
 fb0e7215 NewTowerFortification
 930970c7 NewTurretLogic
+dd681b43 NextBuffVars
 9f1d2b34 NextShopHighlightElement
 46f4a4d2 NoActiveBannersIcon
 07cc89a2 NoButton
@@ -3380,6 +3385,7 @@ d78001b6 OutSize
 a69fdb94 OutValue
 695012cc OutWasFound
 548e8cea OuterRadius
+79a94f04 Output
 ae9faafb OutputMaxValue
 6129b949 OutputMinValue
 46842bc8 OutputParameters
@@ -4157,6 +4163,7 @@ d278219f RunOnce
 b4b9db47 RunPlaybackSpeedForTransitions
 b6fd2589 RuneBerserkRefactorsOn
 91fc65eb RuneDamageIconTextureName
+5d26f54f SAMPLER
 1fd670cc SampleQuality
 9a8c9615 SampleRadius
 cf33bdd7 SamplerData
@@ -4565,6 +4572,7 @@ ed5e0ca1 SpellLevel
 0eeed182 SpellShieldBorder
 e19a6b2d SpellSlot
 841704fa SpellSlots
+3262dbd4 SpellTags
 8b2a728d SpellToggleSlot
 e7fa2b10 SpellVOOverrideSkins
 cd99a01f SpellsCheckTheirAmmoRequirement
@@ -5973,6 +5981,7 @@ ad06db03 championMetadata
 22f23e2c championProgressiveTickData
 a977f4ae championSkinId
 2d78c328 championSkinName
+bfad234f champions
 1cec9ef2 charAudioNameOverride
 9d78529d charData
 55de1cd1 characterIconPositionOffset
@@ -6187,6 +6196,7 @@ e862b379 emoteYOffset
 771dee0e endDate
 4f2cd510 endLocator
 2c317acb endOfGameAlias
+29a1e03c endRank
 d8b7f07c endpoint
 69ea6dab enemy
 f365a945 enemyChampSpecificHealthSuffix
@@ -6261,6 +6271,7 @@ b5e896c7 finisherParticleFriendlyName
 802d9047 finisherParticleTroyFile
 23925b89 fireColoration
 40785f22 fireDrake
+4881d841 first
 6419f82d firstAcquisitionRange
 9a68e0da firstItem
 29b671c4 firstSelectionAnimationDelay
@@ -6288,6 +6299,7 @@ e3078fb5 flexOffset
 77a68250 flexScaleEmitOffset
 10449b28 flexUVScroll
 27c9da66 flexUVScrollMult
+0fc814f3 flipped
 71451ad4 fluidDynamicsDefinition
 ffd7226d fluidPartName
 4896f2da fogAlternateColor
@@ -6437,6 +6449,7 @@ ff578b94 inkFillRate
 0b99db0e inputTextLengthMax
 8563e50a intensity
 3c8368c0 intensityScale
+9a796d00 internal
 6eacca83 internalName
 cedd8578 interval
 3e073677 intime
@@ -6487,6 +6500,7 @@ c09dbcb8 knockback
 297cd14a knockup
 e7da7f6f labelElement
 6eea382f lane
+964f732c leaderboard
 174d75d3 leagueName
 810fe019 leagues
 a1fb09f0 leftTextureName
@@ -8663,6 +8677,7 @@ fe195c64 minionScoreValue
 165e061e missileSpeed
 ea472d7e missions
 938b38b3 modes
+97e56350 modifier
 6592b854 modulationFactor
 0c134bb4 momentumFromHit
 0574b158 moreInfoButton
@@ -8686,6 +8701,7 @@ a32e6947 navGridFileName
 8c4b1ad8 neutral
 99a7180f newAsset
 ab522155 nextID
+8e632998 nexus
 e672d557 normalMapTexture
 095e577f notificationsButton
 1e67b0f1 numFrames
@@ -8732,6 +8748,7 @@ a006fca4 overrideSpline
 6ffc7c75 overrideUseSpecular
 99fa975a overshoot
 50be1ca6 overwritePreviousNumber
+57d1fb77 pageSize
 45a9af7e paletteBlendRegister
 9e52382f paletteCount
 8aa1ffc1 paletteDefinition
@@ -8935,6 +8952,8 @@ dfc96107 scrollSpeed
 90adba64 scrollingScene
 f9205db4 searchTags
 8dbf769e searchTagsSecondary
+cc628958 season
+abf8d4dd second
 c26c72f8 secondSelectionAnimationDelay
 f95bc325 secondaryAbilityResource
 44893c99 secondaryQuest
@@ -9058,6 +9077,7 @@ a2957722 startFrameMult
 c85cceeb startLocator
 bcf77154 startOffsetX
 bdf772e7 startOffsetY
+38081dbd startRank
 8a708dee startTime
 95d2c754 statName
 63719185 statStoneSets
@@ -9066,6 +9086,7 @@ cb67a17d statStones
 ba72875f states
 03a46b6b staticSwitch
 3291437b staticSwitches
+ba4b77ef status
 03534fec statusName
 97a78d34 stencilCompareFunc
 445cbefc stencilEnable
@@ -9083,6 +9104,7 @@ c7441a0f step
 56b8abdb storeOverlayImage
 122c3a82 stormColoration
 e07a18b0 strength
+17c16538 string
 dd6cdf21 stun
 b5575dbf styles
 30edbb67 subMeshName
@@ -9152,6 +9174,7 @@ e04e5e7d textureTargetMaxGrowName
 c1ef7bb3 textureWallOverrideName
 99108c85 textures
 e59c70cd tftCharacterLists
+f6bc0e44 tftpass
 507b3ae8 theSwitch
 a8f277f2 theme
 69b3092e themeList
@@ -9206,6 +9229,7 @@ b36cff34 translationOverride
 7b285eed typeData
 a8953bd8 typeId
 33c02d93 typeIndex
+ffe0c49a types
 1cbde0ff uScrolling
 8ce04c3d uncensoredIconCircles
 a5f167ec uncensoredIconSquares
@@ -9279,6 +9303,7 @@ f54aa658 verticalOffset
 73f9c3e6 victoryBannerSound
 d25da809 victoryMusicID
 4eb9a495 videoAssets
+436fae61 videoId
 3fad4c30 viewType
 30462fc4 vintageCutoffDate
 9554002c viscosity
