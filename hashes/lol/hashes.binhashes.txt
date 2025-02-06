@@ -4149,6 +4149,7 @@ a67974f2 Ball_Ground_1
 5f501484 Ball_Recall
 de6ed381 Ball_snap
 bdeebd1c Balloon
+2cd3cf6a Balloon2
 7bd44bc7 BalloonA
 7cd44d5a BalloonB
 7dd44eed BalloonC
@@ -30392,6 +30393,7 @@ ab9b5925 Leaf2
 aa9b5792 Leaf3
 a59b4fb3 Leaf4
 a49b4e20 Leaf5
+49a68e64 Leaf_2
 1048aab3 Leap
 0a638d2d LeapADRatio
 932aace2 LeapDamage
@@ -49114,6 +49116,9 @@ d4d8c971 SRU_Atakhan_Birth_ScreechTrails
 a6633f11 SRU_Atakhan_Birth_Transition_Ramp
 9919323e SRU_Atakhan_Birth_Transition_Ramp_OnCrown
 1bdef46a SRU_Atakhan_Birth_Transition_SmokeTrail
+96da66ef SRU_Atakhan_Crown_Idle
+920aa303 SRU_Atakhan_Crown_Transition_Ramp
+4a7a0628 SRU_Atakhan_Crown_Transition_SmokeTrail
 68403c95 SRU_Atakhan_Death_CoreEnergy
 86d68440 SRU_Atakhan_Death_DecayMotes
 3174be45 SRU_Atakhan_Idle_Back_Glow
@@ -69668,6 +69673,7 @@ ff4b1387 VFX_LandmarksOfRuneterra_Night
 4e8ed8ec VFX_Loc2
 4f8eda7f VFX_Loc3
 4c8ed5c6 VFX_Loc4
+0398f037 VFX_Logo
 f4f24fa4 VFX_LunarRevel_PentHouseParty_1
 f03d74f8 VFX_MagicDoor01
 f33d79b1 VFX_MagicDoor02
