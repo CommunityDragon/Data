@@ -60122,6 +60122,7 @@ d3782e7b TFT14_Jinx_BA_Minigun_Cas_Long
 66e3167a TFT14_Jinx_BA_Minigun_Cas_Long_Child
 8dd16a9e TFT14_Jinx_BA_Minigun_Cas_Medium
 f9e4fe9d TFT14_Jinx_BA_Minigun_Cas_Short
+a2b724ce TFT14_Jinx_BA_Minigun_Mis
 dcf39485 TFT14_Jinx_BA_Rocket_Cas
 f86a2a87 TFT14_Jinx_BA_Rocket_mis
 b7f56c06 TFT14_Jinx_Emote_Rocket_tar
@@ -60175,6 +60176,7 @@ af973010 TFT14_Morgana_Q_DoT
 fb872f1c TFT14_Morgana_Q_Mis_Update
 3b8b2158 TFT14_MysteryBox_Hacked
 d0100712 TFT14_NPC_AurelionSol_BA_Mis
+08d966e6 TFT14_NPC_Drone_BA_TFT14_NPC_Drone_BA
 1f0a8b11 TFT14_Naafiri_AnimSwipe
 d81cf75e TFT14_Naafiri_DogMissile
 b706a6b1 TFT14_Naafiri_DogTar
@@ -64452,6 +64454,7 @@ c8bd17da TFTM_TrovesCelebration_ChaseContent_ChibiKDAAkali
 61d537b0 TFTM_TrovesCelebration_ChaseContent_ChibiPrestigeKaisa
 9dcfa100 TFTSet12
 9ecfa293 TFTSet13
+a3cfaa72 TFTSet14
 7c4d6f2a TFTSet5_Stage2_Augment_Props
 c676a546 TFTSet9b_TraitEffect_Bilgewater_CannonDrop
 f4ea093e TFTSet9b_TraitEffect_Bilgewater_CannonDrop_ExtraHighDamage_AOE
