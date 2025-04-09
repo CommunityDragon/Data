@@ -32983,6 +32983,9 @@ ef7e3e0c Mat_ChibiRiven_Skin2_RadialBlur_Boom
 598bb9af Mat_ChibiVi_Skin2_RadialBlur_3
 568bb4f6 Mat_ChibiVi_Skin2_RadialBlur_4
 578bb689 Mat_ChibiVi_Skin2_RadialBlur_5
+7c1c0cda Mat_ChibiYone_Skin3_RadialBlur_Boom
+3a37077a Mat_ChibiYone_Skin3_RadialBlur_Start1
+393705e7 Mat_ChibiYone_Skin3_RadialBlur_Start2
 fef34a0e MatchStick
 681d1a7f MatchStick_MAT
 d2e4d060 Material
