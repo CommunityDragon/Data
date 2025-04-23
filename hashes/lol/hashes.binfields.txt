@@ -113,6 +113,7 @@ c68c22cf AdviceIconHoverNonMythic
 13f36cf9 AdviceLabel
 9e6a7234 AgainstVote
 3fb502ed Aggro
+c5a88418 AhriLarge
 70cca125 AiGroupName
 3e6c51c8 AiScript
 2b88e11e AiUnitName
@@ -182,6 +183,8 @@ c5bb71b9 AnimationList
 0b5ad48b AnimationPool
 94efa6a0 AnimationThreshold
 cf15f26a Animations
+48ad481d AnnieLarge
+cfa53701 AnnieSmall
 c4b1c5aa AnnouncementData
 1df05e4b Announcements
 25e5198f AnnouncementsMapping
@@ -1033,6 +1036,8 @@ cc324529 CooldownTimer
 aa30297a CooldownUiData
 936ed1dd CoreName
 56647830 CorkiCharacterQuest
+8cd23c7a CorkiLarge
+2da2b24e CorkiSmall
 244a2150 Corner
 0af1ce00 CosmeticIcons
 e85c3338 Cost
@@ -1539,6 +1544,8 @@ a5fc4ee8 EmpoweredArrivalFile
 c007a116 EmpoweredEffectFile
 13a4d526 EmptyActiveTraitTemplate
 b3e383e1 EmptyGroup
+be6f06f8 EmptyPip16
+864d103a EmptyPipSmall
 a03379b8 EmptyPips
 fdde5b32 EmptySlotButton
 18b07cca EmptyStateGroup
@@ -1971,6 +1978,9 @@ f4de034c GeneralMetrics
 cfe609d6 GeneralSettings
 271fb40d GenericBackgroundTexture
 df684997 GenericIcon
+25b7e625 GenericLarge
+c3b8b9d4 GenericLargeUncolored
+ea961f89 GenericSmall
 84a64914 GetAcquisitionRangeUsesAttackRange
 4eb5a788 GetPocClampBufferTrapezoid
 79b2d636 GetPocClampTrapezoid
@@ -1999,6 +2009,7 @@ e2261286 GoldGainVfxHandle
 f3eb96d4 GoldText
 33a69e1a GoldTextHandle
 2781ed6b GoldTooltipTraKeys
+2875fcd2 GravesSmall
 d209ff45 Gravity
 81bc04be GreaterThan
 f614d04b GreyedTimerText
@@ -2444,6 +2455,8 @@ c58015b5 ItemUnitProperties
 e2e6e1df ItemsOnlyScene
 fc99a7b2 ItemsPerRow
 39648078 IvernPromo
+e9148023 JhinLarge
+1f239a7b JhinSmall
 aeae0877 Joint
 86b1a034 JointName
 fff69e4c Joints
@@ -3463,6 +3476,8 @@ a76f8e16 PanelBgAltSide
 5a313693 PanelScene
 e9631655 PanelSceneHandle
 c6f0e562 PanelTransition
+01a7bc05 PantheonLarge
+c685f569 PantheonSmall
 a75595ed ParBar
 35d8178d ParBarData
 228067f5 ParHitRegion
@@ -3574,6 +3589,8 @@ f96fee7c PingMuteButton
 d2841bf9 PipGroup
 5816f0ce PipOnIcon
 edeec556 PipSpacer
+f5e0c125 PipSpacer1
+dd95e1c9 PipSpacerSamira
 67f25899 PipTargetRect
 0a1d364f Pips
 1d43d244 PityThreshold
@@ -4163,7 +4180,13 @@ d278219f RunOnce
 b4b9db47 RunPlaybackSpeedForTransitions
 b6fd2589 RuneBerserkRefactorsOn
 91fc65eb RuneDamageIconTextureName
+648593fc RyzeLarge
+cda88c14 RyzeSmall
 5d26f54f SAMPLER
+50cfbf04 SamiraStyleEmpty
+89ec83f2 SamiraStyleLarge
+42fac9b8 SamiraStyleMedium
+606b8486 SamiraStyleSmall
 1fd670cc SampleQuality
 9a8c9615 SampleRadius
 cf33bdd7 SamplerData
@@ -4316,6 +4339,7 @@ fcef6f9f SequencePhase
 aaa03772 SequenceTiming
 6b258540 SequenceType
 1941e0d6 SequentialAutoAttackAnimations
+c719768a SeraphineStyleLarge
 7711eaa0 SeriesTitleHandle
 47061567 ServerSendRevealToCastTargets
 22c5e738 SetDestroyedInFlightWhenDestroyedForTarget
@@ -4801,6 +4825,7 @@ bedae0ce SwapData
 778d6dee SwitchIntPairDataList
 48fb391a SwoshAnim
 94c90e2b SyncFrameOnChangeAnim
+13c448f9 SyndraLarge
 99f9c59d TEMP_RenderThisSkinWithMaterials
 6f2169e1 TFTMatchupBanner
 438850ff TFTSetData
@@ -5706,6 +5731,7 @@ d7753b40 WorldOffset
 6a093406 WrappingMode
 51af37d2 WriteAlphaOnly
 ac249bdc XPercent
+0b1f8cff XayahSmall
 bfc714a8 XboxGamePassEndedDialogViewController
 b0cdc396 XboxGamePassIntroDialogViewController
 0b0a3f30 XpRequired
