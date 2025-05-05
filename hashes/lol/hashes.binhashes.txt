@@ -5981,6 +5981,7 @@ bd1f625d Brawl_Brush_Enter
 109c18bd Brawl_Buff_LastStand_Enemy
 f16dffa8 Brawl_Buff_YordleMagic_TeemoHat
 711a9408 Brawl_ChampionKill_Order
+6a60f766 Brawl_Environment_Book_Veigar
 78bfa31f Brawl_Environment_Lilypad_1
 79bfa4b2 Brawl_Environment_Lilypad_2
 1d019370 Brawl_Environment_SkyBox_Atmosphere_2
@@ -26531,6 +26532,7 @@ e1232fb8 Items/6697
 e0232e25 Items/6698
 df232c92 Items/6699
 5108fa54 Items/6701
+5408ff0d Items/6702
 285b3837 Items/7000
 275b36a4 Items/7001
 2a5b3b5d Items/7002
