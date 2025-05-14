@@ -230,7 +230,9 @@ ceaa30c7 ADHealthPercent
 882659c0 ADIncrease
 1cc4af97 ADModified
 fcfce396 ADMult
+d1d8b7f9 ADOnAttack
 779aafdb ADPerAS
+0c43a582 ADPerBonus
 a902785f ADPerCrit
 cc09554f ADPerGigaDog
 d3bc9e0c ADPerLegendary
@@ -305,6 +307,7 @@ a7917cb3 APHealthPercent
 017df1f1 APModifiedHeal
 2afd498b APMultiplier
 0ed4559d APOmnivamp
+c5fd179e APPerBonus
 ebcfdef4 APPerCast
 b4a9e7a4 APPerGlory
 5deb4eb2 APPerInterval
@@ -336,6 +339,7 @@ eaef1b9e APRatioTooltip
 78ff5927 APRatioTwo
 4c56b673 APReductionPerCast
 22c13cca APRequiredTooltipOnly
+e44aa7b8 APScalar
 55e065ce APScale
 9e13239b APScaleDamage
 927ebb75 APShield
@@ -5328,6 +5332,7 @@ d53b93b2 BonusADSP
 c5502c89 BonusADToGive
 d49caf5d BonusAP
 e80540fe BonusAPAuto
+a7070c3c BonusAPCalc
 d42fe374 BonusAPPerStack
 84b6c74c BonusAPRatio
 d19caaa4 BonusAS
@@ -5390,6 +5395,7 @@ e59e6565 BonusDamageTT
 3b13e90d BonusDamageTotal
 534ce1e8 BonusDefense
 bd072701 BonusDefenses
+8e26222e BonusDmgAmp
 12e39573 BonusEXP
 033f86b5 BonusEnemyMaxHealthDamage
 2953068d BonusFireballsPerAmp
@@ -6213,6 +6219,7 @@ df956080 BuffBone_Cstm_Weapon_8
 26e9dccb BuffBone_Follow3
 2be9e4aa BuffBone_Follow4
 9db862e0 BuffCounterSet
+a0d3e041 BuffDamageAmp
 d955a324 BuffDuration
 5ee1117c BuffDurationSplit
 4f250d3c BuffMask
@@ -19317,6 +19324,7 @@ ea747a03 DisarmDuration
 017277d9 Disco
 d9ea828e Disco01
 d8ea80fb Disco02
+ec4727cd DiscoEffectiveness
 c7e5bc51 DiscoMicrophoneV2
 6925f5e0 DiscoPartV2
 ab261e47 DiscoRadius
@@ -22297,6 +22305,7 @@ a7a3ed69 FlatArmorShred
 c9ad2078 FlatDR
 b6d91e37 FlatDamage
 19f7e91a FlatDamageBase
+5d2a9db6 FlatDamageCalc
 ae9ad2b2 FlatDamagePerMissile
 caab5599 FlatDamagePerSecondTOOLTIP
 cb4cd428 FlatDamageReduction
@@ -24439,6 +24448,7 @@ a429daf5 HealthPerSkip
 4a420b68 HealthPerStage
 4548e0c8 HealthPerUnit
 d44cb578 HealthPerWin
+f1e200aa HealthPercBonus
 7fd0bc64 HealthPercent
 6c9a0655 HealthPercentDamage
 6c9ae388 HealthPercentToShield
@@ -34006,6 +34016,7 @@ afef3a22 MinimumRatio
 85695b16 MinionAD
 79694832 MinionAP
 7869469f MinionAS
+df8bce7f MinionBurnCalc
 b047722a MinionCritDamage
 6b30d302 MinionDamage
 0089fa21 MinionDamageRatio
@@ -34691,6 +34702,7 @@ ee7939bb MonkeyKing_Z_Swipe_Coven
 6703bcb3 Monkey_Jinx_mat
 d8042091 Monster
 12b2953e MonsterBonusFlatDamage
+9a14c749 MonsterBurnCalc
 56bf891f MonsterCap
 d7d2c722 MonsterCapBase
 ad058828 MonsterCapScaling
@@ -37818,6 +37830,7 @@ fda7f380 PercentArmorAndMRDamage
 2deb7544 PercentArmorPen
 7ac38453 PercentAttackDamage
 8cfbe6b7 PercentAttackDamageBoosted
+95de0ab4 PercentAttackDamageSplash
 a6d7a3db PercentAttackDamage_SecondaryDamage
 db1859c9 PercentAttackSpeed
 796e1b71 PercentBiteDamage
@@ -37911,6 +37924,7 @@ a07a6a65 PercentMaxHPDamage
 b9dcb9fa PercentMaxHealthIncrease
 a10f02bd PercentMaxHealthPeriodicHeal
 b07098f7 PercentMaxHealthShield
+e84f5241 PercentMaxHealthSplash
 7a01df57 PercentMaximumHealthDamage
 9979f27c PercentMaximumHealthHealing
 c4f99250 PercentMissingAmp
@@ -49593,6 +49607,7 @@ ef274473 ResistAmount
 7afeb03e ResistConversionToAPRatio
 acce758d ResistDamageRatio
 0e39d4b0 ResistGain
+11e5dc8d ResistGainOnKill
 861fd74d ResistIgnore
 274e912d ResistInc
 b959a7e7 ResistIncrease
@@ -49615,6 +49630,7 @@ af4d917a Resists2
 b04d930d Resists3
 2d5cd1f1 ResistsCalc
 bd2ab79c ResistsDamageRatio
+f847a0f2 ResistsForTooltip
 cc9ad122 ResistsPerExtraTarget
 93be2d35 ResistsPerStack
 28642cae ResourceGain
@@ -53859,6 +53875,7 @@ a2c881af SingleHeal
 76bdfaec SingleShield
 a0ec138f SingleStackAS
 bf378adc SingleTarDmg
+eb60ec7a SingleTargetMax
 55c2cc24 SingleTotalDamage
 2cd045bc Sion
 d3fdd0ef SionADPercentPerStack
@@ -56776,6 +56793,7 @@ da858795 StackingResistances
 cb9689ca StackingSP
 0c8ca5d0 StacksPerAssist
 1ea4eaf3 StacksPerAttack
+35c359ee StacksPerBonus
 7671c824 StacksPerCast
 f48f454b StacksPerKill
 81957c03 StacksPerProc
@@ -69775,6 +69793,7 @@ f73d9f72 ThornsDamage
 1bc790ef ThornsDamageBase
 f664d9a5 ThreeHitDamage
 f9526732 ThreeStarBonus
+5edfa63d ThreeStarGold
 e9ed104d ThreeWeaponEyes
 99dfc797 Thresh
 b2cc07c8 ThreshHeadTentacles
