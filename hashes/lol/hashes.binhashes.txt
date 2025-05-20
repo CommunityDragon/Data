@@ -2364,8 +2364,15 @@ a0e6c61f Ashe_Skin76_Idle_Bow_Orb
 af54d8fc Ashe_Skin76_Idle_Bow_Orb_Flower_Lv11
 ab5dd1f6 Ashe_Skin76_Idle_Bow_Orb_Flower_Lv11_Bottom
 9a7e6e87 Ashe_Skin76_Idle_Hair_Sparkles
+609f4920 Ashe_Skin76_Q_Bow_Sphere_Glow
 fbda6917 Ashe_Skin76_Q_Buf_bow_lv11
 4d2bbb49 Ashe_Skin76_Q_Buf_bow_lv6
+e381a194 Ashe_Skin76_Q_Hair
+e92f9a14 Ashe_Skin76_R_Cas
+5e3d517f Ashe_Skin76_R_Cas_Bow
+de0d76fc Ashe_Skin76_R_Flower_Sparkle_Child
+37d88b0b Ashe_Skin76_Z_Butterfly_Glow_Child
+3bcc676f Ashe_Skin76_Z_Idle_Bow_Flower_Burst_Glow
 b10fe1be Ashe_Skin76_Z_Recall_HandGlow_Intro
 4016eb93 Ashe_Skin76_Z_Recall_HandGlow_Intro_lv11
 e807b935 Ashe_Skin76_Z_Recall_HandGlow_Intro_lv6
@@ -28998,6 +29005,8 @@ a800504b Kayle_R_Swords_Child_Moving
 997ee760 Kayle_R_Swords_Self
 34b9c1e6 Kayle_R_Tar
 5b97c350 Kayle_R_sword_glow
+0dbe1708 Kayle_RadialBlur_Mat01
+10be1bc1 Kayle_RadialBlur_Mat02
 ee58ebf7 Kayle_Recall_FireStacks
 f446d149 Kayle_Recall_GodRays
 4b0fa46e Kayle_Recall_Light
@@ -54548,6 +54557,9 @@ bdd9abc3 Skin20_Recall_Mat
 296bf3ce Skin90_Goldmine_Death
 932de8d6 Skin90_Goldmine_Idle
 d6ce6bc3 Skin90_Goldmine_Spawn
+6a13d67b Skin91_Goldmine_Death
+680abea5 Skin91_Goldmine_Idle
+269f6a52 Skin91_Goldmine_Spawn
 fe6cf09b Skinsie_Ward_MAT
 e6a24c87 SkipperADRatio
 c214b432 SkipperADRatioVSStructures
@@ -59385,6 +59397,11 @@ a5854918 TFT10_Senna_BA_mis
 4ad99631 TFT10_Senna_Spell_AoE
 f68064fa TFT10_Senna_W_Mis
 538634af TFT10_Senna_W_Mis_Child
+1a229a6a TFT10_Seraphine_BA_mis
+dae25cb6 TFT10_Seraphine_Q_AoE
+818e4a62 TFT10_Seraphine_Q_Mis
+9f1ffbb7 TFT10_Seraphine_Q_Mis_Child
+bea5da2e TFT10_Seraphine_Q_Tar
 eb3eec2f TFT10_Sett_W_AoE
 c7bef296 TFT10_Sett_W_Max_AoE_Mis
 7c2b2251 TFT10_Sett_W_Max_AoE_Mis_Head
