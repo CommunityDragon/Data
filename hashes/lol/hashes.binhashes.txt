@@ -5357,6 +5357,7 @@ a2520941 BonusArmorDamageRatio
 05415958 BonusArmorMR
 ce1d5dec BonusArmorPassive
 af704353 BonusArmorPassiveMultiplier
+41323f60 BonusArmorPercent
 9896a136 BonusArmorRatio
 f6b0b002 BonusArmorTooltip
 2f2f0501 BonusAttackDamage
@@ -5446,6 +5447,7 @@ acce2dfd BonusLootPct
 caa72cfb BonusMR
 92060393 BonusMRAO
 cc78eec6 BonusMRBase
+44ae5b88 BonusMRPercent
 ce1fb56e BonusMRRatio
 1bd2a57a BonusMRTooltip
 c9a72b68 BonusMS
@@ -22086,6 +22088,7 @@ a67caee2 Fireworks3_1
 7b0a90c9 Fireworks6
 7a0a8f36 Fireworks7
 850aa087 Fireworks8
+f17e1013 FirstArmoryLevel
 6664d41e FirstBloodBonus
 10c48db9 FirstBlood_BattleRoyale_circle
 d2eced7f FirstBlood_Danger_AOE_Burning
@@ -22309,6 +22312,8 @@ e1829ec0 FlashPart
 ada6389f FlatAD
 05015c46 FlatArmorReduction
 a7a3ed69 FlatArmorShred
+0f4d5e4c FlatBonusArmor
+a9a7f136 FlatBonusMR
 c9ad2078 FlatDR
 b6d91e37 FlatDamage
 19f7e91a FlatDamageBase
@@ -22477,6 +22482,7 @@ bbfed780 FormSwap
 798fbc5d Formula
 27589fec Fort
 8a85bbd1 FourStarScrapThreshold
+e0f8158b FourStarUpgradeLevel
 3eea1e9d FourthShotExecutePercent
 b6f3934e Fox
 e86b67bd Fox_Head_Large
@@ -34778,6 +34784,7 @@ ad058828 MonsterCapScaling
 64e1b0df MonsterCapTT
 f95948bf MonsterCritMod
 34a302bc MonsterDamage
+1e70a2c1 MonsterDamageCalc
 8809e19c MonsterDamageCap
 7c3f7269 MonsterDamagePenalty
 b4a5986a MonsterDamagePerTickCap
@@ -36782,6 +36789,7 @@ f45da4f8 NumChampsToGrant
 cd7c01a9 NumChoices
 d4ff5ddb NumCinders
 4ecaa661 NumCindersHR
+4eff62fe NumCindersPerKill
 c3c62200 NumCompletedItems
 5cc08b27 NumComponents
 8c4cd3ea NumCopies
@@ -49100,6 +49108,7 @@ d04f025f Recall_stone03
 ff9f600f RecastBaseDamage
 75fcff8e RecastDamage
 23eeb1ab RecastDamageCalc
+8985ec55 RecastDamageTooltip
 5acbc03d RecastHeal
 c775695e RecastShield
 076d34a4 ReceiveHeal
@@ -49773,6 +49782,7 @@ f7926b87 RestorationPercentage
 630172f7 Return2
 08e05b0f ReturnBaseDamage
 da544a8e ReturnDamage
+2d2facab ReturnDamageCalc
 bb4abe03 ReturnMisTrueDamage
 e7523090 RevealDuration
 cf9792a2 Revel1_Pot
@@ -50064,8 +50074,10 @@ a9bc77a1 RoleB
 a8bc760e RoleC
 abbc7ac7 RoleD
 7852b5fd RollCount
+80b452b2 RollDuration
 d3850cab RollNumber
 465e36aa RollerSkates
+35235fe4 RollingFrequency
 2efd244f Roof
 75e8cb0b Roomba
 dabea5eb Rooster
@@ -51997,6 +52009,7 @@ f2863276 SearchRange
 17d67b3a Season3_Idle_In
 70507c68 Seat
 e7cc999c SeatPatten
+cac5c4bf SecondArmoryLevel
 df8b7a40 SecondAttackDamage
 7859a7de SecondAutoADRatio
 9fdef24b SecondAutoDamage
@@ -52004,6 +52017,7 @@ e50d4a56 SecondCastADRatio
 beb194df SecondCastBonusADRatio
 6164ba5c SecondCastMaxADRatio
 48ecc148 SecondDamage
+2d77f700 SecondDelay
 80aef130 SecondElixirLevel
 b285eb3f SecondHitDamage
 7da51eae SecondHitDamageCalc
@@ -55706,6 +55720,8 @@ c7c4b1ad Spell1C_ToWalk_0
 9a3b84d9 Spell1Left
 19c8b8b6 Spell1Long
 0bd7c2ba Spell1Right
+1f94f7e5 Spell1RocketADScalar
+c2775541 Spell1RocketAPScalar
 9408c68a Spell1Short
 7d76ae19 Spell1Windup_Base
 5aad2477 Spell1_-135
@@ -55921,6 +55937,7 @@ ca3e7886 Spell2ActivateIdle
 11af0557 Spell2Idle
 59f0968f Spell2Miss_Run
 27153a4e Spell2Run
+b8d1fbdc Spell2ShieldDuration
 c6a28b3c Spell2U
 fde148a4 Spell2Up
 7b1ca9e4 Spell2_-180
@@ -70125,6 +70142,7 @@ e4dbae58 TheLastDrop_Skin2_Click
 4649ea46 TheLastDrop_Skin4_Door_Level1
 83df2eaf Thigh
 9aab2c3b Thin_Root
+91f7c392 ThirdArmoryLevel
 d18d3725 ThirdElixirLevel
 f31c7b07 ThirstyBonus
 59bf6f19 Thorax
@@ -71172,6 +71190,7 @@ d5ce2141 TrueDamageCritical
 ced35b7b TrueDamageHPRatio
 76767ae7 TrueDamagePct
 f1dbcc71 TrueDamagePercent
+26d3ffb0 TrueDamagePercentage
 9674d122 TrueshotTurret_Break1
 9574cf8f TrueshotTurret_Break2
 9474cdfc TrueshotTurret_Break3
