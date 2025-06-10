@@ -21,6 +21,7 @@ a2ff8b24 1Star
 ad33f9f3 2013_Dance
 932ad59d 2013_Run_Haste
 a5ab3ea6 2013_Spell4
+ded017cd 2141_Activate
 8e8c6ec8 2Cost
 aea98661 2Star
 a3b999e9 2StarAoEDamage
@@ -70573,7 +70574,14 @@ d6f664b1 ToeTag
 9d871a18 Toe_L
 ab873022 Toe_R
 40296205 Toggle
+f16ec95f Tomato_H1
+f26ecaf2 Tomato_H2
+f36ecc85 Tomato_H3
+ec6ec180 Tomato_H4
 4361b00f Tomato_H4_AprilFool
+ed6ec313 Tomato_H5
+ee6ec4a6 Tomato_H6
+ef6ec639 Tomato_H7
 5ea87548 TombStone
 7c30ed7b TombStone1
 a4ca1b10 Tomb_Stone_MAT
