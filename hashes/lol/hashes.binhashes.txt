@@ -175,6 +175,7 @@ ae05535a 4629
 20023539 4637
 1efff50f 4644
 1dfff37c 4645
+8fdba4e9 4HitMaxHealthDamage
 b5c2a66b 4StarAoEDamage
 15144cec 4StarBounces
 c78af25f 4StarShieldValue
@@ -7327,18 +7328,33 @@ b5a41939 Calc_Damage_1_Max
 4ed5303c Calc_Damage_2_Max
 1753b716 Calc_Damage_2_Min_Ratio
 2a2f76ca Calc_Damage_2_Percent_Max
+c794897d Calc_Damage_Amp
 6e4f85a6 Calc_Damage_Flat
 6a5c1e89 Calc_Damage_High
+84d65e87 Calc_Damage_Initial
 6b002495 Calc_Damage_Low
 ba70caf5 Calc_Damage_Monster_Flat_Bonus
 67c80d30 Calc_Damage_Monster_Percent_Cap
+d1c44fed Calc_Damage_Per_Second
+9d0df792 Calc_Damage_Spread
 fa5a6992 Calc_HealthDamage
+3fafb418 Calc_Magic_Damage
 65333142 Calc_MinimumDamage
+f943ee4e Calc_Minion_Damage_Mod
+3a99b92e Calc_Minion_Execute_Amp
+f44ed223 Calc_Minion_Execute_Threshold
 d9c290a2 Calc_MonsterCapDamage
 79f4f43b Calc_MoveSpeed
+341e28a8 Calc_Move_Speed
+f7147c47 Calc_Move_Speed_Enhanced
 8ad77f0c Calc_Omnivamp
 b41b2357 Calc_OnHit_Damage_Flat
 5a47459d Calc_OnHit_Energy_Refund
+b93cde26 Calc_Passive_Damage
+dfb0e14c Calc_Physical_Damage
+1fa3aaf0 Calc_RW_Cooldown_Reduction
+d65fda7e Calc_RW_Damage
+0c9d9a7f Calc_RW_Slow_Amount
 cd528964 Calc_Shield
 e2e36abc Calc_Slow
 2a00b43c CalculatedDamage
@@ -18864,6 +18880,8 @@ b1b401d2 Damage_2_Min_Ratio
 71ba3322 Damage_Hit
 3eef6730 Damage_Hurt
 58a9bc6f Damage_Low_Base
+a4e10c86 Damage_Passive
+112e6a81 Damage_Per_Second
 0003c576 Damage_SpellHit
 d3fcf735 DamageperSecondAPRatio
 f815289c Dance
@@ -19453,9 +19471,12 @@ dfd74ab8 Discoball
 6eb0069d DiskSpinOnce
 eea77bd0 Dismount
 bc383d01 DismountDamage
+652df2d2 DismountedAttackPenalty
 db284c3d DismountedBaseDamage
 c65a0285 DismountedMS
 c13a9c51 DismountedQDamage
+5e00b566 DismountedResistBonus
+cc5c7e38 DismountedResistBonusMax
 9c9da487 DisplayPercentDamage
 2eb31462 Distance
 cf7399e4 DistanceToFirstHit
@@ -22206,6 +22227,7 @@ e00fd11f FirstBlood_RelicBuff_TarSmoke
 ae45c57b FirstCastBonusADRatio
 16c2de34 FirstDelay
 e728fb24 FirstElixirLevel
+5e3a9cda FirstHitBaseDamage
 87c8611a FirstHitDamageCalc
 6e674fa2 FirstHitDamageTooltip
 c545ff84 FirstHitEnergyMult
@@ -35342,6 +35364,7 @@ cb6cb641 MotoHat
 f9a95f86 MotoPlane
 a45b05cc Motorcycle
 6c166aba Mount
+9435332b MountCooldown
 28241396 MountUpDamage
 97a3e91f Mount_C_Buffbone_Glb_Center_Loc
 22ec0e36 Mount_L_Toe
@@ -35462,6 +35485,7 @@ fdaf6785 MoveSpeed_Base
 d5b46533 MoveSpeed_Ratio
 e58e2cf2 Move_In
 deeda29f Move_Loop
+fa93e32c Move_Speed
 216cd609 MoveableHeadParts_MAT
 05562e58 Movement
 77db8303 Movement Speed
@@ -46971,6 +46995,7 @@ d4cf1dcb RE2Base
 443b3a16 REBonusShield
 6c5840b3 REBonusShieldArea
 fee9a47c RESharedRatio
+8c21c1d9 RE_Dash_Speed
 3fa462e1 RExplosionDamage
 36fcbfe3 RFX
 cc4ebc32 RF_foot_03
@@ -47022,6 +47047,7 @@ a2f500a3 RWDamage
 b19c3274 RWHealAmount
 949eabeb RWHealRatio
 47857800 RWTotalRoot
+df56a562 RW_Damage_Base
 c7f19e3c RWallHitDamageMultiplier
 a6eea7f7 RWeaponAlpha
 dbc8450d RWeaponBlade
@@ -53674,6 +53700,7 @@ e8373186 ShieldBonusDamage
 9194b31e ShieldBonusHealthPercent
 c4fbf5ad ShieldCalc
 ac3ba0f8 ShieldCap
+ab1ffcdd ShieldCapBase
 5bfaf13b ShieldCapRatio
 27a620ca ShieldClosedPiece
 f8e720e1 ShieldCooldown
@@ -55111,6 +55138,7 @@ c123625a SlowZoneSlowBase
 91bc3853 SlowZoneSlowHealShieldRatio
 17b1aa79 SlowZoneSlowbADRatio
 139c028a SlowZoneWidth
+f255ff29 Slow_Amount
 9c834f01 Slow_Dash_In
 adf913e4 Slow_Dash_Loop
 a2c4f48c Small
@@ -69369,6 +69397,7 @@ d07162df TFt11_FortuneProp_Goldglow_IdleExcite
 c516f15b TOOLTIPADPerCast
 68a3e9b8 TOOLTIPASPerCast
 bdd1df13 TOOLTIPAbilityDamage
+5ce59063 TOOLTIPAmmoRecharge
 52902d95 TOOLTIPBaseHP
 1197e978 TOOLTIPBleedDuration
 5100c273 TOOLTIPBonusAS
