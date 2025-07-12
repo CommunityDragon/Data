@@ -1722,6 +1722,7 @@ a40f930a FadeTime
 d316d9e6 FadeTransisionTime
 b8e861b9 FadeupTimeSecs
 4643afcc FadingScene
+425b7331 Failure
 56ff1fbc FailureIcon
 16833ab5 FailureSubtitleTraKey
 0a500602 FailureText
@@ -6075,6 +6076,7 @@ adb3e562 constants
 80e24428 consumeOnAcquire
 4e3683bf consumed
 54d3f7cf contentId
+509f1712 contentType
 dd2f145a contextualActionRuleConfigFile
 baf299d5 continualForceX
 7ecea188 continualForceXBase
@@ -6243,6 +6245,7 @@ b0794a80 erosionMapChannelMixer
 21918751 error
 1bffa622 errorText
 b9a56802 esportsTeam
+8f86c4d2 eventID
 f10a1a1f eventMutator
 12d8e384 events
 6d31463e evolutionData
@@ -6269,6 +6272,7 @@ d95c355c failedSoundPath
 6370ff58 falloffColor
 a5b8cdf4 falloffTexture
 bcf819ee far
+cf164fd8 farClip
 c2049353 farLeftIconSize
 81e09bd8 farLeftOffset
 17f4ca3c farRightIconSize
@@ -8701,6 +8705,8 @@ fe195c64 minionScoreValue
 6563bee8 miscRenderFlags
 1985fb4b missileGroupSpawners
 165e061e missileSpeed
+a8fc4718 missionCollectionId
+d41aeafc missionId
 ea472d7e missions
 938b38b3 modes
 97e56350 modifier
@@ -8723,6 +8729,7 @@ f506c7e6 multiplier
 566f3406 nameOverride
 1f6232c0 nameTranslationKey
 a32e6947 navGridFileName
+05991009 nearClip
 39c8d824 nearsight
 8c4b1ad8 neutral
 99a7180f newAsset
@@ -8736,6 +8743,7 @@ fc5a9e01 numOfInnerAOE
 1bd670a0 number
 1d369c29 objectPath
 d60a2f6a objectiveQuest
+011e3a11 objectives
 c0f12fa9 occludedUnitSelectableDistance
 73db4a28 offerId
 14c8d3ca offset
@@ -8998,6 +9006,7 @@ c36777a6 selfCBChampSpecificHealthSuffix
 252f6884 selfIllumination
 46493f5f sellBackModifier
 f9f16781 sequences
+b72a096d seriesId
 68067b08 settings
 6564a4bc settingsButton
 6f1b97bb settleTime
@@ -9105,6 +9114,7 @@ bcf77154 startOffsetX
 bdf772e7 startOffsetY
 38081dbd startRank
 8a708dee startTime
+d790ca1a statId
 95d2c754 statName
 63719185 statStoneSets
 cb67a17d statStones
@@ -9138,6 +9148,7 @@ aad7612c submesh
 2d7b4ab4 submeshRenderOrder
 1346a34f submeshesToDraw
 2d34b89e submeshesToDrawAlways
+3a5fbf10 success
 b8cdd565 sumMultipleRoundsAtEOG
 190dc699 summonerBadges
 b0341f56 summonerEmoteId

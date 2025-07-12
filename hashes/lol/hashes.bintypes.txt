@@ -2433,6 +2433,8 @@ d161071f SelectorMovementEntry
 7c2ed8e3 SelectorPairDataInstance
 645ba277 Self
 ea5c9896 SelfAoe
+38b758c0 SeqInputConstVector
+5ddc7fc6 SeqInputVarPosition
 3c43ef68 Sequence
 25c9d3e0 SequenceCategory
 1cda799a SequenceLocationAttachment
