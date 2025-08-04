@@ -228,6 +228,7 @@ a3814259 ADBuff
 e3e8469a ADContribution
 44a32c79 ADDamage
 295b5980 ADDamageCalc
+828a94f3 ADDamagePerArrowDisplayOnly
 302adbe0 ADDamagePerStack
 1aadc290 ADDamageRatio
 a4d77c5e ADFromHealth
@@ -311,6 +312,7 @@ cc4532fa APBonusDamage
 80ebb0d5 APDamage2
 7febaf42 APDamage3
 7aeba763 APDamage4
+788a6fc5 APDamagePerArrow
 a7cf607b APFromMana
 654f6457 APGain
 4f9a2ce4 APGainPerDeath
@@ -2138,7 +2140,9 @@ f6a635a4 Appear
 ab32513d AppleP2
 be58118d ApplicationDuration
 7a452b04 AppropriateRound
+c39eebe1 AppropriateRoundPVE
 3ae108a2 AppropriateStage
+837c081f AppropriateStagePVE
 d26068f4 ApproximateAPBonusAvoidingRecursion
 3ec788e9 ApproximateHPBonusAvoidingRecursion
 70f0b6b7 ApproximateTotalDamageTooltip
@@ -2300,6 +2304,7 @@ ca137aec Arms_Kanmei
 0078e710 Arrow6
 0178e8a3 Arrow7
 0e78fd1a Arrow8
+984623e6 ArrowAPDamageDisplayOnly
 a216ef8a ArrowBaseDamage
 b1925ae3 ArrowDamage
 cf271ead ArrowVFX1
@@ -18576,6 +18581,7 @@ dd404b6a Cone
 945394b6 ConeAPRatio
 86f27c07 ConeDamage
 a466f0c6 ConeDamageCalc
+61b8f777 ConeSplitDamage
 9a5f62e7 Cone_Attack
 1fffcbad Confetti
 d458ccd1 Confidence
@@ -19237,6 +19243,7 @@ cc4e6814 DamageInc
 37903f7d DamageIncPercent
 cf7f7148 DamageIncrease
 d50b4559 DamageIncreasePercent
+182a57a3 DamageIncreaseTooltip
 0f5e9c98 DamageInstances
 99e95239 DamageLeechPerc
 3bab7d70 DamageLockoutTime
@@ -20626,6 +20633,7 @@ ff55af40 Ears
 65e33076 Ears2
 6c6e2525 Eat
 0c116ff6 EatHoneyfruit
+9ca9a12d EchoPercent
 da4c459a EchoPercentTooltipOnly
 41aff25d EchoTADScalar
 54aa4d6a EdgeDamageReduction
@@ -35551,6 +35559,7 @@ d77b332a ModifiedChairDamage
 25f0af16 ModifiedCloneDamage
 cd8f606d ModifiedComboDamage
 18ced72c ModifiedConeDamage
+64b42466 ModifiedConeSplitDamage
 9f57d1e0 ModifiedCoreEnergyShield
 f422c52b ModifiedCritDamage
 96fe8f90 ModifiedDR
@@ -35809,6 +35818,7 @@ edec746b ModifiedTrueDamage
 91eb67e7 ModifiedUltimateBarrageADDamage
 1ca843fb ModifiedUltimateBarrageAPDamage
 9e7d867f ModifiedUltimateHeal
+ca261299 ModifiedUltimateMagicDamage
 e6ed742c ModifiedUnforgottenDamage
 e9c627fd ModifiedWHeal
 48ea3702 ModifiedWaveDamage
@@ -37998,6 +38008,7 @@ b88e4eb3 NumBonusAttacks
 1f0228c1 NumBonusHeals
 09065692 NumBosses
 9b9defe0 NumBullets
+d0798e22 NumButterflies
 8c1720cd NumCasts
 7b78fab7 NumCastsToBoom
 e2cf0bd8 NumCastsToUnlock
@@ -73228,6 +73239,7 @@ ca15990e Tentacle9
 57668cce TentacleArm_MAT
 3dc57da2 TentacleArmor
 df5db534 TentacleDamageAmp
+a0e6501c TentacleDamageTotal
 b1395c40 TentacleDurationFlat
 4205f3f7 TentacleFist_Main
 c64d3c30 TentacleFist_Outline
@@ -79119,6 +79131,7 @@ acf6f8c7 XPNow
 94e81eda XPPerGold
 d0411524 XPPerKill
 024862ce XPPerReroll
+fa5c946a XPPerSurvival
 61e5f91d Xayah_BA_Crit_Mis
 3638787a Xayah_BA_Hit_Tar
 85ce3d8f Xayah_BA_Hit_Tar_Crit
