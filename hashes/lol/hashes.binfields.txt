@@ -178,7 +178,9 @@ e58b5931 AnimatedIconLink
 e145ee5d Animation
 511ce9e2 AnimationDelaySecs
 efd29e97 AnimationGDS
+b5985cf7 AnimationItems
 c5bb71b9 AnimationList
+98557a5e AnimationName
 2f486792 AnimationOverrides
 0b5ad48b AnimationPool
 94efa6a0 AnimationThreshold
@@ -916,6 +918,7 @@ f28dd471 Col
 3db992bb CollapseIcon
 552ea0a0 CollapsedStageScene
 020844ad CollisionRadius
+3d7e6258 Color
 06f49fbb ColorA
 8bbd4fb3 ColorAScale
 07f4a14e ColorB
@@ -1489,10 +1492,7 @@ fa144e3e ElementGroup
 fdc84bd4 ElementTextT0
 fec84d67 ElementTextT1
 54c57a3a ElementTransformButtons
-3d3bcb26 Elements[0]
-39398643 Elements[1]
-3941d508 Elements[2]
-7d3e6e7d Elements[3]
+5a94b0cc Elements
 a5ebea7d Eliminated
 201dd890 EliminatedColor
 1c20405e EliminatedState
@@ -1565,6 +1565,7 @@ b933a389 EnablePicking
 01cf0e0c EnableUnitOrderHandler
 065db9cf EnableUnitStatusHealthBarNames
 31c5cbb6 EnableVfx
+02f3b39e Enabled
 b8e2aaad EnabledAnimations
 eb092951 EnabledUnitProperty
 7b9b52c3 EnabledWidgets
@@ -1747,6 +1748,7 @@ c84bbe59 FillDirection
 8f7ddbd9 FillMeter
 5b58b41f FillMeterOpponentColor
 b2717a62 FillMeterSelfColor
+8c262820 FillType
 c7e16877 Filter
 4054b33e FilterArenaToggle
 a526b5bd FilterFeaturedToggle
@@ -1790,6 +1792,7 @@ bdeaa8d7 Flag
 da5d575f Fleeing
 817da519 FlexInstanceScale
 4ffce322 FlexShapeDefinition
+6e4f45c5 FlipForRTL
 3ea1433a FlipX
 3fa144cd FlipY
 59c6a802 FlippedMinimapOverride
@@ -2109,6 +2112,7 @@ f581291f HintText
 b6f9350f HitArea
 478efd6e HitEffectKey
 f3eb6a16 HitRegion
+6bf3194e HitRegionElement
 900a920b HitTarget
 6aa5b63d HitTargetHandle
 19bbe6be HolderIcon
@@ -2199,6 +2203,7 @@ f82efec6 IconNeedsFrame
 1dd027ec IconOverrideTexturePath
 77274757 IconPath
 ddbda0d2 IconRight
+0f4122b2 IconScale
 19bbc023 IconShadowT1
 1abbc1b6 IconShadowT2
 50ce2e41 IconSize
@@ -2210,6 +2215,7 @@ e5bc4657 IdleSheenIntervalSecs
 b824a2c2 IgnoreDisabledElements
 487fcd1a IgnoreGlobalScale
 82e66356 IgnoreReactivationForOutsideUndoFlowItems
+981fbd00 IgnoreSafeZone
 59c20478 IgnoreTimer
 678523a2 IllustrationIcon
 efcfec1a IllustrationIconDisabled
@@ -2827,6 +2833,7 @@ c28279b1 MatchingKey
 f4596dad MatchmakingVfx
 315f77b5 MatchupHistoryData
 a4d7de97 MatchupSlot
+d2e4d060 Material
 6c65a5a3 MaterialSwap
 d7a2e319 Max
 89eccefc MaxAddedSpeed
@@ -3537,9 +3544,10 @@ e4bf75ab PathfindingV2
 a6e1308d PendingIcon
 3ee7119e PenetrationAppliesToTurrets
 1cc466c2 PenetrationRecently
+374b50fc PerAttachmentMaterial
 f5fc1d3a PerLocaleAdjustments
+e69d69a7 PerPixelUVsY
 e59d6814 PerPixelUvsX
-e69d69a7 PerPixelUvsY
 5753b933 PercentMPPoolMod
 38cc8288 PercentMPRegenMod
 b779205d PercentOmnivampMod
@@ -3705,6 +3713,7 @@ a07aab6f PortraitReference
 ab8f2359 PortraitTooltipRegion
 76e1ca64 PortraitUiData
 67b12a51 PortraitUv
+934f4e0a Position
 d83f51f0 PositionBlackboardName
 7fc11d39 PositionLocators
 81402ed6 PositioningButton
@@ -4288,6 +4297,7 @@ bb93399a SelectedHoverStateElements
 974ba1a3 SelectedReward
 46b68465 SelectedRewardBanner
 59434c33 SelectedRewardBannerScene
+46564588 SelectedStateElements
 a4015da5 SelectedTerrain
 5b98af56 SelectedTooltipKey
 1dfca147 SelectedTooltipTraKey
@@ -4511,6 +4521,7 @@ cef7b161 SoulSourceEmptyIcon
 8cc833d1 SoulfighterField
 9d3b176c SoundEvent
 0262b4a7 SoundEventName
+a30565cd SoundEvents
 6cfc6633 SoundKey
 a059ebf8 SoundOnActivate
 9a580035 SoundOnCreate
@@ -4572,6 +4583,7 @@ a3b8a1a8 SpectatorSoundKey
 ab82a72c SpeedDown
 b4913073 SpeedRatio
 89c16bc1 SpeedRatioDriver
+4a174502 SpeedScale
 2507110d SpeedUp
 a96fc6c9 Spell
 d1bc4ba8 SpellBuff
@@ -4601,6 +4613,8 @@ e19a6b2d SpellSlot
 8b2a728d SpellToggleSlot
 e7fa2b10 SpellVOOverrideSkins
 cd99a01f SpellsCheckTheirAmmoRequirement
+9edb827d SpineAtlasFile
+81c3985d SpineSkelFile
 a3bd0d60 SplineInfo
 18685ca4 SponsorMaterial
 d81f2eaf SponsorTexturePath
@@ -5036,6 +5050,7 @@ d516b033 TextureMini
 38123c47 TextureMultFilpV
 38b0b8cc TextureMultFlipU
 3bb0bd85 TextureMultFlipV
+b311d4ef TextureName
 17c543dc TextureOverride
 1a898c7d TextureOverrides
 489a16f5 TextureToOverride
@@ -5355,6 +5370,7 @@ f240d150 TransitionOffState
 9dcc88bc TransitionOnState
 8b682996 TransitionOut
 ff8735eb TransitionStartDelaySecs
+2686a483 TransitionTime
 be02c271 TransitionTimeDriver
 8d6d21cf Transitional
 21328a43 Transitions
@@ -5594,6 +5610,7 @@ f1b77de6 UtilityItemsFilterButtonDefinition
 6dc4396c UtilityModeButton
 d2212981 UvAnimate
 33b8543e UvRotationMult
+91dec6fe VFXAdjustmentScale
 54fa99a1 VISIBLE
 dae0c6f9 ValidBuffs
 20cf84ac ValidCcTypes
@@ -5623,7 +5640,6 @@ f00a885b VerticalJustification
 7869531f VerticalSpacer
 7c20c98e Vertices
 8a3730df Vfx
-91dec6fe VfxAdjustmentScale
 88be8101 VfxAlignmentGive
 19743deb VfxAlignmentTake
 6b1b4e23 VfxBrighterInFowAsDisabledFow
@@ -5790,7 +5806,6 @@ ea6767d3 animName
 8568e9e9 animTime
 274ab944 animatedColorWithDistance
 f5fb07c7 animationGraphData
-98557a5e animationName
 11993f84 animationSuffix
 9857176c anmFiles
 2b7134b7 announcementIcon
@@ -6037,7 +6052,6 @@ f028019b clickable
 b490a3cb closeButton
 46019bf0 closeOnEndGameAfterDelay
 25215373 collectionsIcon
-3d7e6258 color
 a2509640 colorData
 cd5a323e colorLookUpOffsets
 f02bd44d colorLookUpScales
@@ -6199,7 +6213,6 @@ c13d6d31 effectAmounts
 91879aca effectRadius
 6c5e591c elderDrake
 4f4d3bf7 element
-5a94b0cc elements
 3e1c2d84 emblemLinks
 2135c4d4 emissionMeshName
 bda98597 emissionMeshScale
@@ -6219,7 +6232,6 @@ f0f7a695 emoteLoadout
 cb80af27 emoteVictoryButton
 e862b379 emoteYOffset
 18a7beee empty
-02f3b39e enabled
 3adcf3d2 endAlpha
 771dee0e endDate
 4f2cd510 endLocator
@@ -6423,7 +6435,6 @@ be0bee70 hideWithLineIndicator
 a19ebeb8 highlightHealthbarIcons
 b0ef060f highlightTimeoutSeconds
 fc2725ce hitFxScale
-6bf3194e hitRegionElement
 fd3d43af horizonColor
 f4867212 horizontalAlignment
 49b51f19 hotkeyModifierText
@@ -6448,7 +6459,6 @@ c6d57a29 hudLayerStretchFullscreen
 e67284f4 iconCircle
 241e976e iconCircleScale
 bfc599ad iconId
-0f4122b2 iconScale
 ac473fef iconSquare
 8ddbeb4b iconTexture
 f9e1dd39 icons
@@ -7382,10 +7392,6 @@ c081dea7 mHitEffectName
 dfb7cd9a mHitEffectPlayerName
 ee826aec mHitResult
 8f8488e1 mHitTestPolygon
-68008d85 mHitTestPolygon[0]
-a4032a90 mHitTestPolygon[1]
-a3fc6ecb mHitTestPolygon[2]
-67fe4eee mHitTestPolygon[3]
 0a34462c mHitTexture
 698c1a07 mHoldAnimationToHigher
 36c34479 mHoldAnimationToLower
@@ -8626,7 +8632,6 @@ b73427c1 mapStringId
 58d660b2 markedLineSizePx
 44bcafc5 markedOffsetY
 1e23331e masteryData
-d2e4d060 material
 7ac73608 materialController
 c50d04d7 materialDrivers
 24725910 materialOverride
@@ -8850,7 +8855,6 @@ dc62fe84 playStyleUtility
 a2364252 playerBuffsOffeset
 ca229a11 playerBuffsOffset
 df1e9ff3 polymorph
-934f4e0a position
 fa45ef23 postRotateOrientationAxis
 f54f2346 power
 7e6634de prefabDefinition
@@ -8994,7 +8998,6 @@ f95bc325 secondaryAbilityResource
 e431b198 secondaryResourceHudDisplayData
 2b7c8c37 selectedLineSizePx
 59d93fa2 selectedOffsetY
-46564588 selectedStateElements
 34495375 selectionButtonDelayTime
 eb5e3232 selectionHeight
 54642500 selectionIcon
@@ -9074,7 +9077,6 @@ f75a6d4d sliderIcon
 bfb0efdd softParticleParams
 0e0d9594 sound
 cbfb033d soundAssets
-a30565cd soundEvents
 e0c375ae soundOnCreateDefault
 9406ff56 soundOnCreateName
 5a6a73e2 soundPersistentDefault
@@ -9200,7 +9202,6 @@ dce6908c textureConeOverrideName
 75caa256 textureLow
 5a5101ae textureMaxGrowName
 2f2e99f2 textureMult
-b311d4ef textureName
 16c24bfe textureOrientation
 9430c6d7 textureOverrideName
 f0a363e3 texturePath
@@ -9260,7 +9261,6 @@ a85dbde5 transitionOffset
 768e1c18 transitionSample
 c697af1f transitionSource
 18258575 transitionTexture
-2686a483 transitionTime
 b36cff34 translationOverride
 5127f14d type
 7b285eed typeData
