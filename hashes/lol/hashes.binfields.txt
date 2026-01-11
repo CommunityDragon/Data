@@ -4377,6 +4377,7 @@ e8373186 ShieldBonusDamage
 60b7c1b6 ShieldTargetCanBeMinion
 a1e033be ShieldTargetCanBeSelf
 2ad527a6 ShieldTargetCanBeTurret
+a847e0a9 Shop
 5d3fcc3d ShopButton
 2497226b ShopClickRejectedVfx
 fe3c602e ShopContentData
