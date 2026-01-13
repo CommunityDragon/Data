@@ -3269,6 +3269,7 @@ f06510d5 UiElementRegion
 0a5d0595 UiElementRegionData
 f4810c81 UiElementScissorRegion
 c9e1a631 UiElementScissorRegionData
+104afcda UiElementSpineAnimationData
 5a0380d6 UiElementText
 d71d9476 UiElementTextData
 1a96332d UiElementToggle
