@@ -1,13 +1,33 @@
 #!/bin/bash
 set -e
 
+# Force locale to ensure consistent sorting
+export LC_ALL=C
+
 cd "$(dirname "$0")"/..
 files=( hashes/lol/hashes.*.txt )
 
-# csplit_pattern HASHSIZE PATTERN
-csplit_pattern() {
-  echo "/^.\{$1\} ${2//\//\\/}/"
+# Declare and fill variable with csplit patterns
+#   declare_csplit_patterns VARNAME HASHSIZE "PATTERNS..."
+declare_csplit_patterns() {
+  declare -n varname="$1"; shift
+  local hashsize="$1"; shift
+  varname=()
+  for pat in $*; do
+    varname+=("/^.\{$hashsize\} ${pat//\//\\/}/")
+  done
 }
+
+declare_csplit_patterns hashes_games_split_patterns 16 "
+  assets/characters/f
+  assets/characters/l
+  assets/characters/p
+  assets/characters/s
+  assets/characters/tft
+  assets/characters/thresh
+  assets/loot/
+  assets/sounds/
+"
 
 # Make sure to update merged files atomically, in case they are used by other processes
 # Don't bother for split files as they are only used for repo maintenance
@@ -23,6 +43,6 @@ for f in "${files[@]}"; do
   rm -f "$f".[0-9]
   case "$f" in
     hashes/lol/hashes.game.txt)
-      csplit -s -n 1 -f "$f." "$f" "$(csplit_pattern 16 assets/characters/s)" ;;
+      csplit -s -n 1 -f "$f." "$f" "${hashes_games_split_patterns[@]}" ;;
   esac
 done
