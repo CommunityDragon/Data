@@ -1943,6 +1943,7 @@ ae9e709a MobileCatalogData
 b62eaf02 ModeSelectButtonData
 61767839 ModeSelectQueueButtonData
 795e5e4f ModeSelectViewController
+ce9b917b ModifiableFloat
 4379a5b2 ModifierAddedCalculationPart
 f290add3 MouseOverEffectData
 27aa90d0 MouseOverEffectDataInstance
