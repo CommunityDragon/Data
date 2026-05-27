@@ -269,6 +269,7 @@ e0613999 Audio
 f1695b8d AudioFlexValueParameterName
 5cfe9324 AudioSource
 76503b91 AudioType
+b8e63d78 Augment
 e1ceee4c AugmentButton
 85e383b4 AugmentColors
 14df3d1e AugmentContainerIcon
@@ -1606,6 +1607,7 @@ d43dd942 EnemyRevealDuration
 b89acf97 EnergyGainAnim
 86a36ce1 EnterBoardEvent
 8c6264bd EnterStealthEffect
+d33ff5da Entity
 6f5882f3 Entries
 3fde18ad EntryEchoSfx
 3641fce9 EntryRevealSfx
@@ -3406,6 +3408,7 @@ d78001b6 OutSize
 a69fdb94 OutValue
 695012cc OutWasFound
 548e8cea OuterRadius
+361ad8bd Outline
 79a94f04 Output
 ae9faafb OutputMaxValue
 6129b949 OutputMinValue
