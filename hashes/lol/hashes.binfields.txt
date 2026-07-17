@@ -83,6 +83,7 @@ a55e849c AddTextSizeToHitRegion
 487e35dd AddToTeamFailureSound
 ddbea054 AddedCalculationParts
 432547b6 AdditionalBarTypes
+7b9718c4 AdditionalChannels
 51ea4860 AdditionalLevelUpLinks
 073a7e91 AdditionalMeterSkins
 3f1b156a AdditionalPipSpacerTypes
@@ -147,6 +148,7 @@ b7024f99 AllowSingleItemSelection
 359dd774 AllowedStages
 4bf41a2c AllyFrame
 372a1376 AllyGem
+44a9a2c2 AlphaChannel
 9c5124c0 AlphaOutWhileUntargetable
 29de782e AltLayoutRegion
 79c702f3 AlwaysRespawnWithOffset
@@ -484,6 +486,7 @@ a2734825 Blinded
 98ba36f3 BlockInputEvents
 44b4862a BlockPlayerIcon
 c967b34f Bloodwell
+44956bbc BlueChannel
 8c678ff0 BlueSkin
 25834918 BlueTeamElementSelectedColor
 df925021 BlueTeamElementUnselectedColor
@@ -859,6 +862,7 @@ d4f40efa ChestBackgroundAssetVfx
 ed51e4eb ChestTimingOffset
 8afbdca6 ChildAnimDelaySwitchTime
 8e5e6618 ChildClipName
+56849af8 ChildComponent
 67a9c9d2 Children
 e35a50c8 ChoiceDescription
 9df91392 ChosenBadge
@@ -887,6 +891,7 @@ b18e5e08 ClearAllButtonDefinition
 0a004a31 ClearAllTrakey
 c6e9fbea ClearButton
 c74c762c ClearButtonTemplate
+9a1a92b5 ClearColor
 cea34a2c ClearUndoHistoryOnActivate
 cfe20df6 ClickAbsorbingRegionElement
 9fba55f7 ClickData
@@ -1987,6 +1992,7 @@ df684997 GenericIcon
 25b7e625 GenericLarge
 c3b8b9d4 GenericLargeUncolored
 ea961f89 GenericSmall
+0f32e8cc GeometryComponent
 84a64914 GetAcquisitionRangeUsesAttackRange
 4eb5a788 GetPocClampBufferTrapezoid
 79b2d636 GetPocClampTrapezoid
@@ -2018,6 +2024,7 @@ f3eb96d4 GoldText
 2875fcd2 GravesSmall
 d209ff45 Gravity
 81bc04be GreaterThan
+7ae6487f GreenChannel
 f614d04b GreyedTimerText
 af871a91 Grid
 f5e9f0c5 GridButtonData
@@ -2630,6 +2637,7 @@ f30a6eea LevelUpUiData
 8a436b27 LevelUpVfxGroup
 a147b6ea Levels
 d628825f LifeStealAndVamp
+055a541d LifetimeComponent
 ea4e5cc8 LightgridBounceFalloffDistance
 22d24a9a LightgridOverallScale
 2f3b5471 LightgridScaleBounceContribution
@@ -3245,6 +3253,7 @@ c5ec44db NoContentTitleTraKey
 ada7afdb None
 a8e4f979 NormalCastButtonPos
 7af87ddd NormalItemButton
+8c6b1234 NormalOffsetBias
 53fa9427 NormalSkin
 ce79296c Normalize
 edec2e12 NotFacingMovementWhenCasting
@@ -3953,6 +3962,7 @@ eae44d07 Rect
 a27d84d4 RectSourcePSDFilename
 6240fc33 RectSourceResolutionHeight
 df3f6504 RectSourceResolutionWidth
+2b6a031f RedChannel
 7f8fc16d RedSkin
 0c263131 RedTeamElementSelectedColor
 af1fcb6f RedeTeamElementUnselectedColor
@@ -4175,6 +4185,7 @@ fe57aadd RotationalShopItemData
 eb302eba RoundDamage
 4b7703b3 RoundLabel
 352a241c RoundLabelTra
+3e2cdad7 RoundListOptions
 a1a8bf5a RoundNumber
 a607bda2 RoundPlacement
 d9c91ded RoundStateIcon
@@ -4360,6 +4371,7 @@ c719768a SeraphineStyleLarge
 68c3f356 SetManually
 278d2a22 SetOverrideAttackDelay
 1a28d722 SetsCompletedToBackgroundEffects
+23e7082c ShaderParameters
 897eefc2 ShadingModel
 d14e6310 ShadowBias
 791b47a2 ShadowItemButton
@@ -5057,6 +5069,7 @@ d516b033 TextureMini
 b311d4ef TextureName
 17c543dc TextureOverride
 1a898c7d TextureOverrides
+b6d29fce TextureResolution
 489a16f5 TextureToOverride
 e2fed020 TextureUs
 c22d5164 TextureUvs
@@ -5648,6 +5661,7 @@ f00a885b VerticalJustification
 19743deb VfxAlignmentTake
 6b1b4e23 VfxBrighterInFowAsDisabledFow
 9664b764 VfxCollapsedToExpanded
+1cf263eb VfxComponents
 8462f4a1 VfxEnableTime
 8efaff74 VfxExpandedToCollapsed
 23e8f406 VfxGroup
@@ -5780,6 +5794,9 @@ de708c93 abilitySlotCC
 233072a6 activatedBuffName
 3b391274 add
 ee172090 additionalCharacters
+82ab734b addressModeU
+83ab74de addressModeV
+84ab7671 addressModeW
 111ec6d2 addressU
 101ec53f addressV
 0f1ec3ac addressW
@@ -6133,6 +6150,7 @@ e2b5d80d damagePerLevelModifiable
 397db5c1 damageTagDefinition
 2eedede5 darkColoration
 d872e2a5 data
+08f782f8 dataBuffers
 b4b13a2d dataType
 bd28bd4d death
 5d19c62e deathEventListeningRadius
@@ -8661,6 +8679,7 @@ b1e439af maxAlpha
 40656ce7 maxAngleCos
 166e1615 maxAngleFadeCos
 070b4922 maxAngleRangeFactor
+b6887851 maxAnisotropy
 e6915cf6 maxDistance
 80f63e4f maxIndex
 53d4cc0f maxInstances
@@ -8725,6 +8744,8 @@ b2f634ab minimumDisplayedRange
 9d8131ba minimumPracticeToolScale
 20b578ca minionFlags
 fe195c64 minionScoreValue
+650eb4bb mipFilter
+21bafb31 mipLodBias
 619396ba mipped
 6563bee8 miscRenderFlags
 1985fb4b missileGroupSpawners
@@ -8981,6 +9002,7 @@ faa9aa58 rotationIsEnabled
 01028ccd rtpcName
 02e7fb4c samplerName
 0a6f0eb5 samplerValues
+e0540d74 samplers
 82971c71 scale
 d4e17a53 scale0
 d3e178c0 scale1
@@ -9051,6 +9073,8 @@ dee4f011 shakeFrequency
 e69cdc70 shakeReferenceResolution
 91193f20 shakeTriggerPercent
 9dc3d926 shape
+b26be7bf sharedDataBuffers
+a90a8855 sharedSamplers
 7d94eaf6 shortName
 cf3ba016 shouldAlwaysTargetEnemy
 9a863eb9 shouldRandomizeIdleAnimPhase
