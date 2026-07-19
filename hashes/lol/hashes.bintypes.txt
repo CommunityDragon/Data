@@ -778,6 +778,7 @@ a64d5210 EngineFeatureToggles
 92bb5993 EnterFOWVisibility
 c8681d90 EnterFOWVisibilityInstance
 f16fc504 EnterFOWVisibilitySpec
+1568b7bc EntityStateMachine
 e5a9c94a EnvironmentBakedLightingShadingModel
 765f0c19 EnvironmentPbrShadingModel
 0ed05709 EnvironmentUnlitShadingModel
@@ -986,6 +987,8 @@ bc409284 GameCalculation
 e9ced584 GameCalculationConditional
 070e3593 GameCalculationModified
 e4564452 GameComponentData
+0760ad40 GameEntity
+40a9c74a GameEntityTemplate
 e343b9b0 GameFontDescription
 4ad4766b GameFontDescriptionInstance
 69bb6e6a GameModeAutoItemPurchasingConfig
@@ -2318,6 +2321,7 @@ b574b3af RegionBoundary
 2da963dd RegionBoundaryConfig
 a4290ed0 RegionDataBase
 6ed61477 RegionElementData
+d8f395a4 RegionEntityTemplate
 18ca230c RegionGeComponent
 22df6f20 RegionSettings
 9ddb195b RegionSettingsInstance
@@ -3487,6 +3491,7 @@ bfc2e133 VfxEmissionSurfaceData
 01b7cd7d VfxEmitterDefinitionDataInstance
 f4e37e07 VfxEmitterFiltering
 7f70a2b2 VfxEmitterLegacySimple
+1f1f50f2 VfxEntityTemplate
 0a94f3d4 VfxFieldAccelerationDefinitionData
 46f3f2ef VfxFieldAccelerationDefinitionDataInstance
 1a7617fd VfxFieldAttractionDefinitionData

@@ -4325,6 +4325,7 @@ a71279f3 SelectionOutlineTemplate
 5d578c98 SelectionRotatingIcon
 011381e3 SelectionScene
 8a3aa07b SelectivelyClearActiveSpellOnTargetInRange
+33fae3fc Selector
 aaf62a62 SelectorButtonTemplate
 c73c4213 SelectorMenu
 fa132c11 SelectorMovement
@@ -4729,6 +4730,7 @@ ae8a302d StatStoneIcon
 1545ddef StateEventId
 fd81566b StateIndicatorList
 fce96f95 StateLogicEventSignalId
+2f60f64e StateMachineDef
 9097411f StateScenes
 6d4da2ea StaticIcon
 d50c7c8a StaticTexture
@@ -5952,6 +5954,7 @@ d844ed3d beamParticleDefinition
 6b89d541 beginIn
 f314d542 beginOut
 a0f69e3c behaviors
+c914b02b bevel
 ca406316 bindWeight
 a24dc16e birthAcceleration
 83cdeaa1 birthColor
@@ -6278,6 +6281,7 @@ f365a945 enemyChampSpecificHealthSuffix
 618581ea enemyTooltip
 6246290c enlargeSize
 c245e974 enlargeTime
+53ec22d9 envMesh
 a8a3777b environmentSHIrradiance
 5ee3c453 epicness
 39ad7a1b equipButton
@@ -6513,6 +6517,7 @@ b9516a6f importance
 f729e184 incrementalPurchase
 40c6c39e indicatorType
 cd8310f1 inertia
+8f59d48c inheritedTags
 98c52469 inherits
 09dbf7c7 initialDensityMapAsset
 382825a9 initialSubmeshMouseOversToHide
@@ -8774,6 +8779,7 @@ f506c7e6 multiplier
 566f3406 nameOverride
 1f6232c0 nameTranslationKey
 a32e6947 navGridFileName
+30e1280e navRegion
 05991009 nearClip
 39c8d824 nearsight
 8c4b1ad8 neutral
@@ -9073,6 +9079,7 @@ dee4f011 shakeFrequency
 e69cdc70 shakeReferenceResolution
 91193f20 shakeTriggerPercent
 9dc3d926 shape
+f43f2e26 shapeData
 b26be7bf sharedDataBuffers
 a90a8855 sharedSamplers
 7d94eaf6 shortName
@@ -9391,6 +9398,7 @@ a0c70f80 visibilityComponent
 0dc74f32 visibilityMode
 fd01a9d3 visibilityRadius
 b27bdbb2 visibleSelectionName
+0ffde771 visionRegion
 28412914 voBank
 11f6313b voBankAssetPath
 99f78103 voBankPath
