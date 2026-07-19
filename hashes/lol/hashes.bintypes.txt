@@ -76,6 +76,7 @@ b075bcfd AnimatedBuildingCommon
 7fc1d873 AnimationFractionDynamicMaterialFloatDriver
 2b579f70 AnimationFractionDynamicMaterialFloatDriverInstance
 6665076c AnimationGeComponent
+bdadb6f3 AnimationGeComponentDef
 f5fb07c7 AnimationGraphData
 322a4094 AnimationGraphDataInstance
 9a4b299d AnimationResourceData
@@ -110,6 +111,7 @@ e6caaf8c AttackEvents
 9c4f3cc3 AttackSpeedParametricUpdater
 2092043f AttackableUnit
 0ae1a932 AttackableUnitGeComponent
+cbe6ced9 AttackableUnitGeComponentDef
 865caeee AudioStatusEvents
 77c4e579 AudioStatusEventsInstance
 3692fac5 AudioSystemDataProperties
@@ -150,6 +152,7 @@ d1ed70fe Barracks
 60bb49c0 BarracksDampener
 f10cf1d9 BarracksDampenerCommon
 63143919 BarracksGeComponent
+f3121b20 BarracksGeComponentDef
 ffb1b62c BarracksLevelController
 8f0c2ed6 BarracksLink
 8129e422 BarracksMinionConfig
@@ -185,6 +188,7 @@ e5a69c70 BasicSpellSlotIntDriver
 e885e978 BerserkTargetingPriorityList
 afb0749d BezierPath
 0f63704f BezierSegment
+1fe89d02 BillboardGeComponentDef
 e1df3f2f BinFileContainer
 cc2ddcc0 BlendData
 505dd936 BlendableClipData
@@ -303,6 +307,7 @@ b60f0432 CharScript
 db69f5cb CharacterInstance
 07c20fe9 CharacterLevelRequirement
 a939f1b6 CharacterLevelRequirementInstance
+747991cb CharacterMeshGeComponentDef
 c6228969 CharacterOverrides
 8ea3ea45 CharacterPassiveData
 fc4f4b05 CharacterPreloadData
@@ -358,6 +363,7 @@ e21083b5 ChildMapVisibilityController
 911cbd12 ChildMissileSiblingRepulsion
 8085e5d1 CinematicBarsViewController
 bafcf76c CinematicCameraGeComponent
+630106f3 CinematicCameraGeComponentDef
 039b5ebc CircleMovement
 a66643e7 CircleMovementInstance
 4a9d1e4f CircleMovementSpec
@@ -607,6 +613,7 @@ ec41779d DamageUnitCheat
 3cebd9da DamageUnitCheatInstance
 2e548aaf DeathEventPriority
 8563543c DeathGeComponent
+f81e16e3 DeathGeComponentDef
 d09acba6 DeathRecapDamageOverview
 7efae6c2 DeathRecapDamagerCondensedList
 75e8f0c1 DeathRecapDamagerDetailedDisplayData
@@ -671,6 +678,7 @@ ceaae805 DoDamage
 a1c2c89f DoubleSidedTipStyle
 0af2666c DragDirection
 b251dcda DragonCampGeComponent
+6f0236d1 DragonCampGeComponentDef
 cd0d7450 DragonUITunables
 03b1c66a DrawAreaList
 42d144f5 DrawFx
@@ -680,6 +688,7 @@ b29e8d11 DrawablePositionLocatorInstance
 2d6bf1a2 DynamicMaterialDef
 8dd0b9dd DynamicMaterialDefInstance
 96974776 DynamicMaterialGeComponent
+ced882fd DynamicMaterialGeComponentDef
 7a12b6a7 DynamicMaterialHelper
 073f6a51 DynamicMaterialParameterDef
 d8670eee DynamicMaterialParameterDefInstance
@@ -690,7 +699,9 @@ ef39fa85 DynamicMaterialStaticSwitch
 21d0c864 DynamicMaterialTextureSwapOption
 3670e03f DynamicMaterialTextureSwapOptionInstance
 c02e8323 DynamicPointLightGeComponent
+1ed8dbf2 DynamicPointLightGeComponentDef
 de1c190d DynamicSpotlightGeComponent
+4e0d6ae4 DynamicSpotlightGeComponentDef
 48b49195 ESportLeagueEntry
 9c1fb3a2 ESportLeagueEntryInstance
 141100a5 ESportTeamEntry
@@ -779,6 +790,7 @@ a64d5210 EngineFeatureToggles
 c8681d90 EnterFOWVisibilityInstance
 f16fc504 EnterFOWVisibilitySpec
 1568b7bc EntityStateMachine
+8636326f EnvMeshGeComponentDef
 e5a9c94a EnvironmentBakedLightingShadingModel
 765f0c19 EnvironmentPbrShadingModel
 0ed05709 EnvironmentUnlitShadingModel
@@ -1328,6 +1340,7 @@ b5f69929 IGameCalculationPartWithStats
 e24c8317 IGameModeConfig
 3e5051fa IGameModeConfigBase
 c03bb018 IGameModeConfigClient
+62a09c62 IGeComponentDef
 7369448b IHudLoadingScreenWidget
 f795f405 IInputSourceBool
 aba5f12d IInputSourceFloat
@@ -1612,7 +1625,9 @@ ccea6e3a LevelScriptOnReset
 562f28ea LevelScriptOnUpdate
 f30a6eea LevelUpUiData
 5dd353fa LightChannelsGeComponent
+80b13e71 LightChannelsGeComponentDef
 853d9e9a LightRegionGeComponent
+972a7491 LightRegionGeComponentDef
 2cdc6a27 LineTargetToCaster
 4388bb90 LinearTransformProcessorData
 db961a4b LinearTransformProcessorDataInstance
@@ -1966,6 +1981,7 @@ b62eaf02 ModeSelectButtonData
 61767839 ModeSelectQueueButtonData
 795e5e4f ModeSelectViewController
 94f09958 ModesScenarioGeComponent
+409452bf ModesScenarioGeComponentDef
 ce9b917b ModifiableFloat
 4379a5b2 ModifierAddedCalculationPart
 f290add3 MouseOverEffectData
@@ -1992,8 +2008,11 @@ bdc90544 NavGridConfig
 bf11c509 NavGridTerrainConfig
 b13284de NavHeaderViewController
 7866db89 NavRegionGeComponent
+4bb80830 NavRegionGeComponentDef
 0dc0043a NavigationGroup
+7a2bf6d5 NetworkingGeComponentDef
 1ced7194 NeutralCampGeComponent
+9597a7ab NeutralCampGeComponentDef
 fe7449a3 NeutralMinionCamp
 95fd84e9 NeutralMinionCampClearedLogic
 acb408c2 NeutralMinionCampCommon
@@ -2009,6 +2028,7 @@ fa3c7ffa NeutralTimerState
 4c7bb73e NeutralTimers
 05ae7109 NeutralTimersInstance
 1f91304b NewIconGeComponent
+5779866a NewIconGeComponentDef
 c3f33ef3 NewSpellCastFlowToggles
 dd681b43 NextBuffVars
 321d6e25 NextBuffVarsTable
@@ -2323,6 +2343,7 @@ a4290ed0 RegionDataBase
 6ed61477 RegionElementData
 d8f395a4 RegionEntityTemplate
 18ca230c RegionGeComponent
+b1c52813 RegionGeComponentDef
 22df6f20 RegionSettings
 9ddb195b RegionSettingsInstance
 94315a01 RegionsThatAllowContent
@@ -2435,6 +2456,7 @@ f5beca5e ScriptCheatInstance
 bd0c529d ScriptDataObjectList
 13e3455e ScriptFunction
 77a7cfc5 ScriptGeComponent
+4017248c ScriptGeComponentDef
 be608a4c ScriptGlobalProperties
 44d32cf7 ScriptGlobalPropertiesInstance
 2f787f62 ScriptPreloadCharacter
@@ -2486,6 +2508,7 @@ aaa03772 SequenceTiming
 8d30a7c0 SequencerClipData
 97287bfb SequencerClipDataInstance
 fbe6ace9 SequencerGeComponent
+1eee9d10 SequencerGeComponentDef
 6d1ee7ae SetBit
 f9caf4e5 SetInvulnerableBlock
 86e7be2a SetKeyValueInCustomTableBlock
@@ -2499,6 +2522,7 @@ fd6c74ef SetTableValueBlock
 bc67870e SetVarInTableBlock
 00f59899 SetVarInTableBlockInstance
 0a4531fd SettingsViewController
+de1e8cca SfxGeComponentDef
 14a2befa ShaderLogicalParameter
 05e3ea65 ShaderLogicalParameterInstance
 81778d13 ShaderMacroDef
@@ -2515,6 +2539,7 @@ ab0e654f ShaderSamplerDef
 a847e0a9 Shop
 57c67d10 ShopCommon
 df795218 ShopGeComponent
+20e8567f ShopGeComponentDef
 947b858f ShowObjectsCheat
 f4dc8ec5 ShowServerMissilesCheat
 e9fb4d18 SiblingStatCoefficientBySubPart
@@ -2536,6 +2561,7 @@ de28699e SkinBorderOrder
 33068165 SkinCharacterDataProperties_CharacterIdleEffect
 736b0532 SkinCharacterDataProperties_CharacterIdleEffectInstance
 9eec48aa SkinCharacterGeComponent
+aef1db01 SkinCharacterGeComponentDef
 f7fd1497 SkinCharacterMetaDataProperties
 fca49aa4 SkinCharacterMetaDataPropertiesInstance
 530b4b47 SkinCharacterMetaDataProperties_SpawningSkinOffset
@@ -2656,6 +2682,7 @@ c145a43a StatUIDataInstance
 e04f7948 StateAnimTransitionData
 c4a00944 StateLogicEventData
 0f3a3942 StateMachineGeComponent
+13e5fb09 StateMachineGeComponentDef
 e091eead StateTransitionData
 735b4c95 StaticMaterialChildTechniqueDef
 d602cea2 StaticMaterialChildTechniqueDefInstance
@@ -2872,9 +2899,11 @@ cb20c47a TargetingRangeValue
 6fb1f68f TeamFightViewController
 2b768993 TeamFramesViewController
 304c98db TeamGeComponent
+1b1b0d1a TeamGeComponentDef
 f934934d TeamScoreMeterUITunables
 6638d338 TeamScoreUiData
 eebabfce TeamSpawnPointGeComponent
+d85cb8c5 TeamSpawnPointGeComponentDef
 73dca0f0 TechniqueDef
 ac9d3cf9 TempTable
 8386aed8 TempTable1
@@ -3509,6 +3538,7 @@ b13097f0 VfxFlexShapeDefinitionData
 51d3dcdc VfxFloatOverLifeMaterialDriver
 c039d307 VfxFloatOverLifeMaterialDriverInstance
 0c7a3b52 VfxGeComponent
+82b49579 VfxGeComponentDef
 dc227f32 VfxGeometryComponent
 389424af VfxGeometryComponentBase
 88c8b7c7 VfxGroupDefinitionData
@@ -3639,6 +3669,7 @@ a2603593 WardSkinDisablerInstance
 35bd5a3e WeightedSelectionCalculator
 2dcfc13a WidthPerSecond
 d20bd7a4 WorldSpaceUiGeComponent
+3f90b51b WorldSpaceUiGeComponentDef
 b1474db1 WorldVars
 54726d4b WorldVarsTable
 8f15d6b8 WorldVarsTableInstance

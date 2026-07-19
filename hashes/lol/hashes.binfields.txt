@@ -663,6 +663,7 @@ b3711c47 CHECK
 141669d6 CameoPortraitIcon
 dc2df35f CameoPortraitRegion
 b186288e CameoTooltipAnchor
+9ebe984e Camera
 d65e723c CameraAnimation
 6495fab8 CameraBone
 d00dda71 CameraBoundsAsPercentageOfMapBounds
@@ -809,6 +810,7 @@ a756b81c ChaosTeamIdentity
 156a6d60 CharacterBannerSkinName
 00243921 CharacterFadeInstance
 8390f398 CharacterList
+035431c5 CharacterMesh
 38022a93 CharacterName
 ec182a7b CharacterNameOverride
 26444773 CharacterOffset
@@ -2528,6 +2530,7 @@ e70b7d23 LabelTemplate
 ca0e79b5 LabelTraKey
 bdda148a Labels
 6506aa85 Labs
+e87dbba2 LaneDefinition
 ec94a978 LargeLoadoutsIcon
 56a33fe1 LargeSlots
 ceee9c73 LargeSquare
@@ -2638,6 +2641,8 @@ f30a6eea LevelUpUiData
 a147b6ea Levels
 d628825f LifeStealAndVamp
 055a541d LifetimeComponent
+e29d1e2f Light
+0fb30c27 LightRegion
 ea4e5cc8 LightgridBounceFalloffDistance
 22d24a9a LightgridOverallScale
 2f3b5471 LightgridScaleBounceContribution
@@ -3202,6 +3207,7 @@ a97376aa NavGridOverlay
 f7197db9 NavGridPath
 4a989cc9 NavHeaderScene
 365ff9f6 NavMeshFileName
+301dab05 NavRegionDef
 6d13b0ea NavigationGridOverlays
 0dc0043a NavigationGroup
 40d97d44 NavigationText
@@ -3213,6 +3219,7 @@ c77c4866 NeedsPushToTalkEnabled
 757cbb5b Negate
 ae0964fb NegativeBountyConfig
 4e1babb4 NegativeBuffs
+7e5978a5 NeutralCamp
 08991dc1 NeutralTimerStateManager
 763cc4ab NeutralTimerStates
 4c7bb73e NeutralTimers
