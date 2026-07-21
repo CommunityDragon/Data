@@ -75,6 +75,8 @@ a39160e9 AndScriptConditionInstance
 b075bcfd AnimatedBuildingCommon
 7fc1d873 AnimationFractionDynamicMaterialFloatDriver
 2b579f70 AnimationFractionDynamicMaterialFloatDriverInstance
+6665076c AnimationGeComponent
+bdadb6f3 AnimationGeComponentDef
 f5fb07c7 AnimationGraphData
 322a4094 AnimationGraphDataInstance
 9a4b299d AnimationResourceData
@@ -108,6 +110,8 @@ e6caaf8c AttackEvents
 02428ae6 AttackSlotDataInstance
 9c4f3cc3 AttackSpeedParametricUpdater
 2092043f AttackableUnit
+0ae1a932 AttackableUnitGeComponent
+cbe6ced9 AttackableUnitGeComponentDef
 865caeee AudioStatusEvents
 77c4e579 AudioStatusEventsInstance
 3692fac5 AudioSystemDataProperties
@@ -147,6 +151,8 @@ d1ed70fe Barracks
 4fbc08a8 BarracksConfig
 60bb49c0 BarracksDampener
 f10cf1d9 BarracksDampenerCommon
+63143919 BarracksGeComponent
+f3121b20 BarracksGeComponentDef
 ffb1b62c BarracksLevelController
 8f0c2ed6 BarracksLink
 8129e422 BarracksMinionConfig
@@ -182,6 +188,7 @@ e5a69c70 BasicSpellSlotIntDriver
 e885e978 BerserkTargetingPriorityList
 afb0749d BezierPath
 0f63704f BezierSegment
+1fe89d02 BillboardGeComponentDef
 e1df3f2f BinFileContainer
 cc2ddcc0 BlendData
 505dd936 BlendableClipData
@@ -300,6 +307,7 @@ b60f0432 CharScript
 db69f5cb CharacterInstance
 07c20fe9 CharacterLevelRequirement
 a939f1b6 CharacterLevelRequirementInstance
+747991cb CharacterMeshGeComponentDef
 c6228969 CharacterOverrides
 8ea3ea45 CharacterPassiveData
 fc4f4b05 CharacterPreloadData
@@ -354,6 +362,8 @@ e21083b5 ChildMapVisibilityController
 64a056ca ChildMissileRepulsion
 911cbd12 ChildMissileSiblingRepulsion
 8085e5d1 CinematicBarsViewController
+bafcf76c CinematicCameraGeComponent
+630106f3 CinematicCameraGeComponentDef
 039b5ebc CircleMovement
 a66643e7 CircleMovementInstance
 4a9d1e4f CircleMovementSpec
@@ -602,6 +612,8 @@ d5c6d005 DamageTypeRadialChart
 ec41779d DamageUnitCheat
 3cebd9da DamageUnitCheatInstance
 2e548aaf DeathEventPriority
+8563543c DeathGeComponent
+f81e16e3 DeathGeComponentDef
 d09acba6 DeathRecapDamageOverview
 7efae6c2 DeathRecapDamagerCondensedList
 75e8f0c1 DeathRecapDamagerDetailedDisplayData
@@ -665,6 +677,8 @@ d232712d DisplayStatUiData
 ceaae805 DoDamage
 a1c2c89f DoubleSidedTipStyle
 0af2666c DragDirection
+b251dcda DragonCampGeComponent
+6f0236d1 DragonCampGeComponentDef
 cd0d7450 DragonUITunables
 03b1c66a DrawAreaList
 42d144f5 DrawFx
@@ -673,6 +687,9 @@ b29e8d11 DrawablePositionLocatorInstance
 266089da DropRateSlot
 2d6bf1a2 DynamicMaterialDef
 8dd0b9dd DynamicMaterialDefInstance
+96974776 DynamicMaterialGeComponent
+ced882fd DynamicMaterialGeComponentDef
+7a12b6a7 DynamicMaterialHelper
 073f6a51 DynamicMaterialParameterDef
 d8670eee DynamicMaterialParameterDefInstance
 ef39fa85 DynamicMaterialStaticSwitch
@@ -681,6 +698,10 @@ ef39fa85 DynamicMaterialStaticSwitch
 26681a27 DynamicMaterialTextureSwapDefInstance
 21d0c864 DynamicMaterialTextureSwapOption
 3670e03f DynamicMaterialTextureSwapOptionInstance
+c02e8323 DynamicPointLightGeComponent
+1ed8dbf2 DynamicPointLightGeComponentDef
+de1c190d DynamicSpotlightGeComponent
+4e0d6ae4 DynamicSpotlightGeComponentDef
 48b49195 ESportLeagueEntry
 9c1fb3a2 ESportLeagueEntryInstance
 141100a5 ESportTeamEntry
@@ -768,6 +789,8 @@ a64d5210 EngineFeatureToggles
 92bb5993 EnterFOWVisibility
 c8681d90 EnterFOWVisibilityInstance
 f16fc504 EnterFOWVisibilitySpec
+1568b7bc EntityStateMachine
+8636326f EnvMeshGeComponentDef
 e5a9c94a EnvironmentBakedLightingShadingModel
 765f0c19 EnvironmentPbrShadingModel
 0ed05709 EnvironmentUnlitShadingModel
@@ -976,6 +999,8 @@ bc409284 GameCalculation
 e9ced584 GameCalculationConditional
 070e3593 GameCalculationModified
 e4564452 GameComponentData
+0760ad40 GameEntity
+40a9c74a GameEntityTemplate
 e343b9b0 GameFontDescription
 4ad4766b GameFontDescriptionInstance
 69bb6e6a GameModeAutoItemPurchasingConfig
@@ -1031,6 +1056,7 @@ da5e2485 GameplayFeatureTogglesInstance
 da9e5c0c GdsMapObject
 b43441ae GearData
 f693c639 GearDataInstance
+62848e29 GearGeComponent
 361810cd GearSelectionViewController
 27dd6361 GearSkinUpgrade
 d152733e GearSkinUpgradeInstance
@@ -1073,6 +1099,7 @@ aa2b7ab2 GrassObject
 1186c725 GrassSwayIntensityParametricUpdater
 96ccf33d GravityHeightSolver
 7db7e17a GravityHeightSolverInstance
+69ea53eb GreenGeComponent
 a0406423 GroupRepeat
 7a633477 HappenedNearTurretConstraintInfo
 f7ae5e16 HasAllSubRequirementsCastRequirement
@@ -1313,6 +1340,7 @@ b5f69929 IGameCalculationPartWithStats
 e24c8317 IGameModeConfig
 3e5051fa IGameModeConfigBase
 c03bb018 IGameModeConfigClient
+62a09c62 IGeComponentDef
 7369448b IHudLoadingScreenWidget
 f795f405 IInputSourceBool
 aba5f12d IInputSourceFloat
@@ -1340,6 +1368,8 @@ ecf76724 IMaterialDef
 7971fbee IOptionItem
 cb8dfbc8 IOptionItemFilter
 bc0bc533 IOptionTemplate
+f7292242 IParticleQuadShadingModel
+2393bd4d IParticleShadingModel
 ec1355b3 IPath
 0faeb4d0 IPictureInPictureSource
 9ee5e504 IRSCondition
@@ -1409,6 +1439,7 @@ d132d7b0 IVfxMaterialDriverInstance
 db6e9d8d IconElementDataExtension
 f3b028db IconElementDataInstance
 d4441c55 IconElementGradientExtension
+8fac195f IconGeComponent
 33b88aa0 IconLink
 0a450b25 IconStateData
 0a7e3f16 IdMappingEntry
@@ -1593,6 +1624,10 @@ b68a82eb LevelScriptOnLoad
 ccea6e3a LevelScriptOnReset
 562f28ea LevelScriptOnUpdate
 f30a6eea LevelUpUiData
+5dd353fa LightChannelsGeComponent
+80b13e71 LightChannelsGeComponentDef
+853d9e9a LightRegionGeComponent
+972a7491 LightRegionGeComponentDef
 2cdc6a27 LineTargetToCaster
 4388bb90 LinearTransformProcessorData
 db961a4b LinearTransformProcessorDataInstance
@@ -1793,6 +1828,7 @@ bf11ddc7 MapMaterialSwap
 1c7aba6e MapNavGrid
 e1127f16 MapNavGridOverlay
 b51e8bff MapNavGridOverlays
+cf4a55da MapNavGridOverlaysComponent
 38d3b701 MapNavigationGridOverlay
 e749c876 MapNavigationGridOverlays
 16349e22 MapNavigationMesh
@@ -1828,6 +1864,7 @@ cd19ef3c MapSkin
 d7d66467 MapSkinInstance
 d11fafa3 MapSpotlight
 adefc98e MapSpotlightBase
+1717869f MapSsao
 429f3e94 MapStaticPointLightBase
 169a2f9c MapSunProperties
 09fb9fc7 MapSunPropertiesInstance
@@ -1943,6 +1980,8 @@ ae9e709a MobileCatalogData
 b62eaf02 ModeSelectButtonData
 61767839 ModeSelectQueueButtonData
 795e5e4f ModeSelectViewController
+94f09958 ModesScenarioGeComponent
+409452bf ModesScenarioGeComponentDef
 ce9b917b ModifiableFloat
 4379a5b2 ModifierAddedCalculationPart
 f290add3 MouseOverEffectData
@@ -1968,7 +2007,12 @@ af96bb9b NamedIconData
 bdc90544 NavGridConfig
 bf11c509 NavGridTerrainConfig
 b13284de NavHeaderViewController
+7866db89 NavRegionGeComponent
+4bb80830 NavRegionGeComponentDef
 0dc0043a NavigationGroup
+7a2bf6d5 NetworkingGeComponentDef
+1ced7194 NeutralCampGeComponent
+9597a7ab NeutralCampGeComponentDef
 fe7449a3 NeutralMinionCamp
 95fd84e9 NeutralMinionCampClearedLogic
 acb408c2 NeutralMinionCampCommon
@@ -1983,6 +2027,8 @@ fa3c7ffa NeutralTimerState
 0e9b6d64 NeutralTimerViewController
 4c7bb73e NeutralTimers
 05ae7109 NeutralTimersInstance
+1f91304b NewIconGeComponent
+5779866a NewIconGeComponentDef
 c3f33ef3 NewSpellCastFlowToggles
 dd681b43 NextBuffVars
 321d6e25 NextBuffVarsTable
@@ -2003,6 +2049,7 @@ eac1ad19 NotificationListItemData
 16a40caa NotificationsPanelViewController
 6f18d402 NotificationsViewController
 edb8a340 NotificationsViewPanelController
+b67bce14 NovaScoreboardViewController
 caba4f42 NudgeIntoBrush
 7a42f079 NullMovement
 042b54c6 NullMovementInstance
@@ -2121,6 +2168,11 @@ c8fbfa9f ParametricPairData
 83ec465a ParticleEventDataInstance
 5dd693f9 ParticleEventDataPair
 975fe846 ParticleEventDataPairInstance
+6cd105a4 ParticleMeshLitShadingModel
+49c67a21 ParticleMeshPbrShadingModel
+c94926c6 ParticleQuadLitShadingModel
+3d98a8d3 ParticleQuadPbrShadingModel
+66a573df ParticleQuadUnlitShadingModel
 dd7f9556 ParticleSystemElementData
 bc7980ca ParticleWadFileDescriptor
 9a619bbc PartnerGroupPlacements
@@ -2274,6 +2326,7 @@ f8ca5e60 RecallSkinUpgradeInstance
 797063e4 ReciprocityController
 bd0d6b78 RecommendedJunglePathIcons
 4e4bbc2b ReconnectDialogViewController
+b9adda8b RedGeComponent
 25167c2f RefundAbilityPointsCheat
 cc72cb1e RefundDialogViewController
 cec9c9dc RegaliaBorder
@@ -2288,6 +2341,9 @@ b574b3af RegionBoundary
 2da963dd RegionBoundaryConfig
 a4290ed0 RegionDataBase
 6ed61477 RegionElementData
+d8f395a4 RegionEntityTemplate
+18ca230c RegionGeComponent
+b1c52813 RegionGeComponentDef
 22df6f20 RegionSettings
 9ddb195b RegionSettingsInstance
 94315a01 RegionsThatAllowContent
@@ -2399,6 +2455,8 @@ f5beca5e ScriptCheatInstance
 60e00531 ScriptDataObject
 bd0c529d ScriptDataObjectList
 13e3455e ScriptFunction
+77a7cfc5 ScriptGeComponent
+4017248c ScriptGeComponentDef
 be608a4c ScriptGlobalProperties
 44d32cf7 ScriptGlobalPropertiesInstance
 2f787f62 ScriptPreloadCharacter
@@ -2449,6 +2507,8 @@ aaa03772 SequenceTiming
 6b258540 SequenceType
 8d30a7c0 SequencerClipData
 97287bfb SequencerClipDataInstance
+fbe6ace9 SequencerGeComponent
+1eee9d10 SequencerGeComponentDef
 6d1ee7ae SetBit
 f9caf4e5 SetInvulnerableBlock
 86e7be2a SetKeyValueInCustomTableBlock
@@ -2462,6 +2522,7 @@ fd6c74ef SetTableValueBlock
 bc67870e SetVarInTableBlock
 00f59899 SetVarInTableBlockInstance
 0a4531fd SettingsViewController
+de1e8cca SfxGeComponentDef
 14a2befa ShaderLogicalParameter
 05e3ea65 ShaderLogicalParameterInstance
 81778d13 ShaderMacroDef
@@ -2477,6 +2538,8 @@ ab0e654f ShaderSamplerDef
 99443cf6 ShieldParams
 a847e0a9 Shop
 57c67d10 ShopCommon
+df795218 ShopGeComponent
+20e8567f ShopGeComponentDef
 947b858f ShowObjectsCheat
 f4dc8ec5 ShowServerMissilesCheat
 e9fb4d18 SiblingStatCoefficientBySubPart
@@ -2497,6 +2560,8 @@ de28699e SkinBorderOrder
 201d5d11 SkinCharacterDataPropertiesInstance
 33068165 SkinCharacterDataProperties_CharacterIdleEffect
 736b0532 SkinCharacterDataProperties_CharacterIdleEffectInstance
+9eec48aa SkinCharacterGeComponent
+aef1db01 SkinCharacterGeComponentDef
 f7fd1497 SkinCharacterMetaDataProperties
 fca49aa4 SkinCharacterMetaDataPropertiesInstance
 530b4b47 SkinCharacterMetaDataProperties_SpawningSkinOffset
@@ -2616,6 +2681,8 @@ c145a43a StatUIDataInstance
 8e14e9d9 StateAnimClipData
 e04f7948 StateAnimTransitionData
 c4a00944 StateLogicEventData
+0f3a3942 StateMachineGeComponent
+13e5fb09 StateMachineGeComponentDef
 e091eead StateTransitionData
 735b4c95 StaticMaterialChildTechniqueDef
 d602cea2 StaticMaterialChildTechniqueDefInstance
@@ -2831,8 +2898,12 @@ cb20c47a TargetingRangeValue
 86dca50c TeamFightUiTunables
 6fb1f68f TeamFightViewController
 2b768993 TeamFramesViewController
+304c98db TeamGeComponent
+1b1b0d1a TeamGeComponentDef
 f934934d TeamScoreMeterUITunables
 6638d338 TeamScoreUiData
+eebabfce TeamSpawnPointGeComponent
+d85cb8c5 TeamSpawnPointGeComponentDef
 73dca0f0 TechniqueDef
 ac9d3cf9 TempTable
 8386aed8 TempTable1
@@ -2993,6 +3064,7 @@ b2c5db9d TftLobbyCustomAssets
 ae83d1c0 TftMapCharacterList
 0db03ead TftMapCharacterRecordData
 9e2461e1 TftMapCharacterSkinData
+b9b1bd74 TftMapCutsceneComponent
 851d819c TftMapGroupData
 8267ef4e TftMapItemData
 0c35fd9a TftMapItemList
@@ -3428,6 +3500,7 @@ f627e1a2 VfxAssetRemap
 1fb8df09 VfxBeamDefinitionData
 210c19d6 VfxBeamDefinitionDataInstance
 4b864aeb VfxBeamParticleDefinitionData
+5561bbca VfxChildComponent
 969aee94 VfxChildIdentifier
 b41c76af VfxChildIdentifierInstance
 b520045a VfxChildParticleSetDefinitionData
@@ -3437,6 +3510,7 @@ b520045a VfxChildParticleSetDefinitionData
 5dcc2b4e VfxColorOverLifeMaterialDriverInstance
 85b14d00 VfxComplexEmitterDefinitionData
 9b9fab12 VfxComplexParticleDefinitionData
+80d55cb7 VfxComponentBase
 49d51b69 VfxDistortionDefinitionData
 1a72ed36 VfxDistortionDefinitionDataInstance
 bfc2e133 VfxEmissionSurfaceData
@@ -3446,6 +3520,7 @@ bfc2e133 VfxEmissionSurfaceData
 01b7cd7d VfxEmitterDefinitionDataInstance
 f4e37e07 VfxEmitterFiltering
 7f70a2b2 VfxEmitterLegacySimple
+1f1f50f2 VfxEntityTemplate
 0a94f3d4 VfxFieldAccelerationDefinitionData
 46f3f2ef VfxFieldAccelerationDefinitionDataInstance
 1a7617fd VfxFieldAttractionDefinitionData
@@ -3462,19 +3537,34 @@ b13097f0 VfxFlexShapeDefinitionData
 5c4922b6 VfxFloatBase
 51d3dcdc VfxFloatOverLifeMaterialDriver
 c039d307 VfxFloatOverLifeMaterialDriverInstance
+0c7a3b52 VfxGeComponent
+82b49579 VfxGeComponentDef
+dc227f32 VfxGeometryComponent
+389424af VfxGeometryComponentBase
 88c8b7c7 VfxGroupDefinitionData
+a04cb2e7 VfxLegacyGeometryComponent
+32913f06 VfxLegacyLifetimeComponent
+e90140f4 VfxLegacyPhysicsComponent
+60c24094 VfxLegacyPrimitiveBase
+2ffd9a47 VfxLegacyRenderComponent
+6f07f7b3 VfxLifetimeComponent
+a9e1acbe VfxLifetimeComponentBase
 9b19f2b5 VfxLingerDefinitionData
 2820c167 VfxMaterialDefinitionData
 f9a4891f VfxMaterialOverrideDefinition
 d9b82e87 VfxMaterialOverrideDefinitionData
 d5ae0f54 VfxMaterialOverrideDefinitionDataInstance
+5301c149 VfxMaterialRenderComponent
 6a88780b VfxMeshDefinitionData
 91939378 VfxMeshDefinitionDataInstance
 823969e6 VfxMigrationResources
 1adc1d81 VfxMigrationResourcesInstance
+1fe2b3db VfxModularPhysicsComponent
 a8ad8317 VfxPaletteDefinitionData
 9ae45924 VfxPaletteDefinitionDataInstance
 12ab5c27 VfxParentInheritanceParams
+adce0266 VfxPhysicsComponentBase
+9a4cdc60 VfxPhysicsModifierBase
 4beb81fd VfxPrimitiveArbitraryQuad
 75adad3a VfxPrimitiveArbitraryQuadInstance
 27d39da0 VfxPrimitiveArbitrarySegmentBeam
@@ -3503,6 +3593,7 @@ fdd6dfa2 VfxPrimitiveCameraUnitQuad
 fc395264 VfxPrimitiveMeshBase
 7320aa3f VfxPrimitiveMeshBaseInstance
 d988ef86 VfxPrimitiveMeshInstance
+8df5fcf7 VfxPrimitiveNonRenderable
 e9945dad VfxPrimitivePlanarProjection
 14d27e2a VfxPrimitivePlanarProjectionInstance
 e4748b84 VfxPrimitiveProjectionBase
@@ -3517,6 +3608,7 @@ efd52b0a VfxPrimitiveTrailBaseInstance
 af8038c0 VfxProjectionDefinitionDataInstance
 4112ea83 VfxReflectionDefinitionData
 34d71640 VfxReflectionDefinitionDataInstance
+f0763c13 VfxRenderComponentBase
 77cf93a8 VfxShape
 ba945ee1 VfxShapeBox
 12ab94a6 VfxShapeCylinder
@@ -3529,6 +3621,7 @@ ee3bf0b0 VfxSimpleEmitterDefinitionData
 d6c3e982 VfxSineMaterialDriverInstance
 1daa3fb0 VfxSoftParticleDefinitionData
 a3c5bc6b VfxSoftParticleDefinitionDataInstance
+2324a55c VfxSpawnBehavior
 a8eb52f4 VfxSpawnConditions
 45cd899f VfxSystemDefinitionData
 71a26b5c VfxSystemDefinitionDataInstance
@@ -3575,12 +3668,15 @@ fa33b8e8 WardSkinDisabler
 a2603593 WardSkinDisablerInstance
 35bd5a3e WeightedSelectionCalculator
 2dcfc13a WidthPerSecond
+d20bd7a4 WorldSpaceUiGeComponent
+3f90b51b WorldSpaceUiGeComponentDef
 b1474db1 WorldVars
 54726d4b WorldVarsTable
 8f15d6b8 WorldVarsTableInstance
 95ef430a X3DSharedConstantBufferDef
 0125d45c X3DSharedConstantDef
 344a9a75 X3DSharedData
+429c75be X3DSharedSamplerDef
 3745189b X3DSharedTextureDef
 46d43861 iconUrl
 a2d2015e mapgeo

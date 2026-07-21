@@ -83,6 +83,7 @@ a55e849c AddTextSizeToHitRegion
 487e35dd AddToTeamFailureSound
 ddbea054 AddedCalculationParts
 432547b6 AdditionalBarTypes
+7b9718c4 AdditionalChannels
 51ea4860 AdditionalLevelUpLinks
 073a7e91 AdditionalMeterSkins
 3f1b156a AdditionalPipSpacerTypes
@@ -147,6 +148,7 @@ b7024f99 AllowSingleItemSelection
 359dd774 AllowedStages
 4bf41a2c AllyFrame
 372a1376 AllyGem
+44a9a2c2 AlphaChannel
 9c5124c0 AlphaOutWhileUntargetable
 29de782e AltLayoutRegion
 79c702f3 AlwaysRespawnWithOffset
@@ -484,6 +486,7 @@ a2734825 Blinded
 98ba36f3 BlockInputEvents
 44b4862a BlockPlayerIcon
 c967b34f Bloodwell
+44956bbc BlueChannel
 8c678ff0 BlueSkin
 25834918 BlueTeamElementSelectedColor
 df925021 BlueTeamElementUnselectedColor
@@ -660,6 +663,7 @@ b3711c47 CHECK
 141669d6 CameoPortraitIcon
 dc2df35f CameoPortraitRegion
 b186288e CameoTooltipAnchor
+9ebe984e Camera
 d65e723c CameraAnimation
 6495fab8 CameraBone
 d00dda71 CameraBoundsAsPercentageOfMapBounds
@@ -806,6 +810,7 @@ a756b81c ChaosTeamIdentity
 156a6d60 CharacterBannerSkinName
 00243921 CharacterFadeInstance
 8390f398 CharacterList
+035431c5 CharacterMesh
 38022a93 CharacterName
 ec182a7b CharacterNameOverride
 26444773 CharacterOffset
@@ -859,6 +864,7 @@ d4f40efa ChestBackgroundAssetVfx
 ed51e4eb ChestTimingOffset
 8afbdca6 ChildAnimDelaySwitchTime
 8e5e6618 ChildClipName
+56849af8 ChildComponent
 67a9c9d2 Children
 e35a50c8 ChoiceDescription
 9df91392 ChosenBadge
@@ -887,6 +893,7 @@ b18e5e08 ClearAllButtonDefinition
 0a004a31 ClearAllTrakey
 c6e9fbea ClearButton
 c74c762c ClearButtonTemplate
+9a1a92b5 ClearColor
 cea34a2c ClearUndoHistoryOnActivate
 cfe20df6 ClickAbsorbingRegionElement
 9fba55f7 ClickData
@@ -1987,6 +1994,7 @@ df684997 GenericIcon
 25b7e625 GenericLarge
 c3b8b9d4 GenericLargeUncolored
 ea961f89 GenericSmall
+0f32e8cc GeometryComponent
 84a64914 GetAcquisitionRangeUsesAttackRange
 4eb5a788 GetPocClampBufferTrapezoid
 79b2d636 GetPocClampTrapezoid
@@ -2018,6 +2026,7 @@ f3eb96d4 GoldText
 2875fcd2 GravesSmall
 d209ff45 Gravity
 81bc04be GreaterThan
+7ae6487f GreenChannel
 f614d04b GreyedTimerText
 af871a91 Grid
 f5e9f0c5 GridButtonData
@@ -2521,6 +2530,7 @@ e70b7d23 LabelTemplate
 ca0e79b5 LabelTraKey
 bdda148a Labels
 6506aa85 Labs
+e87dbba2 LaneDefinition
 ec94a978 LargeLoadoutsIcon
 56a33fe1 LargeSlots
 ceee9c73 LargeSquare
@@ -2630,6 +2640,9 @@ f30a6eea LevelUpUiData
 8a436b27 LevelUpVfxGroup
 a147b6ea Levels
 d628825f LifeStealAndVamp
+055a541d LifetimeComponent
+e29d1e2f Light
+0fb30c27 LightRegion
 ea4e5cc8 LightgridBounceFalloffDistance
 22d24a9a LightgridOverallScale
 2f3b5471 LightgridScaleBounceContribution
@@ -3194,6 +3207,7 @@ a97376aa NavGridOverlay
 f7197db9 NavGridPath
 4a989cc9 NavHeaderScene
 365ff9f6 NavMeshFileName
+301dab05 NavRegionDef
 6d13b0ea NavigationGridOverlays
 0dc0043a NavigationGroup
 40d97d44 NavigationText
@@ -3205,6 +3219,7 @@ c77c4866 NeedsPushToTalkEnabled
 757cbb5b Negate
 ae0964fb NegativeBountyConfig
 4e1babb4 NegativeBuffs
+7e5978a5 NeutralCamp
 08991dc1 NeutralTimerStateManager
 763cc4ab NeutralTimerStates
 4c7bb73e NeutralTimers
@@ -3245,6 +3260,7 @@ c5ec44db NoContentTitleTraKey
 ada7afdb None
 a8e4f979 NormalCastButtonPos
 7af87ddd NormalItemButton
+8c6b1234 NormalOffsetBias
 53fa9427 NormalSkin
 ce79296c Normalize
 edec2e12 NotFacingMovementWhenCasting
@@ -3953,6 +3969,7 @@ eae44d07 Rect
 a27d84d4 RectSourcePSDFilename
 6240fc33 RectSourceResolutionHeight
 df3f6504 RectSourceResolutionWidth
+2b6a031f RedChannel
 7f8fc16d RedSkin
 0c263131 RedTeamElementSelectedColor
 af1fcb6f RedeTeamElementUnselectedColor
@@ -4175,6 +4192,7 @@ fe57aadd RotationalShopItemData
 eb302eba RoundDamage
 4b7703b3 RoundLabel
 352a241c RoundLabelTra
+3e2cdad7 RoundListOptions
 a1a8bf5a RoundNumber
 a607bda2 RoundPlacement
 d9c91ded RoundStateIcon
@@ -4314,6 +4332,7 @@ a71279f3 SelectionOutlineTemplate
 5d578c98 SelectionRotatingIcon
 011381e3 SelectionScene
 8a3aa07b SelectivelyClearActiveSpellOnTargetInRange
+33fae3fc Selector
 aaf62a62 SelectorButtonTemplate
 c73c4213 SelectorMenu
 fa132c11 SelectorMovement
@@ -4360,6 +4379,7 @@ c719768a SeraphineStyleLarge
 68c3f356 SetManually
 278d2a22 SetOverrideAttackDelay
 1a28d722 SetsCompletedToBackgroundEffects
+23e7082c ShaderParameters
 897eefc2 ShadingModel
 d14e6310 ShadowBias
 791b47a2 ShadowItemButton
@@ -4717,6 +4737,7 @@ ae8a302d StatStoneIcon
 1545ddef StateEventId
 fd81566b StateIndicatorList
 fce96f95 StateLogicEventSignalId
+2f60f64e StateMachineDef
 9097411f StateScenes
 6d4da2ea StaticIcon
 d50c7c8a StaticTexture
@@ -5057,6 +5078,7 @@ d516b033 TextureMini
 b311d4ef TextureName
 17c543dc TextureOverride
 1a898c7d TextureOverrides
+b6d29fce TextureResolution
 489a16f5 TextureToOverride
 e2fed020 TextureUs
 c22d5164 TextureUvs
@@ -5648,6 +5670,7 @@ f00a885b VerticalJustification
 19743deb VfxAlignmentTake
 6b1b4e23 VfxBrighterInFowAsDisabledFow
 9664b764 VfxCollapsedToExpanded
+1cf263eb VfxComponents
 8462f4a1 VfxEnableTime
 8efaff74 VfxExpandedToCollapsed
 23e8f406 VfxGroup
@@ -5780,6 +5803,9 @@ de708c93 abilitySlotCC
 233072a6 activatedBuffName
 3b391274 add
 ee172090 additionalCharacters
+82ab734b addressModeU
+83ab74de addressModeV
+84ab7671 addressModeW
 111ec6d2 addressU
 101ec53f addressV
 0f1ec3ac addressW
@@ -5935,6 +5961,7 @@ d844ed3d beamParticleDefinition
 6b89d541 beginIn
 f314d542 beginOut
 a0f69e3c behaviors
+c914b02b bevel
 ca406316 bindWeight
 a24dc16e birthAcceleration
 83cdeaa1 birthColor
@@ -6133,6 +6160,7 @@ e2b5d80d damagePerLevelModifiable
 397db5c1 damageTagDefinition
 2eedede5 darkColoration
 d872e2a5 data
+08f782f8 dataBuffers
 b4b13a2d dataType
 bd28bd4d death
 5d19c62e deathEventListeningRadius
@@ -6260,6 +6288,7 @@ f365a945 enemyChampSpecificHealthSuffix
 618581ea enemyTooltip
 6246290c enlargeSize
 c245e974 enlargeTime
+53ec22d9 envMesh
 a8a3777b environmentSHIrradiance
 5ee3c453 epicness
 39ad7a1b equipButton
@@ -6495,6 +6524,7 @@ b9516a6f importance
 f729e184 incrementalPurchase
 40c6c39e indicatorType
 cd8310f1 inertia
+8f59d48c inheritedTags
 98c52469 inherits
 09dbf7c7 initialDensityMapAsset
 382825a9 initialSubmeshMouseOversToHide
@@ -8661,6 +8691,7 @@ b1e439af maxAlpha
 40656ce7 maxAngleCos
 166e1615 maxAngleFadeCos
 070b4922 maxAngleRangeFactor
+b6887851 maxAnisotropy
 e6915cf6 maxDistance
 80f63e4f maxIndex
 53d4cc0f maxInstances
@@ -8725,6 +8756,8 @@ b2f634ab minimumDisplayedRange
 9d8131ba minimumPracticeToolScale
 20b578ca minionFlags
 fe195c64 minionScoreValue
+650eb4bb mipFilter
+21bafb31 mipLodBias
 619396ba mipped
 6563bee8 miscRenderFlags
 1985fb4b missileGroupSpawners
@@ -8753,6 +8786,7 @@ f506c7e6 multiplier
 566f3406 nameOverride
 1f6232c0 nameTranslationKey
 a32e6947 navGridFileName
+30e1280e navRegion
 05991009 nearClip
 39c8d824 nearsight
 8c4b1ad8 neutral
@@ -8981,6 +9015,7 @@ faa9aa58 rotationIsEnabled
 01028ccd rtpcName
 02e7fb4c samplerName
 0a6f0eb5 samplerValues
+e0540d74 samplers
 82971c71 scale
 d4e17a53 scale0
 d3e178c0 scale1
@@ -9051,6 +9086,9 @@ dee4f011 shakeFrequency
 e69cdc70 shakeReferenceResolution
 91193f20 shakeTriggerPercent
 9dc3d926 shape
+f43f2e26 shapeData
+b26be7bf sharedDataBuffers
+a90a8855 sharedSamplers
 7d94eaf6 shortName
 cf3ba016 shouldAlwaysTargetEnemy
 9a863eb9 shouldRandomizeIdleAnimPhase
@@ -9367,6 +9405,7 @@ a0c70f80 visibilityComponent
 0dc74f32 visibilityMode
 fd01a9d3 visibilityRadius
 b27bdbb2 visibleSelectionName
+0ffde771 visionRegion
 28412914 voBank
 11f6313b voBankAssetPath
 99f78103 voBankPath
