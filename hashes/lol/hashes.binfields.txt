@@ -6046,6 +6046,7 @@ b7250b1c castRadius
 1b9cbd9b castRange
 d4c233b3 castRangeDisplayOverride
 4c77a6c3 castRangeUseBoundingBoxes
+0e1136d1 castRangeValues
 b0dbb527 castShadows
 c01d7d11 castStaticShadows
 4ee9bb1f castTargetAdditionalUnitsRadius
@@ -6315,6 +6316,7 @@ cc84e4ea expGivenOnDeath
 660c8b4e extraCharacterPreloads
 f549ff11 extraInfo
 8c1da1da extraSpells
+c1984296 extraSpellsList
 558aca8f eyeCandy
 5c2046ed facingLine
 f16d8413 fade
@@ -8671,6 +8673,7 @@ f5b38c88 m_PercentTimeDeadModPerLevel
 58ffa1ba magmaColoration
 d997830a mana
 c271cfd4 manaUiOverride
+210f9ec0 manaValues
 7066e6ca mapAIPresence
 dde8c114 mapContainer
 d91ebe82 mapNameOverride
@@ -8776,6 +8779,7 @@ ea472d7e missions
 fdfac367 movementComponent
 4ed28677 movementProjectionX
 4dd284e4 movementProjectionY
+01262a25 mrPerLevel
 63526f3d mrows
 00c425ad mtheme
 16c9c5b0 multipleRoundCombinationRule
@@ -9148,6 +9152,7 @@ e658872c spectatorPolicy
 be73c6e0 specular
 7b80c780 speed
 bca4dce5 spellBlockPerLevel
+11704a2b spellCastTime
 f66eee99 spellData
 9b601778 spellLevelUpInfo
 822e38a2 spellName
@@ -9155,6 +9160,7 @@ bfc37103 spellNames
 1e264f00 spellResetFlashFadeDuration
 7c769ee0 spellResetFlashScaleDownDuration
 912789e1 spellResetScaleMultiplier
+f26881a0 spellTotalTime
 74f5d6ce spells
 864343c8 splineWidth
 a0958d01 srcAlphaBlendFactor
