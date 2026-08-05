@@ -1001,6 +1001,8 @@ e9ced584 GameCalculationConditional
 e4564452 GameComponentData
 0760ad40 GameEntity
 40a9c74a GameEntityTemplate
+e75836d4 GameEntityTemplateLocatorPreview
+de5dac9e GameEntityTemplateProxyLink
 e343b9b0 GameFontDescription
 4ad4766b GameFontDescriptionInstance
 69bb6e6a GameModeAutoItemPurchasingConfig
@@ -1044,6 +1046,7 @@ ccc30b24 GameModeItemListInstance
 f58450d9 GameMutatorExpansions
 2e22fe26 GameMutatorExpansionsInstance
 1fac8b64 GameObject
+c7a79d2b GameScreenContainerBase
 30f0efe0 GameScript
 811882fd GameStateViewController
 3196ef58 GamepadAxisInputSourceFloat
@@ -1340,6 +1343,7 @@ b5f69929 IGameCalculationPartWithStats
 e24c8317 IGameModeConfig
 3e5051fa IGameModeConfigBase
 c03bb018 IGameModeConfigClient
+65c802be IGameScreenNode
 62a09c62 IGeComponentDef
 7369448b IHudLoadingScreenWidget
 f795f405 IInputSourceBool
@@ -3280,12 +3284,14 @@ b2305647 UObject
 ee41cf31 UVScaleBiasFromAnimationDynamicMaterialDriver
 1e8d9860 UiAbilityPromptAnimData
 223e46b7 UiAssetElementData
+7ec8e5ed UiBehavior
 209b0277 UiButtonSoundEvents
 e12a737a UiChampionSelectionSlotData
 ec8777c6 UiChatPaneDefinition
 751db4bd UiClashTeam
 eaf3a43d UiComboBoxDefinition
 e262e6be UiComboBoxSoundEvents
+174c7096 UiComponent
 87b79cec UiDraggableBasic
 cd602187 UiDraggableElementGroupDrag
 f6c2880c UiDraggableProxyElementDrag
