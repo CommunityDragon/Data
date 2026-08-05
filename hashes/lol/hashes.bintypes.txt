@@ -121,6 +121,9 @@ a3640c69 AudioTagListPropertiesInstance
 6dfab860 AugmentData
 0c4b6fb6 AugmentDisplayTagData
 587d08e4 AugmentFallbackPool
+bb109c9b AugmentSelectionViewController
+e24d73c6 AugmentSetTooltipViewController
+e8402935 AugmentSetTraitTrackerViewController
 6f1e4224 AugmentSlot
 ee55616c AugmentSlotData
 62bb343b AutoSpellCastInfo
@@ -393,6 +396,7 @@ e2fd6db7 CollectiblesEsportsTeamData
 fb1dfaec ColorGraphMaterialDriverInstance
 05e4ae90 ColorLiteralMaterialDriver
 b11599f5 ColorLogicDriverLightUpdater
+2cc33a4b CombatOverviewViewController
 0971f3ea CombatTextOverride
 40085ddb CommentBlock
 a2ed9c8a CommonUiTunables
@@ -558,6 +562,7 @@ f69b9acb ContextualRuleInstance
 fc27a63e ContextualSituation
 07894009 ContextualSituationInstance
 2bd190dd ContinueBlock
+cc2dcb80 ControlSchemeSelectionViewController
 ed45c0f6 Controllers
 7a9a96ff CooldownEffectUiData
 20664115 CooldownGemUiData
@@ -623,6 +628,7 @@ db36062d DeathRecapShowcase
 4e9d7735 DeathRecapShowcaseSlotKdaData
 b2feedb2 DeathRecapShowcaseSlotMasteryData
 45652c20 DeathRecapShowcaseSlotStatStoneData
+b1edf879 DeathRecapTeammateSpectator
 72849ea5 DeathRecapViewController
 1307c9ed DeathTimes
 21243f6a DeathTimesInstance
@@ -1617,6 +1623,7 @@ d27d6bcf LevelPropAiCommon
 5a730cb9 LevelPropGameObject
 2c04ede0 LevelPropGameObjectCommon
 4d8b713a LevelPropSpawnerPoint
+496d22af LevelPurchaseViewController
 e3c4beb7 LevelScriptBlock
 cd750bea LevelScriptController
 74e94776 LevelScriptControllerFunctionLink
@@ -1641,6 +1648,7 @@ db961a4b LinearTransformProcessorDataInstance
 af31eaf7 LiveFeatureTogglesInstance
 c7dcf45f LoLFeatureToggles
 6a18461c LoLFeatureTogglesInstance
+d8a0b4e6 LoLModesEventChoiceViewController
 f163deff LoLModesPhaseData
 a2860180 LoLModesRoundData
 7e67f6dd LoLModesRoundsListData
@@ -1984,6 +1992,7 @@ ae9e709a MobileCatalogData
 b62eaf02 ModeSelectButtonData
 61767839 ModeSelectQueueButtonData
 795e5e4f ModeSelectViewController
+079b4930 ModesQuestTrackerViewController
 94f09958 ModesScenarioGeComponent
 409452bf ModesScenarioGeComponentDef
 ce9b917b ModifiableFloat
@@ -2266,6 +2275,7 @@ bffa2626 PlayerStatsViewController
 fe10ca95 PoiFadeData
 782564ac PoiScalingData
 051cb889 Polygon
+3018b0da Portrait
 a89fd289 PostGameLabFields
 ebd18932 PostGamePlayerTemplate
 7a2a7a0d PostGameUnitTemplate
@@ -2401,6 +2411,7 @@ f5822b4e RichBackgroundGameModeBackground
 e20be0be RichBackgroundViewController
 55063179 RigResource
 4d75b5c6 RigResourceInstance
+26b76506 RoleBoundQuestSelectionViewController
 c6e7278b RoleOpponentConstraintInfo
 fc5670fe RoleOpponentEquivalentChallengeConstraintInfo
 5660a59c RoleSelfConstraintInfo
@@ -2497,6 +2508,7 @@ d161071f SelectorMovementEntry
 645ba277 Self
 ea5c9896 SelfAoe
 38b758c0 SeqInputConstVector
+85a1773d SeqInputVarOrientation
 5ddc7fc6 SeqInputVarPosition
 3c43ef68 Sequence
 25c9d3e0 SequenceCategory
@@ -2653,6 +2665,7 @@ bc49afde SpellRankUpRequirements
 2e7c5eda SpellSlotEqualOrGreaterThanLevelRequirement
 f53e93a1 SpellSlotPassiveUiDefinition
 d63809d8 SpellSlotSimpleUiDefinition
+549452c3 SpellVars
 a3bd0d60 SplineInfo
 0064dcde SponsoredBanner
 e5bbe067 SpringPhysicsEventData
@@ -2794,6 +2807,7 @@ cdf6b9aa SyncGroupDataInstance
 40ad689f SyncedAnimationRigPoseModifierData
 5b3f2a5c SyncedAnimationRigPoseModifierDataInstance
 19bee933 SystemAudioDataProperties
+df4d7688 TFT3DAnnouncementViewController
 d1c5edb6 TFTAnnouncementData
 9e2b8a86 TFTArmoryViewController
 de224c6d TFTAttachmentSlotStyleData
@@ -2833,6 +2847,7 @@ dade98fa TFTHudMobileDownscaleData
 01d7548e TFTModeData
 7d28a28a TFTNotificationData
 474e7388 TFTOutOfGameCharData
+ab66439a TFTPVEEOGViewController
 9bdea32a TFTPayoutViewController
 25cb010c TFTPhaseData
 7a18122a TFTPlayerChoiceViewController
@@ -2844,6 +2859,8 @@ f737def9 TFTStageData
 7d14423b TFTStatData
 26868b0f TFTStreak
 956ad097 TFTStreakData
+253eba55 TFTTeamCannonCooldownViewController
+9401f2e2 TFTTeamCannonItemExchangeViewController
 64da2c7f TFTTraitAssignmentVariation
 e007e6f5 TFTTraitContributionData
 215d037d TFTTraitInfoCard
@@ -2851,6 +2868,7 @@ e007e6f5 TFTTraitContributionData
 c130c1e5 TFTTraitSetData
 c2662ac4 TFTTraitTrackerViewController
 de2af923 TFTTrovesCelebrationViewController
+d35c6ec8 TFTTrovesViewControllerV3
 7504f4c1 TFTUnitUpgradeData
 5e6f0af9 TableGet
 8799ac14 TableValue
@@ -3273,6 +3291,7 @@ fb2aa4b7 Turret
 6c2aba87 UIButtonAdditionalState
 6c68755e UIButtonDefinition
 a68fa594 UIButtonState
+b06a22db UIControlScheme
 2b57350d UIElement
 9e490c6c UIElementI
 0c6b491a UIMetricTeamScoreMeters
@@ -3684,6 +3703,7 @@ b1474db1 WorldVars
 344a9a75 X3DSharedData
 429c75be X3DSharedSamplerDef
 3745189b X3DSharedTextureDef
+1e3c6622 eventpass
 46d43861 iconUrl
 a2d2015e mapgeo
 3730b3d2 selectionStrategyConfig
