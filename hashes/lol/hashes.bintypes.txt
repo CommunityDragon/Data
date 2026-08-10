@@ -311,6 +311,8 @@ db69f5cb CharacterInstance
 07c20fe9 CharacterLevelRequirement
 a939f1b6 CharacterLevelRequirementInstance
 747991cb CharacterMeshGeComponentDef
+5d7c19de CharacterOutlineCategory
+993f8595 CharacterOutlineSubmeshes
 c6228969 CharacterOverrides
 8ea3ea45 CharacterPassiveData
 fc4f4b05 CharacterPreloadData
