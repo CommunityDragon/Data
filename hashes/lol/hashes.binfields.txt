@@ -91,6 +91,7 @@ ddbea054 AddedCalculationParts
 d32dd16e AdditionalPropertyDataPath
 8e2030a7 AdditionalPropertyDataPaths
 5989220d AdditionalRoots
+40c7b66f AdditionalSpells
 f5f563c0 AdditionalStatusIcons
 a0a0468c AdditionalTextures
 9bfe7d81 AdditionalUvSetMask
@@ -458,6 +459,7 @@ ba467ec4 Bias
 e4f5bdce BillionAbbreviationTraKey
 9252cbd2 BindFlexToOwnerPar
 b0afcae5 BindLocation
+74cf1ad1 BiomeTexturePath
 a5d2169c BitField
 091fa8ec BitIndex
 ef27cfa4 BlackboardAssociatedPlayers
@@ -4778,6 +4780,7 @@ e9123b4f StoreCategoryButtons
 4d31ed46 StoreListingData
 bff088c9 StoreNewPip
 36a4c8ee StoreScene
+2853d34a StoreTexturePath
 791a662d StreakHitTarget
 243996f3 StreakIcons
 c5a50e34 StreakText
@@ -5741,6 +5744,7 @@ e73fbbbb VoteTemplate
 b125548c VotesLayout
 a2718963 VsBadgeScene
 50a09eb9 WEIGHT
+51e9b98e WadDependencies
 4610b104 WaitingHighlightVfx
 830b37d2 WaitingTimeText
 b68c7d1f WardSkinId
