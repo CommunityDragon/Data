@@ -858,6 +858,8 @@ b48abdd7 ChatMessageKeyFallback
 ce0447f6 ChatVisibilityKey
 2e89a529 CheatIconMap
 4577ec44 CheatSet
+aa8fd0c5 CheckNewGearId
+dba9e788 CheckPrevGearId
 06389b18 Checkbox
 6e8692a2 CheckboxTemplate
 7dc9adc9 ChestAssetMultiVfx
@@ -1062,6 +1064,7 @@ fdc7d532 CostTextDefinition
 d2e9b1b7 CostTextUnpurchaseable
 39b1ddf4 Count
 8fb9959f CountBg
+6b5e21ef CountOffset
 bc7fb120 Countdown
 ad853004 CountdownBackground
 f77d0e71 CountdownMeter
@@ -1981,6 +1984,7 @@ d029140a Gamma
 06d3d9c1 GapWidth
 68c9483d GearAlwaysShowSubMeshes
 a15a7147 GearButtons
+affb8300 GearIds
 8be14c4f GearMenuScene
 394a2548 GemBackground
 991a21d5 GemMultiAssetVfx
@@ -3229,6 +3233,7 @@ ae0964fb NegativeBountyConfig
 291bad0a NewActorStuckPathfinding
 6cee1705 NewContentNotificationQuest
 4c8d4f60 NewDeathSFX
+20941997 NewGearId
 0c2ccf34 NewItemFx
 1064f0af NewLoadingScreen
 6723e4bf NewMissionVfx
@@ -3774,6 +3779,7 @@ b3f182f6 PreferredOrder
 76f8fa70 PremiumTitleTraKey
 45cbd6de PrestigeCrestBase
 9a05d1e0 PrestigeCrests
+262bfa2e PrevGearId
 138e5c64 PreviewElementSource
 53798b70 PreviewText
 98850381 PriceText
@@ -4294,6 +4300,7 @@ d5cdd657 SearchEnableArea
 91151563 SearchInputEdit
 2a7c3854 SearchInputEditDisabledText
 3c4f003d SearchItemDescriptionDefinition
+cd2c8b8f SearchTag
 cb7a6a6b SearchViewPaneDefinition
 30aa3195 SearchbarText
 af2e170a SeasonSplitToCrestMap
@@ -5195,6 +5202,7 @@ ab2bac33 TimeText
 5e19cde2 TimeToResimulate
 33da1bb9 TimeToShowSeconds
 d70f51d0 TimeToTarget
+615964d8 TimeWindow
 4182ffb3 TimeoutDoubleClickPrevention
 6a7c10f9 TimeoutInFow
 5a0565cb TimeoutPreventClicksOnShow
