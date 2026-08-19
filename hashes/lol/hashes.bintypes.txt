@@ -89,6 +89,12 @@ de683827 AnnouncementStyleBasic
 48c9ff38 AnnouncementStyleOneIcon
 aa95a271 AnnouncementStyleTwoIconsFlanking
 50ac95fe AnnouncementsViewController
+83cccb6d AnnouncerVoEvent
+c9ed1a3e AnnouncerVoEventTypeCac
+ab30ed5e AnnouncerVoEventTypeConcrete
+9e23d81a AnnouncerVoEventTypeGeneric
+4036941a AnnouncerVoEventTypeModularCac
+9963c03a AnnouncerVoEvents
 7dfe9095 AnvilData
 9b0f2144 Area
 d612119d AreaAim
@@ -112,6 +118,9 @@ e6caaf8c AttackEvents
 2092043f AttackableUnit
 0ae1a932 AttackableUnitGeComponent
 cbe6ced9 AttackableUnitGeComponentDef
+7a55218f AudioPriorityBehavior
+9bc919f2 AudioQueueConfig
+33d1cb2e AudioQueueConfigList
 865caeee AudioStatusEvents
 77c4e579 AudioStatusEventsInstance
 3692fac5 AudioSystemDataProperties
@@ -287,6 +296,12 @@ d3595b68 ChampionBaseItemAdvice
 c6f41267 ChampionItemRecommendations
 a5d193ef ChampionMasteryMap
 ad06db03 ChampionMetadata
+b4dee917 ChampionMusicEvent
+2e1cea4f ChampionMusicEventType
+4870b9d4 ChampionMusicEventTypeCac
+c87f69f4 ChampionMusicEventTypeConcrete
+227fcad0 ChampionMusicEventTypeGeneric
+1ee9686c ChampionMusicEvents
 480cc223 ChampionNameUiData
 29f3a370 ChampionPerkKeystoneUiData
 111d19c1 ChampionRuneRecommendation
@@ -426,6 +441,8 @@ edb4ab83 ConfigFloat
 ce0b9a93 ConformToPathRigPoseModifierData
 d6df7e90 ConformToPathRigPoseModifierDataInstance
 57e882f6 ConstantWaveBehavior
+1c23f02c ContextualActionAnnouncerVoEvent
+8482aa12 ContextualActionChampionMusicEvent
 15f6e07a ContextualActionCooldownModifications
 cf313c24 ContextualActionData
 58cebaff ContextualActionDataInstance
@@ -1112,6 +1129,7 @@ a7ab33c6 GlobalAudioBanksProperties
 86e40105 GlobalAudioDataProperties
 219579d2 GlobalAudioDataPropertiesInstance
 aba89ace GlobalCcBehaviorData
+b2246553 GlobalContextualActionData
 71b2dfd7 GlobalPerLevelStatsFactor
 3b5b77e4 GlobalPerLevelStatsFactorInstance
 0be608fc GlobalResourceResolver
@@ -2020,6 +2038,8 @@ f290add3 MouseOverEffectData
 3c38f0fa MoveSpeedParametricUpdater
 bd71ac00 MovementDirectionParametricUpdater
 1b01e9c3 MovingTowardEnemyParametricUpdater
+906b3602 MultiAnnouncerVoEventType
+b58b70dc MultiChampionMusicEventType
 eca0eb94 MultiDragonSoulSlotUiData
 f2e17e62 MultiDragonTypeSourceUiData
 eda975b4 MultiKillLogic
