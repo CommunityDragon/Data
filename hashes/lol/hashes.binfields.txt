@@ -24,6 +24,7 @@ f81238e4 AbilityTraits
 c24b7dbd AcceptButton
 032d7e7c AcceptedVfx
 a2b3fa25 Accessorylist
+3510dea4 Aced
 c4642eff Action
 0218e0af ActionButton
 2904e822 ActionButtonDefinition
@@ -69,6 +70,7 @@ b3f03180 ActiveTraitIcon
 b100a668 ActiveTraitLevelIcon
 2de9a1fd ActiveTraitSelectionOutline
 06532e95 ActiveTraitsBG
+20749c51 ActiveVoiceOver
 835805da ActiveWheelButtonHoverIntroScene
 53e052ad ActiveWheelButtonHoverOutroScene
 ae5fd606 ActiveWheelScene
@@ -193,6 +195,10 @@ cfa53701 AnnieSmall
 c4b1c5aa AnnouncementData
 1df05e4b Announcements
 25e5198f AnnouncementsMapping
+6e654622 AnnouncerQueueConfigs
+63981b65 AnnouncerVoEventType
+de72a3a2 AnnouncerVoEventTypes
+9963c03a AnnouncerVoEvents
 5af22504 AntiTrollPingAfterDeath
 a5eee18a AnvilTypes
 d33d8404 AnySubmesh
@@ -238,6 +244,7 @@ dcf2bbe3 AssassinItemsFilterButtonDefinition
 81082e4b AssetBinName
 7503462e AssetListId
 b29567fa AssistDurationOverride
+eff5bca1 AssistedPriorityBehavior
 fddf21be Assisters
 de748cc1 AssociatedChampions
 f0021999 AssociatedCharacterName
@@ -396,6 +403,9 @@ bcc3158a BarTipElements
 3cd0d32e BaronGoldValue
 e1c50cb2 BaronIcon
 65d39c4f BaronScore
+90214be4 BaronSolo
+98912876 BaronSpawn
+3ae31586 BaronSteal
 6b93eab0 BaronValue
 a2621347 BarrackMinion
 4fbc08a8 BarracksConfig
@@ -550,7 +560,9 @@ c7878a1b BounceRadius
 4c289d35 BoundingRegion
 3d56aa08 Bounds
 56d8c006 BountyData
+0d5ed622 BountyEnded
 0f9b5ab3 BountyIcon
+067cca4a BountyStarting
 214b4895 BountyText
 6e304492 BreakpointAmount
 5855caa8 BriefText
@@ -768,6 +780,7 @@ d052e1c1 ChampIconNativeOffset
 e617a5ad ChampSpecificBar
 b3f33cf8 ChampionButtonTemplate
 0ce50672 ChampionComponents
+3a738c83 ChampionExecuted
 63506244 ChampionGold
 8e277b93 ChampionGoldText
 562016e4 ChampionHoverEffectGlowMod
@@ -777,12 +790,16 @@ fe960cbb ChampionKills
 395592c9 ChampionKillsUiData
 4f0ab780 ChampionLayout
 972cf46e ChampionListingData
+2e1cea4f ChampionMusicEventType
+d384bc74 ChampionMusicEventTypes
+1ee9686c ChampionMusicEvents
 e36bd611 ChampionNameHash
 3e4882a9 ChampionNameLink
 ebd9617e ChampionNameText
 5c5d98c2 ChampionNames
 008dc7d3 ChampionPortraitScene
 de57b1e6 ChampionScene
+f8965958 ChampionShutdown
 f8ac8a0f ChampionSkinDataLink
 f871dddc ChampionSlotUiData
 d0db0663 ChampionSlots
@@ -1240,6 +1257,7 @@ ec950741 DefaultLogo
 bad7ddc6 DefaultMagicalDamageFormat
 fe7cef23 DefaultMaterial
 f1f3d846 DefaultMaxLevel
+e168a4d7 DefaultMaxQueueTimes
 4dafc8b6 DefaultMediumPip
 806148ea DefaultMenuButtonTraKeys
 99c048ce DefaultMeterSkin
@@ -1434,7 +1452,9 @@ ff786d5a DragGroup
 a0f67682 DragonFury
 2431da35 DragonGoldValue
 00a36a0a DragonNames
+b4a64e19 DragonSolo
 37a9ec14 DragonSoulGoldValue
+a8a230d9 DragonSteal
 8df2631e DragonTracker
 ed0acb58 DragonTypeIcons
 d016d45c DragonUiLoadable
@@ -1495,6 +1515,10 @@ c1958fe9 EffectState
 77e5e41c EffectTag
 5c1fc8bc EffectType
 d113c306 EggTierVfx
+a8d720d0 ElderDragonKill
+829dfd5f ElderDragonSolo
+7a3e799b ElderDragonSteal
+73a7c872 ElderSpawn
 56fbc12e ElementAnchor
 6249dd6f ElementColors
 fa144e3e ElementGroup
@@ -1995,8 +2019,10 @@ b01d273b GemMythicTimingOffset
 554e0475 GemSingleTimingOffset
 5348f67c GeneralCondition
 f4de034c GeneralMetrics
+c5d72455 GeneralPriorityBehavior
 cfe609d6 GeneralSettings
 271fb40d GenericBackgroundTexture
+a2f5a276 GenericEvent
 df684997 GenericIcon
 25b7e625 GenericLarge
 c3b8b9d4 GenericLargeUncolored
@@ -2009,6 +2035,7 @@ ea961f89 GenericSmall
 556f29d1 Ghosted
 d4957af1 GlobalBehaviors
 18f3a14e GlobalCcBehavior
+b2246553 GlobalContextualActionData
 0da47e35 GlobalRotationTime
 6d9c47ab GlobalRotationTimeInSeconds
 74eec679 GlobalSpellIcon
@@ -2047,6 +2074,9 @@ af939497 GroupFramed
 2bbec768 GroupIndex
 fb59da5c GroupLink
 d95e9023 GroupSurrenderVoterCount
+9bbb4468 GrubsKill
+a9769d67 GrubsSolo
+070682a7 GrubsStolen
 2c9b7f0c Guid
 7a19f501 HPInhibitor
 643db497 HPUpgrade
@@ -2283,9 +2313,14 @@ f393a124 IncrementalTitleText
 090aa9ab Index
 e403ebcc IndicatorRadius
 53dd7e1a IndicatorTextureName
+66fa31d8 IndividualAssistedEvent
 25a63e0d IndividualBannerOverrides
+fbb66c25 IndividualFailedEvent
 bb895685 IndividualItemVisibility
+1fd795aa IndividualPriority
+a084e3ec IndividualPriorityBehavior
 b243dc4a IndividualScoreDefinitions
+7c74a459 IndividualSucceededEvent
 0fb40705 Info
 a0bbdb34 InfoBarStyleSourceMap
 7427aeb1 InfoButton
@@ -2297,6 +2332,9 @@ c2ea6c30 InfoIcon
 b164837e InfoText
 738917db IngameStatusIcon
 f80397ee InheritScissoring
+8281a415 InhibitorKill
+e1ea923b InhibitorRespawn
+94311ea0 InhibitorRespawnSoon
 b37136f5 IniKeyValue
 a766d8e5 InitialAlpha
 0c5d0220 InitialDelaySecs
@@ -2883,6 +2921,7 @@ f75a1005 MaxNumChoices
 6dcc04ea MaxPartySize
 668788d6 MaxPlayCount
 a27eeebb MaxPlayerCount
+c8b6a592 MaxQueueTimes
 2acbb00b MaxRangeSizeScalar
 80ba1308 MaxSize
 a7e69fc7 MaxSlowDoesntRoot
@@ -3064,6 +3103,7 @@ b63f4306 MinionLevelEvents
 bac0c948 MinionUpgradeStats
 1e3fcd64 MinionsAreValid
 25d596de MinionsGainBaseMoveSpeedAtTwenty
+6ac4e44f MinionsSpawn
 b0b5f547 MinionsStickToTowers
 b0c63265 MinuteAbbreviationTraKey
 905ff813 MiscIconPath
@@ -3172,6 +3212,8 @@ b7e43ad3 MultikillIcon
 b8c3b1bd MultistrikeSlow
 f87d7e10 MusicButton
 103e4044 MusicPauseFadeMs
+64e312ae MusicQueueConfigs
+9346aa18 MusicQueues
 7d2e0885 MusicSourceButton
 7f619889 MusicSourceInfo
 cf093b49 Mutator
@@ -3199,6 +3241,7 @@ df82dfdf MythicTokenText
 5c98a36e MythicView
 884d04dc NameBackdrop
 262449ce NameBackground
+0d3aa34a NameHash
 8223767b NameId
 7adbaade NameLink
 c50ea4ff NameLocKey
@@ -3572,6 +3615,7 @@ e4bf75ab PathfindingV2
 a6e1308d PendingIcon
 3ee7119e PenetrationAppliesToTurrets
 1cc466c2 PenetrationRecently
+77b17247 PentaKill
 374b50fc PerAttachmentMaterial
 f5fc1d3a PerLocaleAdjustments
 e69d69a7 PerPixelUVsY
@@ -3787,6 +3831,7 @@ a97790c4 PrimalFury
 cb9f11d2 PrimaryAbilityResourceBar
 df2a906d PrimaryMission
 477ef394 PrioritizeTailSample
+64132003 PriorityBehavior
 fbd79e70 ProbeA
 fed7a329 ProbeB
 e548412c Product
@@ -3856,6 +3901,7 @@ ce96bffc QueueIconElementDefault
 021eaf8b QueueIconElementHover
 f221c7d2 QueueIconElementInactive
 bd29d956 QueueIdTitleTraKeys
+cd02e270 QueuePriority
 71378d8b QueueSelectDisplaySlots
 0ffd4ef0 QueueType
 1167e6cb QueueTypeToGameInviteIcon
@@ -4155,7 +4201,11 @@ dc1d621e RewardsMeterAnimTimeSecs
 9b3993b2 RiftHeraldCampName
 d43d2913 RiftHeraldGoldValue
 c2b28e45 RiftHeraldIcon
+8b507734 RiftHeraldKill
 960f228e RiftHeraldScore
+fa045deb RiftHeraldSolo
+dc4cc17b RiftHeraldSpawn
+1775abaf RiftHeraldSteal
 d9ecc0a5 RiftHeraldUpdate
 2c09f8fd RiftHeraldValue
 35400ee4 RightBias
@@ -4929,6 +4979,7 @@ e66467df TargetObject
 4aad5dbd TargetPerks
 a92a72b9 TargetPosIsOwner
 2d8bf2fb TargetPosition
+ef5104c7 TargetQueue
 bbda0faa TargetScale
 416010f5 TargetSkinScale
 5ba61dc2 TargetSpell
@@ -4992,6 +5043,8 @@ f61f63d4 TeamData
 54d8e282 TeamDisplayData
 bc5518ba TeamDisplayNameTra
 07cf17f6 TeamEliminatedIconPath
+d4714dbb TeamFailedEvent
+f6122be7 TeamFailedPriorityBehavior
 cf4eea7a TeamFightData
 299164e2 TeamFowComboBoxDefinition
 3f39cbd1 TeamFrameRegion
@@ -5026,6 +5079,8 @@ dac11dd4 TeamPlannerPortraitPath
 4eb5f3a3 TeamPlannerTooltipTraKey
 febfae4f TeamPosition
 43bf4874 TeamPositions
+b038b134 TeamPriority
+50b8f3f6 TeamPriorityBehavior
 9e9d7de5 TeamRewardBuffName
 45632964 TeamRightDisplay
 56390356 TeamScore
@@ -5035,6 +5090,8 @@ f75339e0 TeamSelfTemplate
 cab626a5 TeamSize
 b57b1a79 TeamSlotDisabledIcon
 40dfc230 TeamSlotSourceIcon
+8e8371bb TeamSucceededEvent
+141437e7 TeamSucceededPriorityBehavior
 7ae49fa3 TeamSurrenderVoterCount
 26e50f8c TeamToBuff
 51258d07 TeamToCheck
@@ -5351,6 +5408,7 @@ aee644a1 TouchFeedbackElement
 3f6fb5cb TowerDetectionRadius
 bb45cdaf TowerIcon
 aae31154 TowerIcons
+3e5bf916 TowerKill
 8fc999ff TowerKills
 5467ceb5 TowerKillsUiData
 4f809608 TowerScore
@@ -5415,6 +5473,10 @@ be02c271 TransitionTimeDriver
 21328a43 Transitions
 6a498f31 TreasureTroveTokenIconPath
 4bb004c1 TreatAutoAttacksAsNormalSpells
+be2133eb TriggerAnnouncerVoEvent
+f007f2a9 TriggerAnnouncerVoEventAction
+057edc39 TriggerChampionMusicEvent
+3a526bfb TriggerChampionMusicEventAction
 3ac39a50 TriggerEventsOnInitialSpawn
 f051c7e8 TriggerLaunchAttack
 d71aac3e TriggerOncePerEnemyOfParent
