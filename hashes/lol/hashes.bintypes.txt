@@ -32,6 +32,7 @@ dcfc2f9f AbovePARPercentCastRequirementInstance
 af905da2 AcceleratingMovement
 c496a5dd AcceleratingMovementInstance
 3a7d0d25 AcceleratingMovementSpec
+de93beb7 AccountLockedDialogViewController
 eb62095f ActiveItemTelemetryData
 387d0a6f AddExperienceCheat
 fe8b8bec AddExperienceCheatInstance
@@ -130,6 +131,9 @@ a3640c69 AudioTagListPropertiesInstance
 6dfab860 AugmentData
 0c4b6fb6 AugmentDisplayTagData
 587d08e4 AugmentFallbackPool
+791eb92e AugmentLevelData
+23433cc1 AugmentModifier
+e93de85a AugmentQuestData
 bb109c9b AugmentSelectionViewController
 e24d73c6 AugmentSetTooltipViewController
 e8402935 AugmentSetTraitTrackerViewController
@@ -187,6 +191,7 @@ b2dd588a BaseRigPoseModifierData
 ef141775 BaseRigPoseModifierDataInstance
 95e52c4c BasicAttackSlotIntDriver
 64a133b3 BasicSkinAugment
+e1555e0a BasicSkinAugmentGroup
 e5a69c70 BasicSpellSlotIntDriver
 84c11b53 BattleBunnyMissFortuneViewController
 4ce83b90 BeforeTimeConstraintInfo
@@ -219,6 +224,8 @@ c2c80e2a BoolTableSetInstance
 d6073b2e BoolValueGet
 5c2449a6 BorderPropertyData
 38eee8e5 BorderSkinAugment
+4a70b12c BorderSkinAugmentGroup
+eacb459e BossHealthBarViewController
 f195e56b BotsSpellData
 8cc53493 BountyIndicator
 0a3dad89 BreakBlock
@@ -332,6 +339,7 @@ c6228969 CharacterOverrides
 8ea3ea45 CharacterPassiveData
 fc4f4b05 CharacterPreloadData
 4a2608e1 CharacterPreloadList
+e2ff8b22 CharacterQuestData
 34274458 CharacterQuestDefinitionsData
 542f6458 CharacterQuestListConfig
 0752442e CharacterQuestListData
@@ -1147,6 +1155,7 @@ aa2b7ab2 GrassObject
 7db7e17a GravityHeightSolverInstance
 69ea53eb GreenGeComponent
 a0406423 GroupRepeat
+8b331b12 GuestOfHonor
 7a633477 HappenedNearTurretConstraintInfo
 f7ae5e16 HasAllSubRequirementsCastRequirement
 60221531 HasAllSubRequirementsCastRequirementInstance
@@ -1488,6 +1497,7 @@ f3b028db IconElementDataInstance
 d4441c55 IconElementGradientExtension
 8fac195f IconGeComponent
 33b88aa0 IconLink
+77274757 IconPath
 0a450b25 IconStateData
 0a7e3f16 IdMappingEntry
 6ab3b588 IdentityInstance
@@ -1613,6 +1623,7 @@ e501834f ItemShopViewController
 bbd81d5f ItemSlotHasChargesCastRequirement
 9aaf8f1c ItemSlotHasChargesCastRequirementInstance
 29b498b2 ItemSlotSimpleUiData
+81665919 JadeItemShopViewController
 aeae0877 Joint
 4ccf9584 JointInstance
 71215bc9 JointOrientationEventData
@@ -1640,6 +1651,7 @@ c2394d52 KillingSpreeFilter
 e7da7f6f LabelElement
 0e7be4b7 LaneData
 75d89b68 LargeMinionFilter
+fe87f21e LastHitData
 d60f170b LaunchAreaData
 a51270e5 LayoutStyleBase
 d7d5f570 LayoutStyleGrid
@@ -1660,6 +1672,7 @@ d27d6bcf LevelPropAiCommon
 5a730cb9 LevelPropGameObject
 2c04ede0 LevelPropGameObjectCommon
 4d8b713a LevelPropSpawnerPoint
+9efb6a51 LevelPurchaseItemData
 496d22af LevelPurchaseViewController
 e3c4beb7 LevelScriptBlock
 cd750bea LevelScriptController
@@ -1742,6 +1755,7 @@ ea452f2f LoadoutFeatureData
 a928a446 LoadoutSelectViewController
 759a8c58 LoadoutUpgradeDialogViewController
 00b1e2f6 LoadoutViewController
+05e73536 LoadoutViewControllerV2
 88b8380c LoadoutsButtonData
 407b58d1 LobbyBottomButtons
 45e66b18 LobbyFriendPortraitData
@@ -1997,6 +2011,7 @@ e8b42a5f MinimapPingDataInstance
 e8f0215b MinimapPingEffectDefinitionInstance
 e3e052fb MinimapPingTypeContainer
 0d9a30e8 MinimapPingTypeContainerInstance
+7f796784 MinimapTimerGroupData
 d0754dc9 MinimapViewController
 f60c70bb MinionUpgradeConfig
 a4ef6883 Missile
@@ -2030,6 +2045,7 @@ ae9e709a MobileCatalogData
 b62eaf02 ModeSelectButtonData
 61767839 ModeSelectQueueButtonData
 795e5e4f ModeSelectViewController
+8d31b69b ModesQuestData
 079b4930 ModesQuestTrackerViewController
 94f09958 ModesScenarioGeComponent
 409452bf ModesScenarioGeComponentDef
@@ -2048,6 +2064,7 @@ eda975b4 MultiKillLogic
 9082cc09 MultiLineTextElementData
 6706a6d6 MultiLineTextElementDataInstance
 6a87b47b MultiPullStandardItemData
+8190bc9f MultiPullStandardItemDataV2
 869e25cd MultiPurchaseDialog
 d3b5a3d5 MultipleEventsWithinTimeConstraintInfo
 6630947b MusicAudioDataProperties
@@ -2059,6 +2076,7 @@ d5ae911e NamedDataValueCalculationPartInstance
 af96bb9b NamedIconData
 72553f91 NarrativeBarksDefinition
 276246d8 NarrativeBarksList
+26435b25 NarrativeBarksViewController
 bdc90544 NavGridConfig
 bf11c509 NavGridTerrainConfig
 b13284de NavHeaderViewController
@@ -2092,6 +2110,7 @@ b36e92f2 NextBuffVarsTableInstance
 77f1af88 NextSpellVarsTable
 c6c20233 NextSpellVarsTableInstance
 2fcaa83c NexusFinisher
+21814e41 NexusFinisherViewController
 8e85b8c7 NotInputSourceBool
 d5a6ab25 NotMaterialDriver
 d2c26ff2 NotMaterialDriverInstance
@@ -2297,6 +2316,7 @@ e7555bdb PingSecondaryRadialViewController
 6258a55c PlaybookInfoPanel
 f86cce09 PlaybookItemListPanelData
 8896c583 PlaybookViewController
+3cbb3021 PlayerAugmentSetData
 690f8fb5 PlayerAugmentsViewController
 520b38ec PlayerCardWidgetConfig
 65aa46ed PlayerFields
@@ -2334,6 +2354,7 @@ ad106e67 ProductOfSubPartsCalculationPart
 4057a24f ProgressBarDisplayData
 281c11d2 ProgressBarViewController
 055dd7d5 ProgressTrack
+449b05d1 ProgressTrackList
 8107e04c ProgressionGraph
 0f4765d4 ProgressionNode
 bbb1d9bc ProgressionNodeData
@@ -2453,6 +2474,8 @@ f5822b4e RichBackgroundGameModeBackground
 e20be0be RichBackgroundViewController
 55063179 RigResource
 4d75b5c6 RigResourceInstance
+61516a3e RoleBoundItemSlotDetailedUiData
+c3df8115 RoleBoundQuestConfig
 26b76506 RoleBoundQuestSelectionViewController
 c6e7278b RoleOpponentConstraintInfo
 fc5670fe RoleOpponentEquivalentChallengeConstraintInfo
@@ -2598,6 +2621,8 @@ a847e0a9 Shop
 57c67d10 ShopCommon
 df795218 ShopGeComponent
 20e8567f ShopGeComponentDef
+6c050131 ShowDebugScriptAreasCheat
+8fd42905 ShowMissileHitboxCheat
 947b858f ShowObjectsCheat
 f4dc8ec5 ShowServerMissilesCheat
 e9fb4d18 SiblingStatCoefficientBySubPart
@@ -2726,6 +2751,7 @@ b7fafb8f StatFormulaData
 ad275d5f StatLargestAbilityDamageConstraintInfo
 afc667eb StatLargestAttackDamageConstraintInfo
 85b9b550 StatPageEntry
+c3f95838 StatPageEntryData
 bc2357b4 StatStoneCategory
 f5567460 StatStoneCollection
 ed237fc4 StatStoneData
@@ -3037,6 +3063,8 @@ e0eb3283 TftCharacterRoleCardHeaderData
 06526fc8 TftCombatRecapPanelTemplate
 11d01459 TftCondensedItemCombineTooltipData
 18ee4f3b TftConditionalTraitSetData
+d65315ee TftConstants
+bb5a7716 TftContentData
 0baaecb0 TftCraftingCelebrationViewController
 aeda4e3a TftCraftingDialogViewController
 70fbfc5e TftCraftingViewController
@@ -3096,6 +3124,7 @@ f2a4458b TftDropRates
 a8722702 TftEncounterList
 e55f21a9 TftEncounterPanelViewController
 b2bf2c82 TftEncounterSlotData
+025ad6e2 TftEventHubSkillTreeViewController
 7ed069aa TftEventHubXsViewController
 a48aca10 TftEventTimer
 ec7cb61d TftFinisherCutscene
@@ -3112,6 +3141,7 @@ a4036762 TftGameStartSequenceSimpleEvent
 a9580c30 TftGameStartSequenceTurbo
 9467beee TftGameStartSequenceTutorial
 13f6b804 TftGameStartViewController
+a0c80919 TftGoopBuffData
 ebec7251 TftGravityHeightSolver
 0c82f0d9 TftHeightSolverType
 3604b3e3 TftHexToRangeTranslation
@@ -3125,13 +3155,18 @@ ebec7251 TftGravityHeightSolver
 520608f3 TftHudTraitUnitSlotBorders
 baddec44 TftHudTraitUnitSlotData
 486fc5cf TftHudUnitShopDropRate
+5860a1dc TftImportTeamViewController
 5fb6e936 TftInfoNubData
 b5e27400 TftItemCodexHeaderData
 1be092ec TftItemCodexViewEntryData
+d41a611d TftItemCombination
+0b183179 TftItemCombinationList
 d69e33ae TftItemCombineTooltipData
 65c2c560 TftItemComposition
 d186c31a TftItemData
 02fa2826 TftItemSlotDisplayTemplate
+79e1c982 TftItemTagData
+5d0f7d97 TftItemTrackerViewController
 b2c5db9d TftLobbyCustomAssets
 2f42ce27 TftLobbyCustomButtonPopupViewController
 80808160 TftMapCharacterData
@@ -3150,11 +3185,14 @@ a4281f51 TftMapTraitContributionData
 b0ca221b TftMapTraitData
 d6a99b5b TftMapTraitList
 357e4d22 TftMapTransitionPositions
+32233c05 TftMarketData
+1cda14e0 TftMarketSelectionViewController
 11e0e3ca TftMatchupBannerUiContainer
 222662c1 TftMissionList
 dce41aec TftMobileLoginButtonData
 2339b9f8 TftMobileLoginData
 a6e3bf67 TftMobileLoginQueueData
+1c91dc02 TftMyTeamsViewController
 a30c7694 TftOptionsViewController
 6331ea73 TftOutOfGameItemData
 2088c90c TftPassAsset
@@ -3168,11 +3206,18 @@ de452e62 TftPassRewardEntitlement
 9ad75125 TftPassRewardLoadoutData
 e8ee618e TftPassRewardLootItem
 b6e7e6e8 TftPassWelcomeData
+ddfb3ce9 TftPictureInPictureViewController
 255770b2 TftPlaybook
 eeba7343 TftPlayerPlacementDynamicMaterialFloatDriver
+faf3956e TftPveData
 8df47daa TftRegalia
+b3f382ff TftRegionPortalData
+a5f064ff TftRegionPortalList
+1b85de12 TftReplayCameraControlsViewController
+f373182c TftReplayVisibilityMenuViewController
 94205387 TftRequiredUnitProperty
 a3992fd9 TftRotationalShopItemData
+34d37457 TftRsbotData
 fda84d3f TftScoreboardDelays
 364f1782 TftScoreboardNotificationTemplate
 90347ed8 TftScoreboardPlayerTemplate
@@ -3184,6 +3229,7 @@ e52b8f5d TftShopData
 f424c50f TftShopDropRates
 3619aa27 TftShopMobileDelays
 da724c76 TftSinusoidalHeightSolver
+e61d489c TftSkillTreeLeaderboardViewController
 56767442 TftSkinCharacterDataProperties
 b94050aa TftSlotObject
 beee3d01 TftSocialPanelViewController
@@ -3194,6 +3240,11 @@ bf5ac0ff TftStageSceneData
 e20dd534 TftStageViewController
 3bea5b98 TftSurrenderCheat
 7ecffba4 TftSurrenderViewController
+4946e8cf TftTagList
+02d531ed TftTeamCannonData
+978883b6 TftTeamCannonItemExchangeGroup
+d88ce199 TftTeamEditorData
+cc6491d4 TftTeamEditorViewController
 60764292 TftTeamPlannerActiveTraitData
 f340b385 TftTeamPlannerChampionListingData
 13a37f3e TftTeamPlannerMemberData
@@ -3213,6 +3264,7 @@ ab8d65bc TftTraitInfoNubData
 0afc6bcd TftTraitTrackerTraitDataTemplate
 1d6f8226 TftTraitTrackerTraitIconData
 5aff9f1d TftTraitVariationInfoNubData
+ee2dd07a TftTriggerUnlockableChampionMilestone
 b662e8c6 TftTrovesBannerActiveList
 fdc62fbc TftTrovesBannerCurrencyReward
 f5e0c308 TftTrovesBannerData
@@ -3230,6 +3282,7 @@ dbdf56b8 TftTrovesCelebrationStandardSegmentData
 591d0e47 TftTrovesCelebrationViewControllerV2
 2c16677f TftTrovesViewController
 d45c705b TftTrovesViewControllerV2
+9cd4ec31 TftTunables
 f0f3a045 TftUnitAttachmentLargeSlotData
 257ce8cb TftUnitAttachmentSlotsData
 7a2da7e3 TftUnitAttachmentStandardSlotData
@@ -3252,7 +3305,10 @@ ce4229fb TftUnitPropertyValueInteger
 db966ec9 TftUnitPropertyValueIntegerSet
 40ac7d9e TftUnitPropertyValueString
 aeea2f8a TftUnitShopViewController
+e90d4a7a TftUnlockableChampionData
+17539cc2 TftUnlockableIndicatorData
 d96fd43c TftUxTunables
+dc53945d TftWebViewViewController
 275342a3 TftZoomSkin
 3d7f07ef TimeBlendData
 ee5fb96c TimeBlendDataInstance
@@ -3262,6 +3318,7 @@ f36e13f7 TimeMaterialDriver
 1466c675 TimeMultiplierCheatInstance
 2fa4c62b TimedVariableWaveBehavior
 ee613fef TimedWaveBehaviorInfo
+bcbc4216 TimersViewController
 c7d8a802 TipStyleBase
 2a96aa37 TipTrackerViewController
 aa9fc559 ToastNotificationsViewController
@@ -3272,6 +3329,8 @@ aa9fc559 ToastNotificationsViewController
 d6aca6c8 ToggleBuffCheatInstance
 b3c7e52c ToggleCameraHeightCheat
 944d2643 ToggleDebugMessagescheat
+4c6157e3 ToggleDebugObjectsCheat
+0baf3602 ToggleDebugUiElementsCheat
 df6a8659 ToggleInvulnerableCheat
 882a63a6 ToggleInvulnerableCheatInstance
 b5bd148c ToggleNetworkCheat
@@ -3498,6 +3557,7 @@ d13248aa UiTextureProviderMeshData
 696a421b UiUnitStatusData
 9c638700 UiUnitStatusDurationBarData
 16eb9b94 UiWeeklyMissionTemplate
+bf431a5a UltBookSpellPickChoiceViewController
 ad493f5e UnitFields
 0705759a UnitFloatingInfoBarData
 ff5d83bd UnitLevelUiData
@@ -3591,6 +3651,7 @@ b520045a VfxChildParticleSetDefinitionData
 85b14d00 VfxComplexEmitterDefinitionData
 9b9fab12 VfxComplexParticleDefinitionData
 80d55cb7 VfxComponentBase
+1cf263eb VfxComponents
 49d51b69 VfxDistortionDefinitionData
 1a72ed36 VfxDistortionDefinitionDataInstance
 bfc2e133 VfxEmissionSurfaceData
