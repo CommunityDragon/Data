@@ -2665,6 +2665,7 @@ eec83f7b IsEnemy
 5f9096dc IsEphemeral
 320475df IsEyeCandy
 847f0e3f IsFocusable
+ec01928c IsGameplayGroup
 dc0cc6a6 IsItemTag
 dc02fdae IsItemToggled
 183df33e IsItemTooltipUnitProperty

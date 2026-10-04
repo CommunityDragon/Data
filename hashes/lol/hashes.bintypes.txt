@@ -2083,6 +2083,7 @@ bdc90544 NavGridConfig
 2d00e4da NavGridRegionInputData
 6b91544a NavGridRegionRenderData
 f6f4bb5f NavGridRegionTagDefinition
+f42cd443 NavGridRegionTagsLink
 41c19efe NavGridRegionVfxData
 bf11c509 NavGridTerrainConfig
 d82714cc NavGridTerrainTagDefinition
