@@ -1426,6 +1426,7 @@ cb8dfbc8 IOptionItemFilter
 bc0bc533 IOptionTemplate
 f7292242 IParticleQuadShadingModel
 2393bd4d IParticleShadingModel
+1519e8d2 IParticleSpawnDataGenerator
 ec1355b3 IPath
 0faeb4d0 IPictureInPictureSource
 9ee5e504 IRSCondition
@@ -2078,10 +2079,17 @@ af96bb9b NamedIconData
 276246d8 NarrativeBarksList
 26435b25 NarrativeBarksViewController
 bdc90544 NavGridConfig
+2bfb084c NavGridRegionGroupDefinition
+2d00e4da NavGridRegionInputData
+6b91544a NavGridRegionRenderData
+f6f4bb5f NavGridRegionTagDefinition
+41c19efe NavGridRegionVfxData
 bf11c509 NavGridTerrainConfig
+d82714cc NavGridTerrainTagDefinition
 b13284de NavHeaderViewController
 7866db89 NavRegionGeComponent
 4bb80830 NavRegionGeComponentDef
+671b7351 NavigationGridParticleSpawnDataGenerator
 0dc0043a NavigationGroup
 7a2bf6d5 NetworkingGeComponentDef
 1ced7194 NeutralCampGeComponent
@@ -3654,6 +3662,8 @@ b520045a VfxChildParticleSetDefinitionData
 1cf263eb VfxComponents
 49d51b69 VfxDistortionDefinitionData
 1a72ed36 VfxDistortionDefinitionDataInstance
+d2807c60 VfxEmbeddedMaterial
+526478f0 VfxEmissionLinkedMeshData
 bfc2e133 VfxEmissionSurfaceData
 45ecc930 VfxEmissionSurfaceDataInstance
 8324a97b VfxEmitterAudio
@@ -3724,7 +3734,6 @@ cdfc5a49 VfxPrimitiveBeamBaseInstance
 b7c1ee8f VfxPrimitiveCameraQuadInstance
 f14fefab VfxPrimitiveCameraSegmentBeam
 f7198018 VfxPrimitiveCameraSegmentBeamInstance
-41c19efe VfxPrimitiveCameraSegmentSeriesBeam
 287851b9 VfxPrimitiveCameraTrail
 b6800906 VfxPrimitiveCameraTrailInstance
 fdd6dfa2 VfxPrimitiveCameraUnitQuad
