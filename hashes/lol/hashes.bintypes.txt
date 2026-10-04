@@ -3665,6 +3665,8 @@ b520045a VfxChildParticleSetDefinitionData
 1a72ed36 VfxDistortionDefinitionDataInstance
 d2807c60 VfxEmbeddedMaterial
 526478f0 VfxEmissionLinkedMeshData
+cd5a34f5 VfxEmissionMeshData
+3df230bf VfxEmissionSkeletonData
 bfc2e133 VfxEmissionSurfaceData
 45ecc930 VfxEmissionSurfaceDataInstance
 8324a97b VfxEmitterAudio
@@ -3702,6 +3704,7 @@ e90140f4 VfxLegacyPhysicsComponent
 6f07f7b3 VfxLifetimeComponent
 a9e1acbe VfxLifetimeComponentBase
 9b19f2b5 VfxLingerDefinitionData
+3bf517c5 VfxMaterialContainer
 2820c167 VfxMaterialDefinitionData
 f9a4891f VfxMaterialOverrideDefinition
 d9b82e87 VfxMaterialOverrideDefinitionData
