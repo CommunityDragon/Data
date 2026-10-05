@@ -1156,6 +1156,7 @@ aa2b7ab2 GrassObject
 69ea53eb GreenGeComponent
 a0406423 GroupRepeat
 8b331b12 GuestOfHonor
+c7ccb2ce GuestOfHonorListData
 7a633477 HappenedNearTurretConstraintInfo
 f7ae5e16 HasAllSubRequirementsCastRequirement
 60221531 HasAllSubRequirementsCastRequirementInstance
@@ -3074,6 +3075,7 @@ e0eb3283 TftCharacterRoleCardHeaderData
 18ee4f3b TftConditionalTraitSetData
 d65315ee TftConstants
 bb5a7716 TftContentData
+41bdce89 TftContentTagGroupData
 0baaecb0 TftCraftingCelebrationViewController
 aeda4e3a TftCraftingDialogViewController
 70fbfc5e TftCraftingViewController
@@ -3135,6 +3137,7 @@ e55f21a9 TftEncounterPanelViewController
 b2bf2c82 TftEncounterSlotData
 025ad6e2 TftEventHubSkillTreeViewController
 7ed069aa TftEventHubXsViewController
+6d1d4b10 TftEventSkillData
 a48aca10 TftEventTimer
 ec7cb61d TftFinisherCutscene
 8f85e859 TftFinisherData
@@ -3318,6 +3321,7 @@ e90d4a7a TftUnlockableChampionData
 17539cc2 TftUnlockableIndicatorData
 d96fd43c TftUxTunables
 dc53945d TftWebViewViewController
+90cd0f69 TftZoomGroupData
 275342a3 TftZoomSkin
 3d7f07ef TimeBlendData
 ee5fb96c TimeBlendDataInstance

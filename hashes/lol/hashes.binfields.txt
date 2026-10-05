@@ -3333,6 +3333,7 @@ b4d4a4a1 MilestoneBgFrameSelf
 e4e24bfc MilestoneCount
 10d642fd MilestoneData
 b9ba7771 MilestoneDefinitions
+03d6a5a2 MilestoneDescriptionTra
 3e3476ec MilestoneDisplayTime
 dd1c30ab MilestoneDisplayTimeForLocalPlayer
 c385f2e3 MilestoneFgEffectTinted
@@ -4658,6 +4659,9 @@ b0177e69 RightTeamSlots
 da5ad358 RoleBoundQuestItemData
 08457d57 RoleBoundQuestXp
 bcc87490 RoleToCheck
+a1ad92a7 RolesRevampedCharacterRoleNameTra
+886be411 RolesRevampedDescriptionTra
+0116bd9b RolesRevampedItemRoleNameTra
 16ff3d1e Roll
 b4d81627 Roll10Button
 5ca6f7d0 Roll10Text
