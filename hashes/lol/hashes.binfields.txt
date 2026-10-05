@@ -2665,6 +2665,7 @@ eec83f7b IsEnemy
 5f9096dc IsEphemeral
 320475df IsEyeCandy
 847f0e3f IsFocusable
+ec01928c IsGameplayGroup
 dc0cc6a6 IsItemTag
 dc02fdae IsItemToggled
 183df33e IsItemTooltipUnitProperty
@@ -3940,6 +3941,7 @@ ceb2bf85 ParticipantLocation
 dd36a38c ParticleIntegratedUvRotateMult
 22c3cf3e ParticleIntegratedUvScrollMult
 368b3015 ParticlePreloads
+f8b81c77 ParticleSpawnDataGenerator
 676949a1 ParticlesShareRandomValue
 e5032427 PartnerGroupBanners
 1f558adc PartnerGroupColors
