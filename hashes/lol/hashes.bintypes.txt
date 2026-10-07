@@ -665,6 +665,8 @@ f81e16e3 DeathGeComponentDef
 d09acba6 DeathRecapDamageOverview
 7efae6c2 DeathRecapDamagerCondensedList
 75e8f0c1 DeathRecapDamagerDetailedDisplayData
+e348122d DeathRecapExtrasConfig
+29619231 DeathRecapGreyscaleConfig
 db36062d DeathRecapShowcase
 340536c7 DeathRecapShowcasePips
 061c3629 DeathRecapShowcaseSlotData
@@ -672,6 +674,7 @@ db36062d DeathRecapShowcase
 b2feedb2 DeathRecapShowcaseSlotMasteryData
 45652c20 DeathRecapShowcaseSlotStatStoneData
 b1edf879 DeathRecapTeammateSpectator
+ce762bab DeathRecapTeammateSpectatorConfig
 72849ea5 DeathRecapViewController
 1307c9ed DeathTimes
 21243f6a DeathTimesInstance
@@ -1498,6 +1501,7 @@ db6e9d8d IconElementDataExtension
 f3b028db IconElementDataInstance
 d4441c55 IconElementGradientExtension
 8fac195f IconGeComponent
+313c0076 IconGeComponentProperties
 33b88aa0 IconLink
 77274757 IconPath
 0a450b25 IconStateData
@@ -2229,6 +2233,7 @@ a10379c5 OrInputSourceBool
 bed31fc8 OutnumberedConstraintInfo
 57b5ff8c OverrideAttackTimeData
 ca859188 OverrideAutoAttackCastTimeData
+fbecf8da OverrideOptionItemGroup
 351922b3 OverridePerkSelectionSet
 b9d9bab0 OverridePerkSelectionSetInstance
 da99f3bb OverrideResourceResolver
@@ -2730,6 +2735,8 @@ d486d6e9 SpellLockDeltaTimeData
 5e7e5a06 SpellObject
 600119a1 SpellObjectInstance
 d45ebe4a SpellPassiveData
+df6e7fa5 SpellPickChoiceConfig
+2b686c3d SpellPickChoiceListConfig
 61a8deda SpellPickChoiceViewController
 946612f1 SpellPipsUiData
 dd91fd22 SpellRankIntDriver
@@ -3014,6 +3021,7 @@ f934934d TeamScoreMeterUITunables
 6638d338 TeamScoreUiData
 eebabfce TeamSpawnPointGeComponent
 d85cb8c5 TeamSpawnPointGeComponentDef
+138a7d5f TeamsConfig
 73dca0f0 TechniqueDef
 ac9d3cf9 TempTable
 8386aed8 TempTable1
@@ -3211,6 +3219,7 @@ a30c7694 TftOptionsViewController
 32d26743 TftPassCurrencyInfo
 57aaa28c TftPassData
 3658e05a TftPassLevel
+402c056e TftPassMilestoneData
 f083449f TftPassRepeatInfo
 8b52a39e TftPassRewardBase
 adbd2900 TftPassRewardCurrency
@@ -3295,6 +3304,7 @@ dbdf56b8 TftTrovesCelebrationStandardSegmentData
 2c16677f TftTrovesViewController
 d45c705b TftTrovesViewControllerV2
 9cd4ec31 TftTunables
+2483c715 TftUiPropertyOverrideLoadableGroup
 f0f3a045 TftUnitAttachmentLargeSlotData
 257ce8cb TftUnitAttachmentSlotsData
 7a2da7e3 TftUnitAttachmentStandardSlotData
