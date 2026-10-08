@@ -9657,6 +9657,7 @@ d152340a randomOffsetMinY
 e498a15a rarities
 4b7f058a rarity
 ae453411 rarityGemOverride
+a2cb8e03 rarityOverrides
 ae839c67 rate
 50b7397d rateByVelocityFunction
 660ec0f4 ready
@@ -9753,6 +9754,7 @@ f95bc325 secondaryAbilityResource
 e431b198 secondaryResourceHudDisplayData
 2b7c8c37 selectedLineSizePx
 59d93fa2 selectedOffsetY
+7dd33afb selectedPreset
 34495375 selectionButtonDelayTime
 eb5e3232 selectionHeight
 54642500 selectionIcon

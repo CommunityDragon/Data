@@ -389,6 +389,7 @@ e21083b5 ChildMapVisibilityController
 374bca72 ChildMissileParentRepulsion
 64a056ca ChildMissileRepulsion
 911cbd12 ChildMissileSiblingRepulsion
+c3a944e7 ChromaData
 8085e5d1 CinematicBarsViewController
 bafcf76c CinematicCameraGeComponent
 630106f3 CinematicCameraGeComponentDef
@@ -2364,6 +2365,7 @@ af5a8fff PregameChatViewController
 5b82a425 PreloadCharacterWithSkinID
 2f483ea6 PreloadCharacters
 a66424c6 PresetAnimatorCheat
+e7ee4f28 PresetChromaData
 09b5d357 PresetEnvironmentArtCheat
 ad106e67 ProductOfSubPartsCalculationPart
 4057a24f ProgressBarDisplayData
@@ -3782,6 +3784,7 @@ ba945ee1 VfxShapeBox
 12ab94a6 VfxShapeCylinder
 5bbcc553 VfxShapeInstance
 4f4e2ed7 VfxShapeLegacy
+ee39916f VfxShapePointDoNotUse
 3dbe415d VfxShapeSphere
 31fd952a VfxShapeVolume
 ee3bf0b0 VfxSimpleEmitterDefinitionData
