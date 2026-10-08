@@ -3747,6 +3747,4 @@ b1474db1 WorldVars
 1e3c6622 eventpass
 46d43861 iconUrl
 a2d2015e mapgeo
-a2cb8e03 rarityOverrides
-7dd33afb selectedPreset
 3730b3d2 selectionStrategyConfig
