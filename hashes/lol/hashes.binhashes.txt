@@ -1267,6 +1267,7 @@ ca05f585 Aatrox_AA_Trail_02
 49eae9ec Aatrox_AA_Trail_02_Child
 c905f3f2 Aatrox_AA_Trail_03
 cf5d87e7 Aatrox_AA_Trail_03_Child
+e8a7dd77 Aatrox_Base_Mat
 28877e44 Aatrox_Dance_Ground
 c9f064af Aatrox_Dance_Ground_Loop
 3cdd0eb4 Aatrox_Death_ambers
@@ -3554,6 +3555,14 @@ f60679e7 Armor_Gauntlet
 cbb17d21 Armor_Shoulder
 8334119e ArmorandMagicResist
 b300068b ArmoryChoiceCount
+f4cd6bcc ArmoryCloseTime
+7ae06ba1 ArmoryContentDefinition
+ec7f7eda ArmoryID
+59ac4df2 ArmoryOpenTime
+042ea1d5 ArmoryProbabilityTableName
+36259392 ArmoryRefreshNum
+906e2fea ArmoryTimeout
+dfeed1a8 ArmoryUpdateFlag
 7bb98949 Armour
 b7752d1d Armour_V3
 8fff623c Armrests
@@ -4455,6 +4464,7 @@ f7e4dacb Attack_Ult_Slow2b
 078b7475 Attack_W4
 0c9b54a9 Attack_to_run
 74f90163 Attack_to_runfast
+e2cc2fbf AttackerRef
 18b1878a Attacks
 8befbede AttacksPerSecondCoefficient
 f4e15a53 AttacksPerStack
@@ -4606,7 +4616,9 @@ bf5d7db5 Audio_idle3
 b85d72b0 Audio_idle4
 b8e63d78 Augment
 45e02ace AugmentGold
+1be0ae74 AugmentIndex
 b66fbd77 AugmentMoveSpeedBonus
+df710cc8 AugmentNum
 81f43042 AugmentReroll
 3ec8e188 AugmentRerollTracked
 f2aa68b0 AugmentShieldBonus
@@ -5966,6 +5978,7 @@ d3ae8295 AvatarGlow
 5b04d818 AvatarVfx
 e6bca420 Avatar_A
 e9bca8d9 Avatar_B
+dc5abd7a Avatar_Chest
 26c89df8 Avatar_Mesh
 61485aa5 AvoidanceDelta
 54ea875b Away
@@ -7003,6 +7016,8 @@ aac89c8a Base_Vines
 a8f0b7bd Base_mat
 73c648a4 Basebody
 01a64492 Basegun
+7ab07ae9 Baseketball_Basketball
+f618a68d Baseketball_Camera
 abf8de42 Baseline
 753667c7 BaselineAD
 623649de BaselineAS
@@ -7129,6 +7144,7 @@ e02e5061 BeeK_Root
 38eedb56 BeeL_Root
 911fcb46 Beetle
 7f55baba Beetle_L_legB_01
+c61c1677 BehaviorRunComplete
 8d4abeb7 Belch
 826e1638 Bell
 ac4d2e1b BellA
@@ -7376,6 +7392,9 @@ c16760f2 Birds_A_Tail
 56eba91a Bire_root
 a873b9e0 Biscuit
 1307a221 BiscuitMinuteInterval
+70fd7864 Bit_1
+73fd7d1d Bit_2
+72fd7b8a Bit_3
 dd9c6c39 BiteADRatio
 8fe85ca7 BiteDamageAP
 e3e44bc3 BiteDamageBase
@@ -7467,6 +7486,7 @@ d9fc7b3b BleedMaxDamageOverDurationTooltip
 fdaf3546 BleedPct
 3b50bee8 BleedPercent
 85a11c85 BleedPercentAttackDamage
+9e376bf8 BlessingList
 f8203265 BlightChild_BA
 3b30f91d BlindBox
 8004fdfc BlindDuration
@@ -7958,6 +7978,8 @@ b22f94f3 Body_Angel
 9103be60 Body_Arm
 9ae49b16 Body_Arm2
 4b3a9b3d Body_Armor
+c7dfe1c3 Body_Assassin
+77a78443 Body_Base
 eb0fae93 Body_Book
 f10fb805 Body_Boom
 afbef9dc Body_Boom1
@@ -7988,6 +8010,7 @@ bc038048 Body_Pizza
 0a2c410a Body_Replace
 30de678f Body_Shelter
 b4325783 Body_Show
+9be43718 Body_Slayer
 95ef2598 Body_Tattoos
 32251c15 Body_Tier1
 2f25175c Body_Tier2
@@ -8431,6 +8454,7 @@ a10b45ee BottomBody
 df367657 BottomHalf
 8dba9e8d Bottom_Bow2
 fa592f00 Bottom_Wing
+a8597615 BoughtOrSold
 4dd34fff BoulderDamage
 30fca063 BounceADRatio
 9807c016 BounceAPRatioTooltip
@@ -9527,6 +9551,11 @@ ff2bded0 Buffbone_Taunt2_Loc
 8fa8e4d2 Buffbone_VFX3
 8ca8e019 Buffbone_VFX6
 47f07e21 Buffbone_VFX_01
+2239235d Buffbone_VFX_1
+1f391ea4 Buffbone_VFX_2
+20392037 Buffbone_VFX_3
+1d391b7e Buffbone_VFX_4
+1e391d11 Buffbone_VFX_5
 d1343df9 Buffbone_VFX_Joke
 1d3d41d8 Buffbone_VFX_Joke1
 203d4691 Buffbone_VFX_Joke2
@@ -10073,6 +10102,8 @@ ef68967d C_VFXEye1_R_Loc
 d0977284 C_VFXEye_L_Loc
 3b04f0ae C_VFXEye_R_Loc
 4c30f473 C_VFXEye_loc
+00efa495 C_VFXFingerL_loc
+c52b6943 C_VFXFingerR_loc
 acb82ee9 C_VFXFinger_loc
 b0907db4 C_VFXFire_loc
 d8508ecc C_VFXFistL_loc
@@ -10081,6 +10112,7 @@ d8508ecc C_VFXFistL_loc
 11d9d042 C_VFXGhostA_loc
 351d50b7 C_VFXGhostB_loc
 31ecb9e4 C_VFXGhostC_loc
+a40f0f69 C_VFXGun1_loc
 38ed71fa C_VFXGunL_loc
 3f5d6248 C_VFXGunL_loc_fin
 a0345f78 C_VFXGunR_loc
@@ -10102,6 +10134,7 @@ e5513270 C_VFXLanding3_loc
 de85229e C_VFXLaser1_loc
 ad92b053 C_VFXLaser2_loc
 5c81aa4f C_VFXLaugh_loc
+82d28028 C_VFXLightning_loc
 2cb9e525 C_VFXMark_loc
 f7c902d4 C_VFXMeteor_loc
 beabade9 C_VFXMouth_loc
@@ -280685,6 +280718,7 @@ cef5d6aa ChargeMultiplierInverse
 61c4e010 CharmDuration
 97b6ed16 Charm_buf_Tar
 14f340c8 CharmsPer
+d2a92504 Charred
 78cf89ba ChaseIncreasePercent
 d9450b6f ChaseSpotlight
 06746d9d CheatItemInventory
@@ -301125,6 +301159,7 @@ d33376e8 CloneDamageFlat
 bb225ff4 CloneDamageMultiplier
 35be99a8 CloneHealth
 b4c3fdbb CloneHold
+1491208f CloneID
 280af5cc CloneIncomingDamagePercent
 3ddbd7a2 ClonePercentDamage
 a5e63ce2 ClonePercentDamagePerBounty
@@ -301241,6 +301276,7 @@ d206aef2 CombatMultiplier
 de7640fa CombatWins
 cc06ab16 Combats
 6234d147 CombinedDamage
+c90b6256 CombinedItemUnitID
 bfe6b6ec ComboDamage
 93594ab2 Command
 f6a1666c Common_Armour_Mat
@@ -301278,12 +301314,14 @@ d458ccd1 Confidence
 28bebe7e ConicalHat1
 9a15cacb Conqueror_Ward_MAT
 02127692 Consumable
+ac201559 ConsumableName
 8b1cbfba Contagion_Apply
 532da3ab ContractPage1
 542da53e ContractPage2
 552da6d1 ContractPage3
 562da864 ContractPage4
 4b2d9713 ContractPage9
+4c6dc133 ContributingUnitIDs
 77fe7534 ControlWardItems
 8cdfbd85 Conversion
 14ced407 ConversionDamagePct
@@ -301900,6 +301938,7 @@ eb2d78a3 CurrentHealthThreshold
 16a7e1a7 CurrentMythicBonus
 3f481d8f CurrentMythicBonus2
 d01f58b4 CurrentSoulBonus
+6d24cc8c CurrentStreakLength
 67aed43f CurrentTotalMSBonus
 f12d6f5f CurrentTotalVampBonus
 acaf695d CurseDuration
@@ -302850,6 +302889,8 @@ b6a4b0a4 DemonicClasp_AoE_Child
 3e6599d9 DemonicClasp_tar
 fee32e4d Demonsword_Channel
 4f9f4eb1 Demonsword_Channel_Windup
+e19c754c DeployedFromBoardID
+3444d877 DeployedToBoardID
 fe759eea Depth
 0e09fcdc DesignSailingInRuneterra_Night
 8c0642b2 Design_Backstage_Day
@@ -304620,11 +304661,13 @@ ee11ac2e EnableBountiesInBlockBuilder
 8b21dfc2 EnableSpellPickChoice
 c57123f2 EnchantedDamage
 fc3f1387 EnchantedFalloff
+207448ca EncounterScriptName
 62dee747 EndDamage
 a2de9d6c EndHeal
 9868d657 EndOfCastHealPercent
 cecc09df EndSeconds
 53d2d00b EndTime
+1fd2993d EndingUnitID
 fca71c43 EnemiesToDamage
 857d8772 EnemyArmorMRReduction
 f6dd87fb EnemyAvoidance
@@ -305262,8 +305305,10 @@ dd1f04e8 Eye_Insidious
 027922bc Eye_Joke
 36e6b91c Eye_K
 35e6b789 Eye_L
+fe9e6d48 Eye_Laugh
 ced791dc Eye_Laundry
 be18a18c Eye_Ldle
+c6fbda99 Eye_Light
 20545fe1 Eye_Loading
 d39c4c2b Eye_Love
 865883d3 Eye_MAT
@@ -305358,9 +305403,11 @@ e7833074 EyesConfues
 91158cc5 EyesCry
 006f7acf EyesDoubt
 9ce15282 EyesExpect
+8886a8d6 EyesHighlights
 6eda1b73 EyesIceBase
 0f3e1309 EyesInjuried
 4d6d8cc0 EyesLegendary
+469fa689 EyesLids
 153f2fd2 EyesM
 5d317e37 EyesOpen
 efff53ca EyesScared_MAT
@@ -305990,6 +306037,7 @@ d47f1c4a Face_Brow_Serious
 de0ea6ae Face_C
 cd248572 Face_Camera
 5744b144 Face_Charm
+43dddd31 Face_Charred_Open
 dcfbd217 Face_Close
 a8a00bcd Face_Confidence
 340b1bc2 Face_Crazy
@@ -306150,6 +306198,7 @@ f40a8965 Face_Open
 58e7549b Face_Pupil
 7af1f0d0 Face_Rage
 5f453d0d Face_Rainbow
+903eaf68 Face_Red
 dc8c1341 Face_Right
 03766f0b Face_Sad
 01498740 Face_Scar
@@ -306554,6 +306603,7 @@ cd43aca9 FinisherDragon_Head
 5a05cc8e FinisherDragon_JawUp
 8d1bad28 FinisherDragon_Tail1
 fef1a1c5 FinisherGun
+8d6ed440 FinisherHand
 98e5fb75 FinisherRocket
 55dd387f FinisherVFXRocket
 267034f1 Finisher_01
@@ -307012,6 +307062,7 @@ bf5114be FistDamageSplit
 cd3615be Fist_Outline
 a625d66c Fists
 4c21ef85 FiveCostShops
+40e7f7cc FixedArmoryContent
 98d18c76 FizzSpell
 2ca7ecf0 Fizz_BA
 47d6e751 Fizz_BA_Swipe
@@ -307248,6 +307299,7 @@ c5f63fc9 Flatten
 a1e455a8 FlipAttackDamageTooltipOnly
 d2d2e2e9 FlipAttackTooltip
 3d8d4fc3 FlipDamage
+ab4f90cd Flipbook_Assassin
 489f1461 Flish
 a6c45d85 Float
 e5fcbd38 FloatIdle01
@@ -308150,6 +308202,7 @@ f153ca5e Gauntlet_Mat
 86e59c40 Gauntlets
 7b06ff2e Gear
 98c75e93 GearEquipped
+30145173 GearID
 2f7c06a6 Gear_A
 fe608acb Gear_A_Snap
 2e7c0513 Gear_B
@@ -308202,6 +308255,7 @@ c21ce478 Geo_Spine2
 10da458f Ghost05
 fdc5cfa3 GhostA
 9c0dca91 GhostBlade1
+5e58ddf3 GhostBlade2_FX
 a10248e7 GhostBladeSmear_BaseShaper
 3f4097d9 GhostBladeSmear_EndShaper
 325e4238 GhostBladeSmear_Tip
@@ -308516,6 +308570,7 @@ ec66d793 Gold
 c7e57406 Gold1
 c6e57273 Gold2
 17e5f1f6 GoldA
+5863d83b GoldAfter
 b9b4d8d7 GoldAmount
 3db17212 GoldAmount1
 3cb1707f GoldAmount2
@@ -308523,6 +308578,7 @@ b9b4d8d7 GoldAmount
 bbaaad2f GoldAmt
 bd2522f6 GoldAtFullStacks
 6f6ef59e GoldBase
+00021c6c GoldBefore
 e2718c29 GoldCap
 84889ca0 GoldCardDamage
 2dd33743 GoldChance
@@ -308539,6 +308595,7 @@ d2146930 GoldCritMultiplier
 0b54fe07 GoldDuration
 ee845d69 GoldForHeads
 1914bdcc GoldGain
+54d632a0 GoldGainAmount
 d6981e5a GoldGranted
 34a30b24 GoldGrowth
 095bae32 GoldIfTwo
@@ -308583,6 +308640,7 @@ a5b4b8f8 GoldPercentBonusRanged
 304c8b19 GoldRate
 808fd1e9 GoldReq
 6fa60d84 GoldReward
+986afc45 GoldSpent
 c62b8040 GoldThreshhold
 b5a4f01e GoldThreshold
 100ee4ab GoldToFeedPvE
@@ -309541,6 +309599,7 @@ fb63965c Hair_02
 574c7cac Hair_6
 59207178 Hair_8_grnd
 48c5b782 Hair_Addative
+794213bf Hair_Assassin
 7424b646 Hair_B2
 fcd3bb92 Hair_B_01
 f7d3b3b3 Hair_B_06
@@ -309580,11 +309639,13 @@ b693d2da Hair_J_End
 6431f030 Hair_Mat
 e4de2aeb Hair_Mid1
 e7de2fa4 Hair_Mid4
+23a27ac1 Hair_Normal
 8f2177e6 Hair_Out
 28afa775 Hair_Out1
 9404fb6c Hair_Outline
 b96c0066 Hair_Root
 3632e010 Hair_Side1
+f335b5b3 Hair_Skill
 5dca6e2c Hair_Top1
 60ca72e5 Hair_Top2
 5fca7152 Hair_Top3
@@ -309624,6 +309685,7 @@ d8155858 Hairpin
 cba3c681 Hairstyle1
 bc3cef47 Hairstyle1_Angel
 c8a3c1c8 Hairstyle2
+a93d064a Hairw
 76b829b4 HalfAlt_Body
 6bafd40c HalfAlt_RightArm
 6c89ea95 HalfDamage
@@ -309670,6 +309732,7 @@ c3181956 Hand2
 363b1402 HandleDamage
 7ab19530 Handle_Default_MAT
 30bdf47e Handle_E_MAT
+f896740f HandlerScriptName
 04187fa9 Hands
 dd02b4b2 Hands_Form2
 78a7adf5 Hands_Hauntling1
@@ -309722,6 +309785,7 @@ f2bf17c2 Hat
 c6c3bb96 HatRoot
 501ddc25 HatTop
 7af26602 HatVFX
+7e55acea Hat_Assassin
 59f76322 Hat_Attach
 15d9a22a Hat_Base
 ff0905fd Hat_Feather1
@@ -310634,6 +310698,7 @@ fac3a188 Hop
 cb5a3f01 Horde
 e4426176 Horn2
 3c0a9b64 HornFlowers
+2f77f7eb Horn_FX
 699f62a9 Horn_V2
 689f6116 Horn_V3
 a541fe49 Horns
@@ -310792,6 +310857,8 @@ a4a77982 IDAHOTB_Homeguard_Trail_Rose
 dc27015d IDAHOTB_Homeguard_Trail_Sapp
 b0fea482 IDAHOTB_Homeguard_Trail_Tanz
 ff4bdb46 IDAHOT_Homeguard_Trail
+e8142928 IDOfChildUnits
+db436e98 IDOfCombinedUnit
 356779b8 IGold_TOOLTIPONLY
 72e0f880 Ice
 686db1ca IceBlade
@@ -311098,6 +311165,7 @@ ccb678a5 Idlein_Animal
 d692e519 Idlein_Torun
 1cb88e87 Idol_01
 ee37daec IgnorePainPercent
+1f5b73fd IgnoreSpatulaCap
 7a70e18f IllaoiBase_E_SpiritTimerA_BV2
 79830bde IllaoiBase_E_SpiritTimerOutline_BV2
 21310147 IllaoiEffectiveness
@@ -311508,6 +311576,7 @@ fbc36e44 InitialMana
 f01b7307 InitialPercentHealthStore
 2e3d50c9 InitialPercentShield
 dfa5fda6 InitialProcDamageAmount
+35811a5e InitialRelicGrabHeal
 a4a3332a InitialRerolls
 aa1a8d92 InitialResistGain
 0d6fd940 InitialSP
@@ -311878,12 +311947,20 @@ a7b3165c Irelia_W_Swipe_zilizi
 42ffa8dd Irelia_groundlines_Child
 2ea984a6 Iris
 ef571587 Ironforge_Foot
+5cb89541 IsAbility
+497fb4f7 IsAlly
 fed55839 IsBattleTraining
+e84625a2 IsCloaked
 cf639619 IsEmpowered
 2001728c IsEvolved
+98f46362 IsKiller
+8d866cd3 IsMirrorUnitPlacement
 6d5f9b7a IsOff
 96877e20 IsOn
+0bcfde01 IsOnPartnersBoard
+e255947a IsStrongest
 2a75b9b0 IsTargetable
+678dc767 IsTrapped
 6896e0db IsoDamage
 a0ebb3b6 IsolationDamage
 9605b41b IsolationScalar
@@ -314197,6 +314274,8 @@ b8c7af22 Items/Spells/ZhonyasHourglassJADE
 df8f16ff Items/Spells/ZhonyasHourglass_Jade
 f111c5ac Items/Spells/ZhonyasRing
 60ce7456 ItemsGranted
+9ee1a487 ItemsNotTaken
+87400216 ItemsTaken
 e30a7a33 ItemsToGive
 e3f67a80 ItemsToMake
 e7c8e1fa IvernApple_Mat
@@ -324906,6 +324985,7 @@ a52daf9d Kayle_Z_Z_Missle_Cas
 822939d7 KaynAssBonusDamage
 d7989774 KaynAssMaxValue
 c90d5abe KaynAssMinValue
+33b5ab7f KaynGlitch
 40a8503a KaynSlayerHealing
 361ad449 Kayn_Assassin_BA1
 43b29a11 Kayn_Assassin_BA1_tar
@@ -325580,6 +325660,7 @@ ee9a5085 KillStunDuration
 d87a56d5 Kill_Bonus
 7ab6f739 Kill_Count
 2095e8b2 Killer
+c028f7b9 KillerUnitID
 3027adb7 KillsRequired
 e219080a KillsToGive
 19e84ffa KindredBuffBonus
@@ -326498,6 +326579,7 @@ ea1971f7 LWeaponBlade
 7f58652f LWeaponBladeDiamondVFX
 e08ec66d LWeaponHandle
 29f7baff LWeaponHandleDiamond
+3b8ddf88 LWeaponHandleUlt
 cc86a032 LWeaponShield
 dd591732 LWeaponShieldDiamond
 1d5ebf2b LWeaponShieldSmearBot
@@ -326637,6 +326719,7 @@ c74a5fed L_Bottom_Lip
 ee138cd4 L_Bowknot2
 6b4a6285 L_Braid1
 684a5dcc L_Braid2
+664a5aa6 L_Braid4
 674a5c39 L_Braid5
 298eeec3 L_Breastplate
 96d38486 L_Brow
@@ -327208,6 +327291,7 @@ b7199be0 L_Shadow_Ear3
 d6e46eba L_ShieldBack
 93840790 L_ShieldFront
 ee6a4816 L_ShieldSide
+61d0ac0d L_Shield_3_Recall
 e72b5d9f L_Shield_Main
 318115be L_Shield_Outer_Plate
 2441cf34 L_Shield_Smear_Top_3
@@ -327872,6 +327956,9 @@ a53859c9 Leaves
 ddb46741 LeavesA_Leaves2
 07b298cc LeavesB_Leaves2
 c435a0b7 LeavesC_Leaves2
+b6fa6e79 Leaves_A
+b3fa69c0 Leaves_B
+b4fa6b53 Leaves_C
 010382db Leaving
 e2b7b2a1 LeblancFake
 e4ddc1f1 Leblanc_BA_mis_child
@@ -335623,6 +335710,7 @@ b8aee41b Loop2
 9f66fc7e Lose2
 a066fe11 Lose3
 2dbbd01d LoserBoost
+e250fc6b LosingPlayerRef
 229de4b1 Loss1
 3165d5b5 Loss1_IN
 1eb177b8 Loss1_LOOP
@@ -336609,9 +336697,11 @@ e410b1c0 Mace_SmokeStack01
 e710b679 Mace_SmokeStack02
 e610b4e6 Mace_SmokeStack03
 18dacb1c Mace_Tip1
+e103566e Machine
 f0c2351f Machine_Shake
 c418a53b Madala
 da5198eb Maddie_Weapon_Mat
+87729ba3 Magazine
 6c2599dd Mage_Sword
 513622e8 Mage_Sword_Outline
 3ea77870 MagicBallA
@@ -353886,6 +353976,7 @@ adea2983 Mouth_Concentrate
 9e4eb9cd Mouth_Confidence
 ec5d0102 Mouth_Confuse
 e19f520f Mouth_Contempt
+688bdb48 Mouth_Cool
 ed0fb4d7 Mouth_Cry
 1c20c567 Mouth_D
 b68c5e91 Mouth_Death
@@ -353912,6 +354003,7 @@ fadfd329 Mouth_Helper
 c7fba4f6 Mouth_Hideous_Lengendary
 55cb137f Mouth_Howl
 541c33fe Mouth_Insidious
+399a5cc2 Mouth_Laugh
 a77f2945 Mouth_Laugh01
 a47f248c Mouth_Laugh02
 a57f261f Mouth_Laugh03
@@ -353986,6 +354078,7 @@ deeda29f Move_Loop
 fa93e32c Move_Speed
 c5483e4c Move_Speed_Modifier
 216cd609 MoveableHeadParts_MAT
+ce015d23 MovedUnitID
 05562e58 Movement
 77db8303 Movement Speed
 d51c30d3 MovementSpeed
@@ -355170,13 +355263,17 @@ e090a405 Neutral_Root
 75581470 Neutral_Shield
 d147a723 Neutral_Tail
 c8430753 NeverSelf
+2faa9d17 NewAugmentName
+d55babc0 NewCamoID
 0978bdb2 NewDoransItems
 5689bc4b NewEvent
 7c9e48d5 NewHair
 fdf21c94 NewMaxStacks
 35c53528 NewTrack
 6cee993b NewTrophy
+a27f1c06 NewUnitID
 c9edf628 New_BV2
+6983c946 NextActionIndex
 49850e61 NexusBlitz_BlueBuffPickup
 b20ea197 NexusBlitz_ChampionSpecific
 b3593354 NexusBlitz_DPSRace
@@ -355910,6 +356007,7 @@ d6f612f7 NumGoldOrbs
 28b401f9 NumInstances
 be25031b NumItemAnvils
 6c216145 NumItems
+ad82b196 NumItemsShown
 35e56040 NumKills
 fdc3bc7b NumKillsRequirement
 81e8ca7a NumLaboratory
@@ -356172,6 +356270,8 @@ e5e18910 Nunu_Z_Star1
 e8e18dc9 Nunu_Z_Star2
 e7e18c36 Nunu_Z_Star3
 5c8ab738 Nunu_Z_Trail_Baby
+257281e8 Nut
+14d04f0a Nut_01
 273d01f5 OBL_Root
 8e76237b OBR_Root
 ceb08791 ODIN
@@ -356226,6 +356326,7 @@ ac65e27a Odyssey_HealthBug
 ab3a8a0a Off
 3d509290 OffenseGranted
 4468f56f OffensiveStats
+f03dad98 OfferedItems
 ad1050dc OlafAxe_Weapon_Skin25_MAT
 d953310e Olaf_BA_Swipe_1
 d8532f7b Olaf_BA_Swipe_2
@@ -356295,9 +356396,12 @@ a10ba0d8 Olaf_Z_recall_Explosion
 26cdb57a Olaf_Z_recall_buf
 a6acb94b Olaf_Z_recall_heart
 312f7f64 Olaf_Z_recall_mesh
+9728edce OldAugmentName
 f97ee028 OldMap_Lights_Particles
 9cc7c950 OldMap_Meshes
+dfef6e54 OldMissleID
 8d341d30 OldTrophy
+4b48a27d OldUnitID
 bc788572 Omelerice
 ad16f688 Omnivamp
 d0cc118f OmnivampBonus
@@ -356393,6 +356497,8 @@ aed24b26 Orange_Alien_MAT
 9d28e2f3 Orb3
 20f24dee OrbAPRatio
 f5a80e5f OrbDamage
+aede0d45 OrbGrade
+1cf541fb OrbRef
 8e513efa Orb_Duck_Bill
 efe51a45 Orb_Duck_Head
 9659ed56 Orb_Duck_Head_VFX
@@ -370202,6 +370308,7 @@ f039a285 PinDamage
 0178b496 Pinata2
 caef706f Pincers
 9ff2fb42 Pincerspart
+e0ce36a4 Pinecone
 94efc850 PingAssistMe
 ad038db2 PingDanger
 5e6853eb PingMissing
@@ -370246,6 +370353,7 @@ b05e2a83 PixelBurst
 29d3b1d5 PixieB_Spine1
 c35b7444 PixieC_Spine1
 97a76a65 Pizza
+3872e852 PizzaBox
 2ae5bb71 Pizza_01
 2916f953 PlagueDuration
 b7cbc712 Plan
@@ -370327,6 +370435,9 @@ a32c1186 PlayerHealthPerSacrifice
 2cc83557 PlayerHealthSacrifice
 5475e5e1 PlayerOmnivamp
 3fffac74 PlayerPerInstance
+bc2b141d PlayerRef
+da079d93 PlayerUnitID
+44c5b27d PlayersCanDie
 3eb8e303 PlayersDead
 93add858 PlayersNeeded
 8484def3 Pleatedskirt
@@ -370628,6 +370739,7 @@ eaaaa58d PreSeason_Turret_Shield_Gold_Reward_Mis
 c37ef60f PreSeason_Turret_Shield_Shielded
 5029b1ca PreSeason_Turret_Shield_Spawn
 3f1cec4d PredatorThreshold
+a2bf2c64 PreferHexes
 1cb32585 Preseason_Outer_Turret_Vulnerable_State
 51b736ca Preseason_Palisades_Demolish_Tar
 4de13331 Preseason_Palisades_Resists_Stage_1
@@ -370791,12 +370903,14 @@ db2f4b80 Prop_A_part1_Snap
 ae55fa0a Prop_B_Snap
 9531f215 Prop_Bead
 3d2c3df2 Prop_C
+e2a4f322 Prop_CD
 2bc1112f Prop_C_Snap
 4739b99b Prop_CatA_L_eye
 21c02c15 Prop_CatA_R_eye
 e4c8107b Prop_CatA_Root
 0569f6c8 Prop_CatA_Spine2
 f9ae7f51 Prop_CatD_HeadEnd
+8262e97f Prop_Cellphone
 382c3613 Prop_D
 66f1b070 Prop_D_Snap
 e8fdf279 Prop_L_eye
@@ -370807,6 +370921,7 @@ e8fdf279 Prop_L_eye
 e85af8d7 Prop_PunchingBag_03
 f7cbe7d7 Prop_R_eye
 2f294665 Prop_Root
+2fe707cf Prop_Skateboard
 5bb132e7 Prop_Spoon_Mat
 8e41291f Prop_Trophy
 c82e281e Prop_Trophy_FX
@@ -370848,8 +370963,10 @@ df96b348 PropsVFX_jnt
 bcccdefc Props_01_Mat
 b6af9861 Props_1
 e3afdf38 Props_B
+f80fbeb5 Props_Basketball
 dcee8d2b Props_Buffbone_Cstm_Board_FX
 da80ab9f Props_Buffbone_Cstm_Dummy_FX
+e5f8a93b Props_CameraVFX
 ab84a57a Props_Diamond
 db95be1f Props_Dummy_D4
 da95bc8c Props_Dummy_D5
@@ -371743,6 +371860,7 @@ dbc8450d RWeaponBlade
 a129a97d RWeaponBladeDiamondVFX
 77539ebf RWeaponHandle
 4f4bba4d RWeaponHandleDiamond
+c5f6cd06 RWeaponHandleUlt
 c9b5dbe4 RWeaponShield
 b6e999f0 RWeaponShieldDiamond
 f01cfa7d RWeaponShieldSmearBot
@@ -371880,6 +371998,7 @@ beb58fba R_Bowknot2
 3728a2fe R_Bracket
 a96ae487 R_Braid1
 ab6ae7ad R_Braid3
+a46adca8 R_Braid4
 a56ade3b R_Braid5
 94642290 R_Brow
 574160cd R_Brow_Mid
@@ -372440,6 +372559,7 @@ c353cc4e R_Shadow_Eye_Speechless
 99fa6da2 R_ShieldFront
 b95c2708 R_ShieldSide
 a1f7ff95 R_Shield_3
+11bd2da3 R_Shield_3_Recall
 3afea9e1 R_Shield_Main
 5f0525cc R_Shield_Outer_Plate
 efdf6ea6 R_Shield_Smear_Top_3
@@ -373736,6 +373856,8 @@ fc0135d2 Recall_Bard
 0fc692f9 Recall_Barrel
 1903a210 Recall_Base
 dcca9d2b Recall_Baseground
+63a7bf28 Recall_Basketballhoop
+17418aa1 Recall_Basketballnet
 0f039252 Recall_Bass
 26ff54d0 Recall_Bat
 0d52edef Recall_BigBeeRoot
@@ -373876,7 +373998,9 @@ d0660ad2 Recall_Card_Vfx_7
 7f1d516f Recall_Carpet_N_1
 b741cf76 Recall_Cas
 8f98fae9 Recall_Case
+4cdbf8ba Recall_Cd
 4aaecd4d Recall_Cell
+dbb5e177 Recall_Cellphone
 f6fcc2d6 Recall_Center_Buffbone
 ca48b3ae Recall_Chain_9
 d3749e32 Recall_Chair
@@ -374089,6 +374213,7 @@ a44a70ce Recall_Ghost2_Pelvis
 2dc7733a Recall_Ghost_Buffbone08
 a8525b48 Recall_Ghost_Pelvis
 2db1c9a3 Recall_Glass
+7ea035d3 Recall_Glasses
 9620afe5 Recall_Glaxy_Jnt
 5c48eebe Recall_GoldA
 5b48ed2b Recall_GoldB
@@ -374111,6 +374236,7 @@ f4bd9d8e Recall_Grass_GrassD2
 9944360c Recall_Grassa
 9c443ac5 Recall_Grassb
 a0e11b36 Recall_Ground
+0201257d Recall_Gun
 c7f16737 Recall_Hair01_Mat
 8bac7cbe Recall_Hair02_Mat
 8bd3c425 Recall_Hair03_Mat
@@ -374163,6 +374289,10 @@ e6b86c83 Recall_Jelly
 15e165af Recall_Kiss
 34f581b7 Recall_LJetPortA1
 a4fcedcc Recall_LJetPortB1
+70d319ef Recall_LWeaponBlade
+3eb077b5 Recall_LWeaponHandle
+cbbca590 Recall_LWeaponHandleUlt
+df56749a Recall_LWeaponShield
 3f1a908b Recall_L_Ankle
 d5d62a3d Recall_L_Buffbone_Disc
 f4392f43 Recall_L_Elbow
@@ -374269,6 +374399,14 @@ c2097297 Recall_MonsterB_Pelvis
 62ded16d Recall_Mountain_World
 c36b6b5b Recall_Mountains
 b7ca35ac Recall_Mouse
+8e66beef Recall_Mushroom01_Cap
+cd357fdd Recall_Mushroom03_Cap
+8bb64dfc Recall_Mushroom04_Cap
+3c0d863b Recall_Mushroom05_Cap
+44bc8c49 Recall_Mushroom07_Cap
+d4af2f88 Recall_Mushroom08_Cap
+d6695947 Recall_Mushroom09_Cap
+014bc0b9 Recall_Mushroom10_Cap
 f5e2f6f8 Recall_Mushroom_Root
 10c6b6dd Recall_Nail
 54d1f584 Recall_Nail1
@@ -374280,6 +374418,7 @@ f5e2f6f8 Recall_Mushroom_Root
 c6187cea Recall_Neck
 b38c8cc1 Recall_Neck1
 01d303ba Recall_Needle
+0b99d7f0 Recall_Net
 28430cec Recall_New_Trophy
 36eb7740 Recall_Nick_Buffbone
 2fbf48ff Recall_OS
@@ -374328,6 +374467,7 @@ ddb67319 Recall_Pet_Girl
 09455a78 Recall_Petal_4
 f121fec4 Recall_Piece1
 8c2b58f0 Recall_Pillar_MAT
+070db6d7 Recall_PizzaBox03
 9d763213 Recall_Pizza_Box
 57f3fdbd Recall_Plane
 5118a154 Recall_PlaneA
@@ -374387,6 +374527,10 @@ a42ebbc9 Recall_PumpkinVFX6
 94ed352f Recall_Purple2
 1d9408b9 Recall_RJetPortA1
 3591efea Recall_RJetPortB1
+dcf67dd5 Recall_RWeaponBlade
+d14cde77 Recall_RWeaponHandle
+e6e4f0be Recall_RWeaponHandleUlt
+08284d5c Recall_RWeaponShield
 356b14b9 Recall_R_Ankle
 9d0e0699 Recall_R_Artillery3
 00a55637 Recall_R_Buffbone_Disc
@@ -374410,7 +374554,9 @@ fb62dfd5 Recall_R_Wing_Elbow
 14956d9f Recall_R_Wings_2
 94dede6d Recall_Rabbit
 d87d79c2 Recall_Rabbit_Root
+edf1e791 Recall_Rail
 6d8daea6 Recall_Rainbow12
+01e779b1 Recall_Ramp
 7b2734c8 Recall_Recall
 87b7e60b Recall_RecallA
 88b7e79e Recall_RecallB
@@ -374418,6 +374564,7 @@ d87d79c2 Recall_Rabbit_Root
 89b7e931 Recall_RecallC
 8ab7eac4 Recall_RecallD
 8bb7ec57 Recall_RecallE
+5627a020 Recall_RecallRoot
 369178ab Recall_RecallSnake1
 e20dac13 Recall_RecallSoul
 8a044fa4 Recall_RecallVFX
@@ -374427,6 +374574,7 @@ dbc94ab5 Recall_RecallVFX3
 d4c93fb0 Recall_RecallVFX4
 d5c94143 Recall_RecallVFX5
 2452b8bc Recall_Recall_A
+9d9212cc Recall_Recall_Skin65_Mat
 02879a8f Recall_Red1
 03879c22 Recall_Red2
 0d23288a Recall_Redfrog
@@ -374464,6 +374612,10 @@ b73e3934 Recall_ScrollSec07
 9fe58eba Recall_Shark
 ca758139 Recall_Shell
 7ac28598 Recall_Shield
+f9cc130b Recall_Shirt
+798a7867 Recall_Skateboard
+06ce068b Recall_SkateboardRoot
+af76befd Recall_Skatepark
 3fc9ab62 Recall_Skull
 6fb7014f Recall_Slad_Body1
 1f18ebe7 Recall_Slayer
@@ -374679,6 +374831,8 @@ bdb91526 Recall_WingRoot
 24dad201 Recall_Wndup
 1d3ca881 Recall_Wolf
 6ca76fd6 Recall_Wolf01
+f062b703 Recall_Wood1
+f162b896 Recall_Wood2
 d3f597c4 Recall_Wraith2
 cff59178 Recall_Wraith6
 4cc0201c Recall_Xiaoqiu_Jnt
@@ -374732,6 +374886,7 @@ b8360dc4 RecalllSpiritA
 78b6615a Recallrock7
 6bb64ce3 Recallrock8
 6ab64b50 Recallrock9
+99a8ed3c Recalls_Guitar
 5780b134 Recalltibber
 5a119017 Recallvfxa
 ff9f600f RecastBaseDamage
@@ -379469,6 +379624,7 @@ eda49c3a SecondaryHitMod
 9ad652b8 SecondaryMinionPenalty
 9e48dd8b SecondaryModifiedDamage
 e16120db SecondaryMult
+0f6b2510 SecondaryPreferHexes
 3fdfc378 SecondaryRatio
 97168c64 SecondaryShield
 748589c0 SecondarySpellDamage
@@ -379489,6 +379645,7 @@ f0dbaa92 SecondsOfBurn
 5c4b069a SecondsPerCast
 d69c54c2 SecondsPerGain
 77f851f0 SecondsPerTick
+5fcfd12b SecondsSinceAssist
 05a6875e SecondsSoonerPerTakedown
 975a6fed SecondsToAscend
 6b73c4f4 SecondsUntargetable
@@ -379644,6 +379801,7 @@ d14d82c2 Sejuani_audio_emote_laugh
 144e75ec Sejuani_audio_recall_winddown
 85803b6e Sejuani_crit_tar_BV2
 06f097c8 Sejuani_freeze
+cc842ec8 SelectedItems
 50cdfa37 SelfAOE_DoubleCast_Avatar
 bd9c7214 SelfAOE_DoubleCast_Avatar_Enemy
 3de097d9 SelfAOE_DoubleCast_Mis_Tar
@@ -382904,6 +383062,7 @@ de316207 ShopClose
 fe517495 ShopHighlight_Godray_ChaosHover
 ab471885 ShopHighlight_Godray_Order
 621d2ded ShopHighlight_Godray_OrderHover
+044aec1f ShopIndex
 b894b475 ShopOpen
 b1ee9bb7 ShopRefreshCount
 783cae78 ShopRerollToGrant
@@ -384449,6 +384608,7 @@ fdd31e2a Skin0_Fist_Idle
 95dd8ad7 Skin0_Fist_Stars_Trail_Blue
 7688cfc2 Skin0_Fist_Stars_Trail_Green
 84203882 Skin0_Fist_Stars_Trail_Red
+7b10d6ab Skin1
 4e71f1a5 Skin103_Away
 8917c707 Skin103_Mat
 c618d7f9 Skin10_Arm_MAT
@@ -384516,6 +384676,7 @@ d28368fe Skin20_Main
 bdd9abc3 Skin20_Recall_Mat
 5d777cb2 Skin23_Cape_MAT
 9a8bbffe Skin2_Brush_Root
+7d10d9d1 Skin3
 392a8d3c Skin3_DrinksA
 5b1a08db Skin6_INTRO
 1671b9d2 Skin6_Idle01
@@ -384674,6 +384835,7 @@ ca205aab Sleigh
 fe2b0962 SlideADDamage
 1273c430 SlideShort
 41e574db Slime_RewardHealTurrets_GroundIndicator
+534b6cc4 SlotID
 faee4e5a SlotMachine
 402526e1 SlotMachineA
 6d9542b8 Slow
@@ -385785,6 +385947,7 @@ b7c336cf Soul_Root
 7b2ec5d8 Sound_Panel_MAT
 20cec57d Sound_RecallLeadIn
 c982ea52 Sound_RecallWindDown
+12870d09 SourceSlotID
 8bcb1681 Spacecraft
 32f0103f Spaceship
 3ce94477 Spaceship2
@@ -387714,6 +387877,7 @@ b3d1482b StatsPerSecond
 f04f7b5c StatsPerTakedown
 a84b5b99 Statue
 f694bccb StatueDamagePct
+b1a10844 StatueNumber
 37ac49b5 Statue_01
 34ac44fc Statue_02
 35ac468f Statue_03
@@ -405951,6 +406115,7 @@ ec42ed71 TargetMissingHPDamage
 4271b439 TargetShield2
 4171b2a6 TargetShield3
 4471b75f TargetShield4
+1b078e8b TargetUnitID
 3e0a6de3 Target_01_Mat
 4a36045a Target_02_Mat
 bf60d291 Target_03_Mat
@@ -406439,6 +406604,8 @@ c944ea21 Teeth
 21341a33 TeethNorm
 37e73fea TeethRav
 92b248cc TeethUlt
+c6469767 Teeth_Assassin
+e0c871d7 Teeth_Base
 761244e4 Teeth_Norm
 85ef8cf7 Teeth_Up
 e8035e11 Teledash_Channel
@@ -407039,6 +407206,13 @@ bc639869 TimeUntilNextStackFromSameSpell
 5c68ed22 Timer
 a697c5ca TimerAdditive
 75672c69 Timer_Ring_10s_Yellow
+06dd182a TipsTS
+2728edc5 TipsTS_Caitlyn
+71ad41f5 TipsTS_Final
+5daaadf1 TipsTS_Jayce
+7682dc74 TipsTS_Jinx
+0bd1c230 TipsTS_Launch
+7d669776 TipsTS_Vi
 53faf187 TitansPulse_Armor
 3348c45a TitansPulse_MagicShield
 7b9c3338 Toad_Spawn_Mat
@@ -407079,6 +407253,8 @@ a9309e19 TongueTeeth
 54d958b7 TongueVfx
 1a9dcb62 Tongue_04
 b16bb9ae Tongue_1_SKN
+ce0e0e2b Tongue_Assassin
+719f67eb Tongue_Base
 5b253734 Tongue_Coins
 b639a449 Tongue_Roll
 30468baf Tool2
@@ -407628,6 +407804,10 @@ f477c76f TreeSpiritBalloon
 35278844 TreeSpiritBody
 6c8c2759 TreeSpiritFace
 4ba20d71 TreeSpiritFace2
+18a1bd28 TreeSpiritFaceA
+1ba1c1e1 TreeSpiritFaceB
+1aa1c04e TreeSpiritFaceC
+1da1c507 TreeSpiritFaceD
 64fe340d TreeSprout_Root
 ff04a00f TreeVfx
 4b36848d Tree_A
@@ -410377,6 +410557,10 @@ f4c1c307 UnitCD16
 9ffd297d UnitCDBase
 143f3d3e UnitCost
 04d7bbbe UnitCount
+6dbc7bca UnitID
+45a8bc04 UnitName
+85eed7c8 UnitRef
+1d3c876e UnitSkin
 5093ffd2 UnitThreshold
 ae102917 UnitTier
 c918a49c Units
@@ -412116,7 +412300,9 @@ f19120c1 VfxParticle
 43c5b997 Vfx_B_Loc
 59e1d7c4 Vfx_C_Loc
 49d5e539 Vfx_Ecent
+2c744eaa Vfx_Grass
 78381d8d Vfx_Main
+fc8bd2f9 Vfx_Rock
 cfaa087b Vfx_Sash
 bfc07d33 Vfx_a
 c0c07ec6 Vfx_b
@@ -413717,6 +413903,9 @@ c5c22152 WeaponVFX03Light
 7555d9e1 Weapon_A_Sub3
 49ac3722 Weapon_Alpha
 8de596f5 Weapon_Arrow_Tip
+547ba147 Weapon_Assassin
+892b00d6 Weapon_Assassin_Fx
+2ccdbae4 Weapon_Assassin_Scythe
 0d51cde2 Weapon_BM_MAT
 acadc0e9 Weapon_Back
 f3bb558a Weapon_BackGlass_Mat
@@ -413724,6 +413913,9 @@ d203975f Weapon_Back_Base
 acf5361c Weapon_Back_Handle
 8fab54ab Weapon_Ball
 96d640b7 Weapon_Base
+acf4aaa6 Weapon_Base_Fx
+9a795a99 Weapon_Base_Fx_02
+ed7df1b4 Weapon_Base_Scythe
 ef621fe2 Weapon_Blade2
 f0622175 Weapon_Blade3
 ea621803 Weapon_Blade5
@@ -413795,6 +413987,7 @@ bb15148e Weapon_Root
 0a050fa9 Weapon_Root_World
 22c57680 Weapon_Sanp
 38229971 Weapon_Skill_W
+09387244 Weapon_Slayer
 8150b54a Weapon_Smear
 15c6c15e Weapon_Snap
 541346da Weapon_SnapJoint
@@ -413914,6 +414107,7 @@ b5c7538f WinA_Out
 e67efc75 WinC_Out
 0d537c27 WinGold
 0c14e46f WinL
+bf1662a9 WinLocationName
 e632c102 WinPenalty
 7a9b83d2 WinProgress
 f8038ef4 WinProgressHR
@@ -414073,6 +414267,8 @@ bb0eb80e WingsMetal
 363a4efb Wingturn_Rgt_Small
 0914dfb6 Wink
 1dc0131d Wink_Fierce
+2eb0c2ae WinningFactionName
+b7045b13 WinningPlayerRef
 274fd9e8 WinningStatBoost
 96258cbe Winoff
 17dd5c2f WinsNeeded
@@ -415975,6 +416171,7 @@ c6413d17 Zac_upperBody_mat
 ed2df49d ZapDamage
 3c05b52d ZapInterval
 9847fe4a ZapModifiedDamage
+69e08137 ZapName
 4c4cbc98 ZapPercentAD
 18c19e5a Zap_In
 323506ba Zap_ToIdle
@@ -417809,6 +418006,7 @@ f5ea8937 infernumVFX
 46904d65 inhib_UseDeathAndRespawnAnimations
 554087f1 initialRadius
 43e76151 initialShadingGroup1
+cac0be40 isUltimateForm
 18a61378 it_IT
 13bddc7b itemID
 0f844003 ja_JP

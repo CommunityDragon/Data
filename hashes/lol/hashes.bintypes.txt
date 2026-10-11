@@ -271,6 +271,7 @@ dff5a8f8 CameraConfig
 2a406a23 CameraConfigInstance
 47fc4706 CameraTrapezoid
 86d1477b CandidateListViewController
+e3a1b4bf CapProductId
 aa25504e Cast
 f8b77a74 CastOnDistanceFromCaster
 d9f51778 CastOnHit
@@ -737,6 +738,8 @@ cd0d7450 DragonUITunables
 cdb319f6 DrawablePositionLocator
 b29e8d11 DrawablePositionLocatorInstance
 266089da DropRateSlot
+85bf79cf DynamicCameraConfig
+c565e640 DynamicCameraSettings
 2d6bf1a2 DynamicMaterialDef
 8dd0b9dd DynamicMaterialDefInstance
 96974776 DynamicMaterialGeComponent
@@ -1726,6 +1729,7 @@ df899961 LoadingScreenChallengeTokenData
 15793a8c LoadingScreenClash
 4f3e1bdd LoadingScreenClashTeam
 2dfb2488 LoadingScreenClassicViewController
+7d3c2685 LoadingScreenClimbingIndicatorData
 868f2575 LoadingScreenEmblemData
 a89e6d1e LoadingScreenGameModeBackground
 3c8d0b5d LoadingScreenHonorFlairData
@@ -1748,6 +1752,7 @@ af7c0947 LoadingScreenRatedData
 69af20f0 LoadingScreenRegaliaData
 df58e9c6 LoadingScreenSettings
 d3be7d61 LoadingScreenSettingsInstance
+7dc4f3ec LoadingScreenSubteamColumnData
 b0d49a20 LoadingScreenSummonerNameData
 e8062aeb LoadingScreenSummonerTitleData
 a502a9f5 LoadingScreenTips
@@ -1937,6 +1942,8 @@ d7d66467 MapSkinInstance
 d11fafa3 MapSpotlight
 adefc98e MapSpotlightBase
 1717869f MapSsao
+ce8f4190 MapSsaoRenderer
+502b0c72 MapSsaoSettings
 429f3e94 MapStaticPointLightBase
 169a2f9c MapSunProperties
 09fb9fc7 MapSunPropertiesInstance

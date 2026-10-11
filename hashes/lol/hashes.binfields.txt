@@ -61,6 +61,7 @@ d1fc0241 ActiveIconColor
 e453a5c6 ActiveSpellFix
 2f2037bf ActiveTabScrollRegion
 2bc4db90 ActiveTabWithFooterScrollRegion
+54391a6f ActiveTextColor
 459ca53e ActiveTitleKey
 8c28daf6 ActiveTooltipTraKey
 8c4da8f8 ActiveTra
@@ -216,6 +217,7 @@ c4b1c5aa AnnouncementData
 63981b65 AnnouncerVoEventType
 de72a3a2 AnnouncerVoEventTypes
 9963c03a AnnouncerVoEvents
+a7cdb46f AnonymousTra
 5af22504 AntiTrollPingAfterDeath
 a5eee18a AnvilTypes
 d33d8404 AnySubmesh
@@ -1397,6 +1399,7 @@ e9859447 DefaultBar
 d603f9d5 DefaultBlankMaterial
 c63599cc DefaultBorder
 b08eaa53 DefaultButtonStyle
+07aa36d0 DefaultCameraSettings
 1cf053d7 DefaultChampionScripts
 15bfbe28 DefaultCharacterStats
 9a7f92cb DefaultClipName
@@ -1454,6 +1457,7 @@ c21259bd DefaultText
 eacb8daf DefaultThemeData
 acee7679 DefaultTitleTra
 4b989bcc DefaultTooltipKey
+1ff99d7f DefaultTra
 7bb96c88 DefaultTrueDamageFormat
 0617e21f DefaultValue
 4a66b8d0 DefaultVisible
@@ -1657,6 +1661,8 @@ c7854a18 DrawRegions
 cd0aaa2e DropdownDisplayTraKey
 03487222 DropdownHoverElementData
 a9f3c6c8 DualBountyButton
+b43e780f DualBountyTooltipTraKey
+a6124714 DualBountyTraKey
 c67a95a4 DuckedAlphaValue
 ea4b69c5 DuplicateText
 65774e46 DuplicateTextTra
@@ -1858,6 +1864,7 @@ bd51112a EqualTo
 9ac25712 ErrorBodyTra
 48a8e1f4 ErrorColor
 feb06968 ErrorGroup
+720a4eb5 ErrorTextColor
 50b38f66 ErrorTitleText
 fec6c537 EsportsLoadable
 b002f5f5 EventBackdrop
@@ -1871,6 +1878,7 @@ b07fadb1 EventIconKillBounty
 93631881 EventIconKillNormal
 bc3936a4 EventIconKillShutdown
 c769c898 EventIconKillStreak
+982aa425 EventIconPath
 e9a2c3b5 EventIconReviveAlly
 680f7c3c EventLeagueComboBoxDefinition
 16270f7c EventLists
@@ -1995,6 +2003,7 @@ e76d37d6 FightRecapUiData
 100be200 FightTeamScene
 ed531a17 Fighting
 a4914101 FightingFX
+75000be4 FilePath
 81cd26c4 FilepathHash
 48e3661f FillColor
 c84bbe59 FillDirection
@@ -2076,6 +2085,7 @@ d1342bca FooterGrid
 7b93a845 FooterGroup
 785236f5 FooterHyperlinks
 0024f402 FooterScene
+741575c2 FootnoteTra
 24aed824 ForButton
 c7a607ff ForCount
 78f418c0 ForCountBg
@@ -2309,11 +2319,13 @@ f5e9f0c5 GridButtonData
 d975d1a9 GridRegion
 c83e08d0 GridSkipFirstCell
 5fb91e8c Group
+9c74de3a GroupDisplayNameTra
 18bae045 GroupFadeTransitionTimeSec
 af939497 GroupFramed
 2bbec768 GroupIndex
 5ed62070 GroupInfo
 fb59da5c GroupLink
+d6a0e737 GroupNameHash
 d95e9023 GroupSurrenderVoterCount
 5ad3db8d Groupings
 9bbb4468 GrubsKill
@@ -2451,6 +2463,7 @@ add98956 HoverStartVfxName
 bcd200cf HoverStateElements
 4841faf0 HoverTarget
 0bdd80f6 HoverText
+619d30d9 HoverTextColor
 143e4d96 HoverTooltipOffsetAboveTitle
 b1e401dc HoverTooltipRegion
 67ddf4a7 HoverVfx
@@ -2548,6 +2561,7 @@ e59d38e9 InactiveIcon
 71932351 InactiveSelected
 d6b1c46b InactiveSelectedStateElements
 78ba88b4 InactiveStateElements
+0c98814e InactiveTextColor
 2dcd4365 InactiveTitleKey
 5033088b InactiveTooltipTraKey
 895ffcd9 InactiveTra
@@ -2980,6 +2994,8 @@ d05a8fcd LevelPipCompleteHover
 106bef1e LevelScriptFunctionLink
 6f20f6ea LevelScriptLink
 77acee55 LevelSpellEffectiveness
+e93a4c1f LevelStringMaxTra
+99c1ad21 LevelStringTra
 65e1e746 LevelText
 27b27d10 LevelTextActive
 017a4bbd LevelTextAvailable
@@ -3095,6 +3111,7 @@ e62ef3c5 LockedDefaultIcon
 1789de82 LockedHoverIcon
 d0fc26f2 LockedIcon
 27688fd4 LockedText
+be0d7715 LockedTextTra
 3cebd87c LockedTra
 33b79d3d LogLargePacketGaps
 6bfb316f LogicalName
@@ -3196,6 +3213,7 @@ c7fe6c2d MapObjectName
 15d4b4a1 MapParticleNames
 598b82e8 MapPlaceable
 9aa017a7 MapPropName
+ce8f4190 MapSsaoRenderer
 d7713c7b Margin
 558b0b01 MarketData
 aa05f252 MarksmanItemsFilterButtonDefinition
@@ -3309,6 +3327,7 @@ dfeb330c MessageDuration
 500ae933 MessageText
 86a1f9f5 MessageTextHandle
 b5d2fb19 MessageTitleText
+ed713805 MessageTra
 56cfc9ac MessageTrakey
 f093e90e MetadataTagToDetect
 c5611fe2 Meter
@@ -3423,6 +3442,8 @@ fbe2eb62 MinSpeed
 168262f3 MinStage
 f1a5a54c MinValue
 8a8a009a Mini
+b7d3735d MiniPityTooltipTraKey
+ead14f26 MiniPityTraKey
 7c0d7f63 MinimapActiveWheelScene
 a8f86028 MinimapBackgroundCooldownEffect
 4a4536af MinimapBehaviors
@@ -3676,11 +3697,13 @@ dd681b43 NextBuffVars
 bcd21997 NoContentSubtitleTraKey
 c5ec44db NoContentTitleTraKey
 84757e2c NoDuplicatesButton
+3a79eb8b NoDuplicatesTooltipTraKey
 154cd270 NoDuplicatesTraKey
 988c4436 NoHighlightsSequence
 1e916517 NoLPGainedText
 4cca91ee NoMatchHistoryText
 70e74cf5 NoPurchasesText
+c02ad6d8 NoScoreTraKey
 4830d8fb NonDispellable
 ada7afdb None
 a8e4f979 NormalCastButtonPos
@@ -3688,6 +3711,7 @@ a8e4f979 NormalCastButtonPos
 8c6b1234 NormalOffsetBias
 53fa9427 NormalSkin
 ce79296c Normalize
+76ee4899 NotEquippedTextTra
 edec2e12 NotFacingMovementWhenCasting
 8231d843 NotPickedVfxSystem
 cc8608fe NotableSpellLayout
@@ -3906,6 +3930,7 @@ fdcc4eca Overrides
 2b77ba39 OvertimeBackgroundTopRight
 d44a200a OverviewScene
 118dbe5b OwnedIcon
+0a6805f0 OwnedTextColor
 f562af26 OwnedTrakey
 40469c43 OwnerChampion
 43c8c7b1 OwnerCondition
@@ -4026,6 +4051,7 @@ c3310cda PercentageFormatTraKey
 3f9461ea PercentageHeadSamplesToDrop
 f272fd2a PercentageTailSamplesToDrop
 fe6efeb2 Percentages
+b73cb03a PercentilePlacementTra
 a1336718 PeriodicFrequencySecs
 aa2f85ea Perks
 87b1d303 PersistentEffectConditions
@@ -4158,6 +4184,7 @@ b454b363 PlayerSlotSplash
 44e76bba PlayerSlotTitleData
 856af76d PlayerSlots
 4893610a PlayerTemplate
+9f2fba86 PlayerTextColor
 07624567 PlaysVo
 c30f3060 PlusIcon
 a126b13b PointLight
@@ -4379,6 +4406,7 @@ bf51f61a RankAndRatedTraKey
 f7fe637c RankColumnGroup
 cf4eb544 RankColumnSpine
 942b1550 RankEmblemTooltipButton
+7e5b7e55 RankEmblemTooltipTra
 08d18026 RankIcon
 20404526 RankIconData
 36cd05cf RankIcons
@@ -4533,6 +4561,7 @@ f36dc80c RelativeDisplayTime
 32f745b1 RemakeText
 3b5dbe09 RemoveButton
 cd92a830 RemoveFriendIcon
+518dd41e RemoveItemButton
 f762be03 RemoveNullRepMrgTemp
 7aa0fed6 RemoveOnPopCharacterData
 f862632b RemoveOnPushCharacterData
@@ -4713,6 +4742,7 @@ bb5bf1ae Roll1TextDisable
 210ea29e RollOutEvent
 a55a6b7c RollOverEvent
 b0269b5f RolloverProtectionButton
+c5e35c96 RolloverProtectionTooltipTraKey
 9f409b47 RolloverProtectionTraKey
 ccd7fbbd RootArrowCollapsedTexturePath
 aff57d21 RootArrowExpandedTexturePath
@@ -4818,11 +4848,13 @@ abbacbb6 ScoreName
 21de82da ScoreProject0
 22de846d ScoreProject1
 75538f6e ScoreText
+6b4d6c6b ScoreUi
 605b77ad ScoreUnderlay
 3f14593a ScoreValue
 25342e1a ScoreboardDisabledIcon
 4b359e39 ScoreboardEnabledFinalIcon
 5404b321 ScoreboardEnabledIcon
+ab5cfd6e ScoreboardManagedLayout
 0363c399 ScoreboardScene
 05a0fe79 ScoreboardTeamScoreTypes
 9636b600 ScoreboardTimer
@@ -4885,6 +4917,7 @@ bb93399a SelectedHoverStateElements
 59434c33 SelectedRewardBannerScene
 46564588 SelectedStateElements
 a4015da5 SelectedTerrain
+4408e6c2 SelectedTextColor
 5b98af56 SelectedTooltipKey
 1dfca147 SelectedTooltipTraKey
 5c1b6a6f SelectedUnitProperty
@@ -5057,8 +5090,11 @@ f28bb814 SingleStandardItemText
 23a0d95c Size
 0af8cfbf SkillAxes
 ee141295 SkillLevels
+7d52ddad SkillTreeBackgroundTexture
 eb85bfc2 SkillTreeButton
 638add82 SkillTreeRankBannerData
+b7d2df48 SkillTreeScoreboardData
+b7d07cd2 SkillTreeTraKey
 b76ba6d3 SkillUpButton
 336b65b8 Skin
 77f110db SkinAugment
@@ -5100,6 +5136,7 @@ c76c3106 SlotTitleText
 366ba559 SlotType
 d7154637 SlotZeroRegion
 3cfec826 Slots
+d04a0fe6 SlotsButton
 fe28c700 SlotsLayout
 06c2a39e SmallIconPath
 68135db9 SnapshotButton
@@ -5283,6 +5320,7 @@ da8bcd33 StarLevel2Vfx
 41ed38a6 StarLevel3Vfx
 a952b6b4 StarLevelOverlays
 41752f5a StarLevelText
+583f66ba StarLevelTra
 91672418 StarShardCurrencyButton
 8abea360 StarShardCurrencyWidget
 d1abeb9d StarShardDecreaseVfx
@@ -5887,6 +5925,7 @@ b2d6cb55 TimerRightBar
 9507344d TimerTextDefaultColor
 d8f7ae03 TimerTextSlayer
 9e71dae2 TimerVfx
+a5bec403 TimerlessButton
 ca2d9683 Timers
 e0c5d401 TimesShownPerCycle
 ba6c0bc4 TimestampText
@@ -5975,6 +6014,7 @@ fed22233 TooltipName
 ad2db494 TooltipRegion
 90c02594 TooltipRespawn
 2f7a1c87 TooltipText
+337117c0 TooltipTextTra
 ea790206 TooltipTitleScene
 a0b80217 TooltipTitleTra
 9afb2161 TooltipTra
@@ -6098,7 +6138,11 @@ fddc357d TroveButton
 ec18e169 TroveNameText
 8eaa24ce TrovesButton
 5b1c302e TrovesChestIcon
+5ba7b7c9 TrovesCollectorsTooltipTraKey
+749fcb22 TrovesCollectorsTraKey
 7a3fea92 TrovesHighlightVfx
+c99290c6 TrovesPromiseTooltipTraKey
+791accf7 TrovesPromiseTraKey
 e6014d27 TrovesRewardTexturePath
 b9ed4a26 TrovesThumbnail
 3bc20e9c TrovesTokenStoreListing
