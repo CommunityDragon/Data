@@ -1482,6 +1482,7 @@ d28b5f4d AcidBall
 f2caa9b4 AcidPercentDamage
 c4642eff Action
 230eacfb ActionMask
+b5b54664 Actions
 3f434070 Activate
 0abcc01d Activation
 d9547c40 ActivationDelay
@@ -418307,6 +418308,7 @@ fed74afb rengar_emote_death_sound_BV2
 63e95512 rengar_emote_joke_sound_BV2
 ddb01ae4 rengar_emote_laugh_sound_BV2
 cc4fc42d rengar_emote_taunt_sound_BV2
+c0b74aaf rengar_recall_start_sound
 8b075f3e respawnDelay
 31e1fa93 right_hand
 f75afb6b ring

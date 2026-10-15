@@ -214262,6 +214262,7 @@ d9542556 Characters/Rengar/Skins/Skin0/Particles/Rengar_VO_Seen
 f0337669 Characters/Rengar/Skins/Skin0/Particles/rengar_emote_joke_sound
 46aaf2c7 Characters/Rengar/Skins/Skin0/Particles/rengar_emote_laugh_sound
 ecb0305e Characters/Rengar/Skins/Skin0/Particles/rengar_emote_taunt_sound
+a60f0d10 Characters/Rengar/Skins/Skin0/TextureResources/Rengar_Base_R_screen_overlay_target
 6ddf177c Characters/Rengar/Skins/Skin0/Resources
 6f8bd839 Characters/Rengar/Skins/Skin1
 84f3b45f Characters/Rengar/Skins/Skin1/Particles/Rengar_SKin01_W_Emp_Buf2
