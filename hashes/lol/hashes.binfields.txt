@@ -1868,6 +1868,8 @@ feb06968 ErrorGroup
 50b38f66 ErrorTitleText
 fec6c537 EsportsLoadable
 b002f5f5 EventBackdrop
+4e976ea0 EventBackgrounds
+78388f8e EventBannerOverrides
 57f4cfbc EventCardDefinition
 d3eab8e5 EventCarousel
 85b47fcf EventEmptyGroup
@@ -1882,6 +1884,7 @@ c769c898 EventIconKillStreak
 e9a2c3b5 EventIconReviveAlly
 680f7c3c EventLeagueComboBoxDefinition
 16270f7c EventLists
+dcf1a165 EventMapIndex
 681402b4 EventMissionsCompletedKey
 4d4dc426 EventMissionsCompletedText
 2a078c9c EventName
@@ -2629,6 +2632,7 @@ ba744195 InnerRadius
 f9d86f7b Input
 3dbb41a9 InputChains
 ba09dde4 InputErrorText
+f248d989 InputEvent
 d36508cd InputHandler
 e2e5b6dd InputLockTypes
 228ee863 InputParameters
@@ -2848,6 +2852,7 @@ fb8dc969 KeyFrame
 3cc014cd KeyFrameFloatmap
 a2e4c271 KeySequence
 c68d40a4 KeyType
+478794d6 KeybindSets
 a882cddf KeybindingsInputPorting
 82d6dcb0 Keybinds
 31d46b76 KeyedLingerAcceleration

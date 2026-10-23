@@ -44970,6 +44970,7 @@ e637f53e Characters/Evelynn/Spells/EvelynnQDebuff
 cc4d3868 Characters/Evelynn/Spells/EvelynnRThresholdTracker
 e6178f97 Characters/Evelynn/Spells/EvelynnRTrail
 82e5ba19 Characters/Evelynn/Spells/EvelynnSkin24Manager
+aa12a338 Characters/Evelynn/Spells/EvelynnSkin65Manager
 866b0d92 Characters/Evelynn/Spells/EvelynnStealthRing
 2e92293a Characters/Evelynn/Spells/EvelynnW
 e3b9fff0 Characters/Evelynn/Spells/EvelynnWAbility
@@ -102361,6 +102362,7 @@ ac58558d Characters/Jade_Teemo/Spells/Jade_TeemoCritAttack
 18e4b09e Characters/Jade_Teemo/Spells/Jade_TeemoEAbility
 6783dfbf Characters/Jade_Teemo/Spells/Jade_TeemoEAbility/Jade_TeemoE
 601e987c Characters/Jade_Teemo/Spells/Jade_TeemoEAbility/Jade_TeemoE_Attack
+24589a54 Characters/Jade_Teemo/Spells/Jade_TeemoEAbility/Jade_TeemoE_Crit
 bdbce814 Characters/Jade_Teemo/Spells/Jade_TeemoPassiveAbility
 750d44d4 Characters/Jade_Teemo/Spells/Jade_TeemoPassiveAbility/Jade_TeemoPAttackSpeedBuff
 0603243f Characters/Jade_Teemo/Spells/Jade_TeemoPassiveAbility/Jade_TeemoPassive
@@ -148332,6 +148334,7 @@ e30d2fc4 Characters/Lux/Spells/LuxPrismaticWaveReturn
 a3c5a3da Characters/Lux/Spells/LuxPrismaticWaveReturnDead
 810075a1 Characters/Lux/Spells/LuxRAbility
 98a0650f Characters/Lux/Spells/LuxRAbility/LuxR
+d6b38b8a Characters/Lux/Spells/LuxRAbility/LuxRMis
 c38a1d48 Characters/Lux/Spells/LuxRAbility/LuxRVfxMis
 dfbf6380 Characters/Lux/Spells/LuxRMis
 f90a0caa Characters/Lux/Spells/LuxRVfxMis
@@ -153886,14 +153889,21 @@ d32a8158 Characters/Mel/Spells/MelQAbility/MelQ
 5bb6d7c8 Characters/Mel/Spells/MelQAbility/MelQMissile8
 5cb6d95b Characters/Mel/Spells/MelQAbility/MelQMissile9
 80dfbd65 Characters/Mel/Spells/MelQAbility/MelQMissileBase
+22374325 Characters/Mel/Spells/MelQAbility/MelQShared
 35fef5eb Characters/Mel/Spells/MelRAbility
 efa686e8 Characters/Mel/Spells/MelRAbility/MelR
 2152fae8 Characters/Mel/Spells/MelRAbility/MelRStackWatcher
 0f3420ee Characters/Mel/Spells/MelWAbility
 b309e56c Characters/Mel/Spells/MelWAbility/MelW
+c233979c Characters/Mel/Spells/MelWAbility/MelWAbsorbMis
 66b920b1 Characters/Mel/Spells/MelWAbility/MelWReflect
 4b797443 Characters/Mel/Spells/MelWAbility/MelWReflectUltVO
 0c1b1d1e Characters/Mel/Spells/MelWAbility/MelWReflectVO
+55ba8d50 Characters/Mel/Spells/MelWAbility/MelWRetaliationMis1
+58ba9209 Characters/Mel/Spells/MelWAbility/MelWRetaliationMis2
+57ba9076 Characters/Mel/Spells/MelWAbility/MelWRetaliationMis3
+5aba952f Characters/Mel/Spells/MelWAbility/MelWRetaliationMis4
+59ba939c Characters/Mel/Spells/MelWAbility/MelWRetaliationMis5
 a1c81b1c Characters/Milio
 68204b0e Characters/Milio/Animations/Skin0
 69204ca1 Characters/Milio/Animations/Skin1
@@ -360134,6 +360144,7 @@ cffe51a3 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiAugmentSetTraitTracker/UIBase/Set
 f8d3ade8 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiAugmentSetTraitTracker/UIBase/SetTraitTracker/Set/Padding
 b3512539 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony
 676cfa0a ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/Particles/Kiwi_S3_MusicSet_BandAnnouncement_GameStart_PreReveal
+669e9ae1 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/UIBase
 79ff3481 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/UIBase/Announcement
 ec21fb72 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/UIBase/Announcement/AnnouncementFrame
 73e0c518 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/UIBase/Announcement/AnnouncementPortrait_Frame
@@ -360145,6 +360156,7 @@ f2d1929a ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/UIBase/Announcement/A
 8247718b ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHCeremony/UIBase/FullscreenEffectScene/PreFullscreenVFX
 a7ad9ce7 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker
 0c6d71b4 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/Particles/Kiwi_S3_GoH_KDA3_UI_CardCollectionCompletion
+5d44b217 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase
 d2d078d0 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase/Scene
 416a5b35 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase/Scene/Background
 5fc1df78 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase/Scene/CardTemplate/ObtainedCard
@@ -360156,6 +360168,7 @@ dbcab66e ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase/Scene/ItemsG
 ea689a18 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase/Scene/RewardLabel
 26148272 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiGoHKDATracker/UIBase/Scene/VFX_CardCollectionCompletion_KDA3
 148bfe3c ClientStates/Gameplay/UX/LoL/Kiwi/KiwiNarrativeBarks
+15984e4a ClientStates/Gameplay/UX/LoL/Kiwi/KiwiNarrativeBarks/UIBase
 9dadd06d ClientStates/Gameplay/UX/LoL/Kiwi/KiwiNarrativeBarks/UIBase/NarrativeBark
 4256c646 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiNarrativeBarks/UIBase/NarrativeBark/ChampionSplash_Anime_Caitlyn
 15f4b18d ClientStates/Gameplay/UX/LoL/Kiwi/KiwiNarrativeBarks/UIBase/NarrativeBark/ChampionSplash_Anime_Ezreal
@@ -360936,6 +360949,7 @@ d15001d3 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiTargetFrameReplay/UIBase/TargetFr
 15d70683 ClientStates/Gameplay/UX/LoL/Kiwi/KiwiTargetFrameReplay/UIBase/TargetFrameClosed/VietnameseRatingLabel_Horizontal
 b8bbecaf ClientStates/Gameplay/UX/LoL/Kiwi/ModesObjectives
 6d7e2326 ClientStates/Gameplay/UX/LoL/Kiwi/ModesObjectives/Particles/Kiwi_MissionCompleteVFX
+7c750d2f ClientStates/Gameplay/UX/LoL/Kiwi/ModesObjectives/UIBase
 bfe1cea0 ClientStates/Gameplay/UX/LoL/Kiwi/ModesObjectives/UIBase/ModesObjectives
 7e98321b ClientStates/Gameplay/UX/LoL/Kiwi/ModesObjectives/UIBase/ModesObjectives/CollapsedNotificationScene
 7746e6c8 ClientStates/Gameplay/UX/LoL/Kiwi/ModesObjectives/UIBase/ModesObjectives/CollapsedNotificationScene/Background
@@ -364726,6 +364740,7 @@ e32ed165 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/Particles
 8c195a3e ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/Particles/Akali_Skin102_W_TopRight
 f09e57c1 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/Particles/Akali_Skin102_W_TopRight_Start
 466e5433 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/Particles/Akali_Skin102_W_Top_Start
+90c59812 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/UIBase
 a1fd2550 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/UIBase/AkaliSkin102_HUD_Scene
 dcf4d654 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/UIBase/AkaliSkin102_HUD_Scene/AkaliSkin102_Recall_Doodle_L
 ddf4d7e7 ClientStates/Gameplay/UX/LoL/Skins/AkaliSkin102ViewController/UIBase/AkaliSkin102_HUD_Scene/AkaliSkin102_Recall_Doodle_M
@@ -380365,6 +380380,7 @@ e081657c ClientStates/LoadingScreen/UX/LoadingScreenClassic/UIClash/LS_Clash/LS_
 46e34ad0 ClientStates/LoadingScreen/UX/LoadingScreenClassic/UIClash/LS_Clash/LS_Clash_T2_TeamName
 d7ac8dd9 ClientStates/LoadingScreen/UX/LoadingScreenClassic/UIClash/LS_Clash/LS_Clash_T2_TeamTag
 498b6e08 ClientStates/LoadingScreen/UX/LoadingScreenJade
+ed89d4e6 ClientStates/LoadingScreen/UX/LoadingScreenJade/UIBase
 d86b2e49 ClientStates/LoadingScreen/UX/LoadingScreenJade/UIBase/LoadingScreen
 24b2cfd5 ClientStates/LoadingScreen/UX/LoadingScreenJade/UIBase/LoadingScreen/CondensedTipIcon
 f6317854 ClientStates/LoadingScreen/UX/LoadingScreenJade/UIBase/LoadingScreen/LS_ProgressMeter
@@ -405104,6 +405120,15 @@ bbc00d50 Loadouts/SummonerEmotes/5189
 7f5f6b4f Loadouts/SummonerEmotes/52072
 2b6ae396 Loadouts/SummonerEmotes/5208
 2c6ae529 Loadouts/SummonerEmotes/5209
+396d3837 Loadouts/SummonerEmotes/5210
+386d36a4 Loadouts/SummonerEmotes/5211
+3b6d3b5d Loadouts/SummonerEmotes/5212
+3a6d39ca Loadouts/SummonerEmotes/5213
+356d31eb Loadouts/SummonerEmotes/5214
+346d3058 Loadouts/SummonerEmotes/5215
+376d3511 Loadouts/SummonerEmotes/5216
+366d337e Loadouts/SummonerEmotes/5217
+316d2b9f Loadouts/SummonerEmotes/5218
 9fea1e51 Loadouts/SummonerEmotes/6
 9eea1cbe Loadouts/SummonerEmotes/7
 99ea14df Loadouts/SummonerEmotes/8
@@ -405410,6 +405435,7 @@ babcb208 Loadouts/SummonerEmotes/Particles/EM_Exalted_Skin_Sett_Animated_Emote_B
 ce2d5169 Loadouts/SummonerEmotes/Particles/EM_Expensive_Taste
 7398f14c Loadouts/SummonerEmotes/Particles/EM_Experimentation
 e982a003 Loadouts/SummonerEmotes/Particles/EM_Explosive
+ae91c78d Loadouts/SummonerEmotes/Particles/EM_Eyes_on_Me
 6c0e578b Loadouts/SummonerEmotes/Particles/EM_Ezreal_LPL_Emote
 d44141e7 Loadouts/SummonerEmotes/Particles/EM_Ezreals_Go
 d6cef665 Loadouts/SummonerEmotes/Particles/EM_FABULOUS
@@ -405437,6 +405463,7 @@ bee641e0 Loadouts/SummonerEmotes/Particles/EM_Flustered
 48330913 Loadouts/SummonerEmotes/Particles/EM_Forewarned
 7d0b6fcd Loadouts/SummonerEmotes/Particles/EM_Frustrated_Fae
 3c96271a Loadouts/SummonerEmotes/Particles/EM_Full_Of_Joy
+6d6f6174 Loadouts/SummonerEmotes/Particles/EM_GG_EZ
 05c41953 Loadouts/SummonerEmotes/Particles/EM_GR8
 bea65201 Loadouts/SummonerEmotes/Particles/EM_GarenHype
 c9e7b9eb Loadouts/SummonerEmotes/Particles/EM_Gasp
@@ -405489,6 +405516,7 @@ cfdff4ae Loadouts/SummonerEmotes/Particles/EM_Hangzhou_2022_VII
 61e1caaa Loadouts/SummonerEmotes/Particles/EM_Have_A_Break
 bf1f5979 Loadouts/SummonerEmotes/Particles/EM_Heading_Out
 c96fd6c0 Loadouts/SummonerEmotes/Particles/EM_Healself
+a16b8811 Loadouts/SummonerEmotes/Particles/EM_Heart_Hands
 8084d4b9 Loadouts/SummonerEmotes/Particles/EM_Hearts
 694f4f80 Loadouts/SummonerEmotes/Particles/EM_Heartsteel_Love
 38121a26 Loadouts/SummonerEmotes/Particles/EM_Heartsteel_Poro
@@ -405574,6 +405602,7 @@ b3acd3a0 Loadouts/SummonerEmotes/Particles/EM_Its_Not_Like_I_Like_You
 70a9e0eb Loadouts/SummonerEmotes/Particles/EM_Just_Chill_Guy
 06ee462c Loadouts/SummonerEmotes/Particles/EM_Just_No
 384e21e5 Loadouts/SummonerEmotes/Particles/EM_K
+6c10838e Loadouts/SummonerEmotes/Particles/EM_KDA_QT
 2b74efa7 Loadouts/SummonerEmotes/Particles/EM_KSad
 e43865eb Loadouts/SummonerEmotes/Particles/EM_Keep_Swimming
 86fe89db Loadouts/SummonerEmotes/Particles/EM_Keep_Up
@@ -405685,6 +405714,7 @@ fca6a36a Loadouts/SummonerEmotes/Particles/EM_LVL_100
 4ce3fdd2 Loadouts/SummonerEmotes/Particles/EM_Lavish_Brutality
 3cb4827b Loadouts/SummonerEmotes/Particles/EM_Laying_It_Down
 2845b514 Loadouts/SummonerEmotes/Particles/EM_LeFlawless
+6f6d9571 Loadouts/SummonerEmotes/Particles/EM_Let_Him_Cook
 bd00e346 Loadouts/SummonerEmotes/Particles/EM_Let_Me_In
 74765f66 Loadouts/SummonerEmotes/Particles/EM_Lets_Do_It
 fef9ba9c Loadouts/SummonerEmotes/Particles/EM_Lie_In_Wait
@@ -405793,6 +405823,7 @@ ff0af5df Loadouts/SummonerEmotes/Particles/EM_On_Mute
 95f3835b Loadouts/SummonerEmotes/Particles/EM_Onsen_Ahri_Legendary_Emote
 fa0707ca Loadouts/SummonerEmotes/Particles/EM_Oof_Really
 945c82bb Loadouts/SummonerEmotes/Particles/EM_Ooh_Looky
+24db7a2f Loadouts/SummonerEmotes/Particles/EM_Ooh_Scandal
 1980d2a1 Loadouts/SummonerEmotes/Particles/EM_Oops_Did_I_Do_That
 04e84b22 Loadouts/SummonerEmotes/Particles/EM_Oopsies
 bc27efea Loadouts/SummonerEmotes/Particles/EM_Opera_Hands
@@ -405816,6 +405847,7 @@ a26f9cb0 Loadouts/SummonerEmotes/Particles/EM_POWER_PLAY
 c1cb469c Loadouts/SummonerEmotes/Particles/EM_Pandatastic
 91c97962 Loadouts/SummonerEmotes/Particles/EM_Pengu_Garen_Locked_In
 f3c80c2b Loadouts/SummonerEmotes/Particles/EM_Pentakill_Poro
+83f7f743 Loadouts/SummonerEmotes/Particles/EM_Periodt
 df88c578 Loadouts/SummonerEmotes/Particles/EM_Pet_The_Poro
 c2448139 Loadouts/SummonerEmotes/Particles/EM_Petals_Of_Delight
 8abbc984 Loadouts/SummonerEmotes/Particles/EM_Petricite_Roar
@@ -405831,6 +405863,7 @@ d8448dfd Loadouts/SummonerEmotes/Particles/EM_Placeholder_Question_Mark_DO_NOT_T
 3c7e012f Loadouts/SummonerEmotes/Particles/EM_Playtime
 7a7fd692 Loadouts/SummonerEmotes/Particles/EM_Please_Press_R_Malphite
 52962a1a Loadouts/SummonerEmotes/Particles/EM_Pls_Send_Help
+cb94d85e Loadouts/SummonerEmotes/Particles/EM_Point_Em_Out
 2604487a Loadouts/SummonerEmotes/Particles/EM_Pop_Goes_The_Kitty
 03dd09fd Loadouts/SummonerEmotes/Particles/EM_Popcorn_OwO
 f4cb5b58 Loadouts/SummonerEmotes/Particles/EM_Popped_Collar
@@ -405912,6 +405945,7 @@ cc2d27b4 Loadouts/SummonerEmotes/Particles/EM_Serving_Face
 f70fd759 Loadouts/SummonerEmotes/Particles/EM_Shady
 c47a8d4a Loadouts/SummonerEmotes/Particles/EM_Shake_Shake_Shake
 33c63528 Loadouts/SummonerEmotes/Particles/EM_Shark_Snack
+1c3743f4 Loadouts/SummonerEmotes/Particles/EM_Sharp_And_Shady
 c038a339 Loadouts/SummonerEmotes/Particles/EM_Shellp_Me
 dfbae630 Loadouts/SummonerEmotes/Particles/EM_Shifting_Spirit
 8b3e0df3 Loadouts/SummonerEmotes/Particles/EM_Shushei_The_Gragas_Legend
@@ -446322,6 +446356,7 @@ f585ec62 Shaders/Environment/TFT_Transition_Ground
 41ed1406 Shaders/Particles/DefaultParticleQuadUnlit
 25d5bd0b Shaders/Particles/Jade_StaticMesh_Outline
 afb9a1b9 Shaders/Particles/ShaderPreset/VFX_Uber_StaticMesh_Unlit
+d852bd33 Shaders/Particles/ShaderPreset/VFX_Uber_StaticMesh_VertexColor_Unlit
 bf6abb4d Shaders/Particles/VFX_Gloom_Ground
 22a27a29 Shaders/Particles/VFX_MatCap_DiscoBall
 54314d22 Shaders/Particles/VFX_Mesh_Number

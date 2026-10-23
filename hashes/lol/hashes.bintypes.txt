@@ -2060,6 +2060,7 @@ ae9e709a MobileCatalogData
 b62eaf02 ModeSelectButtonData
 61767839 ModeSelectQueueButtonData
 795e5e4f ModeSelectViewController
+ad6ff93a ModesObjectivesViewController
 8d31b69b ModesQuestData
 079b4930 ModesQuestTrackerViewController
 94f09958 ModesScenarioGeComponent
@@ -3829,6 +3830,8 @@ a134eb30 ViewControllerFilter_And
 e8fc31c8 ViewControllerFilter_Not
 dec790be ViewControllerFilter_Or
 0ad557d0 ViewControllerFilter_Spectator
+b0afae41 ViewControllerFilter_TftGameType
+349845d9 ViewControllerFilter_TftSet
 d9438618 ViewControllerList
 83d6eef9 ViewControllerListFilterI
 a8fc25d8 ViewControllerListFilter_And
