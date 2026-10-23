@@ -318935,6 +318935,17 @@ eaa89ff7 IxtalProp_Tier3_Mat
 cad00949 JT_BASE
 100e165b Jacket
 41b73224 JacketT1
+e79698b5 JadeP_12
+e1968f43 JadeP_14
+e0968db0 JadeP_15
+e29690d6 JadeP_17
+bd0a84ec JadeP_2
+be0a867f JadeP_3
+bb0a81c6 JadeP_4
+bc0a8359 JadeP_5
+ba0a8033 JadeP_7
+c70a94aa JadeP_8
+c80a963d JadeP_9
 56db42fc Jade_Aatrox_AA_Crit_Trail
 93491622 Jade_Aatrox_AatroxEMissile
 26ac13af Jade_Aatrox_AatroxEMissile_2
