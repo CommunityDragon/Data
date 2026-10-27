@@ -17833,6 +17833,7 @@ dbb7e47e1c21486c assets/characters/ahri/hud/ahri_circle_86_tier3.skins_ahri_hol.
 2b61316e3823fce0 assets/characters/ahri/hud/ahri_circle_88.tex
 bb81f9dd741f83fc assets/characters/ahri/hud/ahri_circle_89.skins_ahri_skin89.tex
 4e560386414fa386 assets/characters/ahri/hud/ahri_circle_89.tex
+f3ba507c963105c7 assets/characters/ahri/hud/ahri_circle_97.tex
 691c36bde910d59e assets/characters/ahri/hud/ahri_square.dds
 21163e39ff75ef03 assets/characters/ahri/hud/ahri_square_0.dds
 d00fc5fd71be9508 assets/characters/ahri/hud/ahri_square_0.skins_ahri_asu_prepro.dds
@@ -31320,6 +31321,7 @@ c71e4d74c3e9e01d assets/characters/ahri/skins/skin97/ahri_skin97_tails_tx_cm.tex
 f7178c1b306f2fb2 assets/characters/ahri/skins/skin97/ahri_skin97_thermal_tx_cm.tex
 05dcd997337bab97 assets/characters/ahri/skins/skin97/ahri_skin97_tx_cm.tex
 461fa382824eafa9 assets/characters/ahri/skins/skin97/ahriloadscreen_97.tex
+9aef331b5fc5865c assets/characters/ahri/skins/skin97/ahriloadscreen_97_le.tex
 d8f3b5247d6d5b85 assets/characters/ahri/skins/skin97/animations/dance.anm
 dae040de4822ce8a assets/characters/ahri/skins/skin97/animations/dance_loop.anm
 ebf81adcf3eee5d0 assets/characters/ahri/skins/skin97/animations/recall.anm
@@ -33999,6 +34001,7 @@ d9e2832e44137eae assets/characters/akali/skins/skin102/akali_skin102_flowmap_tx_
 a95bc1bb2f8becb1 assets/characters/akali/skins/skin102/akali_skin102_recall_tx_cm.tex
 7c39e070c0079b47 assets/characters/akali/skins/skin102/akali_skin102_skateboard_tx_cm.tex
 d686c64d7d6f49a3 assets/characters/akali/skins/skin102/akali_skin102_tx_cm.tex
+1b7987062f8bdecd assets/characters/akali/skins/skin102/akali_skin102_ult_hair2_tx_cm.tex
 465e5449e010b3da assets/characters/akali/skins/skin102/akali_skin102_ult_tx_cm.tex
 7c18d7440a2efdb4 assets/characters/akali/skins/skin102/akali_skin102_ult_wing_tx_cm.tex
 85bc06c2127dacff assets/characters/akali/skins/skin102/akali_skin102_w_tx_cm.tex
@@ -210848,6 +210851,8 @@ d8fc55e5915064be assets/characters/evelynn/hud/evelynn_circle_6.skins_evelynn_sk
 dacd9374e41596fe assets/characters/evelynn/hud/evelynn_circle_6.tex
 28490c9de68fce54 assets/characters/evelynn/hud/evelynn_circle_64.skins_evelynn_skin64.tex
 0a2a99a3cf902f9e assets/characters/evelynn/hud/evelynn_circle_64.tex
+2eb4cb8f0ee41b14 assets/characters/evelynn/hud/evelynn_circle_65.tex
+a125d28a12354a9e assets/characters/evelynn/hud/evelynn_circle_66.tex
 095e3a8364de312d assets/characters/evelynn/hud/evelynn_circle_7.dds
 4e488dbcc4bfe73e assets/characters/evelynn/hud/evelynn_circle_7.lootkdaevelynnprestige2019.dds
 5a7b1f71fe09b206 assets/characters/evelynn/hud/evelynn_circle_7.skins_premium_popstar.dds
@@ -220455,6 +220460,7 @@ be94fc499ea898fb assets/characters/evelynn/skins/skin65/evelynn_skin65_tailmask_
 995d893d9cb829ef assets/characters/evelynn/skins/skin65/evelynn_skin65_taunt_tx_cm.tex
 ebb199ab9d1c2337 assets/characters/evelynn/skins/skin65/evelynn_skin65_tx_cm.tex
 20d7e6a321fe27f8 assets/characters/evelynn/skins/skin65/evelynnloadscreen_65.tex
+32a7e8028f69b1c4 assets/characters/evelynn/skins/skin65/evelynnloadscreen_65_le.tex
 56c9e4b061c55f0b assets/characters/evelynn/skins/skin65/particles/21.tex
 6d708c70517715b3 assets/characters/evelynn/skins/skin65/particles/3026_glow_bright.tex
 201220a8f3cfffd8 assets/characters/evelynn/skins/skin65/particles/3026_items_ball32_02.tex
@@ -221176,6 +221182,7 @@ a7dc685c650cd8a7 assets/characters/evelynn/skins/skin67/evelynn_skin67_shadow_ta
 cb1d0de006954497 assets/characters/evelynn/skins/skin67/evelynn_skin67_tail_tx_cm.tex
 117f5e7652b4d4fa assets/characters/evelynn/skins/skin67/evelynn_skin67_taunt_tx_cm.tex
 3c2eb33c854c21d4 assets/characters/evelynn/skins/skin67/evelynn_skin67_tx_cm.tex
+0c1f857de57834ba assets/characters/evelynn/skins/skin67/particles/evelynn_skin67_q_spikemesh.tex
 c98195d58ab0a7ec assets/characters/evelynn/skins/skin68/chromapreview.tex
 250deac01a1308f6 assets/characters/evelynn/skins/skin68/evelynn_skin68_q_tx_cm.tex
 0fb990a0ad2dc3ee assets/characters/evelynn/skins/skin68/evelynn_skin68_recall_tx_cm.tex
@@ -221184,6 +221191,7 @@ c98195d58ab0a7ec assets/characters/evelynn/skins/skin68/chromapreview.tex
 10dd1dc66cea8d08 assets/characters/evelynn/skins/skin68/evelynn_skin68_tail_tx_cm.tex
 5167b51672108fbb assets/characters/evelynn/skins/skin68/evelynn_skin68_taunt_tx_cm.tex
 5820da423a078482 assets/characters/evelynn/skins/skin68/evelynn_skin68_tx_cm.tex
+4f303d298a15cbcd assets/characters/evelynn/skins/skin68/particles/evelynn_skin68_q_spikemesh.tex
 6c4dfcbb38989a1e assets/characters/evelynn/skins/skin69/chromapreview.tex
 c295bfcfa0cc29b0 assets/characters/evelynn/skins/skin69/evelynn_skin69_q_tx_cm.tex
 ee1140517b6eb566 assets/characters/evelynn/skins/skin69/evelynn_skin69_recall_tx_cm.tex
@@ -221192,6 +221200,7 @@ df56b8445319cc9e assets/characters/evelynn/skins/skin69/evelynn_skin69_shadow_tx
 b15bf0d32a50a4c9 assets/characters/evelynn/skins/skin69/evelynn_skin69_tail_tx_cm.tex
 66db71c4876e78d6 assets/characters/evelynn/skins/skin69/evelynn_skin69_taunt_tx_cm.tex
 2e9ce2a088201ef0 assets/characters/evelynn/skins/skin69/evelynn_skin69_tx_cm.tex
+3e430fbdf11be85c assets/characters/evelynn/skins/skin69/particles/evelynn_skin69_q_spikemesh.tex
 a5e3e568ba88d989 assets/characters/evelynn/skins/skin70/chromapreview.tex
 c3dd5837f8d42f7b assets/characters/evelynn/skins/skin70/evelynn_skin70_q_tx_cm.tex
 47a199ffe40e057e assets/characters/evelynn/skins/skin70/evelynn_skin70_recall_tx_cm.tex
@@ -221200,6 +221209,7 @@ c3dd5837f8d42f7b assets/characters/evelynn/skins/skin70/evelynn_skin70_q_tx_cm.t
 0e90d8688b370d1f assets/characters/evelynn/skins/skin70/evelynn_skin70_tail_tx_cm.tex
 a2fcb2dc74b72ee6 assets/characters/evelynn/skins/skin70/evelynn_skin70_taunt_tx_cm.tex
 9d83696bcef01def assets/characters/evelynn/skins/skin70/evelynn_skin70_tx_cm.tex
+c2d6bad82b2e44ee assets/characters/evelynn/skins/skin70/particles/evelynn_skin70_q_spikemesh.tex
 2d7878db59e571e9 assets/characters/evelynn/skins/skin71/chromapreview.tex
 21eee44af19fea06 assets/characters/evelynn/skins/skin71/evelynn_skin71_q_tx_cm.tex
 3832a7e7b239cb8e assets/characters/evelynn/skins/skin71/evelynn_skin71_recall_tx_cm.tex
@@ -221208,6 +221218,7 @@ a2fcb2dc74b72ee6 assets/characters/evelynn/skins/skin70/evelynn_skin70_taunt_tx_
 fd7790699b5b8327 assets/characters/evelynn/skins/skin71/evelynn_skin71_tail_tx_cm.tex
 0652e697fb5f0968 assets/characters/evelynn/skins/skin71/evelynn_skin71_taunt_tx_cm.tex
 e63b0c5eaa0959b5 assets/characters/evelynn/skins/skin71/evelynn_skin71_tx_cm.tex
+0889764b5fcc4451 assets/characters/evelynn/skins/skin71/particles/evelynn_skin71_q_spikemesh.tex
 cf74ecd16944bbde assets/characters/evelynn/skins/skin72/chromapreview.tex
 7942e39e77080858 assets/characters/evelynn/skins/skin72/evelynn_skin72_q_tx_cm.tex
 a6c1065d3b72450e assets/characters/evelynn/skins/skin72/evelynn_skin72_recall_tx_cm.tex
@@ -221216,6 +221227,7 @@ a6c1065d3b72450e assets/characters/evelynn/skins/skin72/evelynn_skin72_recall_tx
 95fd7854fafc0606 assets/characters/evelynn/skins/skin72/evelynn_skin72_tail_tx_cm.tex
 6b22d14b17105449 assets/characters/evelynn/skins/skin72/evelynn_skin72_taunt_tx_cm.tex
 ea690d523750a964 assets/characters/evelynn/skins/skin72/evelynn_skin72_tx_cm.tex
+b3d3ecb727bc665f assets/characters/evelynn/skins/skin72/particles/evelynn_skin72_q_spikemesh.tex
 7ccd2a4399a28d67 assets/characters/ezreal/hud/ezreal_circle.dds
 f1d74c8804654a9d assets/characters/ezreal/hud/ezreal_circle.ezrealvgu.dds
 8e808ff692079416 assets/characters/ezreal/hud/ezreal_circle.tex

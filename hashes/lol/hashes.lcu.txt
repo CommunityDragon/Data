@@ -7769,6 +7769,7 @@ f67c3b25969ebdd0 plugins/rcp-be-lol-game-data/global/default/assets/characters/a
 23f4300311d3ce5a plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin89/skinfeaturespreview/ahri89_w.webm
 2fcfb37e03c8db2c plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin96/chromapreview.chroma_ahri_coven.png
 3e87b1170de34263 plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/ahriloadscreen_97.skins_ahri_skin97.jpg
+bb47d01b572440e3 plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/ahriloadscreen_97_le.skins_ahri_skin97.jpg
 b360233dd50a8f55 plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/chromapreview.skins_ahri_skin97.png
 4f5dc59ba82d291d plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/images/ahri_splash_centered_97.skins_ahri_skin97.jpg
 15183fbd4abf549e plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/images/ahri_splash_tile_97.skins_ahri_skin97.jpg
@@ -10392,6 +10393,7 @@ f074b015ea399a89 plugins/rcp-be-lol-game-data/global/default/assets/characters/e
 faf63afffb0eeec7 plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin64/images/evelynn_splash_uncentered_64.skins_evelynn_skin64.jpg
 3ed25dc703aca08f plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/chromapreview.skins_evelynn_skin65.png
 cd3e551b6d5533b9 plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/evelynnloadscreen_65.skins_evelynn_skin65.jpg
+9e2450419c127cd4 plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/evelynnloadscreen_65_le.skins_evelynn_skin65.jpg
 e6e69d5ab43f54ca plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/images/evelynn_splash_centered_65.skins_evelynn_skin65.jpg
 342ea73fff6a8657 plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/images/evelynn_splash_tile_65.skins_evelynn_skin65.jpg
 0befa24f55b7cda9 plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/images/evelynn_splash_uncentered_65.skins_evelynn_skin65.jpg
@@ -14475,10 +14477,12 @@ f50e717dc7644ce3 plugins/rcp-be-lol-game-data/global/default/assets/characters/j
 f46429c5de4372d6 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin01/images/jade_volibear_splash_tile_1.project_jade_16_22.jpg
 0a74b3837ca213e4 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin01/images/jade_volibear_splash_uncentered_1.project_jade_16_22.jpg
 1a21a58b1b027930 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin01/jade_volibearloadscreen_1.project_jade_16_22.jpg
+6103e7f3ceb939d3 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin01/jade_volibearloadscreen_1_le.project_jade_16_22.jpg
 6087ff4ab7ed82d6 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin02/images/jade_volibear_splash_centered_2.project_jade_16_22.jpg
 554f9d0d3f7e81db plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin02/images/jade_volibear_splash_tile_2.project_jade_16_22.jpg
 8161d94f8f12abd6 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin02/images/jade_volibear_splash_uncentered_2.project_jade_16_22.jpg
 b7af4056d898abb9 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin02/jade_volibearloadscreen_2.project_jade_16_22.jpg
+28407166f8c1f9e7 plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_volibear/skins/skin02/jade_volibearloadscreen_2_le.project_jade_16_22.jpg
 202d4db5d98c225f plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_warwick/skins/base/images/jade_warwick_splash_centered_0.project_jade.jpg
 f88e8d238ce9743c plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_warwick/skins/base/images/jade_warwick_splash_tile_0.project_jade.jpg
 0fa7ed620bc75d4f plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_warwick/skins/base/images/jade_warwick_splash_uncentered_0.project_jade.jpg
@@ -57288,6 +57292,7 @@ c75680b5784ae197 plugins/rcp-be-lol-game-data/global/default/assets/missions/26_
 0b474e328466e229 plugins/rcp-be-lol-game-data/global/default/assets/missions/26_18_hol_bg.png
 dfcfe9e1628c81bc plugins/rcp-be-lol-game-data/global/default/assets/missions/26_20_cloud_hs_bg.png
 27529d38186183fa plugins/rcp-be-lol-game-data/global/default/assets/missions/26_20_td_bg.png
+6fc934d7c0d4f855 plugins/rcp-be-lol-game-data/global/default/assets/missions/26_21_jarvaniv_bg.png
 230cfd45bfa6fef3 plugins/rcp-be-lol-game-data/global/default/assets/missions/26_21_kiwi_s3_obj_header.png
 a80d655d60ccdc84 plugins/rcp-be-lol-game-data/global/default/assets/missions/26_21_mayhem_bg.png
 bbc0b8eba3efce8a plugins/rcp-be-lol-game-data/global/default/assets/missions/5yr_set14_obj_bg.png
@@ -148316,6 +148321,7 @@ da4e5673664c97ad plugins/rcp-fe-lol-settings/global/default/th_th/trans.json
 760d9114055479af plugins/rcp-fe-lol-settings/global/default/trans.json
 e4cfa73a4a133aa8 plugins/rcp-fe-lol-settings/global/default/vn_vn/trans.json
 162ac18231b9ad42 plugins/rcp-fe-lol-settings/global/default/voice-skin-preview.svg
+bae87607c699ac0c plugins/rcp-fe-lol-settings/global/default/voicemod-logo.png
 ac1d54b68a6752cd plugins/rcp-fe-lol-settings/global/default/voicemod-logo.svg
 7b2c12dd7fea50fd plugins/rcp-fe-lol-settings/global/default/x_mask.png
 9822664bfcd15848 plugins/rcp-fe-lol-settings/global/default/zh_cn/trans.json
