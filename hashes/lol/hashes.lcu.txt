@@ -47334,6 +47334,7 @@ f77f920f353ab537 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/ody
 590ec234dd44abc5 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/odysseyaugments/odysseyaugments_ziggsw_3.mnms_odyssey.png
 0a1e84356d09dac7 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/regalia/banners/24_the_poro_king_banner.png
 afc925881d8f8170 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/regalia/banners/38_worlds2026_banner_512x512.png
+be61c208a36de2d5 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/skinanimations/sona/skins/skin77/sona_skin77_uncentered.skins_sona_skin77.webm
 ac57597dc3b74e47 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/starshards/tft_star_shards_increase_notification.png
 0c8e754ea1d53871 plugins/rcp-be-lol-game-data/global/default/assets/loadouts/statstones/categories/lcu/ss_icon_cc_common_0.png
 206db30f8df2f00e plugins/rcp-be-lol-game-data/global/default/assets/loadouts/statstones/categories/lcu/ss_icon_cc_common_1.png
@@ -69211,6 +69212,8 @@ aa5067df8901e011 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augm
 94feb99265179305 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/growthspurt_small.png
 0bfec76aa77302e3 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/handofbaron_large.png
 5d2cd86000c5a9f0 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/handofbaron_small.png
+f61170ae75276fc4 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/handsoffthetalent_large.png
+c4b9af39e4b8bedb plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/handsoffthetalent_small.png
 b6c4c5d61f7772c1 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/haste_makes_waste.png
 5d144c082f0c91e7 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/haste_makes_waste_small.png
 b9e12379cfbd0c92 plugins/rcp-be-lol-game-data/global/default/assets/ux/kiwi/augments/icons/hatonahat_large.png
