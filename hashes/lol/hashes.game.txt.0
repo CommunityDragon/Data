@@ -221972,6 +221972,7 @@ efb00b5dfd16ecf6 assets/characters/evelynn/skins/skin65/animations/taunt_loop.an
 131ac119f6d349a2 assets/characters/evelynn/skins/skin65/chromapreview.tex
 660089310ef993a2 assets/characters/evelynn/skins/skin65/evelynn_skin65.skl
 f643f87faaf933c0 assets/characters/evelynn/skins/skin65/evelynn_skin65.skn
+aa565ac093498869 assets/characters/evelynn/skins/skin65/evelynn_skin65_matcap.tex
 f1425abf981e33b1 assets/characters/evelynn/skins/skin65/evelynn_skin65_q_tx_cm.tex
 18867d8b85ecd3ec assets/characters/evelynn/skins/skin65/evelynn_skin65_recall_tx_cm.tex
 8f5931613519fd7a assets/characters/evelynn/skins/skin65/evelynn_skin65_shadow_tail_tx_cm.tex
@@ -222302,6 +222303,7 @@ a1b17461854180da assets/characters/evelynn/skins/skin66/evelynn_skin66.skl
 aaed487c5117d698 assets/characters/evelynn/skins/skin66/evelynn_skin66.skn
 ce03b2c5739faf97 assets/characters/evelynn/skins/skin66/evelynn_skin66_bodymask_tx_cm.tex
 5886437d60841e3a assets/characters/evelynn/skins/skin66/evelynn_skin66_dog_tx_cm.tex
+1a8313f0debd2b98 assets/characters/evelynn/skins/skin66/evelynn_skin66_flowmap.tex
 e234721634b4c120 assets/characters/evelynn/skins/skin66/evelynn_skin66_q_tx_cm.tex
 222b1e3a90ce9e0c assets/characters/evelynn/skins/skin66/evelynn_skin66_recall_tx_cm.tex
 f6fdadf616b59a17 assets/characters/evelynn/skins/skin66/evelynn_skin66_shadow_tx_cm.tex
@@ -222349,7 +222351,10 @@ d7fe8d22ec3ecbf4 assets/characters/evelynn/skins/skin66/particles/braum_skin42_s
 c9a22e801a19315d assets/characters/evelynn/skins/skin66/particles/camera01.tex
 aa165055a5804068 assets/characters/evelynn/skins/skin66/particles/camera012.tex
 7d4085457b47b959 assets/characters/evelynn/skins/skin66/particles/camera03.scb
+a598055f513362c5 assets/characters/evelynn/skins/skin66/particles/camera04.scb
+6428b21ddead891e assets/characters/evelynn/skins/skin66/particles/camera05.scb
 569335a19485fea4 assets/characters/evelynn/skins/skin66/particles/camera08.scb
+56ecea9801f0c4fd assets/characters/evelynn/skins/skin66/particles/camera09.scb
 9c87d3b8f5cd0e20 assets/characters/evelynn/skins/skin66/particles/cassiopeia_skin09_p_stardustmote.tex
 956f1d121512692e assets/characters/evelynn/skins/skin66/particles/chogath_skin23_alpha_mult.tex
 e77fda34b604ff27 assets/characters/evelynn/skins/skin66/particles/chogath_skin23_ego_skin19_r_energy.scb
